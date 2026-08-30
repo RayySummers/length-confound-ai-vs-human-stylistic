@@ -1,0 +1,2015 @@
+{
+  "word_count_descriptive": [
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "mean": 663.9333333333333,
+      "sd": 27.772391815010042,
+      "min": 612,
+      "max": 715,
+      "median": 664.0,
+      "n": 30
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "mean": 688.2666666666667,
+      "sd": 115.8592884176477,
+      "min": 316,
+      "max": 950,
+      "median": 691.0,
+      "n": 30
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "mean": 789.4,
+      "sd": 72.4652592150435,
+      "min": 645,
+      "max": 920,
+      "median": 778.5,
+      "n": 30
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "mean": 715.9,
+      "sd": 64.7852420401969,
+      "min": 582,
+      "max": 908,
+      "median": 715.0,
+      "n": 30
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "mean": 673.9310344827586,
+      "sd": 80.39497631536916,
+      "min": 475,
+      "max": 801,
+      "median": 675.0,
+      "n": 29
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "mean": 752.7666666666667,
+      "sd": 64.2037077741934,
+      "min": 605,
+      "max": 908,
+      "median": 755.5,
+      "n": 30
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "mean": 777.6333333333333,
+      "sd": 70.46959889069961,
+      "min": 638,
+      "max": 948,
+      "median": 771.0,
+      "n": 30
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "mean": 878.1,
+      "sd": 104.48703928866176,
+      "min": 730,
+      "max": 1139,
+      "median": 854.5,
+      "n": 30
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "mean": 530.7666666666667,
+      "sd": 40.35590230158053,
+      "min": 450,
+      "max": 614,
+      "median": 538.0,
+      "n": 30
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "mean": 439.1666666666667,
+      "sd": 244.79619719456332,
+      "min": 110,
+      "max": 1112,
+      "median": 365.0,
+      "n": 30
+    }
+  ],
+  "within_condition_correlations": [
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.03807207989409063,
+      "p_value": 0.8416833117986828,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": 0.08508051921168627,
+      "p_value": 0.6548635272440293,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": 0.14296780755841695,
+      "p_value": 0.4510428295133902,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.30057956227234095,
+      "p_value": 0.10653604119339968,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.4359070848049541,
+      "p_value": 0.01604311651964209,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": -0.0797523241114072,
+      "p_value": 0.675268274226494,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.11789224781597245,
+      "p_value": 0.534958645920912,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High",
+      "condition_label": "Claude",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": -0.06942058312733845,
+      "p_value": 0.7154728831415251,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.612704362955382,
+      "p_value": 0.0003191817482717811,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.15318684965792742,
+      "p_value": 0.41899073822177785,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.051524586453778616,
+      "p_value": 0.7868527941265927,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.759730476140575,
+      "p_value": 1.12148057482587e-06,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.073624950032904,
+      "p_value": 0.6990147656310358,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": -0.0964736825155915,
+      "p_value": 0.6120559943751005,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.052040930241991995,
+      "p_value": 0.7847662779930566,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash",
+      "condition_label": "DeepSeek",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.42383813074152715,
+      "p_value": 0.019592764615544024,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.15241490438654967,
+      "p_value": 0.4213667358577868,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.20549926733467158,
+      "p_value": 0.27596963401245656,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": 0.06226629927519027,
+      "p_value": 0.7437644419843429,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.5446312046158428,
+      "p_value": 0.0018598449828305893,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.1218199785633658,
+      "p_value": 0.5213415054691161,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": 0.023943057000298175,
+      "p_value": 0.9000589528491433,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.3778479563454443,
+      "p_value": 0.039528570875198614,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "GPT-5.6-Luna",
+      "condition_label": "GPT-5.6",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": -0.46790498423617666,
+      "p_value": 0.009121763832109643,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.43126194768967313,
+      "p_value": 0.017340167994034393,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.5287928384980752,
+      "p_value": 0.002662558211307266,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.32478234876464507,
+      "p_value": 0.07992117565775077,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.5270360616791021,
+      "p_value": 0.0027677379792981653,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.2940909090903974,
+      "p_value": 0.11468741378221183,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": -0.24157555243856144,
+      "p_value": 0.19841215797740377,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.23550048494162315,
+      "p_value": 0.2102821382235672,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Gemini-3.6-Flash",
+      "condition_label": "Gemini",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": -0.40860073691392473,
+      "p_value": 0.024975800602922895,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": 0.00997145346175631,
+      "p_value": 0.9590569508280308,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.18105697833486567,
+      "p_value": 0.3472518074459349,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.043199574762509296,
+      "p_value": 0.8239189200817632,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.44150853279368935,
+      "p_value": 0.016499349715223054,
+      "n": 29,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.36022580121278736,
+      "p_value": 0.054914685951601636,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": -0.172858626798101,
+      "p_value": 0.36987779437193224,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.028086554985538734,
+      "p_value": 0.8850062734009048,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Kimi-K3",
+      "condition_label": "Kimi",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.08280120809442336,
+      "p_value": 0.6693655631992786,
+      "n": 29,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.04800427216924161,
+      "p_value": 0.8011160602584314,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.0862718666902247,
+      "p_value": 0.650333668896451,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.15743684367847854,
+      "p_value": 0.40604370575591225,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.18492241667009715,
+      "p_value": 0.3279282148469902,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.35033167116737046,
+      "p_value": 0.05770167805056378,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": 0.11877128518477093,
+      "p_value": 0.531896432344438,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": 0.22302272322144748,
+      "p_value": 0.23616257619967704,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro",
+      "condition_label": "MiMo",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.35831870738182364,
+      "p_value": 0.051857946546008296,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": 0.1942677221166783,
+      "p_value": 0.30363151541358946,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": 0.039221776757344,
+      "p_value": 0.8369650048708489,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": 0.09737370408638217,
+      "p_value": 0.6087247526877613,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.20124628722643517,
+      "p_value": 0.2862463693925144,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.22910206637896077,
+      "p_value": 0.22329949329238252,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": 0.03093000872336312,
+      "p_value": 0.8711084660198923,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.05870638826033491,
+      "p_value": 0.7579675131603838,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "MiniMax-M3",
+      "condition_label": "MiniMax",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.13031028343963727,
+      "p_value": 0.4924946839980592,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.16401607533810103,
+      "p_value": 0.38645326273731334,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.2311985755039509,
+      "p_value": 0.21897561659722886,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.04597645153912261,
+      "p_value": 0.8093610414253891,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.3474624566022834,
+      "p_value": 0.05992286737695643,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.42684406428306304,
+      "p_value": 0.018653213801081977,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": -0.29943051213331556,
+      "p_value": 0.1079469584237024,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.20840297297746013,
+      "p_value": 0.26909166108922233,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor",
+      "condition_label": "Muse-Spark",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.08622921120017324,
+      "p_value": 0.6504956483798899,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": -0.05546907858863844,
+      "p_value": 0.7709510227260316,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": -0.025481225595168435,
+      "p_value": 0.8936734337269248,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": -0.06636349855854035,
+      "p_value": 0.7275194183940267,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.4818369376008199,
+      "p_value": 0.007014977327117189,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": -0.13729002736966328,
+      "p_value": 0.4694017768043666,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": 0.024423191932739945,
+      "p_value": 0.8980650559894157,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": -0.2718286901345557,
+      "p_value": 0.14618821500565485,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "gpt35",
+      "condition_label": "GPT-3.5",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": 0.06338864087358209,
+      "p_value": 0.7393033932764475,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "pearson_r": 0.19643468750705356,
+      "p_value": 0.29816363896564324,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "pearson_r": 0.3201501735713016,
+      "p_value": 0.08457220649109423,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "pearson_r": 0.21536043752707237,
+      "p_value": 0.25306778326038515,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "pearson_r": -0.6759740175759683,
+      "p_value": 4.135863360538288e-05,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "pearson_r": 0.6662202692578859,
+      "p_value": 5.8467983112301156e-05,
+      "n": 30,
+      "significant_at_005": true
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "pearson_r": 0.26737871454640316,
+      "p_value": 0.1531698383603504,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "pearson_r": 0.033462495653539405,
+      "p_value": 0.8606532973182668,
+      "n": 30,
+      "significant_at_005": false
+    },
+    {
+      "condition": "human",
+      "condition_label": "Human",
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "pearson_r": -0.1668168865236717,
+      "p_value": 0.3782820344045651,
+      "n": 30,
+      "significant_at_005": false
+    }
+  ],
+  "aggregate_correlations": [
+    {
+      "metric": "ttr",
+      "metric_label": "Type-Token Ratio (TTR)",
+      "mean_abs_r": 0.44649279531771546,
+      "max_abs_r": 0.759730476140575,
+      "mean_r": -0.44649279531771546,
+      "n_conditions": 10
+    },
+    {
+      "metric": "mtld",
+      "metric_label": "MTLD",
+      "mean_abs_r": 0.3095456822161352,
+      "max_abs_r": 0.6662202692578859,
+      "mean_r": 0.2820876767422026,
+      "n_conditions": 10
+    },
+    {
+      "metric": "paragraph_length_var",
+      "metric_label": "Paragraph Length Variance",
+      "mean_abs_r": 0.22576293725322785,
+      "max_abs_r": 0.46790498423617666,
+      "mean_r": 0.003214299093005532,
+      "n_conditions": 10
+    },
+    {
+      "metric": "word_length",
+      "metric_label": "Word Length (chars/word)",
+      "mean_abs_r": 0.19026165841071646,
+      "max_abs_r": 0.612704362955382,
+      "mean_r": -0.11012688579361884,
+      "n_conditions": 10
+    },
+    {
+      "metric": "sentence_length",
+      "metric_label": "Sentence Length (words/sent)",
+      "mean_abs_r": 0.1855940071155216,
+      "max_abs_r": 0.5287928384980752,
+      "mean_r": -0.0967035132074552,
+      "n_conditions": 10
+    },
+    {
+      "metric": "paragraph_length",
+      "metric_label": "Paragraph Length (words/para)",
+      "mean_abs_r": 0.1606791444577908,
+      "max_abs_r": 0.3778479563454443,
+      "mean_r": -0.10938210068279344,
+      "n_conditions": 10
+    },
+    {
+      "metric": "conj_freq",
+      "metric_label": "Conjunction Frequency",
+      "mean_abs_r": 0.13555369553845523,
+      "max_abs_r": 0.29943051213331556,
+      "mean_r": -0.042464444060940146,
+      "n_conditions": 10
+    },
+    {
+      "metric": "sentence_length_var",
+      "metric_label": "Sentence Length Variance",
+      "mean_abs_r": 0.12072515522041363,
+      "max_abs_r": 0.32478234876464507,
+      "mean_r": -0.01713150553100127,
+      "n_conditions": 10
+    }
+  ],
+  "rf_full": {
+    "label": "full",
+    "n_samples": 299,
+    "n_human": 30,
+    "n_ai": 269,
+    "cv_accuracy_mean": 0.9231638418079096,
+    "cv_accuracy_sd": 0.030091707637227412,
+    "cv_scores_per_fold": [
+      0.8833333333333333,
+      0.9333333333333333,
+      0.95,
+      0.9,
+      0.9491525423728814
+    ],
+    "feature_importance": [
+      {
+        "metric": "mtld",
+        "metric_label": "MTLD",
+        "importance": 0.3396491596518191
+      },
+      {
+        "metric": "sentence_length",
+        "metric_label": "Sentence Length (words/sent)",
+        "importance": 0.12660675652289505
+      },
+      {
+        "metric": "ttr",
+        "metric_label": "Type-Token Ratio (TTR)",
+        "importance": 0.11224519554750587
+      },
+      {
+        "metric": "sentence_length_var",
+        "metric_label": "Sentence Length Variance",
+        "importance": 0.10145215466366356
+      },
+      {
+        "metric": "paragraph_length",
+        "metric_label": "Paragraph Length (words/para)",
+        "importance": 0.09480880358745829
+      },
+      {
+        "metric": "conj_freq",
+        "metric_label": "Conjunction Frequency",
+        "importance": 0.09026670558632428
+      },
+      {
+        "metric": "word_length",
+        "metric_label": "Word Length (chars/word)",
+        "importance": 0.07443881874729091
+      },
+      {
+        "metric": "paragraph_length_var",
+        "metric_label": "Paragraph Length Variance",
+        "importance": 0.06053240569304306
+      }
+    ]
+  },
+  "rf_no_mtld": {
+    "cv_accuracy_mean": 0.9566666666666667,
+    "cv_accuracy_sd": 0.04654746681256314,
+    "feature_importance": [
+      {
+        "metric": "ttr",
+        "metric_label": "Type-Token Ratio (TTR)",
+        "importance": 0.16991659708131002
+      },
+      {
+        "metric": "sentence_length",
+        "metric_label": "Sentence Length (words/sent)",
+        "importance": 0.16922986310398533
+      },
+      {
+        "metric": "paragraph_length",
+        "metric_label": "Paragraph Length (words/para)",
+        "importance": 0.16025590611113458
+      },
+      {
+        "metric": "sentence_length_var",
+        "metric_label": "Sentence Length Variance",
+        "importance": 0.14765591217988597
+      },
+      {
+        "metric": "conj_freq",
+        "metric_label": "Conjunction Frequency",
+        "importance": 0.13754312104137253
+      },
+      {
+        "metric": "word_length",
+        "metric_label": "Word Length (chars/word)",
+        "importance": 0.1116734932485452
+      },
+      {
+        "metric": "paragraph_length_var",
+        "metric_label": "Paragraph Length Variance",
+        "importance": 0.10372510723376634
+      }
+    ]
+  },
+  "rf_plus_word_count": {
+    "cv_accuracy_mean": 0.9566666666666667,
+    "cv_accuracy_sd": 0.04654746681256314,
+    "feature_importance": [
+      {
+        "metric": "mtld",
+        "metric_label": "MTLD",
+        "importance": 0.29434422650302267
+      },
+      {
+        "metric": "n_words",
+        "metric_label": "Word Count",
+        "importance": 0.28114573710476065
+      },
+      {
+        "metric": "ttr",
+        "metric_label": "Type-Token Ratio (TTR)",
+        "importance": 0.08853486691956636
+      },
+      {
+        "metric": "sentence_length",
+        "metric_label": "Sentence Length (words/sent)",
+        "importance": 0.06544810075462006
+      },
+      {
+        "metric": "conj_freq",
+        "metric_label": "Conjunction Frequency",
+        "importance": 0.06518354877731675
+      },
+      {
+        "metric": "sentence_length_var",
+        "metric_label": "Sentence Length Variance",
+        "importance": 0.05967405830342583
+      },
+      {
+        "metric": "word_length",
+        "metric_label": "Word Length (chars/word)",
+        "importance": 0.0586342398381378
+      },
+      {
+        "metric": "paragraph_length",
+        "metric_label": "Paragraph Length (words/para)",
+        "importance": 0.04550616658754428
+      },
+      {
+        "metric": "paragraph_length_var",
+        "metric_label": "Paragraph Length Variance",
+        "importance": 0.041529055211605645
+      }
+    ]
+  },
+  "length_matched_400_800": {
+    "range": "400-800",
+    "label": "400-800 words",
+    "n_per_condition": {
+      "Claude-Sonnet-5-High": 30,
+      "DeepSeek-V4-Flash": 26,
+      "GPT-5.6-Luna": 17,
+      "Gemini-3.6-Flash": 27,
+      "Kimi-K3": 27,
+      "MiMo-V2.5-Pro": 25,
+      "MiniMax-M3": 21,
+      "Muse-Spark-1.2-Contributor": 9,
+      "gpt35": 30,
+      "human": 12
+    },
+    "conditions_included": [
+      "Claude-Sonnet-5-High",
+      "DeepSeek-V4-Flash",
+      "GPT-5.6-Luna",
+      "Gemini-3.6-Flash",
+      "Kimi-K3",
+      "MiMo-V2.5-Pro",
+      "MiniMax-M3",
+      "Muse-Spark-1.2-Contributor",
+      "gpt35",
+      "human"
+    ],
+    "h4_tests": [
+      {
+        "hypothesis": "H1",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.25927734375,
+        "human_mean": 75.01837124197816,
+        "ai_mean": 57.877724307461826,
+        "median_delta": 1.8877826545593202,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.00048828125,
+        "human_mean": 638.5420029624173,
+        "ai_mean": 150.3156508695596,
+        "median_delta": 370.9078657872825,
+        "significant_at_005": true,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.978759765625,
+        "human_mean": 0.4726445065419087,
+        "ai_mean": 0.5020932273540015,
+        "median_delta": -0.039561868509710496,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.064697265625,
+        "human_mean": 0.08674773462500925,
+        "ai_mean": 0.09675979683043069,
+        "median_delta": -0.010708405824499334,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.8837890625,
+        "human_mean": 73.20470747949872,
+        "ai_mean": 98.02398651371888,
+        "median_delta": -36.32510034903292,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.5,
+        "human_mean": 662.042934223678,
+        "ai_mean": 644.1100779405928,
+        "median_delta": -138.3821543654084,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.4609375,
+        "human_mean": 0.4736516506051423,
+        "ai_mean": 0.47010114807549835,
+        "median_delta": 0.0014534901275997936,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.0966796875,
+        "human_mean": 0.09061515339978872,
+        "ai_mean": 0.0954550382307245,
+        "median_delta": -0.005448771489643213,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.064453125,
+        "human_mean": 84.01553409113879,
+        "ai_mean": 46.08851860778108,
+        "median_delta": 16.790571823062404,
+        "significant_at_005": false,
+        "n_pairs": 9
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.1796875,
+        "human_mean": 755.8364194836552,
+        "ai_mean": 572.0813355320784,
+        "median_delta": 204.9389177693762,
+        "significant_at_005": false,
+        "n_pairs": 9
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.125,
+        "human_mean": 0.4697947159308204,
+        "ai_mean": 0.45077831644655425,
+        "median_delta": 0.03739498015009429,
+        "significant_at_005": false,
+        "n_pairs": 9
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.1796875,
+        "human_mean": 0.09004064735623163,
+        "ai_mean": 0.09496720239186798,
+        "median_delta": -0.010224889303192722,
+        "significant_at_005": false,
+        "n_pairs": 9
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.765625,
+        "human_mean": 69.40498398223042,
+        "ai_mean": 92.79779033599085,
+        "median_delta": -15.169608503940267,
+        "significant_at_005": false,
+        "n_pairs": 7
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.40625,
+        "human_mean": 593.9152964055448,
+        "ai_mean": 621.7327316558237,
+        "median_delta": 34.59062850729515,
+        "significant_at_005": false,
+        "n_pairs": 7
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.34375,
+        "human_mean": 0.4568153355330487,
+        "ai_mean": 0.4362494725230043,
+        "median_delta": 0.030154707232284028,
+        "significant_at_005": false,
+        "n_pairs": 7
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.078125,
+        "human_mean": 0.08265324658013586,
+        "ai_mean": 0.09164056365421051,
+        "median_delta": -0.008361024154698762,
+        "significant_at_005": false,
+        "n_pairs": 7
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.25,
+        "human_mean": 108.92047849863896,
+        "ai_mean": 55.749119818335686,
+        "median_delta": 53.817024080934736,
+        "significant_at_005": false,
+        "n_pairs": 3
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.625,
+        "human_mean": 512.7886904761905,
+        "ai_mean": 779.4342286501378,
+        "median_delta": -88.90754132231405,
+        "significant_at_005": false,
+        "n_pairs": 3
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.125,
+        "human_mean": 0.4686422364090641,
+        "ai_mean": 0.4236366466056672,
+        "median_delta": 0.038663684651942976,
+        "significant_at_005": false,
+        "n_pairs": 3
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.5,
+        "human_mean": 0.09587561995631073,
+        "ai_mean": 0.09552092263102341,
+        "median_delta": -0.00523798521256931,
+        "significant_at_005": false,
+        "n_pairs": 3
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.03125,
+        "human_mean": 76.67114494841842,
+        "ai_mean": 22.705174343369585,
+        "median_delta": 33.92506178459938,
+        "significant_at_005": true,
+        "n_pairs": 5
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.03125,
+        "human_mean": 656.6019062491971,
+        "ai_mean": 94.18989917593626,
+        "median_delta": 405.693520628104,
+        "significant_at_005": true,
+        "n_pairs": 5
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.3125,
+        "human_mean": 0.4571071800779111,
+        "ai_mean": 0.45019968976297003,
+        "median_delta": 0.011889035667107029,
+        "significant_at_005": false,
+        "n_pairs": 5
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.40625,
+        "human_mean": 0.08655246804362264,
+        "ai_mean": 0.08091282728849178,
+        "median_delta": -0.00041437012902237336,
+        "significant_at_005": false,
+        "n_pairs": 5
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.96142578125,
+        "human_mean": 75.01837124197816,
+        "ai_mean": 106.83558176146221,
+        "median_delta": -42.400780490523594,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.63330078125,
+        "human_mean": 638.5420029624173,
+        "ai_mean": 569.1441752583913,
+        "median_delta": -133.9451384562298,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.76513671875,
+        "human_mean": 0.4726445065419087,
+        "ai_mean": 0.4881353457188771,
+        "median_delta": -0.012580036806789263,
+        "significant_at_005": false,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.031982421875,
+        "human_mean": 0.08674773462500925,
+        "ai_mean": 0.10013322213931825,
+        "median_delta": -0.01048052316724244,
+        "significant_at_005": true,
+        "n_pairs": 12
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.5771484375,
+        "human_mean": 66.61764192847659,
+        "ai_mean": 59.76515421909731,
+        "median_delta": -8.216477650920243,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.1376953125,
+        "human_mean": 672.8286258732398,
+        "ai_mean": 484.97997670403504,
+        "median_delta": 94.84866713505474,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.998046875,
+        "human_mean": 0.47608856704474756,
+        "ai_mean": 0.5504022096152624,
+        "median_delta": -0.07793372772573101,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.8125,
+        "human_mean": 0.08673524558635216,
+        "ai_mean": 0.0828332704839877,
+        "median_delta": 0.005870789962276413,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.8388671875,
+        "human_mean": 80.89420039400191,
+        "ai_mean": 105.9410335255576,
+        "median_delta": -38.54985963736431,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.7841796875,
+        "human_mean": 643.6343447409563,
+        "ai_mean": 837.2000185588189,
+        "median_delta": -115.27575104164282,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.8125,
+        "human_mean": 0.469467592708069,
+        "ai_mean": 0.48702412968123243,
+        "median_delta": -0.004808461711811957,
+        "significant_at_005": false,
+        "n_pairs": 10
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.0322265625,
+        "human_mean": 0.08475556928028148,
+        "ai_mean": 0.09524551465697181,
+        "median_delta": -0.008914134146460147,
+        "significant_at_005": true,
+        "n_pairs": 10
+      }
+    ],
+    "rf_classifier": {
+      "label": "400-800 words",
+      "n_samples": 224,
+      "n_human": 12,
+      "n_ai": 212,
+      "cv_accuracy_mean": 0.942020202020202,
+      "cv_accuracy_sd": 0.019711209563879572,
+      "cv_scores_per_fold": [
+        0.9555555555555556,
+        0.9555555555555556,
+        0.9111111111111111,
+        0.9333333333333333,
+        0.9545454545454546
+      ],
+      "feature_importance": [
+        {
+          "metric": "mtld",
+          "metric_label": "MTLD",
+          "importance": 0.34818816357019283
+        },
+        {
+          "metric": "ttr",
+          "metric_label": "Type-Token Ratio (TTR)",
+          "importance": 0.1270923308099937
+        },
+        {
+          "metric": "conj_freq",
+          "metric_label": "Conjunction Frequency",
+          "importance": 0.09922900862717168
+        },
+        {
+          "metric": "sentence_length",
+          "metric_label": "Sentence Length (words/sent)",
+          "importance": 0.0955003080875537
+        },
+        {
+          "metric": "sentence_length_var",
+          "metric_label": "Sentence Length Variance",
+          "importance": 0.09231566324366845
+        },
+        {
+          "metric": "paragraph_length_var",
+          "metric_label": "Paragraph Length Variance",
+          "importance": 0.0907805775292025
+        },
+        {
+          "metric": "paragraph_length",
+          "metric_label": "Paragraph Length (words/para)",
+          "importance": 0.07372417828361623
+        },
+        {
+          "metric": "word_length",
+          "metric_label": "Word Length (chars/word)",
+          "importance": 0.07316976984860106
+        }
+      ]
+    }
+  },
+  "length_matched_300_900": {
+    "range": "300-900",
+    "label": "300-900 words",
+    "n_per_condition": {
+      "Claude-Sonnet-5-High": 30,
+      "DeepSeek-V4-Flash": 29,
+      "GPT-5.6-Luna": 27,
+      "Gemini-3.6-Flash": 29,
+      "Kimi-K3": 29,
+      "MiMo-V2.5-Pro": 29,
+      "MiniMax-M3": 29,
+      "Muse-Spark-1.2-Contributor": 19,
+      "gpt35": 30,
+      "human": 17
+    },
+    "conditions_included": [
+      "Claude-Sonnet-5-High",
+      "DeepSeek-V4-Flash",
+      "GPT-5.6-Luna",
+      "Gemini-3.6-Flash",
+      "Kimi-K3",
+      "MiMo-V2.5-Pro",
+      "MiniMax-M3",
+      "Muse-Spark-1.2-Contributor",
+      "gpt35",
+      "human"
+    ],
+    "h4_tests": [
+      {
+        "hypothesis": "H1",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.37332916259765625,
+        "human_mean": 68.51756374317009,
+        "ai_mean": 59.32731825676556,
+        "median_delta": 1.417849199057727,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 3.814697265625e-05,
+        "human_mean": 668.2323328570333,
+        "ai_mean": 141.59024697365248,
+        "median_delta": 287.8925049309664,
+        "significant_at_005": true,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.8235626220703125,
+        "human_mean": 0.48852829590194286,
+        "ai_mean": 0.49965975415461256,
+        "median_delta": -0.004454186231235557,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "gpt35",
+        "wilcoxon_p_one_tailed": 0.15302276611328125,
+        "human_mean": 0.08578473991498216,
+        "ai_mean": 0.09378917277866806,
+        "median_delta": -0.0016426243878270436,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.8258056640625,
+        "human_mean": 68.46298405296594,
+        "ai_mean": 83.98778308289394,
+        "median_delta": -31.2983566515351,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.5500335693359375,
+        "human_mean": 700.5345960428692,
+        "ai_mean": 633.5215766031661,
+        "median_delta": -138.3821543654084,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.1877288818359375,
+        "human_mean": 0.49219479855871023,
+        "ai_mean": 0.48174722200523656,
+        "median_delta": 0.010154190065521235,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "MiMo-V2.5-Pro",
+        "wilcoxon_p_one_tailed": 0.14892578125,
+        "human_mean": 0.08874244000582238,
+        "ai_mean": 0.09300310134360522,
+        "median_delta": -0.002799534538149809,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.0398406982421875,
+        "human_mean": 68.51756374317009,
+        "ai_mean": 44.68227236167049,
+        "median_delta": 13.712793399495908,
+        "significant_at_005": true,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.5912094116210938,
+        "human_mean": 668.2323328570333,
+        "ai_mean": 610.9012160884887,
+        "median_delta": -24.798364265492296,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.03191375732421875,
+        "human_mean": 0.48852829590194286,
+        "ai_mean": 0.462855905912532,
+        "median_delta": 0.03177930571859805,
+        "significant_at_005": true,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "DeepSeek-V4-Flash",
+        "wilcoxon_p_one_tailed": 0.0284423828125,
+        "human_mean": 0.08578473991498216,
+        "ai_mean": 0.09540314265135337,
+        "median_delta": -0.01026849903424272,
+        "significant_at_005": true,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.85107421875,
+        "human_mean": 70.75375395160802,
+        "ai_mean": 88.95676601261425,
+        "median_delta": -19.678686434744623,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.5895538330078125,
+        "human_mean": 683.6187373171075,
+        "ai_mean": 688.42312900062,
+        "median_delta": -96.63757186376236,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.003143310546875,
+        "human_mean": 0.4841881259900172,
+        "ai_mean": 0.4358130014435478,
+        "median_delta": 0.055022058703098536,
+        "significant_at_005": true,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "MiniMax-M3",
+        "wilcoxon_p_one_tailed": 0.0522918701171875,
+        "human_mean": 0.08450377408237386,
+        "ai_mean": 0.09343174402719842,
+        "median_delta": -0.006941963813236474,
+        "significant_at_005": false,
+        "n_pairs": 16
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.8780517578125,
+        "human_mean": 63.30524118808519,
+        "ai_mean": 70.403591799123,
+        "median_delta": -22.700390846928002,
+        "significant_at_005": false,
+        "n_pairs": 13
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.7291259765625,
+        "human_mean": 691.864764758935,
+        "ai_mean": 761.3180787867498,
+        "median_delta": -182.66444270015705,
+        "significant_at_005": false,
+        "n_pairs": 13
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.0067138671875,
+        "human_mean": 0.4922743928204675,
+        "ai_mean": 0.44989263432838295,
+        "median_delta": 0.04619010261008172,
+        "significant_at_005": true,
+        "n_pairs": 13
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Muse-Spark-1.2-Contributor",
+        "wilcoxon_p_one_tailed": 0.419677734375,
+        "human_mean": 0.09214626456602328,
+        "ai_mean": 0.0914387132434137,
+        "median_delta": -0.0010803802938634394,
+        "significant_at_005": false,
+        "n_pairs": 13
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.000579833984375,
+        "human_mean": 70.81854562508838,
+        "ai_mean": 27.181650617236006,
+        "median_delta": 20.79778648468056,
+        "significant_at_005": true,
+        "n_pairs": 15
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 9.1552734375e-05,
+        "human_mean": 674.1429209642458,
+        "ai_mean": 86.68174023378168,
+        "median_delta": 405.693520628104,
+        "significant_at_005": true,
+        "n_pairs": 15
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.004180908203125,
+        "human_mean": 0.4892934994150053,
+        "ai_mean": 0.453355639164006,
+        "median_delta": 0.034904134904134854,
+        "significant_at_005": true,
+        "n_pairs": 15
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "GPT-5.6-Luna",
+        "wilcoxon_p_one_tailed": 0.5,
+        "human_mean": 0.08870622172049628,
+        "ai_mean": 0.0909189099062596,
+        "median_delta": 0.002075787475332852,
+        "significant_at_005": false,
+        "n_pairs": 15
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.9972152709960938,
+        "human_mean": 68.51756374317009,
+        "ai_mean": 122.11867161178013,
+        "median_delta": -51.85134368267158,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.57318115234375,
+        "human_mean": 668.2323328570333,
+        "ai_mean": 641.5869210321489,
+        "median_delta": -160.29999999999995,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.5,
+        "human_mean": 0.48852829590194286,
+        "ai_mean": 0.49431673147181243,
+        "median_delta": -0.0027472527472527375,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Claude-Sonnet-5-High",
+        "wilcoxon_p_one_tailed": 0.07271575927734375,
+        "human_mean": 0.08578473991498216,
+        "ai_mean": 0.09452461272058965,
+        "median_delta": -0.007349793064078777,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.6090469360351562,
+        "human_mean": 68.51756374317009,
+        "ai_mean": 58.49402066213883,
+        "median_delta": -5.909253487781534,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.1217498779296875,
+        "human_mean": 668.2323328570333,
+        "ai_mean": 463.2403205843579,
+        "median_delta": 40.790907817980724,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.9999465942382812,
+        "human_mean": 0.48852829590194286,
+        "ai_mean": 0.547726078656664,
+        "median_delta": -0.06971370507087049,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Gemini-3.6-Flash",
+        "wilcoxon_p_one_tailed": 0.7981185913085938,
+        "human_mean": 0.08578473991498216,
+        "ai_mean": 0.08347099749508412,
+        "median_delta": 0.004484246498362182,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H1",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.9508132934570312,
+        "human_mean": 68.51756374317009,
+        "ai_mean": 95.6526142182834,
+        "median_delta": -30.604961728395068,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H2",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.8782501220703125,
+        "human_mean": 668.2323328570333,
+        "ai_mean": 820.8594314696829,
+        "median_delta": -234.63900208328562,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H3",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.6266708374023438,
+        "human_mean": 0.48852829590194286,
+        "ai_mean": 0.4924939761873156,
+        "median_delta": -0.004287309563691444,
+        "significant_at_005": false,
+        "n_pairs": 17
+      },
+      {
+        "hypothesis": "H4",
+        "ai_condition": "Kimi-K3",
+        "wilcoxon_p_one_tailed": 0.013336181640625,
+        "human_mean": 0.08578473991498216,
+        "ai_mean": 0.0968876884872126,
+        "median_delta": -0.008992908242290501,
+        "significant_at_005": true,
+        "n_pairs": 17
+      }
+    ],
+    "rf_classifier": {
+      "label": "300-900 words",
+      "n_samples": 268,
+      "n_human": 17,
+      "n_ai": 251,
+      "cv_accuracy_mean": 0.9292802236198462,
+      "cv_accuracy_sd": 0.035351013821077616,
+      "cv_scores_per_fold": [
+        0.9444444444444444,
+        0.9259259259259259,
+        0.8703703703703703,
+        0.9433962264150944,
+        0.9622641509433962
+      ],
+      "feature_importance": [
+        {
+          "metric": "mtld",
+          "metric_label": "MTLD",
+          "importance": 0.3371133950558237
+        },
+        {
+          "metric": "sentence_length",
+          "metric_label": "Sentence Length (words/sent)",
+          "importance": 0.12251536080438806
+        },
+        {
+          "metric": "paragraph_length",
+          "metric_label": "Paragraph Length (words/para)",
+          "importance": 0.11350368323228233
+        },
+        {
+          "metric": "ttr",
+          "metric_label": "Type-Token Ratio (TTR)",
+          "importance": 0.11124298027231402
+        },
+        {
+          "metric": "word_length",
+          "metric_label": "Word Length (chars/word)",
+          "importance": 0.08590859868495096
+        },
+        {
+          "metric": "sentence_length_var",
+          "metric_label": "Sentence Length Variance",
+          "importance": 0.08160449159484508
+        },
+        {
+          "metric": "paragraph_length_var",
+          "metric_label": "Paragraph Length Variance",
+          "importance": 0.07618334713033799
+        },
+        {
+          "metric": "conj_freq",
+          "metric_label": "Conjunction Frequency",
+          "importance": 0.07192814322505797
+        }
+      ]
+    }
+  }
+}

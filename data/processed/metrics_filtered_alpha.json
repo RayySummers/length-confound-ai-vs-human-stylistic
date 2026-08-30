@@ -1,0 +1,2394 @@
+[
+  {
+    "prompt_id": 0,
+    "condition": "human_story",
+    "word_count_alpha": 261,
+    "ttr_alpha": 0.6206896551724138,
+    "word_length_alpha": 4.4559386973180075,
+    "conjunction_freq_alpha": 0.034482758620689655
+  },
+  {
+    "prompt_id": 0,
+    "condition": "gpt35_story",
+    "word_count_alpha": 599,
+    "ttr_alpha": 0.5008347245409015,
+    "word_length_alpha": 4.959933222036728,
+    "conjunction_freq_alpha": 0.0667779632721202
+  },
+  {
+    "prompt_id": 0,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 784,
+    "ttr_alpha": 0.47066326530612246,
+    "word_length_alpha": 4.428571428571429,
+    "conjunction_freq_alpha": 0.03443877551020408
+  },
+  {
+    "prompt_id": 0,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 525,
+    "ttr_alpha": 0.47619047619047616,
+    "word_length_alpha": 4.350476190476191,
+    "conjunction_freq_alpha": 0.049523809523809526
+  },
+  {
+    "prompt_id": 0,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 844,
+    "ttr_alpha": 0.4312796208530806,
+    "word_length_alpha": 4.187203791469194,
+    "conjunction_freq_alpha": 0.04976303317535545
+  },
+  {
+    "prompt_id": 0,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 690,
+    "ttr_alpha": 0.5362318840579711,
+    "word_length_alpha": 4.671014492753623,
+    "conjunction_freq_alpha": 0.04782608695652174
+  },
+  {
+    "prompt_id": 0,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 624,
+    "ttr_alpha": 0.4951923076923077,
+    "word_length_alpha": 4.112179487179487,
+    "conjunction_freq_alpha": 0.03205128205128205
+  },
+  {
+    "prompt_id": 0,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 777,
+    "ttr_alpha": 0.4375804375804376,
+    "word_length_alpha": 4.482625482625482,
+    "conjunction_freq_alpha": 0.03861003861003861
+  },
+  {
+    "prompt_id": 0,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 637,
+    "ttr_alpha": 0.49921507064364207,
+    "word_length_alpha": 4.389324960753532,
+    "conjunction_freq_alpha": 0.05023547880690738
+  },
+  {
+    "prompt_id": 0,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 772,
+    "ttr_alpha": 0.4494818652849741,
+    "word_length_alpha": 4.295336787564767,
+    "conjunction_freq_alpha": 0.05569948186528497
+  },
+  {
+    "prompt_id": 1,
+    "condition": "human_story",
+    "word_count_alpha": 757,
+    "ttr_alpha": 0.4557463672391017,
+    "word_length_alpha": 4.422721268163804,
+    "conjunction_freq_alpha": 0.04095112285336856
+  },
+  {
+    "prompt_id": 1,
+    "condition": "gpt35_story",
+    "word_count_alpha": 480,
+    "ttr_alpha": 0.50625,
+    "word_length_alpha": 4.645833333333333,
+    "conjunction_freq_alpha": 0.04375
+  },
+  {
+    "prompt_id": 1,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 788,
+    "ttr_alpha": 0.4581218274111675,
+    "word_length_alpha": 4.227157360406092,
+    "conjunction_freq_alpha": 0.05456852791878172
+  },
+  {
+    "prompt_id": 1,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 807,
+    "ttr_alpha": 0.40272614622057,
+    "word_length_alpha": 4.073110285006196,
+    "conjunction_freq_alpha": 0.06319702602230483
+  },
+  {
+    "prompt_id": 1,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 803,
+    "ttr_alpha": 0.4259028642590286,
+    "word_length_alpha": 4.051058530510585,
+    "conjunction_freq_alpha": 0.0647571606475716
+  },
+  {
+    "prompt_id": 1,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 811,
+    "ttr_alpha": 0.5018495684340321,
+    "word_length_alpha": 4.361282367447595,
+    "conjunction_freq_alpha": 0.0345252774352651
+  },
+  {
+    "prompt_id": 1,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 641,
+    "ttr_alpha": 0.45241809672386896,
+    "word_length_alpha": 3.9282371294851792,
+    "conjunction_freq_alpha": 0.07332293291731669
+  },
+  {
+    "prompt_id": 1,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 757,
+    "ttr_alpha": 0.4438573315719947,
+    "word_length_alpha": 4.332892998678996,
+    "conjunction_freq_alpha": 0.036988110964332896
+  },
+  {
+    "prompt_id": 1,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 612,
+    "ttr_alpha": 0.4869281045751634,
+    "word_length_alpha": 4.184640522875817,
+    "conjunction_freq_alpha": 0.0392156862745098
+  },
+  {
+    "prompt_id": 1,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 716,
+    "ttr_alpha": 0.420391061452514,
+    "word_length_alpha": 3.9008379888268156,
+    "conjunction_freq_alpha": 0.06424581005586592
+  },
+  {
+    "prompt_id": 2,
+    "condition": "human_story",
+    "word_count_alpha": 723,
+    "ttr_alpha": 0.4190871369294606,
+    "word_length_alpha": 4.033195020746888,
+    "conjunction_freq_alpha": 0.058091286307053944
+  },
+  {
+    "prompt_id": 2,
+    "condition": "gpt35_story",
+    "word_count_alpha": 553,
+    "ttr_alpha": 0.5189873417721519,
+    "word_length_alpha": 5.050632911392405,
+    "conjunction_freq_alpha": 0.05786618444846293
+  },
+  {
+    "prompt_id": 2,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 781,
+    "ttr_alpha": 0.4468629961587708,
+    "word_length_alpha": 4.24583866837388,
+    "conjunction_freq_alpha": 0.06914212548015365
+  },
+  {
+    "prompt_id": 2,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 682,
+    "ttr_alpha": 0.4208211143695015,
+    "word_length_alpha": 4.139296187683285,
+    "conjunction_freq_alpha": 0.06304985337243402
+  },
+  {
+    "prompt_id": 2,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 810,
+    "ttr_alpha": 0.4222222222222222,
+    "word_length_alpha": 4.08641975308642,
+    "conjunction_freq_alpha": 0.05185185185185185
+  },
+  {
+    "prompt_id": 2,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 785,
+    "ttr_alpha": 0.4980891719745223,
+    "word_length_alpha": 4.321019108280255,
+    "conjunction_freq_alpha": 0.03694267515923567
+  },
+  {
+    "prompt_id": 2,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 801,
+    "ttr_alpha": 0.4444444444444444,
+    "word_length_alpha": 4.176029962546816,
+    "conjunction_freq_alpha": 0.05867665418227216
+  },
+  {
+    "prompt_id": 2,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 731,
+    "ttr_alpha": 0.42818057455540354,
+    "word_length_alpha": 4.123119015047879,
+    "conjunction_freq_alpha": 0.03967168262653899
+  },
+  {
+    "prompt_id": 2,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 655,
+    "ttr_alpha": 0.4687022900763359,
+    "word_length_alpha": 4.021374045801527,
+    "conjunction_freq_alpha": 0.05801526717557252
+  },
+  {
+    "prompt_id": 2,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 733,
+    "ttr_alpha": 0.39972714870395637,
+    "word_length_alpha": 3.854024556616644,
+    "conjunction_freq_alpha": 0.0572987721691678
+  },
+  {
+    "prompt_id": 3,
+    "condition": "human_story",
+    "word_count_alpha": 356,
+    "ttr_alpha": 0.5168539325842697,
+    "word_length_alpha": 4.46067415730337,
+    "conjunction_freq_alpha": 0.05337078651685393
+  },
+  {
+    "prompt_id": 3,
+    "condition": "gpt35_story",
+    "word_count_alpha": 575,
+    "ttr_alpha": 0.5130434782608696,
+    "word_length_alpha": 4.907826086956522,
+    "conjunction_freq_alpha": 0.04173913043478261
+  },
+  {
+    "prompt_id": 3,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 735,
+    "ttr_alpha": 0.47210884353741495,
+    "word_length_alpha": 4.31156462585034,
+    "conjunction_freq_alpha": 0.04897959183673469
+  },
+  {
+    "prompt_id": 3,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 670,
+    "ttr_alpha": 0.48507462686567165,
+    "word_length_alpha": 4.2298507462686565,
+    "conjunction_freq_alpha": 0.05970149253731343
+  },
+  {
+    "prompt_id": 3,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 871,
+    "ttr_alpha": 0.4661308840413318,
+    "word_length_alpha": 4.2525832376578645,
+    "conjunction_freq_alpha": 0.045924225028702644
+  },
+  {
+    "prompt_id": 3,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 734,
+    "ttr_alpha": 0.5749318801089919,
+    "word_length_alpha": 4.678474114441417,
+    "conjunction_freq_alpha": 0.0326975476839237
+  },
+  {
+    "prompt_id": 3,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 635,
+    "ttr_alpha": 0.5039370078740157,
+    "word_length_alpha": 4.2047244094488185,
+    "conjunction_freq_alpha": 0.06141732283464567
+  },
+  {
+    "prompt_id": 3,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 801,
+    "ttr_alpha": 0.4157303370786517,
+    "word_length_alpha": 4.540574282147316,
+    "conjunction_freq_alpha": 0.039950062421972535
+  },
+  {
+    "prompt_id": 3,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 682,
+    "ttr_alpha": 0.4662756598240469,
+    "word_length_alpha": 3.9868035190615836,
+    "conjunction_freq_alpha": 0.04838709677419355
+  },
+  {
+    "prompt_id": 3,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 781,
+    "ttr_alpha": 0.3866837387964149,
+    "word_length_alpha": 3.943661971830986,
+    "conjunction_freq_alpha": 0.07042253521126761
+  },
+  {
+    "prompt_id": 4,
+    "condition": "human_story",
+    "word_count_alpha": 287,
+    "ttr_alpha": 0.5505226480836237,
+    "word_length_alpha": 3.7421602787456445,
+    "conjunction_freq_alpha": 0.041811846689895474
+  },
+  {
+    "prompt_id": 4,
+    "condition": "gpt35_story",
+    "word_count_alpha": 566,
+    "ttr_alpha": 0.47703180212014135,
+    "word_length_alpha": 4.644876325088339,
+    "conjunction_freq_alpha": 0.05830388692579505
+  },
+  {
+    "prompt_id": 4,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 864,
+    "ttr_alpha": 0.46296296296296297,
+    "word_length_alpha": 4.300925925925926,
+    "conjunction_freq_alpha": 0.03935185185185185
+  },
+  {
+    "prompt_id": 4,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 760,
+    "ttr_alpha": 0.4342105263157895,
+    "word_length_alpha": 4.128947368421053,
+    "conjunction_freq_alpha": 0.04342105263157895
+  },
+  {
+    "prompt_id": 4,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 797,
+    "ttr_alpha": 0.4466750313676286,
+    "word_length_alpha": 4.119196988707654,
+    "conjunction_freq_alpha": 0.05144291091593475
+  },
+  {
+    "prompt_id": 4,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 738,
+    "ttr_alpha": 0.5284552845528455,
+    "word_length_alpha": 4.558265582655826,
+    "conjunction_freq_alpha": 0.037940379403794036
+  },
+  {
+    "prompt_id": 4,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 757,
+    "ttr_alpha": 0.5191545574636723,
+    "word_length_alpha": 4.368560105680317,
+    "conjunction_freq_alpha": 0.047556142668428
+  },
+  {
+    "prompt_id": 4,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 654,
+    "ttr_alpha": 0.4724770642201835,
+    "word_length_alpha": 4.356269113149847,
+    "conjunction_freq_alpha": 0.027522935779816515
+  },
+  {
+    "prompt_id": 4,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 637,
+    "ttr_alpha": 0.48822605965463106,
+    "word_length_alpha": 4.210361067503925,
+    "conjunction_freq_alpha": 0.06279434850863422
+  },
+  {
+    "prompt_id": 4,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 760,
+    "ttr_alpha": 0.4421052631578947,
+    "word_length_alpha": 3.9486842105263156,
+    "conjunction_freq_alpha": 0.05789473684210526
+  },
+  {
+    "prompt_id": 5,
+    "condition": "human_story",
+    "word_count_alpha": 333,
+    "ttr_alpha": 0.5195195195195195,
+    "word_length_alpha": 4.2492492492492495,
+    "conjunction_freq_alpha": 0.057057057057057055
+  },
+  {
+    "prompt_id": 5,
+    "condition": "gpt35_story",
+    "word_count_alpha": 539,
+    "ttr_alpha": 0.47866419294990725,
+    "word_length_alpha": 4.98330241187384,
+    "conjunction_freq_alpha": 0.06307977736549165
+  },
+  {
+    "prompt_id": 5,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 763,
+    "ttr_alpha": 0.49934469200524245,
+    "word_length_alpha": 4.458715596330276,
+    "conjunction_freq_alpha": 0.028833551769331587
+  },
+  {
+    "prompt_id": 5,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 676,
+    "ttr_alpha": 0.5192307692307693,
+    "word_length_alpha": 4.571005917159764,
+    "conjunction_freq_alpha": 0.047337278106508875
+  },
+  {
+    "prompt_id": 5,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 997,
+    "ttr_alpha": 0.4463390170511535,
+    "word_length_alpha": 4.5035105315947845,
+    "conjunction_freq_alpha": 0.048144433299899696
+  },
+  {
+    "prompt_id": 5,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 667,
+    "ttr_alpha": 0.5982008995502249,
+    "word_length_alpha": 4.958020989505247,
+    "conjunction_freq_alpha": 0.037481259370314844
+  },
+  {
+    "prompt_id": 5,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 500,
+    "ttr_alpha": 0.588,
+    "word_length_alpha": 4.65,
+    "conjunction_freq_alpha": 0.036
+  },
+  {
+    "prompt_id": 5,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 780,
+    "ttr_alpha": 0.4846153846153846,
+    "word_length_alpha": 4.824358974358974,
+    "conjunction_freq_alpha": 0.028205128205128206
+  },
+  {
+    "prompt_id": 5,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 634,
+    "ttr_alpha": 0.5126182965299685,
+    "word_length_alpha": 4.321766561514195,
+    "conjunction_freq_alpha": 0.026813880126182965
+  },
+  {
+    "prompt_id": 5,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 743,
+    "ttr_alpha": 0.4414535666218035,
+    "word_length_alpha": 4.157469717362046,
+    "conjunction_freq_alpha": 0.05383580080753701
+  },
+  {
+    "prompt_id": 6,
+    "condition": "human_story",
+    "word_count_alpha": 504,
+    "ttr_alpha": 0.5357142857142857,
+    "word_length_alpha": 4.6686507936507935,
+    "conjunction_freq_alpha": 0.047619047619047616
+  },
+  {
+    "prompt_id": 6,
+    "condition": "gpt35_story",
+    "word_count_alpha": 538,
+    "ttr_alpha": 0.48698884758364314,
+    "word_length_alpha": 4.680297397769516,
+    "conjunction_freq_alpha": 0.06319702602230483
+  },
+  {
+    "prompt_id": 6,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 672,
+    "ttr_alpha": 0.47172619047619047,
+    "word_length_alpha": 4.3288690476190474,
+    "conjunction_freq_alpha": 0.03720238095238095
+  },
+  {
+    "prompt_id": 6,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 613,
+    "ttr_alpha": 0.433931484502447,
+    "word_length_alpha": 4.040783034257749,
+    "conjunction_freq_alpha": 0.05872756933115824
+  },
+  {
+    "prompt_id": 6,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 803,
+    "ttr_alpha": 0.41344956413449563,
+    "word_length_alpha": 4.136986301369863,
+    "conjunction_freq_alpha": 0.0460772104607721
+  },
+  {
+    "prompt_id": 6,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 736,
+    "ttr_alpha": 0.532608695652174,
+    "word_length_alpha": 4.584239130434782,
+    "conjunction_freq_alpha": 0.03125
+  },
+  {
+    "prompt_id": 6,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 475,
+    "ttr_alpha": 0.5031578947368421,
+    "word_length_alpha": 4.275789473684211,
+    "conjunction_freq_alpha": 0.037894736842105266
+  },
+  {
+    "prompt_id": 6,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 916,
+    "ttr_alpha": 0.42139737991266374,
+    "word_length_alpha": 4.485807860262009,
+    "conjunction_freq_alpha": 0.03275109170305677
+  },
+  {
+    "prompt_id": 6,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 637,
+    "ttr_alpha": 0.5384615384615384,
+    "word_length_alpha": 4.596546310832025,
+    "conjunction_freq_alpha": 0.04866562009419152
+  },
+  {
+    "prompt_id": 6,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 663,
+    "ttr_alpha": 0.4072398190045249,
+    "word_length_alpha": 3.9049773755656108,
+    "conjunction_freq_alpha": 0.03770739064856712
+  },
+  {
+    "prompt_id": 7,
+    "condition": "human_story",
+    "word_count_alpha": 298,
+    "ttr_alpha": 0.6174496644295302,
+    "word_length_alpha": 4.1644295302013425,
+    "conjunction_freq_alpha": 0.03355704697986577
+  },
+  {
+    "prompt_id": 7,
+    "condition": "gpt35_story",
+    "word_count_alpha": 519,
+    "ttr_alpha": 0.5414258188824663,
+    "word_length_alpha": 5.373795761078998,
+    "conjunction_freq_alpha": 0.04238921001926782
+  },
+  {
+    "prompt_id": 7,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 694,
+    "ttr_alpha": 0.4827089337175792,
+    "word_length_alpha": 4.61671469740634,
+    "conjunction_freq_alpha": 0.04610951008645533
+  },
+  {
+    "prompt_id": 7,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 626,
+    "ttr_alpha": 0.4904153354632588,
+    "word_length_alpha": 4.322683706070287,
+    "conjunction_freq_alpha": 0.04313099041533546
+  },
+  {
+    "prompt_id": 7,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 735,
+    "ttr_alpha": 0.5387755102040817,
+    "word_length_alpha": 4.929251700680272,
+    "conjunction_freq_alpha": 0.050340136054421766
+  },
+  {
+    "prompt_id": 7,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 627,
+    "ttr_alpha": 0.580542264752791,
+    "word_length_alpha": 4.66347687400319,
+    "conjunction_freq_alpha": 0.030303030303030304
+  },
+  {
+    "prompt_id": 7,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 656,
+    "ttr_alpha": 0.5213414634146342,
+    "word_length_alpha": 4.359756097560975,
+    "conjunction_freq_alpha": 0.06707317073170732
+  },
+  {
+    "prompt_id": 7,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 768,
+    "ttr_alpha": 0.4739583333333333,
+    "word_length_alpha": 5.067708333333333,
+    "conjunction_freq_alpha": 0.041666666666666664
+  },
+  {
+    "prompt_id": 7,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 677,
+    "ttr_alpha": 0.5302806499261448,
+    "word_length_alpha": 4.760709010339734,
+    "conjunction_freq_alpha": 0.04579025110782865
+  },
+  {
+    "prompt_id": 7,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 728,
+    "ttr_alpha": 0.4958791208791209,
+    "word_length_alpha": 4.596153846153846,
+    "conjunction_freq_alpha": 0.04532967032967033
+  },
+  {
+    "prompt_id": 8,
+    "condition": "human_story",
+    "word_count_alpha": 543,
+    "ttr_alpha": 0.4567219152854512,
+    "word_length_alpha": 4.359116022099448,
+    "conjunction_freq_alpha": 0.06445672191528545
+  },
+  {
+    "prompt_id": 8,
+    "condition": "gpt35_story",
+    "word_count_alpha": 614,
+    "ttr_alpha": 0.48534201954397393,
+    "word_length_alpha": 5.079804560260587,
+    "conjunction_freq_alpha": 0.06026058631921824
+  },
+  {
+    "prompt_id": 8,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 705,
+    "ttr_alpha": 0.5234042553191489,
+    "word_length_alpha": 4.961702127659574,
+    "conjunction_freq_alpha": 0.05815602836879433
+  },
+  {
+    "prompt_id": 8,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 455,
+    "ttr_alpha": 0.589010989010989,
+    "word_length_alpha": 4.8791208791208796,
+    "conjunction_freq_alpha": 0.046153846153846156
+  },
+  {
+    "prompt_id": 8,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 859,
+    "ttr_alpha": 0.5133876600698487,
+    "word_length_alpha": 4.881257275902212,
+    "conjunction_freq_alpha": 0.048894062863795114
+  },
+  {
+    "prompt_id": 8,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 624,
+    "ttr_alpha": 0.5977564102564102,
+    "word_length_alpha": 5.157051282051282,
+    "conjunction_freq_alpha": 0.028846153846153848
+  },
+  {
+    "prompt_id": 8,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 599,
+    "ttr_alpha": 0.5475792988313857,
+    "word_length_alpha": 4.722871452420701,
+    "conjunction_freq_alpha": 0.04674457429048414
+  },
+  {
+    "prompt_id": 8,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 827,
+    "ttr_alpha": 0.5030229746070133,
+    "word_length_alpha": 5.060459492140266,
+    "conjunction_freq_alpha": 0.041112454655380895
+  },
+  {
+    "prompt_id": 8,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 686,
+    "ttr_alpha": 0.6049562682215743,
+    "word_length_alpha": 5.654518950437318,
+    "conjunction_freq_alpha": 0.037900874635568516
+  },
+  {
+    "prompt_id": 8,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 781,
+    "ttr_alpha": 0.5224071702944942,
+    "word_length_alpha": 4.758002560819462,
+    "conjunction_freq_alpha": 0.040973111395646605
+  },
+  {
+    "prompt_id": 9,
+    "condition": "human_story",
+    "word_count_alpha": 172,
+    "ttr_alpha": 0.5813953488372093,
+    "word_length_alpha": 4.116279069767442,
+    "conjunction_freq_alpha": 0.046511627906976744
+  },
+  {
+    "prompt_id": 9,
+    "condition": "gpt35_story",
+    "word_count_alpha": 538,
+    "ttr_alpha": 0.4962825278810409,
+    "word_length_alpha": 4.710037174721189,
+    "conjunction_freq_alpha": 0.07434944237918216
+  },
+  {
+    "prompt_id": 9,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 778,
+    "ttr_alpha": 0.5051413881748072,
+    "word_length_alpha": 4.380462724935732,
+    "conjunction_freq_alpha": 0.07069408740359898
+  },
+  {
+    "prompt_id": 9,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 688,
+    "ttr_alpha": 0.5058139534883721,
+    "word_length_alpha": 4.350290697674419,
+    "conjunction_freq_alpha": 0.046511627906976744
+  },
+  {
+    "prompt_id": 9,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 850,
+    "ttr_alpha": 0.4835294117647059,
+    "word_length_alpha": 4.241176470588235,
+    "conjunction_freq_alpha": 0.058823529411764705
+  },
+  {
+    "prompt_id": 9,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 677,
+    "ttr_alpha": 0.5775480059084195,
+    "word_length_alpha": 4.6159527326440175,
+    "conjunction_freq_alpha": 0.03249630723781388
+  },
+  {
+    "prompt_id": 9,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 680,
+    "ttr_alpha": 0.5294117647058824,
+    "word_length_alpha": 4.4147058823529415,
+    "conjunction_freq_alpha": 0.05588235294117647
+  },
+  {
+    "prompt_id": 9,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 815,
+    "ttr_alpha": 0.456441717791411,
+    "word_length_alpha": 4.323926380368098,
+    "conjunction_freq_alpha": 0.05030674846625767
+  },
+  {
+    "prompt_id": 9,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 672,
+    "ttr_alpha": 0.5431547619047619,
+    "word_length_alpha": 4.498511904761905,
+    "conjunction_freq_alpha": 0.046130952380952384
+  },
+  {
+    "prompt_id": 9,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 761,
+    "ttr_alpha": 0.4467805519053876,
+    "word_length_alpha": 4.069645203679369,
+    "conjunction_freq_alpha": 0.051248357424441525
+  },
+  {
+    "prompt_id": 10,
+    "condition": "human_story",
+    "word_count_alpha": 490,
+    "ttr_alpha": 0.45510204081632655,
+    "word_length_alpha": 3.8918367346938774,
+    "conjunction_freq_alpha": 0.07142857142857142
+  },
+  {
+    "prompt_id": 10,
+    "condition": "gpt35_story",
+    "word_count_alpha": 567,
+    "ttr_alpha": 0.4532627865961199,
+    "word_length_alpha": 4.548500881834215,
+    "conjunction_freq_alpha": 0.047619047619047616
+  },
+  {
+    "prompt_id": 10,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 754,
+    "ttr_alpha": 0.4230769230769231,
+    "word_length_alpha": 4.0,
+    "conjunction_freq_alpha": 0.058355437665782495
+  },
+  {
+    "prompt_id": 10,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 682,
+    "ttr_alpha": 0.37976539589442815,
+    "word_length_alpha": 3.9560117302052786,
+    "conjunction_freq_alpha": 0.06451612903225806
+  },
+  {
+    "prompt_id": 10,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 730,
+    "ttr_alpha": 0.41643835616438357,
+    "word_length_alpha": 4.135616438356164,
+    "conjunction_freq_alpha": 0.07123287671232877
+  },
+  {
+    "prompt_id": 10,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 810,
+    "ttr_alpha": 0.4691358024691358,
+    "word_length_alpha": 4.253086419753086,
+    "conjunction_freq_alpha": 0.044444444444444446
+  },
+  {
+    "prompt_id": 10,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 695,
+    "ttr_alpha": 0.460431654676259,
+    "word_length_alpha": 4.269064748201439,
+    "conjunction_freq_alpha": 0.06330935251798561
+  },
+  {
+    "prompt_id": 10,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 817,
+    "ttr_alpha": 0.41615667074663404,
+    "word_length_alpha": 4.119951040391677,
+    "conjunction_freq_alpha": 0.046511627906976744
+  },
+  {
+    "prompt_id": 10,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 715,
+    "ttr_alpha": 0.43776223776223777,
+    "word_length_alpha": 4.0979020979020975,
+    "conjunction_freq_alpha": 0.06293706293706294
+  },
+  {
+    "prompt_id": 10,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 798,
+    "ttr_alpha": 0.41102756892230574,
+    "word_length_alpha": 3.9974937343358397,
+    "conjunction_freq_alpha": 0.05388471177944862
+  },
+  {
+    "prompt_id": 11,
+    "condition": "human_story",
+    "word_count_alpha": 229,
+    "ttr_alpha": 0.5502183406113537,
+    "word_length_alpha": 4.200873362445415,
+    "conjunction_freq_alpha": 0.048034934497816595
+  },
+  {
+    "prompt_id": 11,
+    "condition": "gpt35_story",
+    "word_count_alpha": 581,
+    "ttr_alpha": 0.5215146299483648,
+    "word_length_alpha": 4.860585197934595,
+    "conjunction_freq_alpha": 0.03442340791738382
+  },
+  {
+    "prompt_id": 11,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 716,
+    "ttr_alpha": 0.5097765363128491,
+    "word_length_alpha": 4.5418994413407825,
+    "conjunction_freq_alpha": 0.046089385474860335
+  },
+  {
+    "prompt_id": 11,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 694,
+    "ttr_alpha": 0.4942363112391931,
+    "word_length_alpha": 4.031700288184438,
+    "conjunction_freq_alpha": 0.04610951008645533
+  },
+  {
+    "prompt_id": 11,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 1010,
+    "ttr_alpha": 0.4386138613861386,
+    "word_length_alpha": 4.198019801980198,
+    "conjunction_freq_alpha": 0.053465346534653464
+  },
+  {
+    "prompt_id": 11,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 775,
+    "ttr_alpha": 0.5793548387096774,
+    "word_length_alpha": 4.523870967741935,
+    "conjunction_freq_alpha": 0.02838709677419355
+  },
+  {
+    "prompt_id": 11,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 792,
+    "ttr_alpha": 0.48484848484848486,
+    "word_length_alpha": 4.113636363636363,
+    "conjunction_freq_alpha": 0.056818181818181816
+  },
+  {
+    "prompt_id": 11,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 730,
+    "ttr_alpha": 0.4712328767123288,
+    "word_length_alpha": 4.432876712328767,
+    "conjunction_freq_alpha": 0.038356164383561646
+  },
+  {
+    "prompt_id": 11,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 659,
+    "ttr_alpha": 0.5614567526555387,
+    "word_length_alpha": 4.430955993930198,
+    "conjunction_freq_alpha": 0.04552352048558422
+  },
+  {
+    "prompt_id": 11,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 874,
+    "ttr_alpha": 0.43135011441647597,
+    "word_length_alpha": 4.220823798627002,
+    "conjunction_freq_alpha": 0.05606407322654462
+  },
+  {
+    "prompt_id": 12,
+    "condition": "human_story",
+    "word_count_alpha": 414,
+    "ttr_alpha": 0.5579710144927537,
+    "word_length_alpha": 4.9396135265700485,
+    "conjunction_freq_alpha": 0.028985507246376812
+  },
+  {
+    "prompt_id": 12,
+    "condition": "gpt35_story",
+    "word_count_alpha": 499,
+    "ttr_alpha": 0.5370741482965932,
+    "word_length_alpha": 5.374749498997996,
+    "conjunction_freq_alpha": 0.04408817635270541
+  },
+  {
+    "prompt_id": 12,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 743,
+    "ttr_alpha": 0.49259757738896365,
+    "word_length_alpha": 4.783310901749664,
+    "conjunction_freq_alpha": 0.05114401076716016
+  },
+  {
+    "prompt_id": 12,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 316,
+    "ttr_alpha": 0.620253164556962,
+    "word_length_alpha": 4.620253164556962,
+    "conjunction_freq_alpha": 0.022151898734177215
+  },
+  {
+    "prompt_id": 12,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 842,
+    "ttr_alpha": 0.45724465558194777,
+    "word_length_alpha": 4.5866983372921615,
+    "conjunction_freq_alpha": 0.04275534441805225
+  },
+  {
+    "prompt_id": 12,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 642,
+    "ttr_alpha": 0.5934579439252337,
+    "word_length_alpha": 4.970404984423676,
+    "conjunction_freq_alpha": 0.037383177570093455
+  },
+  {
+    "prompt_id": 12,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 799,
+    "ttr_alpha": 0.46808510638297873,
+    "word_length_alpha": 4.359198998748435,
+    "conjunction_freq_alpha": 0.04881101376720901
+  },
+  {
+    "prompt_id": 12,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 803,
+    "ttr_alpha": 0.4794520547945205,
+    "word_length_alpha": 4.8368617683686175,
+    "conjunction_freq_alpha": 0.034869240348692404
+  },
+  {
+    "prompt_id": 12,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 666,
+    "ttr_alpha": 0.5045045045045045,
+    "word_length_alpha": 4.662162162162162,
+    "conjunction_freq_alpha": 0.03303303303303303
+  },
+  {
+    "prompt_id": 12,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 947,
+    "ttr_alpha": 0.44456177402323127,
+    "word_length_alpha": 4.562829989440338,
+    "conjunction_freq_alpha": 0.030623020063357972
+  },
+  {
+    "prompt_id": 13,
+    "condition": "human_story",
+    "word_count_alpha": 144,
+    "ttr_alpha": 0.5972222222222222,
+    "word_length_alpha": 3.5694444444444446,
+    "conjunction_freq_alpha": 0.0625
+  },
+  {
+    "prompt_id": 13,
+    "condition": "gpt35_story",
+    "word_count_alpha": 450,
+    "ttr_alpha": 0.5177777777777778,
+    "word_length_alpha": 5.1177777777777775,
+    "conjunction_freq_alpha": 0.05555555555555555
+  },
+  {
+    "prompt_id": 13,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 605,
+    "ttr_alpha": 0.484297520661157,
+    "word_length_alpha": 4.180165289256198,
+    "conjunction_freq_alpha": 0.0512396694214876
+  },
+  {
+    "prompt_id": 13,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 770,
+    "ttr_alpha": 0.37922077922077924,
+    "word_length_alpha": 4.023376623376623,
+    "conjunction_freq_alpha": 0.053246753246753244
+  },
+  {
+    "prompt_id": 13,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 991,
+    "ttr_alpha": 0.3874873864783047,
+    "word_length_alpha": 4.290615539858728,
+    "conjunction_freq_alpha": 0.06861755802219979
+  },
+  {
+    "prompt_id": 13,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 908,
+    "ttr_alpha": 0.4779735682819383,
+    "word_length_alpha": 4.3392070484581495,
+    "conjunction_freq_alpha": 0.03303964757709251
+  },
+  {
+    "prompt_id": 13,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 712,
+    "ttr_alpha": 0.4550561797752809,
+    "word_length_alpha": 4.248595505617978,
+    "conjunction_freq_alpha": 0.05056179775280899
+  },
+  {
+    "prompt_id": 13,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 819,
+    "ttr_alpha": 0.38217338217338215,
+    "word_length_alpha": 4.272283272283272,
+    "conjunction_freq_alpha": 0.050061050061050064
+  },
+  {
+    "prompt_id": 13,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 691,
+    "ttr_alpha": 0.4544138929088278,
+    "word_length_alpha": 4.224312590448625,
+    "conjunction_freq_alpha": 0.05209840810419682
+  },
+  {
+    "prompt_id": 13,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 769,
+    "ttr_alpha": 0.39011703511053314,
+    "word_length_alpha": 4.10923276983095,
+    "conjunction_freq_alpha": 0.05981794538361508
+  },
+  {
+    "prompt_id": 14,
+    "condition": "human_story",
+    "word_count_alpha": 367,
+    "ttr_alpha": 0.4604904632152589,
+    "word_length_alpha": 3.907356948228883,
+    "conjunction_freq_alpha": 0.09809264305177112
+  },
+  {
+    "prompt_id": 14,
+    "condition": "gpt35_story",
+    "word_count_alpha": 542,
+    "ttr_alpha": 0.46494464944649444,
+    "word_length_alpha": 4.649446494464945,
+    "conjunction_freq_alpha": 0.06642066420664207
+  },
+  {
+    "prompt_id": 14,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 637,
+    "ttr_alpha": 0.5023547880690737,
+    "word_length_alpha": 4.249607535321821,
+    "conjunction_freq_alpha": 0.03610675039246468
+  },
+  {
+    "prompt_id": 14,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 718,
+    "ttr_alpha": 0.4401114206128134,
+    "word_length_alpha": 3.9247910863509747,
+    "conjunction_freq_alpha": 0.04874651810584958
+  },
+  {
+    "prompt_id": 14,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 788,
+    "ttr_alpha": 0.4885786802030457,
+    "word_length_alpha": 4.435279187817259,
+    "conjunction_freq_alpha": 0.05583756345177665
+  },
+  {
+    "prompt_id": 14,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 677,
+    "ttr_alpha": 0.5302806499261448,
+    "word_length_alpha": 4.333825701624815,
+    "conjunction_freq_alpha": 0.03840472673559823
+  },
+  {
+    "prompt_id": 14,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 610,
+    "ttr_alpha": 0.5016393442622951,
+    "word_length_alpha": 4.29672131147541,
+    "conjunction_freq_alpha": 0.06557377049180328
+  },
+  {
+    "prompt_id": 14,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 889,
+    "ttr_alpha": 0.4263217097862767,
+    "word_length_alpha": 4.508436445444319,
+    "conjunction_freq_alpha": 0.04499437570303712
+  },
+  {
+    "prompt_id": 14,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 695,
+    "ttr_alpha": 0.49640287769784175,
+    "word_length_alpha": 4.579856115107914,
+    "conjunction_freq_alpha": 0.03741007194244604
+  },
+  {
+    "prompt_id": 14,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 786,
+    "ttr_alpha": 0.40458015267175573,
+    "word_length_alpha": 4.122137404580153,
+    "conjunction_freq_alpha": 0.062340966921119595
+  },
+  {
+    "prompt_id": 15,
+    "condition": "human_story",
+    "word_count_alpha": 543,
+    "ttr_alpha": 0.4438305709023941,
+    "word_length_alpha": 3.9373848987108655,
+    "conjunction_freq_alpha": 0.06629834254143646
+  },
+  {
+    "prompt_id": 15,
+    "condition": "gpt35_story",
+    "word_count_alpha": 485,
+    "ttr_alpha": 0.5092783505154639,
+    "word_length_alpha": 4.597938144329897,
+    "conjunction_freq_alpha": 0.06391752577319587
+  },
+  {
+    "prompt_id": 15,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 726,
+    "ttr_alpha": 0.47107438016528924,
+    "word_length_alpha": 4.034435261707989,
+    "conjunction_freq_alpha": 0.05922865013774105
+  },
+  {
+    "prompt_id": 15,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 682,
+    "ttr_alpha": 0.4032258064516129,
+    "word_length_alpha": 3.86950146627566,
+    "conjunction_freq_alpha": 0.06158357771260997
+  },
+  {
+    "prompt_id": 15,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 800,
+    "ttr_alpha": 0.40875,
+    "word_length_alpha": 4.03875,
+    "conjunction_freq_alpha": 0.07
+  },
+  {
+    "prompt_id": 15,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 582,
+    "ttr_alpha": 0.5223367697594502,
+    "word_length_alpha": 4.2714776632302405,
+    "conjunction_freq_alpha": 0.05326460481099656
+  },
+  {
+    "prompt_id": 15,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 755,
+    "ttr_alpha": 0.42649006622516555,
+    "word_length_alpha": 4.099337748344371,
+    "conjunction_freq_alpha": 0.0728476821192053
+  },
+  {
+    "prompt_id": 15,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 894,
+    "ttr_alpha": 0.412751677852349,
+    "word_length_alpha": 4.215883668903803,
+    "conjunction_freq_alpha": 0.06152125279642058
+  },
+  {
+    "prompt_id": 15,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 693,
+    "ttr_alpha": 0.4588744588744589,
+    "word_length_alpha": 4.105339105339105,
+    "conjunction_freq_alpha": 0.07936507936507936
+  },
+  {
+    "prompt_id": 15,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 679,
+    "ttr_alpha": 0.41531664212076586,
+    "word_length_alpha": 4.1060382916053015,
+    "conjunction_freq_alpha": 0.0780559646539028
+  },
+  {
+    "prompt_id": 16,
+    "condition": "human_story",
+    "word_count_alpha": 796,
+    "ttr_alpha": 0.45603015075376885,
+    "word_length_alpha": 4.204773869346734,
+    "conjunction_freq_alpha": 0.06407035175879397
+  },
+  {
+    "prompt_id": 16,
+    "condition": "gpt35_story",
+    "word_count_alpha": 514,
+    "ttr_alpha": 0.5175097276264592,
+    "word_length_alpha": 5.223735408560311,
+    "conjunction_freq_alpha": 0.08171206225680934
+  },
+  {
+    "prompt_id": 16,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 721,
+    "ttr_alpha": 0.44937586685159503,
+    "word_length_alpha": 4.341192787794729,
+    "conjunction_freq_alpha": 0.07212205270457697
+  },
+  {
+    "prompt_id": 16,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 762,
+    "ttr_alpha": 0.41863517060367456,
+    "word_length_alpha": 3.8648293963254594,
+    "conjunction_freq_alpha": 0.048556430446194225
+  },
+  {
+    "prompt_id": 16,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 946,
+    "ttr_alpha": 0.4164904862579281,
+    "word_length_alpha": 4.135306553911205,
+    "conjunction_freq_alpha": 0.05813953488372093
+  },
+  {
+    "prompt_id": 16,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 669,
+    "ttr_alpha": 0.5067264573991032,
+    "word_length_alpha": 4.5291479820627805,
+    "conjunction_freq_alpha": 0.04633781763826607
+  },
+  {
+    "prompt_id": 16,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 567,
+    "ttr_alpha": 0.4603174603174603,
+    "word_length_alpha": 3.9858906525573192,
+    "conjunction_freq_alpha": 0.06878306878306878
+  },
+  {
+    "prompt_id": 16,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 765,
+    "ttr_alpha": 0.4169934640522876,
+    "word_length_alpha": 4.291503267973856,
+    "conjunction_freq_alpha": 0.03790849673202614
+  },
+  {
+    "prompt_id": 16,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 714,
+    "ttr_alpha": 0.4677871148459384,
+    "word_length_alpha": 4.366946778711484,
+    "conjunction_freq_alpha": 0.0742296918767507
+  },
+  {
+    "prompt_id": 16,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 859,
+    "ttr_alpha": 0.39930151338766007,
+    "word_length_alpha": 4.0593713620488945,
+    "conjunction_freq_alpha": 0.06169965075669383
+  },
+  {
+    "prompt_id": 17,
+    "condition": "human_story",
+    "word_count_alpha": 941,
+    "ttr_alpha": 0.4155154091392136,
+    "word_length_alpha": 4.451647183846971,
+    "conjunction_freq_alpha": 0.04144527098831031
+  },
+  {
+    "prompt_id": 17,
+    "condition": "gpt35_story",
+    "word_count_alpha": 491,
+    "ttr_alpha": 0.5519348268839104,
+    "word_length_alpha": 4.8940936863543785,
+    "conjunction_freq_alpha": 0.03665987780040733
+  },
+  {
+    "prompt_id": 17,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 692,
+    "ttr_alpha": 0.4624277456647399,
+    "word_length_alpha": 4.223988439306359,
+    "conjunction_freq_alpha": 0.0476878612716763
+  },
+  {
+    "prompt_id": 17,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 792,
+    "ttr_alpha": 0.3952020202020202,
+    "word_length_alpha": 4.013888888888889,
+    "conjunction_freq_alpha": 0.03282828282828283
+  },
+  {
+    "prompt_id": 17,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 958,
+    "ttr_alpha": 0.3924843423799583,
+    "word_length_alpha": 3.9582463465553235,
+    "conjunction_freq_alpha": 0.04279749478079332
+  },
+  {
+    "prompt_id": 17,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 767,
+    "ttr_alpha": 0.500651890482399,
+    "word_length_alpha": 4.387222946544981,
+    "conjunction_freq_alpha": 0.02998696219035202
+  },
+  {
+    "prompt_id": 17,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 628,
+    "ttr_alpha": 0.47611464968152867,
+    "word_length_alpha": 4.015923566878981,
+    "conjunction_freq_alpha": 0.03184713375796178
+  },
+  {
+    "prompt_id": 17,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 771,
+    "ttr_alpha": 0.41893644617380027,
+    "word_length_alpha": 4.367055771725032,
+    "conjunction_freq_alpha": 0.0311284046692607
+  },
+  {
+    "prompt_id": 17,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 679,
+    "ttr_alpha": 0.44035346097201766,
+    "word_length_alpha": 4.188512518409426,
+    "conjunction_freq_alpha": 0.033873343151693665
+  },
+  {
+    "prompt_id": 17,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 636,
+    "ttr_alpha": 0.4748427672955975,
+    "word_length_alpha": 4.10377358490566,
+    "conjunction_freq_alpha": 0.03459119496855346
+  },
+  {
+    "prompt_id": 18,
+    "condition": "human_story",
+    "word_count_alpha": 209,
+    "ttr_alpha": 0.6076555023923444,
+    "word_length_alpha": 4.454545454545454,
+    "conjunction_freq_alpha": 0.03827751196172249
+  },
+  {
+    "prompt_id": 18,
+    "condition": "gpt35_story",
+    "word_count_alpha": 491,
+    "ttr_alpha": 0.5132382892057027,
+    "word_length_alpha": 5.004073319755601,
+    "conjunction_freq_alpha": 0.05091649694501019
+  },
+  {
+    "prompt_id": 18,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 782,
+    "ttr_alpha": 0.4936061381074169,
+    "word_length_alpha": 4.361892583120205,
+    "conjunction_freq_alpha": 0.034526854219948847
+  },
+  {
+    "prompt_id": 18,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 570,
+    "ttr_alpha": 0.5280701754385965,
+    "word_length_alpha": 4.385964912280702,
+    "conjunction_freq_alpha": 0.03333333333333333
+  },
+  {
+    "prompt_id": 18,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 924,
+    "ttr_alpha": 0.4751082251082251,
+    "word_length_alpha": 4.3354978354978355,
+    "conjunction_freq_alpha": 0.03896103896103896
+  },
+  {
+    "prompt_id": 18,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 737,
+    "ttr_alpha": 0.576662143826323,
+    "word_length_alpha": 4.6173677069199455,
+    "conjunction_freq_alpha": 0.035278154681139755
+  },
+  {
+    "prompt_id": 18,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 685,
+    "ttr_alpha": 0.5021897810218978,
+    "word_length_alpha": 4.255474452554744,
+    "conjunction_freq_alpha": 0.05547445255474453
+  },
+  {
+    "prompt_id": 18,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 706,
+    "ttr_alpha": 0.5056657223796034,
+    "word_length_alpha": 4.711048158640226,
+    "conjunction_freq_alpha": 0.03541076487252125
+  },
+  {
+    "prompt_id": 18,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 636,
+    "ttr_alpha": 0.5361635220125787,
+    "word_length_alpha": 4.573899371069182,
+    "conjunction_freq_alpha": 0.031446540880503145
+  },
+  {
+    "prompt_id": 18,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 872,
+    "ttr_alpha": 0.44380733944954126,
+    "word_length_alpha": 4.220183486238532,
+    "conjunction_freq_alpha": 0.03096330275229358
+  },
+  {
+    "prompt_id": 19,
+    "condition": "human_story",
+    "word_count_alpha": 717,
+    "ttr_alpha": 0.45467224546722457,
+    "word_length_alpha": 4.7238493723849375,
+    "conjunction_freq_alpha": 0.043235704323570434
+  },
+  {
+    "prompt_id": 19,
+    "condition": "gpt35_story",
+    "word_count_alpha": 487,
+    "ttr_alpha": 0.5133470225872689,
+    "word_length_alpha": 4.737166324435318,
+    "conjunction_freq_alpha": 0.055441478439425054
+  },
+  {
+    "prompt_id": 19,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 757,
+    "ttr_alpha": 0.47556142668428003,
+    "word_length_alpha": 4.202113606340819,
+    "conjunction_freq_alpha": 0.034346103038309116
+  },
+  {
+    "prompt_id": 19,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 650,
+    "ttr_alpha": 0.46,
+    "word_length_alpha": 3.9107692307692306,
+    "conjunction_freq_alpha": 0.047692307692307694
+  },
+  {
+    "prompt_id": 19,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 896,
+    "ttr_alpha": 0.40848214285714285,
+    "word_length_alpha": 4.081473214285714,
+    "conjunction_freq_alpha": 0.060267857142857144
+  },
+  {
+    "prompt_id": 19,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 734,
+    "ttr_alpha": 0.553133514986376,
+    "word_length_alpha": 4.4959128065395095,
+    "conjunction_freq_alpha": 0.02316076294277929
+  },
+  {
+    "prompt_id": 19,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 744,
+    "ttr_alpha": 0.5,
+    "word_length_alpha": 4.323924731182796,
+    "conjunction_freq_alpha": 0.038978494623655914
+  },
+  {
+    "prompt_id": 19,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 748,
+    "ttr_alpha": 0.4786096256684492,
+    "word_length_alpha": 4.291443850267379,
+    "conjunction_freq_alpha": 0.0374331550802139
+  },
+  {
+    "prompt_id": 19,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 661,
+    "ttr_alpha": 0.4750378214826021,
+    "word_length_alpha": 4.167927382753404,
+    "conjunction_freq_alpha": 0.0453857791225416
+  },
+  {
+    "prompt_id": 19,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 827,
+    "ttr_alpha": 0.3845223700120919,
+    "word_length_alpha": 3.7944377267230953,
+    "conjunction_freq_alpha": 0.07496977025392987
+  },
+  {
+    "prompt_id": 20,
+    "condition": "human_story",
+    "word_count_alpha": 1112,
+    "ttr_alpha": 0.35881294964028776,
+    "word_length_alpha": 4.20773381294964,
+    "conjunction_freq_alpha": 0.06654676258992806
+  },
+  {
+    "prompt_id": 20,
+    "condition": "gpt35_story",
+    "word_count_alpha": 537,
+    "ttr_alpha": 0.49906890130353815,
+    "word_length_alpha": 4.966480446927374,
+    "conjunction_freq_alpha": 0.0446927374301676
+  },
+  {
+    "prompt_id": 20,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 815,
+    "ttr_alpha": 0.5300613496932516,
+    "word_length_alpha": 4.699386503067485,
+    "conjunction_freq_alpha": 0.0392638036809816
+  },
+  {
+    "prompt_id": 20,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 721,
+    "ttr_alpha": 0.49653259361997226,
+    "word_length_alpha": 4.565880721220527,
+    "conjunction_freq_alpha": 0.0319001386962552
+  },
+  {
+    "prompt_id": 20,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 1012,
+    "ttr_alpha": 0.44861660079051385,
+    "word_length_alpha": 4.388339920948616,
+    "conjunction_freq_alpha": 0.04841897233201581
+  },
+  {
+    "prompt_id": 20,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 687,
+    "ttr_alpha": 0.586608442503639,
+    "word_length_alpha": 4.813682678311499,
+    "conjunction_freq_alpha": 0.034934497816593885
+  },
+  {
+    "prompt_id": 20,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 732,
+    "ttr_alpha": 0.5013661202185792,
+    "word_length_alpha": 4.668032786885246,
+    "conjunction_freq_alpha": 0.050546448087431695
+  },
+  {
+    "prompt_id": 20,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 773,
+    "ttr_alpha": 0.5045278137128072,
+    "word_length_alpha": 4.6895213454075035,
+    "conjunction_freq_alpha": 0.0258732212160414
+  },
+  {
+    "prompt_id": 20,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 639,
+    "ttr_alpha": 0.593114241001565,
+    "word_length_alpha": 4.949921752738654,
+    "conjunction_freq_alpha": 0.050078247261345854
+  },
+  {
+    "prompt_id": 20,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 867,
+    "ttr_alpha": 0.405997693194925,
+    "word_length_alpha": 4.370242214532872,
+    "conjunction_freq_alpha": 0.03806228373702422
+  },
+  {
+    "prompt_id": 21,
+    "condition": "human_story",
+    "word_count_alpha": 205,
+    "ttr_alpha": 0.47317073170731705,
+    "word_length_alpha": 4.0390243902439025,
+    "conjunction_freq_alpha": 0.03902439024390244
+  },
+  {
+    "prompt_id": 21,
+    "condition": "gpt35_story",
+    "word_count_alpha": 529,
+    "ttr_alpha": 0.4896030245746692,
+    "word_length_alpha": 4.818525519848771,
+    "conjunction_freq_alpha": 0.043478260869565216
+  },
+  {
+    "prompt_id": 21,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 767,
+    "ttr_alpha": 0.42633637548891784,
+    "word_length_alpha": 4.063885267275098,
+    "conjunction_freq_alpha": 0.05997392438070404
+  },
+  {
+    "prompt_id": 21,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 950,
+    "ttr_alpha": 0.40842105263157896,
+    "word_length_alpha": 3.783157894736842,
+    "conjunction_freq_alpha": 0.04631578947368421
+  },
+  {
+    "prompt_id": 21,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 896,
+    "ttr_alpha": 0.41964285714285715,
+    "word_length_alpha": 4.206473214285714,
+    "conjunction_freq_alpha": 0.06361607142857142
+  },
+  {
+    "prompt_id": 21,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 692,
+    "ttr_alpha": 0.5144508670520231,
+    "word_length_alpha": 4.381502890173411,
+    "conjunction_freq_alpha": 0.04335260115606936
+  },
+  {
+    "prompt_id": 21,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 661,
+    "ttr_alpha": 0.48411497730711045,
+    "word_length_alpha": 4.183055975794251,
+    "conjunction_freq_alpha": 0.05446293494704992
+  },
+  {
+    "prompt_id": 21,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 731,
+    "ttr_alpha": 0.4801641586867305,
+    "word_length_alpha": 4.377564979480164,
+    "conjunction_freq_alpha": 0.049247606019151846
+  },
+  {
+    "prompt_id": 21,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 612,
+    "ttr_alpha": 0.47058823529411764,
+    "word_length_alpha": 4.400326797385621,
+    "conjunction_freq_alpha": 0.0457516339869281
+  },
+  {
+    "prompt_id": 21,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 859,
+    "ttr_alpha": 0.39348079161816063,
+    "word_length_alpha": 4.010477299185099,
+    "conjunction_freq_alpha": 0.0570430733410943
+  },
+  {
+    "prompt_id": 22,
+    "condition": "human_story",
+    "word_count_alpha": 542,
+    "ttr_alpha": 0.5,
+    "word_length_alpha": 4.2988929889298895,
+    "conjunction_freq_alpha": 0.055350553505535055
+  },
+  {
+    "prompt_id": 22,
+    "condition": "gpt35_story",
+    "word_count_alpha": 589,
+    "ttr_alpha": 0.4940577249575552,
+    "word_length_alpha": 5.042444821731749,
+    "conjunction_freq_alpha": 0.050933786078098474
+  },
+  {
+    "prompt_id": 22,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 769,
+    "ttr_alpha": 0.48634590377113135,
+    "word_length_alpha": 4.192457737321196,
+    "conjunction_freq_alpha": 0.05201560468140442
+  },
+  {
+    "prompt_id": 22,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 656,
+    "ttr_alpha": 0.4847560975609756,
+    "word_length_alpha": 3.9832317073170733,
+    "conjunction_freq_alpha": 0.06097560975609756
+  },
+  {
+    "prompt_id": 22,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 932,
+    "ttr_alpha": 0.45064377682403434,
+    "word_length_alpha": 4.184549356223176,
+    "conjunction_freq_alpha": 0.06223175965665236
+  },
+  {
+    "prompt_id": 22,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 705,
+    "ttr_alpha": 0.5801418439716312,
+    "word_length_alpha": 4.724822695035461,
+    "conjunction_freq_alpha": 0.02269503546099291
+  },
+  {
+    "prompt_id": 22,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 627,
+    "ttr_alpha": 0.518341307814992,
+    "word_length_alpha": 4.231259968102074,
+    "conjunction_freq_alpha": 0.04784688995215311
+  },
+  {
+    "prompt_id": 22,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 691,
+    "ttr_alpha": 0.4833574529667149,
+    "word_length_alpha": 4.551374819102749,
+    "conjunction_freq_alpha": 0.023154848046309694
+  },
+  {
+    "prompt_id": 22,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 688,
+    "ttr_alpha": 0.48691860465116277,
+    "word_length_alpha": 4.450581395348837,
+    "conjunction_freq_alpha": 0.04941860465116279
+  },
+  {
+    "prompt_id": 22,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 853,
+    "ttr_alpha": 0.47010550996483,
+    "word_length_alpha": 4.225087924970691,
+    "conjunction_freq_alpha": 0.04220398593200469
+  },
+  {
+    "prompt_id": 23,
+    "condition": "human_story",
+    "word_count_alpha": 110,
+    "ttr_alpha": 0.6909090909090909,
+    "word_length_alpha": 4.4,
+    "conjunction_freq_alpha": 0.045454545454545456
+  },
+  {
+    "prompt_id": 23,
+    "condition": "gpt35_story",
+    "word_count_alpha": 515,
+    "ttr_alpha": 0.5048543689320388,
+    "word_length_alpha": 5.176699029126214,
+    "conjunction_freq_alpha": 0.05631067961165048
+  },
+  {
+    "prompt_id": 23,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 819,
+    "ttr_alpha": 0.4432234432234432,
+    "word_length_alpha": 4.384615384615385,
+    "conjunction_freq_alpha": 0.06227106227106227
+  },
+  {
+    "prompt_id": 23,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 669,
+    "ttr_alpha": 0.47085201793721976,
+    "word_length_alpha": 4.273542600896861,
+    "conjunction_freq_alpha": 0.03736920777279522
+  },
+  {
+    "prompt_id": 23,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 907,
+    "ttr_alpha": 0.43439911797133407,
+    "word_length_alpha": 4.153252480705623,
+    "conjunction_freq_alpha": 0.07607497243660419
+  },
+  {
+    "prompt_id": 23,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 664,
+    "ttr_alpha": 0.5481927710843374,
+    "word_length_alpha": 4.596385542168675,
+    "conjunction_freq_alpha": 0.04216867469879518
+  },
+  {
+    "prompt_id": 23,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 706,
+    "ttr_alpha": 0.49008498583569404,
+    "word_length_alpha": 4.354107648725212,
+    "conjunction_freq_alpha": 0.04107648725212465
+  },
+  {
+    "prompt_id": 23,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 645,
+    "ttr_alpha": 0.4728682170542636,
+    "word_length_alpha": 4.962790697674419,
+    "conjunction_freq_alpha": 0.06511627906976744
+  },
+  {
+    "prompt_id": 23,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 636,
+    "ttr_alpha": 0.5047169811320755,
+    "word_length_alpha": 4.39937106918239,
+    "conjunction_freq_alpha": 0.08176100628930817
+  },
+  {
+    "prompt_id": 23,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 704,
+    "ttr_alpha": 0.4758522727272727,
+    "word_length_alpha": 4.254261363636363,
+    "conjunction_freq_alpha": 0.046875
+  },
+  {
+    "prompt_id": 24,
+    "condition": "human_story",
+    "word_count_alpha": 467,
+    "ttr_alpha": 0.5053533190578159,
+    "word_length_alpha": 4.164882226980728,
+    "conjunction_freq_alpha": 0.07066381156316917
+  },
+  {
+    "prompt_id": 24,
+    "condition": "gpt35_story",
+    "word_count_alpha": 508,
+    "ttr_alpha": 0.515748031496063,
+    "word_length_alpha": 4.706692913385827,
+    "conjunction_freq_alpha": 0.051181102362204724
+  },
+  {
+    "prompt_id": 24,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 845,
+    "ttr_alpha": 0.5100591715976331,
+    "word_length_alpha": 4.345562130177515,
+    "conjunction_freq_alpha": 0.036686390532544376
+  },
+  {
+    "prompt_id": 24,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 694,
+    "ttr_alpha": 0.4668587896253602,
+    "word_length_alpha": 4.001440922190202,
+    "conjunction_freq_alpha": 0.059077809798270896
+  },
+  {
+    "prompt_id": 24,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 783,
+    "ttr_alpha": 0.44572158365261816,
+    "word_length_alpha": 4.002554278416348,
+    "conjunction_freq_alpha": 0.05747126436781609
+  },
+  {
+    "prompt_id": 24,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 746,
+    "ttr_alpha": 0.5750670241286864,
+    "word_length_alpha": 4.556300268096515,
+    "conjunction_freq_alpha": 0.036193029490616625
+  },
+  {
+    "prompt_id": 24,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 651,
+    "ttr_alpha": 0.4915514592933948,
+    "word_length_alpha": 4.0046082949308754,
+    "conjunction_freq_alpha": 0.047619047619047616
+  },
+  {
+    "prompt_id": 24,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 883,
+    "ttr_alpha": 0.4360135900339751,
+    "word_length_alpha": 4.359003397508494,
+    "conjunction_freq_alpha": 0.02944507361268403
+  },
+  {
+    "prompt_id": 24,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 667,
+    "ttr_alpha": 0.4482758620689655,
+    "word_length_alpha": 4.0299850074962515,
+    "conjunction_freq_alpha": 0.06446776611694154
+  },
+  {
+    "prompt_id": 24,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 820,
+    "ttr_alpha": 0.45121951219512196,
+    "word_length_alpha": 4.154878048780488,
+    "conjunction_freq_alpha": 0.0475609756097561
+  },
+  {
+    "prompt_id": 25,
+    "condition": "human_story",
+    "word_count_alpha": 234,
+    "ttr_alpha": 0.37606837606837606,
+    "word_length_alpha": 3.9188034188034186,
+    "conjunction_freq_alpha": 0.05982905982905983
+  },
+  {
+    "prompt_id": 25,
+    "condition": "gpt35_story",
+    "word_count_alpha": 475,
+    "ttr_alpha": 0.511578947368421,
+    "word_length_alpha": 4.901052631578947,
+    "conjunction_freq_alpha": 0.04421052631578947
+  },
+  {
+    "prompt_id": 25,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 701,
+    "ttr_alpha": 0.5064194008559201,
+    "word_length_alpha": 4.45506419400856,
+    "conjunction_freq_alpha": 0.0442225392296719
+  },
+  {
+    "prompt_id": 25,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 734,
+    "ttr_alpha": 0.40735694822888285,
+    "word_length_alpha": 3.8201634877384194,
+    "conjunction_freq_alpha": 0.0667574931880109
+  },
+  {
+    "prompt_id": 25,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 788,
+    "ttr_alpha": 0.399746192893401,
+    "word_length_alpha": 4.2626903553299496,
+    "conjunction_freq_alpha": 0.07487309644670051
+  },
+  {
+    "prompt_id": 25,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 711,
+    "ttr_alpha": 0.5485232067510548,
+    "word_length_alpha": 4.506329113924051,
+    "conjunction_freq_alpha": 0.05625879043600562
+  },
+  {
+    "prompt_id": 25,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 675,
+    "ttr_alpha": 0.43555555555555553,
+    "word_length_alpha": 4.237037037037037,
+    "conjunction_freq_alpha": 0.0637037037037037
+  },
+  {
+    "prompt_id": 25,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 920,
+    "ttr_alpha": 0.3565217391304348,
+    "word_length_alpha": 4.514130434782609,
+    "conjunction_freq_alpha": 0.07934782608695652
+  },
+  {
+    "prompt_id": 25,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 697,
+    "ttr_alpha": 0.44763271162123386,
+    "word_length_alpha": 4.124820659971306,
+    "conjunction_freq_alpha": 0.07604017216642754
+  },
+  {
+    "prompt_id": 25,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 732,
+    "ttr_alpha": 0.43579234972677594,
+    "word_length_alpha": 3.9931693989071038,
+    "conjunction_freq_alpha": 0.09289617486338798
+  },
+  {
+    "prompt_id": 26,
+    "condition": "human_story",
+    "word_count_alpha": 261,
+    "ttr_alpha": 0.4521072796934866,
+    "word_length_alpha": 4.153256704980843,
+    "conjunction_freq_alpha": 0.022988505747126436
+  },
+  {
+    "prompt_id": 26,
+    "condition": "gpt35_story",
+    "word_count_alpha": 540,
+    "ttr_alpha": 0.4981481481481482,
+    "word_length_alpha": 4.635185185185185,
+    "conjunction_freq_alpha": 0.03888888888888889
+  },
+  {
+    "prompt_id": 26,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 775,
+    "ttr_alpha": 0.512258064516129,
+    "word_length_alpha": 4.501935483870968,
+    "conjunction_freq_alpha": 0.04516129032258064
+  },
+  {
+    "prompt_id": 26,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 742,
+    "ttr_alpha": 0.4528301886792453,
+    "word_length_alpha": 4.0754716981132075,
+    "conjunction_freq_alpha": 0.05660377358490566
+  },
+  {
+    "prompt_id": 26,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 1080,
+    "ttr_alpha": 0.43703703703703706,
+    "word_length_alpha": 4.108333333333333,
+    "conjunction_freq_alpha": 0.058333333333333334
+  },
+  {
+    "prompt_id": 26,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 693,
+    "ttr_alpha": 0.5440115440115441,
+    "word_length_alpha": 4.650793650793651,
+    "conjunction_freq_alpha": 0.02886002886002886
+  },
+  {
+    "prompt_id": 26,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 802,
+    "ttr_alpha": 0.4488778054862843,
+    "word_length_alpha": 4.44139650872818,
+    "conjunction_freq_alpha": 0.05486284289276808
+  },
+  {
+    "prompt_id": 26,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 679,
+    "ttr_alpha": 0.5169366715758469,
+    "word_length_alpha": 4.453608247422681,
+    "conjunction_freq_alpha": 0.050073637702503684
+  },
+  {
+    "prompt_id": 26,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 764,
+    "ttr_alpha": 0.4489528795811518,
+    "word_length_alpha": 4.100785340314136,
+    "conjunction_freq_alpha": 0.04842931937172775
+  },
+  {
+    "prompt_id": 27,
+    "condition": "human_story",
+    "word_count_alpha": 442,
+    "ttr_alpha": 0.4298642533936652,
+    "word_length_alpha": 4.742081447963801,
+    "conjunction_freq_alpha": 0.027149321266968326
+  },
+  {
+    "prompt_id": 27,
+    "condition": "gpt35_story",
+    "word_count_alpha": 550,
+    "ttr_alpha": 0.48727272727272725,
+    "word_length_alpha": 4.787272727272727,
+    "conjunction_freq_alpha": 0.05090909090909091
+  },
+  {
+    "prompt_id": 27,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 908,
+    "ttr_alpha": 0.45594713656387664,
+    "word_length_alpha": 4.3061674008810575,
+    "conjunction_freq_alpha": 0.03634361233480176
+  },
+  {
+    "prompt_id": 27,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 808,
+    "ttr_alpha": 0.4443069306930693,
+    "word_length_alpha": 4.207920792079208,
+    "conjunction_freq_alpha": 0.03712871287128713
+  },
+  {
+    "prompt_id": 27,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 1136,
+    "ttr_alpha": 0.4014084507042254,
+    "word_length_alpha": 4.151408450704225,
+    "conjunction_freq_alpha": 0.04753521126760563
+  },
+  {
+    "prompt_id": 27,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 725,
+    "ttr_alpha": 0.5448275862068965,
+    "word_length_alpha": 4.550344827586207,
+    "conjunction_freq_alpha": 0.030344827586206897
+  },
+  {
+    "prompt_id": 27,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 651,
+    "ttr_alpha": 0.5099846390168971,
+    "word_length_alpha": 4.268817204301075,
+    "conjunction_freq_alpha": 0.04915514592933948
+  },
+  {
+    "prompt_id": 27,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 911,
+    "ttr_alpha": 0.4149286498353458,
+    "word_length_alpha": 4.244785949506038,
+    "conjunction_freq_alpha": 0.031833150384193196
+  },
+  {
+    "prompt_id": 27,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 656,
+    "ttr_alpha": 0.4801829268292683,
+    "word_length_alpha": 4.301829268292683,
+    "conjunction_freq_alpha": 0.04725609756097561
+  },
+  {
+    "prompt_id": 27,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 774,
+    "ttr_alpha": 0.47674418604651164,
+    "word_length_alpha": 4.018087855297158,
+    "conjunction_freq_alpha": 0.029715762273901807
+  },
+  {
+    "prompt_id": 28,
+    "condition": "human_story",
+    "word_count_alpha": 363,
+    "ttr_alpha": 0.5730027548209367,
+    "word_length_alpha": 4.573002754820936,
+    "conjunction_freq_alpha": 0.027548209366391185
+  },
+  {
+    "prompt_id": 28,
+    "condition": "gpt35_story",
+    "word_count_alpha": 560,
+    "ttr_alpha": 0.4928571428571429,
+    "word_length_alpha": 5.130357142857143,
+    "conjunction_freq_alpha": 0.05357142857142857
+  },
+  {
+    "prompt_id": 28,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 721,
+    "ttr_alpha": 0.5312066574202496,
+    "word_length_alpha": 4.8613037447988905,
+    "conjunction_freq_alpha": 0.027739251040221916
+  },
+  {
+    "prompt_id": 28,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 749,
+    "ttr_alpha": 0.4325767690253672,
+    "word_length_alpha": 4.344459279038718,
+    "conjunction_freq_alpha": 0.04806408544726302
+  },
+  {
+    "prompt_id": 28,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 790,
+    "ttr_alpha": 0.5012658227848101,
+    "word_length_alpha": 4.656962025316456,
+    "conjunction_freq_alpha": 0.05569620253164557
+  },
+  {
+    "prompt_id": 28,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 735,
+    "ttr_alpha": 0.5795918367346938,
+    "word_length_alpha": 5.012244897959183,
+    "conjunction_freq_alpha": 0.027210884353741496
+  },
+  {
+    "prompt_id": 28,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 726,
+    "ttr_alpha": 0.5192837465564738,
+    "word_length_alpha": 4.823691460055096,
+    "conjunction_freq_alpha": 0.0371900826446281
+  },
+  {
+    "prompt_id": 28,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 800,
+    "ttr_alpha": 0.51875,
+    "word_length_alpha": 5.28,
+    "conjunction_freq_alpha": 0.0375
+  },
+  {
+    "prompt_id": 28,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 657,
+    "ttr_alpha": 0.5570776255707762,
+    "word_length_alpha": 4.837138508371385,
+    "conjunction_freq_alpha": 0.0410958904109589
+  },
+  {
+    "prompt_id": 28,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 753,
+    "ttr_alpha": 0.5112881806108898,
+    "word_length_alpha": 4.864541832669323,
+    "conjunction_freq_alpha": 0.03851261620185923
+  },
+  {
+    "prompt_id": 29,
+    "condition": "human_story",
+    "word_count_alpha": 355,
+    "ttr_alpha": 0.5633802816901409,
+    "word_length_alpha": 4.67887323943662,
+    "conjunction_freq_alpha": 0.0647887323943662
+  },
+  {
+    "prompt_id": 29,
+    "condition": "gpt35_story",
+    "word_count_alpha": 485,
+    "ttr_alpha": 0.5195876288659794,
+    "word_length_alpha": 5.057731958762886,
+    "conjunction_freq_alpha": 0.05567010309278351
+  },
+  {
+    "prompt_id": 29,
+    "condition": "MiMo-V2.5-Pro_story",
+    "word_count_alpha": 738,
+    "ttr_alpha": 0.491869918699187,
+    "word_length_alpha": 4.451219512195122,
+    "conjunction_freq_alpha": 0.02710027100271003
+  },
+  {
+    "prompt_id": 29,
+    "condition": "DeepSeek-V4-Flash_story",
+    "word_count_alpha": 779,
+    "ttr_alpha": 0.4672657252888318,
+    "word_length_alpha": 4.192554557124518,
+    "conjunction_freq_alpha": 0.04749679075738126
+  },
+  {
+    "prompt_id": 29,
+    "condition": "Muse-Spark-1.2-Contributor_story",
+    "word_count_alpha": 738,
+    "ttr_alpha": 0.481029810298103,
+    "word_length_alpha": 4.247967479674797,
+    "conjunction_freq_alpha": 0.04878048780487805
+  },
+  {
+    "prompt_id": 29,
+    "condition": "Gemini-3.6-Flash_story",
+    "word_count_alpha": 719,
+    "ttr_alpha": 0.5535465924895688,
+    "word_length_alpha": 4.783031988873435,
+    "conjunction_freq_alpha": 0.02920723226703755
+  },
+  {
+    "prompt_id": 29,
+    "condition": "Kimi-K3_story",
+    "word_count_alpha": 746,
+    "ttr_alpha": 0.47587131367292224,
+    "word_length_alpha": 4.3203753351206435,
+    "conjunction_freq_alpha": 0.049597855227882036
+  },
+  {
+    "prompt_id": 29,
+    "condition": "GPT-5.6-Luna_story",
+    "word_count_alpha": 736,
+    "ttr_alpha": 0.45652173913043476,
+    "word_length_alpha": 4.639945652173913,
+    "conjunction_freq_alpha": 0.029891304347826088
+  },
+  {
+    "prompt_id": 29,
+    "condition": "Claude-Sonnet-5-High_story",
+    "word_count_alpha": 635,
+    "ttr_alpha": 0.5133858267716536,
+    "word_length_alpha": 4.348031496062992,
+    "conjunction_freq_alpha": 0.05511811023622047
+  },
+  {
+    "prompt_id": 29,
+    "condition": "MiniMax-M3_story",
+    "word_count_alpha": 706,
+    "ttr_alpha": 0.4688385269121813,
+    "word_length_alpha": 4.232294617563739,
+    "conjunction_freq_alpha": 0.03541076487252125
+  }
+]

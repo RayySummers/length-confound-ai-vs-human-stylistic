@@ -1,0 +1,97 @@
+{
+  "method": "linear regression of TTR on word_count, paired Wilcoxon on residuals",
+  "n_sig_uncorrected": 0,
+  "n_sig_holm": 0,
+  "conditions": [
+    {
+      "condition": "gpt35_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.002824854271803373,
+      "median_delta_ttr_resid": 0.007370956192828487,
+      "wilcoxon_p_two_tailed_resid": 0.13473508320748806,
+      "wilcoxon_p_one_tailed_resid": 0.932632458396256,
+      "rosenthals_r_resid": 0.29854220103006407,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "MiMo-V2.5-Pro_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.026099972626840245,
+      "median_delta_ttr_resid": 0.014623564531490468,
+      "wilcoxon_p_two_tailed_resid": 0.07324407435953617,
+      "wilcoxon_p_one_tailed_resid": 0.9633779628202319,
+      "rosenthals_r_resid": 0.2722554663481716,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "DeepSeek-V4-Flash_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.039549646941618444,
+      "median_delta_ttr_resid": 0.0018030426702723146,
+      "wilcoxon_p_two_tailed_resid": 0.5027610473334789,
+      "wilcoxon_p_one_tailed_resid": 0.7486194763332605,
+      "rosenthals_r_resid": 0.37364715726404246,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "Muse-Spark-1.2-Contributor_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.052125461553698904,
+      "median_delta_ttr_resid": 0.0013130886195173719,
+      "wilcoxon_p_two_tailed_resid": 0.4521643426269293,
+      "wilcoxon_p_one_tailed_resid": 0.7739178286865354,
+      "rosenthals_r_resid": 0.3661366616406446,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "Gemini-3.6-Flash_story",
+      "n": 30,
+      "median_delta_ttr_raw": 0.04839975392013232,
+      "median_delta_ttr_resid": 0.07251382671433437,
+      "wilcoxon_p_two_tailed_resid": 3.904104232788086e-05,
+      "wilcoxon_p_one_tailed_resid": 0.9999804794788361,
+      "rosenthals_r_resid": 0.0882483235749246,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "Kimi-K3_story",
+      "n": 29,
+      "median_delta_ttr_raw": -0.012916924710253963,
+      "median_delta_ttr_resid": 0.03378127259872665,
+      "wilcoxon_p_two_tailed_resid": 0.027409173548221588,
+      "wilcoxon_p_one_tailed_resid": 0.9862954132258892,
+      "rosenthals_r_resid": 0.23288900389583284,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "GPT-5.6-Luna_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.03899102838558688,
+      "median_delta_ttr_resid": 0.010795784129982805,
+      "wilcoxon_p_two_tailed_resid": 0.3492113798856735,
+      "wilcoxon_p_one_tailed_resid": 0.8253943100571632,
+      "rosenthals_r_resid": 0.3492380464879995,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "Claude-Sonnet-5-High_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.004741859701375195,
+      "median_delta_ttr_resid": 0.015431336019357561,
+      "wilcoxon_p_two_tailed_resid": 0.024786051362752914,
+      "wilcoxon_p_one_tailed_resid": 0.9876069743186235,
+      "rosenthals_r_resid": 0.232825364325333,
+      "sig_one_tailed_resid": false
+    },
+    {
+      "condition": "MiniMax-M3_story",
+      "n": 30,
+      "median_delta_ttr_raw": -0.06593222483258979,
+      "median_delta_ttr_resid": -0.0035254624234123955,
+      "wilcoxon_p_two_tailed_resid": 0.7151329666376114,
+      "wilcoxon_p_one_tailed_resid": 0.3575664833188057,
+      "rosenthals_r_resid": 0.4018115158517843,
+      "sig_one_tailed_resid": false
+    }
+  ]
+}
