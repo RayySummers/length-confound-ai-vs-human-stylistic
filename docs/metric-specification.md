@@ -1,6 +1,7 @@
 # Metric Specification: AI vs. Human Text Structural Analysis
 
 > **Status:** Locked by user (2026-08-05). Do not add or remove metrics without discussion.
+> **2026-10-17 note:** five supplementary exploratory indicators were added in the report (proposal_v14 §3.5) and analysed with the same two-dimensional protocol; the locked set below is unchanged.
 
 ## Research Questions (Refined)
 

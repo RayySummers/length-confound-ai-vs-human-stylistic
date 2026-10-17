@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""一键重建 EN/ZH 报告 PDF（pandoc → typst，含三处已知后处理）：
+   1) 删除 pandoc 产出的 #horizontalrule 行（typst 不识别）
+   2) #blockquote[ → #quote(block: true)[
+   3) 行首的 "/ "（被 typst 误判为术语列表）合并回上一行
+   来源 md：proposal_v14.md / proposal_v14_zh.md（后台名，含内部版本号，不对外）
+   产物：length-confound-report.pdf / length-confound-report-zh.pdf（对外名，无版本号）
+"""
+import io, subprocess, re
+
+jobs = [
+    ('proposal_v14.md',    'report_en.typ', 'proposal_v13_combined.typ', 'length-confound-report.pdf'),
+    ('proposal_v14_zh.md', 'report_zh.typ', 'zh_combined.typ',           'length-confound-report-zh.pdf'),
+]
+for src, out_typ, old_typ, out_pdf in jobs:
+    old = io.open(old_typ, encoding='utf-8').read().split('\n')
+    i = next(k for k, l in enumerate(old) if l.startswith('= '))
+    prefix = '\n'.join(old[:i])
+    body = subprocess.run(['pandoc', src, '-t', 'typst'], capture_output=True, text=True).stdout
+    c = prefix + '\n' + body
+    c = '\n'.join(l for l in c.split('\n') if l.strip() != '#horizontalrule')
+    c = c.replace('#blockquote[', '#quote(block: true)[')
+    c = re.sub(r'\n/ ', ' / ', c)          # 行首 "/ " 合并（含多级）
+    while re.search(r'\n/ ', c):           # 防御性：再跑一遍
+        c = re.sub(r'\n/ ', ' / ', c)
+    io.open(out_typ, 'w', encoding='utf-8').write(c)
+    r = subprocess.run(['typst', 'compile', out_typ, out_pdf], capture_output=True, text=True)
+    print(out_typ, '->', out_pdf, '| rc =', r.returncode)
+    if r.stderr:
+        print(r.stderr[:600])

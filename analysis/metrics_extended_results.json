@@ -1,0 +1,4188 @@
+[
+ {
+  "prompt_id": 0,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5057471264367817,
+   "word_length_sd": 2.573623424048093,
+   "long_word_ratio": 0.21839080459770116,
+   "sentence_length_cv": 1.0125313967582323,
+   "sentences_per_paragraph": 20.0
+  },
+  "n_words": 261,
+  "n_sentences": 40,
+  "n_paragraphs": 2
+ },
+ {
+  "prompt_id": 0,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5375626043405676,
+   "word_length_sd": 2.638813411854991,
+   "long_word_ratio": 0.27712854757929883,
+   "sentence_length_cv": 0.509233966528722,
+   "sentences_per_paragraph": 3.75
+  },
+  "n_words": 599,
+  "n_sentences": 45,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 0,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5127551020408163,
+   "word_length_sd": 2.3695560593426244,
+   "long_word_ratio": 0.20153061224489796,
+   "sentence_length_cv": 0.7737249523942715,
+   "sentences_per_paragraph": 3.3333333333333335
+  },
+  "n_words": 784,
+  "n_sentences": 90,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 0,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.49142857142857144,
+   "word_length_sd": 2.228607244319444,
+   "long_word_ratio": 0.1657142857142857,
+   "sentence_length_cv": 0.7580856663669485,
+   "sentences_per_paragraph": 3.75
+  },
+  "n_words": 525,
+  "n_sentences": 75,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 0,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5,
+   "word_length_sd": 2.0213381263480583,
+   "long_word_ratio": 0.14099526066350712,
+   "sentence_length_cv": 0.8466848188659974,
+   "sentences_per_paragraph": 4.32
+  },
+  "n_words": 844,
+  "n_sentences": 108,
+  "n_paragraphs": 25
+ },
+ {
+  "prompt_id": 0,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5550724637681159,
+   "word_length_sd": 2.557263111801045,
+   "long_word_ratio": 0.2318840579710145,
+   "sentence_length_cv": 0.6762232492289301,
+   "sentences_per_paragraph": 2.8260869565217392
+  },
+  "n_words": 690,
+  "n_sentences": 65,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 0,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4983974358974359,
+   "word_length_sd": 2.2546772737600373,
+   "long_word_ratio": 0.16185897435897437,
+   "sentence_length_cv": 0.8029469882113713,
+   "sentences_per_paragraph": 4.666666666666667
+  },
+  "n_words": 624,
+  "n_sentences": 56,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 0,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.4980694980694981,
+   "word_length_sd": 2.393689538389948,
+   "long_word_ratio": 0.22265122265122264,
+   "sentence_length_cv": 0.7316803230931217,
+   "sentences_per_paragraph": 1.0272727272727273
+  },
+  "n_words": 777,
+  "n_sentences": 113,
+  "n_paragraphs": 110
+ },
+ {
+  "prompt_id": 0,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4945054945054945,
+   "word_length_sd": 2.5337432084492764,
+   "long_word_ratio": 0.20251177394034536,
+   "sentence_length_cv": 0.8077514231432642,
+   "sentences_per_paragraph": 2.7
+  },
+  "n_words": 637,
+  "n_sentences": 54,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 0,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.5077720207253886,
+   "word_length_sd": 2.0907714855308437,
+   "long_word_ratio": 0.16709844559585493,
+   "sentence_length_cv": 0.8945517451628047,
+   "sentences_per_paragraph": 3.92
+  },
+  "n_words": 772,
+  "n_sentences": 98,
+  "n_paragraphs": 25
+ },
+ {
+  "prompt_id": 1,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5389696169088507,
+   "word_length_sd": 2.2348060874707993,
+   "long_word_ratio": 0.22324966974900926,
+   "sentence_length_cv": 0.6417088637021374,
+   "sentences_per_paragraph": 2.2058823529411766
+  },
+  "n_words": 757,
+  "n_sentences": 75,
+  "n_paragraphs": 34
+ },
+ {
+  "prompt_id": 1,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5708333333333333,
+   "word_length_sd": 2.12121803976447,
+   "long_word_ratio": 0.22708333333333333,
+   "sentence_length_cv": 0.6030161459050846,
+   "sentences_per_paragraph": 3.5384615384615383
+  },
+  "n_words": 480,
+  "n_sentences": 46,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 1,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.47715736040609136,
+   "word_length_sd": 2.1404785129913835,
+   "long_word_ratio": 0.15736040609137056,
+   "sentence_length_cv": 0.8256965823114848,
+   "sentences_per_paragraph": 2.642857142857143
+  },
+  "n_words": 788,
+  "n_sentences": 74,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 1,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.49566294919454773,
+   "word_length_sd": 1.9952503991036972,
+   "long_word_ratio": 0.13878562577447337,
+   "sentence_length_cv": 0.654333762530418,
+   "sentences_per_paragraph": 3.6666666666666665
+  },
+  "n_words": 807,
+  "n_sentences": 77,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 1,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.46824408468244083,
+   "word_length_sd": 2.119384118418853,
+   "long_word_ratio": 0.1320049813200498,
+   "sentence_length_cv": 0.7273537545063918,
+   "sentences_per_paragraph": 3.8333333333333335
+  },
+  "n_words": 803,
+  "n_sentences": 69,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 1,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5425400739827374,
+   "word_length_sd": 2.180268048300205,
+   "long_word_ratio": 0.17755856966707767,
+   "sentence_length_cv": 0.49794131929657615,
+   "sentences_per_paragraph": 2.3703703703703702
+  },
+  "n_words": 811,
+  "n_sentences": 64,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 1,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.46957878315132606,
+   "word_length_sd": 2.0196765731547868,
+   "long_word_ratio": 0.13260530421216848,
+   "sentence_length_cv": 0.7851718284538897,
+   "sentences_per_paragraph": 2.8461538461538463
+  },
+  "n_words": 641,
+  "n_sentences": 37,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 1,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5151915455746368,
+   "word_length_sd": 2.2174136588949196,
+   "long_word_ratio": 0.1809775429326288,
+   "sentence_length_cv": 0.6084266624234097,
+   "sentences_per_paragraph": 1.2533333333333334
+  },
+  "n_words": 757,
+  "n_sentences": 94,
+  "n_paragraphs": 75
+ },
+ {
+  "prompt_id": 1,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5163398692810458,
+   "word_length_sd": 1.991048439989354,
+   "long_word_ratio": 0.14705882352941177,
+   "sentence_length_cv": 0.4814747039616046,
+   "sentences_per_paragraph": 2.6
+  },
+  "n_words": 612,
+  "n_sentences": 39,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 1,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.44972067039106145,
+   "word_length_sd": 1.8730518733129349,
+   "long_word_ratio": 0.09217877094972067,
+   "sentence_length_cv": 0.5906351759347434,
+   "sentences_per_paragraph": 2.888888888888889
+  },
+  "n_words": 716,
+  "n_sentences": 52,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 2,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.49100968188105115,
+   "word_length_sd": 2.096299617857944,
+   "long_word_ratio": 0.1632088520055325,
+   "sentence_length_cv": 0.7619391701755996,
+   "sentences_per_paragraph": 4.235294117647059
+  },
+  "n_words": 723,
+  "n_sentences": 72,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 2,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5641952983725136,
+   "word_length_sd": 2.8100125418757687,
+   "long_word_ratio": 0.31103074141048825,
+   "sentence_length_cv": 0.4995575347032895,
+   "sentences_per_paragraph": 2.8333333333333335
+  },
+  "n_words": 553,
+  "n_sentences": 34,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 2,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.4686299615877081,
+   "word_length_sd": 2.058926717057415,
+   "long_word_ratio": 0.14852752880921896,
+   "sentence_length_cv": 0.825257596102224,
+   "sentences_per_paragraph": 3.611111111111111
+  },
+  "n_words": 781,
+  "n_sentences": 65,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 2,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4530791788856305,
+   "word_length_sd": 1.8632763933828924,
+   "long_word_ratio": 0.11730205278592376,
+   "sentence_length_cv": 0.6773844426138385,
+   "sentences_per_paragraph": 6.2727272727272725
+  },
+  "n_words": 682,
+  "n_sentences": 69,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 2,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.48641975308641977,
+   "word_length_sd": 1.8351676403674382,
+   "long_word_ratio": 0.11851851851851852,
+   "sentence_length_cv": 0.8234410570988552,
+   "sentences_per_paragraph": 3.8947368421052633
+  },
+  "n_words": 810,
+  "n_sentences": 74,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 2,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5286624203821656,
+   "word_length_sd": 2.3177803967994337,
+   "long_word_ratio": 0.17834394904458598,
+   "sentence_length_cv": 0.5649663576472818,
+   "sentences_per_paragraph": 2.888888888888889
+  },
+  "n_words": 785,
+  "n_sentences": 52,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 2,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4968789013732834,
+   "word_length_sd": 1.8783807724189954,
+   "long_word_ratio": 0.13607990012484394,
+   "sentence_length_cv": 0.8184956035885257,
+   "sentences_per_paragraph": 3.272727272727273
+  },
+  "n_words": 801,
+  "n_sentences": 72,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 2,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.4801641586867305,
+   "word_length_sd": 2.14741255836454,
+   "long_word_ratio": 0.16142270861833105,
+   "sentence_length_cv": 0.6311961394791938,
+   "sentences_per_paragraph": 1.1481481481481481
+  },
+  "n_words": 731,
+  "n_sentences": 93,
+  "n_paragraphs": 81
+ },
+ {
+  "prompt_id": 2,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.45038167938931295,
+   "word_length_sd": 2.1761022523680946,
+   "long_word_ratio": 0.13740458015267176,
+   "sentence_length_cv": 0.609550469093514,
+   "sentences_per_paragraph": 4.222222222222222
+  },
+  "n_words": 655,
+  "n_sentences": 38,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 2,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4092769440654843,
+   "word_length_sd": 2.039641459129046,
+   "long_word_ratio": 0.11596180081855388,
+   "sentence_length_cv": 0.645293315143247,
+   "sentences_per_paragraph": 2.761904761904762
+  },
+  "n_words": 733,
+  "n_sentences": 58,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 3,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5337078651685393,
+   "word_length_sd": 2.0406331897660714,
+   "long_word_ratio": 0.2303370786516854,
+   "sentence_length_cv": 0.6076382263439155,
+   "sentences_per_paragraph": 2.5
+  },
+  "n_words": 356,
+  "n_sentences": 35,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 3,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5478260869565217,
+   "word_length_sd": 2.3811268003446333,
+   "long_word_ratio": 0.2817391304347826,
+   "sentence_length_cv": 0.5113664558552047,
+   "sentences_per_paragraph": 3.5384615384615383
+  },
+  "n_words": 575,
+  "n_sentences": 46,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 3,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5034013605442177,
+   "word_length_sd": 2.0962070380818236,
+   "long_word_ratio": 0.1401360544217687,
+   "sentence_length_cv": 0.9412557200412838,
+   "sentences_per_paragraph": 2.9565217391304346
+  },
+  "n_words": 735,
+  "n_sentences": 68,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 3,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4955223880597015,
+   "word_length_sd": 1.8960300178187033,
+   "long_word_ratio": 0.1328358208955224,
+   "sentence_length_cv": 0.5946745170620972,
+   "sentences_per_paragraph": 4.25
+  },
+  "n_words": 670,
+  "n_sentences": 68,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 3,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5097588978185993,
+   "word_length_sd": 2.005283402503838,
+   "long_word_ratio": 0.1515499425947187,
+   "sentence_length_cv": 0.6365632272279439,
+   "sentences_per_paragraph": 2.923076923076923
+  },
+  "n_words": 871,
+  "n_sentences": 76,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 3,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5831062670299727,
+   "word_length_sd": 2.177454420514269,
+   "long_word_ratio": 0.21934604904632152,
+   "sentence_length_cv": 0.6820213019401,
+   "sentences_per_paragraph": 2.75
+  },
+  "n_words": 734,
+  "n_sentences": 66,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 3,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5291338582677165,
+   "word_length_sd": 1.8243263568597896,
+   "long_word_ratio": 0.12440944881889764,
+   "sentence_length_cv": 0.6816405865760772,
+   "sentences_per_paragraph": 3.25
+  },
+  "n_words": 635,
+  "n_sentences": 39,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 3,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5243445692883895,
+   "word_length_sd": 2.060547706006065,
+   "long_word_ratio": 0.17852684144818975,
+   "sentence_length_cv": 0.5676570577123236,
+   "sentences_per_paragraph": 1.211111111111111
+  },
+  "n_words": 801,
+  "n_sentences": 109,
+  "n_paragraphs": 90
+ },
+ {
+  "prompt_id": 3,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4780058651026393,
+   "word_length_sd": 1.9301897068691838,
+   "long_word_ratio": 0.1158357771260997,
+   "sentence_length_cv": 0.9346193341030483,
+   "sentences_per_paragraph": 2.4375
+  },
+  "n_words": 682,
+  "n_sentences": 39,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 3,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4494238156209987,
+   "word_length_sd": 1.7688154875189115,
+   "long_word_ratio": 0.09475032010243278,
+   "sentence_length_cv": 0.7032364142233395,
+   "sentences_per_paragraph": 2.888888888888889
+  },
+  "n_words": 781,
+  "n_sentences": 52,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 4,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.445993031358885,
+   "word_length_sd": 2.0810408986123945,
+   "long_word_ratio": 0.13937282229965156,
+   "sentence_length_cv": 0.5756093342668305,
+   "sentences_per_paragraph": 20.0
+  },
+  "n_words": 287,
+  "n_sentences": 20,
+  "n_paragraphs": 1
+ },
+ {
+  "prompt_id": 4,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5459363957597173,
+   "word_length_sd": 2.2032822212648955,
+   "long_word_ratio": 0.24028268551236748,
+   "sentence_length_cv": 0.45431445958569283,
+   "sentences_per_paragraph": 3.642857142857143
+  },
+  "n_words": 566,
+  "n_sentences": 51,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 4,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5115740740740741,
+   "word_length_sd": 2.352047782739715,
+   "long_word_ratio": 0.1886574074074074,
+   "sentence_length_cv": 0.5509599662686274,
+   "sentences_per_paragraph": 6.166666666666667
+  },
+  "n_words": 864,
+  "n_sentences": 74,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 4,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4789473684210526,
+   "word_length_sd": 1.9732964531379362,
+   "long_word_ratio": 0.1394736842105263,
+   "sentence_length_cv": 0.6245635595271282,
+   "sentences_per_paragraph": 7.083333333333333
+  },
+  "n_words": 760,
+  "n_sentences": 85,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 4,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.49435382685069007,
+   "word_length_sd": 1.8506590389331337,
+   "long_word_ratio": 0.12170639899623588,
+   "sentence_length_cv": 0.6168238194979451,
+   "sentences_per_paragraph": 3.272727272727273
+  },
+  "n_words": 797,
+  "n_sentences": 72,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 4,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5338753387533876,
+   "word_length_sd": 2.1864309869353673,
+   "long_word_ratio": 0.19241192411924118,
+   "sentence_length_cv": 0.5897532059616956,
+   "sentences_per_paragraph": 3.6
+  },
+  "n_words": 738,
+  "n_sentences": 54,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 4,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5323645970937912,
+   "word_length_sd": 1.9761362734776875,
+   "long_word_ratio": 0.16116248348745046,
+   "sentence_length_cv": 0.6539596730133095,
+   "sentences_per_paragraph": 4.384615384615385
+  },
+  "n_words": 757,
+  "n_sentences": 57,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 4,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5091743119266054,
+   "word_length_sd": 2.1616582774846416,
+   "long_word_ratio": 0.17737003058103976,
+   "sentence_length_cv": 0.6143745347752879,
+   "sentences_per_paragraph": 1.134020618556701
+  },
+  "n_words": 654,
+  "n_sentences": 110,
+  "n_paragraphs": 97
+ },
+ {
+  "prompt_id": 4,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4803767660910518,
+   "word_length_sd": 2.1460824141544457,
+   "long_word_ratio": 0.16326530612244897,
+   "sentence_length_cv": 0.7995822271715219,
+   "sentences_per_paragraph": 3.1666666666666665
+  },
+  "n_words": 637,
+  "n_sentences": 38,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 4,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4342105263157895,
+   "word_length_sd": 1.7788962737913043,
+   "long_word_ratio": 0.10789473684210527,
+   "sentence_length_cv": 0.821908292327818,
+   "sentences_per_paragraph": 4.142857142857143
+  },
+  "n_words": 760,
+  "n_sentences": 58,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 5,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5465465465465466,
+   "word_length_sd": 2.2112952683214058,
+   "long_word_ratio": 0.2012012012012012,
+   "sentence_length_cv": 0.6273330055504861,
+   "sentences_per_paragraph": 3.727272727272727
+  },
+  "n_words": 333,
+  "n_sentences": 41,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 5,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5473098330241187,
+   "word_length_sd": 2.6819155649994633,
+   "long_word_ratio": 0.30241187384044527,
+   "sentence_length_cv": 0.39896879685893105,
+   "sentences_per_paragraph": 3.3
+  },
+  "n_words": 539,
+  "n_sentences": 33,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 5,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.528178243774574,
+   "word_length_sd": 2.4310813792875687,
+   "long_word_ratio": 0.21494102228047182,
+   "sentence_length_cv": 0.6214116788611764,
+   "sentences_per_paragraph": 5.0
+  },
+  "n_words": 763,
+  "n_sentences": 65,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 5,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5532544378698225,
+   "word_length_sd": 2.3120445228638293,
+   "long_word_ratio": 0.19674556213017752,
+   "sentence_length_cv": 0.6400523638464198,
+   "sentences_per_paragraph": 5.75
+  },
+  "n_words": 676,
+  "n_sentences": 69,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 5,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5195586760280843,
+   "word_length_sd": 2.326688236008891,
+   "long_word_ratio": 0.19859578736208625,
+   "sentence_length_cv": 0.8159378257083756,
+   "sentences_per_paragraph": 3.5357142857142856
+  },
+  "n_words": 997,
+  "n_sentences": 99,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 5,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5937031484257871,
+   "word_length_sd": 2.678367050374342,
+   "long_word_ratio": 0.2848575712143928,
+   "sentence_length_cv": 0.5443311304218773,
+   "sentences_per_paragraph": 2.588235294117647
+  },
+  "n_words": 667,
+  "n_sentences": 44,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 5,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.57,
+   "word_length_sd": 2.424768030142265,
+   "long_word_ratio": 0.24,
+   "sentence_length_cv": 0.6057458212815008,
+   "sentences_per_paragraph": 4.625
+  },
+  "n_words": 500,
+  "n_sentences": 37,
+  "n_paragraphs": 8
+ },
+ {
+  "prompt_id": 5,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5576923076923077,
+   "word_length_sd": 2.660474504498423,
+   "long_word_ratio": 0.2743589743589744,
+   "sentence_length_cv": 0.7980622488610767,
+   "sentences_per_paragraph": 1.0571428571428572
+  },
+  "n_words": 780,
+  "n_sentences": 111,
+  "n_paragraphs": 105
+ },
+ {
+  "prompt_id": 5,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5236593059936908,
+   "word_length_sd": 2.361080201597806,
+   "long_word_ratio": 0.1971608832807571,
+   "sentence_length_cv": 0.7647419044473482,
+   "sentences_per_paragraph": 3.3846153846153846
+  },
+  "n_words": 634,
+  "n_sentences": 44,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 5,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4670255720053836,
+   "word_length_sd": 2.3175194549451605,
+   "long_word_ratio": 0.17227456258411844,
+   "sentence_length_cv": 0.922032394897661,
+   "sentences_per_paragraph": 3.5
+  },
+  "n_words": 743,
+  "n_sentences": 70,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 6,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5476190476190477,
+   "word_length_sd": 2.4534008961887994,
+   "long_word_ratio": 0.23809523809523808,
+   "sentence_length_cv": 0.6737973712142831,
+   "sentences_per_paragraph": 4.916666666666667
+  },
+  "n_words": 504,
+  "n_sentences": 59,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 6,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5390334572490706,
+   "word_length_sd": 2.3562821009089427,
+   "long_word_ratio": 0.2379182156133829,
+   "sentence_length_cv": 0.42506168580664355,
+   "sentences_per_paragraph": 3.888888888888889
+  },
+  "n_words": 538,
+  "n_sentences": 35,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 6,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5133928571428571,
+   "word_length_sd": 2.0311268059624177,
+   "long_word_ratio": 0.14136904761904762,
+   "sentence_length_cv": 0.8338088566734706,
+   "sentences_per_paragraph": 3.0454545454545454
+  },
+  "n_words": 672,
+  "n_sentences": 67,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 6,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.46492659053833607,
+   "word_length_sd": 2.1937105797942893,
+   "long_word_ratio": 0.1370309951060359,
+   "sentence_length_cv": 0.7667748410545974,
+   "sentences_per_paragraph": 4.533333333333333
+  },
+  "n_words": 613,
+  "n_sentences": 68,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 6,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4794520547945205,
+   "word_length_sd": 1.9325266908302332,
+   "long_word_ratio": 0.1232876712328767,
+   "sentence_length_cv": 0.7218683005182664,
+   "sentences_per_paragraph": 5.0
+  },
+  "n_words": 803,
+  "n_sentences": 85,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 6,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5475543478260869,
+   "word_length_sd": 2.453030837686865,
+   "long_word_ratio": 0.21875,
+   "sentence_length_cv": 0.7490542240878284,
+   "sentences_per_paragraph": 2.5172413793103448
+  },
+  "n_words": 736,
+  "n_sentences": 73,
+  "n_paragraphs": 29
+ },
+ {
+  "prompt_id": 6,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5305263157894737,
+   "word_length_sd": 2.136830697402787,
+   "long_word_ratio": 0.16842105263157894,
+   "sentence_length_cv": 0.8250483071561775,
+   "sentences_per_paragraph": 1.7083333333333333
+  },
+  "n_words": 475,
+  "n_sentences": 41,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 6,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5513100436681223,
+   "word_length_sd": 2.095122090579934,
+   "long_word_ratio": 0.1812227074235808,
+   "sentence_length_cv": 0.7747892814289994,
+   "sentences_per_paragraph": 1.00625
+  },
+  "n_words": 916,
+  "n_sentences": 161,
+  "n_paragraphs": 160
+ },
+ {
+  "prompt_id": 6,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5227629513343799,
+   "word_length_sd": 2.4861665629602383,
+   "long_word_ratio": 0.22448979591836735,
+   "sentence_length_cv": 0.7238546857255193,
+   "sentences_per_paragraph": 2.1904761904761907
+  },
+  "n_words": 637,
+  "n_sentences": 46,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 6,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4539969834087481,
+   "word_length_sd": 1.9336714641616792,
+   "long_word_ratio": 0.11010558069381599,
+   "sentence_length_cv": 0.7971381624382037,
+   "sentences_per_paragraph": 2.1714285714285713
+  },
+  "n_words": 663,
+  "n_sentences": 76,
+  "n_paragraphs": 35
+ },
+ {
+  "prompt_id": 7,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5302013422818792,
+   "word_length_sd": 2.0829629717492106,
+   "long_word_ratio": 0.17114093959731544,
+   "sentence_length_cv": 0.8600298640486491,
+   "sentences_per_paragraph": 5.857142857142857
+  },
+  "n_words": 298,
+  "n_sentences": 41,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 7,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5684007707129094,
+   "word_length_sd": 2.784309056422724,
+   "long_word_ratio": 0.32755298651252407,
+   "sentence_length_cv": 0.5941304297138807,
+   "sentences_per_paragraph": 2.9
+  },
+  "n_words": 519,
+  "n_sentences": 29,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 7,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.49855907780979825,
+   "word_length_sd": 2.378471559415469,
+   "long_word_ratio": 0.2276657060518732,
+   "sentence_length_cv": 0.8765971858360305,
+   "sentences_per_paragraph": 2.4642857142857144
+  },
+  "n_words": 694,
+  "n_sentences": 69,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 7,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5287539936102237,
+   "word_length_sd": 2.064772957594085,
+   "long_word_ratio": 0.1597444089456869,
+   "sentence_length_cv": 0.8111870789962824,
+   "sentences_per_paragraph": 4.117647058823529
+  },
+  "n_words": 626,
+  "n_sentences": 70,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 7,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5700680272108843,
+   "word_length_sd": 2.4711453425473997,
+   "long_word_ratio": 0.24081632653061225,
+   "sentence_length_cv": 0.6731601021416589,
+   "sentences_per_paragraph": 3.125
+  },
+  "n_words": 735,
+  "n_sentences": 75,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 7,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5534290271132376,
+   "word_length_sd": 2.542773988008055,
+   "long_word_ratio": 0.22647527910685805,
+   "sentence_length_cv": 0.5003095989306221,
+   "sentences_per_paragraph": 2.388888888888889
+  },
+  "n_words": 627,
+  "n_sentences": 43,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 7,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5076219512195121,
+   "word_length_sd": 2.3797601721805846,
+   "long_word_ratio": 0.18597560975609756,
+   "sentence_length_cv": 0.7632066458666764,
+   "sentences_per_paragraph": 3.3333333333333335
+  },
+  "n_words": 656,
+  "n_sentences": 50,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 7,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5390625,
+   "word_length_sd": 2.5775672797421256,
+   "long_word_ratio": 0.2799479166666667,
+   "sentence_length_cv": 0.6236965574967793,
+   "sentences_per_paragraph": 1.263157894736842
+  },
+  "n_words": 768,
+  "n_sentences": 96,
+  "n_paragraphs": 76
+ },
+ {
+  "prompt_id": 7,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5155096011816839,
+   "word_length_sd": 2.4274509792241417,
+   "long_word_ratio": 0.22304283604135894,
+   "sentence_length_cv": 0.7667255724705229,
+   "sentences_per_paragraph": 2.3
+  },
+  "n_words": 677,
+  "n_sentences": 46,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 7,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.5178571428571429,
+   "word_length_sd": 2.2608922041417507,
+   "long_word_ratio": 0.21153846153846154,
+   "sentence_length_cv": 0.775380149528641,
+   "sentences_per_paragraph": 2.323529411764706
+  },
+  "n_words": 728,
+  "n_sentences": 79,
+  "n_paragraphs": 34
+ },
+ {
+  "prompt_id": 8,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.47882136279926335,
+   "word_length_sd": 2.115004876453681,
+   "long_word_ratio": 0.19152854511970535,
+   "sentence_length_cv": 0.545539507856554,
+   "sentences_per_paragraph": 3.6363636363636362
+  },
+  "n_words": 543,
+  "n_sentences": 40,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 8,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5814332247557004,
+   "word_length_sd": 2.6238351150537214,
+   "long_word_ratio": 0.28827361563517917,
+   "sentence_length_cv": 0.604403516409682,
+   "sentences_per_paragraph": 3.1538461538461537
+  },
+  "n_words": 614,
+  "n_sentences": 41,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 8,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5659574468085107,
+   "word_length_sd": 2.640644118028891,
+   "long_word_ratio": 0.2695035460992908,
+   "sentence_length_cv": 0.8018840046061632,
+   "sentences_per_paragraph": 2.1666666666666665
+  },
+  "n_words": 705,
+  "n_sentences": 39,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 8,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5934065934065934,
+   "word_length_sd": 2.561057323013654,
+   "long_word_ratio": 0.25054945054945055,
+   "sentence_length_cv": 0.643577130391495,
+   "sentences_per_paragraph": 5.571428571428571
+  },
+  "n_words": 455,
+  "n_sentences": 39,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 8,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5366705471478463,
+   "word_length_sd": 2.548228228352827,
+   "long_word_ratio": 0.26426076833527357,
+   "sentence_length_cv": 0.6594762171385121,
+   "sentences_per_paragraph": 3.2941176470588234
+  },
+  "n_words": 859,
+  "n_sentences": 56,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 8,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5721153846153846,
+   "word_length_sd": 2.614251184140577,
+   "long_word_ratio": 0.2980769230769231,
+   "sentence_length_cv": 0.5081770946885298,
+   "sentences_per_paragraph": 3.5
+  },
+  "n_words": 624,
+  "n_sentences": 35,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 8,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5275459098497496,
+   "word_length_sd": 2.6892467064682153,
+   "long_word_ratio": 0.24874791318864775,
+   "sentence_length_cv": 0.555246818331199,
+   "sentences_per_paragraph": 2.8461538461538463
+  },
+  "n_words": 599,
+  "n_sentences": 37,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 8,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5380894800483675,
+   "word_length_sd": 2.657147288254609,
+   "long_word_ratio": 0.2926239419588875,
+   "sentence_length_cv": 0.7502835406553611,
+   "sentences_per_paragraph": 1.1111111111111112
+  },
+  "n_words": 827,
+  "n_sentences": 90,
+  "n_paragraphs": 81
+ },
+ {
+  "prompt_id": 8,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.6297376093294461,
+   "word_length_sd": 2.858958859418051,
+   "long_word_ratio": 0.3629737609329446,
+   "sentence_length_cv": 0.5643564873189296,
+   "sentences_per_paragraph": 2.4347826086956523
+  },
+  "n_words": 686,
+  "n_sentences": 56,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 8,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4980793854033291,
+   "word_length_sd": 2.729659376628047,
+   "long_word_ratio": 0.25224071702944945,
+   "sentence_length_cv": 0.7391336382004667,
+   "sentences_per_paragraph": 2.3333333333333335
+  },
+  "n_words": 781,
+  "n_sentences": 42,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 9,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.4883720930232558,
+   "word_length_sd": 2.317369221372929,
+   "long_word_ratio": 0.20930232558139536,
+   "sentence_length_cv": 0.7143832506998439,
+   "sentences_per_paragraph": 3.3
+  },
+  "n_words": 172,
+  "n_sentences": 33,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 9,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5260223048327137,
+   "word_length_sd": 2.5508821272004765,
+   "long_word_ratio": 0.24721189591078066,
+   "sentence_length_cv": 0.5727682424841678,
+   "sentences_per_paragraph": 4.0
+  },
+  "n_words": 538,
+  "n_sentences": 40,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 9,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.4961439588688946,
+   "word_length_sd": 2.337627560936329,
+   "long_word_ratio": 0.19408740359897173,
+   "sentence_length_cv": 0.7253959413636228,
+   "sentences_per_paragraph": 3.210526315789474
+  },
+  "n_words": 778,
+  "n_sentences": 61,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 9,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.498546511627907,
+   "word_length_sd": 2.0666861822637657,
+   "long_word_ratio": 0.1613372093023256,
+   "sentence_length_cv": 0.68936426768733,
+   "sentences_per_paragraph": 4.0
+  },
+  "n_words": 688,
+  "n_sentences": 76,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 9,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5058823529411764,
+   "word_length_sd": 1.9285955949493745,
+   "long_word_ratio": 0.1423529411764706,
+   "sentence_length_cv": 0.6658865100680877,
+   "sentences_per_paragraph": 3.6842105263157894
+  },
+  "n_words": 850,
+  "n_sentences": 70,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 9,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5672082717872969,
+   "word_length_sd": 2.4044971745591615,
+   "long_word_ratio": 0.24519940915805022,
+   "sentence_length_cv": 0.47731518977583937,
+   "sentences_per_paragraph": 2.272727272727273
+  },
+  "n_words": 677,
+  "n_sentences": 50,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 9,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5191176470588236,
+   "word_length_sd": 2.1286052258726738,
+   "long_word_ratio": 0.16911764705882354,
+   "sentence_length_cv": 0.6235155381364428,
+   "sentences_per_paragraph": 3.176470588235294
+  },
+  "n_words": 680,
+  "n_sentences": 54,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 9,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.49693251533742333,
+   "word_length_sd": 2.3162491986848845,
+   "long_word_ratio": 0.17300613496932515,
+   "sentence_length_cv": 0.7197916652765809,
+   "sentences_per_paragraph": 1.1009174311926606
+  },
+  "n_words": 815,
+  "n_sentences": 120,
+  "n_paragraphs": 109
+ },
+ {
+  "prompt_id": 9,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5252976190476191,
+   "word_length_sd": 2.4928464653600866,
+   "long_word_ratio": 0.20684523809523808,
+   "sentence_length_cv": 0.7266873544065713,
+   "sentences_per_paragraph": 2.35
+  },
+  "n_words": 672,
+  "n_sentences": 47,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 9,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.469119579500657,
+   "word_length_sd": 1.8882403924043196,
+   "long_word_ratio": 0.11432325886990802,
+   "sentence_length_cv": 0.9306619165382947,
+   "sentences_per_paragraph": 5.777777777777778
+  },
+  "n_words": 761,
+  "n_sentences": 52,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 10,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.45510204081632655,
+   "word_length_sd": 2.015889608118448,
+   "long_word_ratio": 0.1346938775510204,
+   "sentence_length_cv": 0.8202710820596486,
+   "sentences_per_paragraph": 3.625
+  },
+  "n_words": 490,
+  "n_sentences": 29,
+  "n_paragraphs": 8
+ },
+ {
+  "prompt_id": 10,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5044091710758377,
+   "word_length_sd": 2.466858360115245,
+   "long_word_ratio": 0.24691358024691357,
+   "sentence_length_cv": 0.6095917804546793,
+   "sentences_per_paragraph": 3.4166666666666665
+  },
+  "n_words": 567,
+  "n_sentences": 41,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 10,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.4482758620689655,
+   "word_length_sd": 1.9352927660138857,
+   "long_word_ratio": 0.10875331564986737,
+   "sentence_length_cv": 0.8493905483081508,
+   "sentences_per_paragraph": 2.6875
+  },
+  "n_words": 754,
+  "n_sentences": 86,
+  "n_paragraphs": 32
+ },
+ {
+  "prompt_id": 10,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4252199413489736,
+   "word_length_sd": 1.838286349749331,
+   "long_word_ratio": 0.10117302052785923,
+   "sentence_length_cv": 0.6545504472213123,
+   "sentences_per_paragraph": 3.8260869565217392
+  },
+  "n_words": 682,
+  "n_sentences": 88,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 10,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.44794520547945205,
+   "word_length_sd": 1.8629678680905906,
+   "long_word_ratio": 0.1273972602739726,
+   "sentence_length_cv": 0.7017122451981204,
+   "sentences_per_paragraph": 6.0
+  },
+  "n_words": 730,
+  "n_sentences": 66,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 10,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5148148148148148,
+   "word_length_sd": 2.2330616982267153,
+   "long_word_ratio": 0.1617283950617284,
+   "sentence_length_cv": 0.5679334397738987,
+   "sentences_per_paragraph": 3.5238095238095237
+  },
+  "n_words": 810,
+  "n_sentences": 74,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 10,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4719424460431655,
+   "word_length_sd": 2.1792629247266713,
+   "long_word_ratio": 0.1669064748201439,
+   "sentence_length_cv": 0.8971554746856873,
+   "sentences_per_paragraph": 3.12
+  },
+  "n_words": 695,
+  "n_sentences": 78,
+  "n_paragraphs": 25
+ },
+ {
+  "prompt_id": 10,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.47368421052631576,
+   "word_length_sd": 2.1067719679400376,
+   "long_word_ratio": 0.14075887392900857,
+   "sentence_length_cv": 0.6810941877285625,
+   "sentences_per_paragraph": 1.05
+  },
+  "n_words": 817,
+  "n_sentences": 126,
+  "n_paragraphs": 120
+ },
+ {
+  "prompt_id": 10,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.44755244755244755,
+   "word_length_sd": 2.073862263921083,
+   "long_word_ratio": 0.15104895104895105,
+   "sentence_length_cv": 0.7047147066307748,
+   "sentences_per_paragraph": 2.85
+  },
+  "n_words": 715,
+  "n_sentences": 57,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 10,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.44611528822055135,
+   "word_length_sd": 1.84417901107731,
+   "long_word_ratio": 0.10150375939849623,
+   "sentence_length_cv": 0.8331495830731426,
+   "sentences_per_paragraph": 3.03125
+  },
+  "n_words": 798,
+  "n_sentences": 97,
+  "n_paragraphs": 32
+ },
+ {
+  "prompt_id": 11,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5240174672489083,
+   "word_length_sd": 2.1154039177080657,
+   "long_word_ratio": 0.20087336244541484,
+   "sentence_length_cv": 0.6683220296745397,
+   "sentences_per_paragraph": 2.0
+  },
+  "n_words": 229,
+  "n_sentences": 24,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 11,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5817555938037866,
+   "word_length_sd": 2.431048236200678,
+   "long_word_ratio": 0.27882960413080893,
+   "sentence_length_cv": 0.5714544920815778,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 581,
+  "n_sentences": 45,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 11,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5279329608938548,
+   "word_length_sd": 2.3641122138596464,
+   "long_word_ratio": 0.22346368715083798,
+   "sentence_length_cv": 0.8337041298172899,
+   "sentences_per_paragraph": 2.7142857142857144
+  },
+  "n_words": 716,
+  "n_sentences": 76,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 11,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4697406340057637,
+   "word_length_sd": 1.924849855164779,
+   "long_word_ratio": 0.11095100864553314,
+   "sentence_length_cv": 0.5988483717152921,
+   "sentences_per_paragraph": 4.0
+  },
+  "n_words": 694,
+  "n_sentences": 84,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 11,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5158415841584159,
+   "word_length_sd": 1.9269829800879081,
+   "long_word_ratio": 0.12475247524752475,
+   "sentence_length_cv": 0.7710449676402287,
+   "sentences_per_paragraph": 4.423076923076923
+  },
+  "n_words": 1010,
+  "n_sentences": 115,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 11,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5729032258064516,
+   "word_length_sd": 2.3110696830958752,
+   "long_word_ratio": 0.21419354838709678,
+   "sentence_length_cv": 0.67886175163695,
+   "sentences_per_paragraph": 3.75
+  },
+  "n_words": 775,
+  "n_sentences": 75,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 11,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5088383838383839,
+   "word_length_sd": 1.951356924697933,
+   "long_word_ratio": 0.125,
+   "sentence_length_cv": 0.7628519968279439,
+   "sentences_per_paragraph": 3.0869565217391304
+  },
+  "n_words": 792,
+  "n_sentences": 71,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 11,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5301369863013699,
+   "word_length_sd": 2.353432631112204,
+   "long_word_ratio": 0.16986301369863013,
+   "sentence_length_cv": 0.783753209651215,
+   "sentences_per_paragraph": 1.027027027027027
+  },
+  "n_words": 730,
+  "n_sentences": 114,
+  "n_paragraphs": 111
+ },
+ {
+  "prompt_id": 11,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5386949924127465,
+   "word_length_sd": 2.217877595453022,
+   "long_word_ratio": 0.18361153262518967,
+   "sentence_length_cv": 0.7750103609568388,
+   "sentences_per_paragraph": 2.4347826086956523
+  },
+  "n_words": 659,
+  "n_sentences": 56,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 11,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4897025171624714,
+   "word_length_sd": 2.1670459405700604,
+   "long_word_ratio": 0.15560640732265446,
+   "sentence_length_cv": 0.8388140215275525,
+   "sentences_per_paragraph": 3.3461538461538463
+  },
+  "n_words": 874,
+  "n_sentences": 87,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 12,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.606280193236715,
+   "word_length_sd": 2.352658244799245,
+   "long_word_ratio": 0.2995169082125604,
+   "sentence_length_cv": 0.7739576723940474,
+   "sentences_per_paragraph": 2.9473684210526314
+  },
+  "n_words": 414,
+  "n_sentences": 56,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 12,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5791583166332666,
+   "word_length_sd": 2.8772209662018406,
+   "long_word_ratio": 0.3807615230460922,
+   "sentence_length_cv": 0.5216852820541458,
+   "sentences_per_paragraph": 3.5555555555555554
+  },
+  "n_words": 499,
+  "n_sentences": 32,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 12,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5127860026917901,
+   "word_length_sd": 2.494708546856191,
+   "long_word_ratio": 0.24360699865410498,
+   "sentence_length_cv": 0.6642806638872277,
+   "sentences_per_paragraph": 2.4285714285714284
+  },
+  "n_words": 743,
+  "n_sentences": 51,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 12,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5537974683544303,
+   "word_length_sd": 2.360292823865022,
+   "long_word_ratio": 0.21518987341772153,
+   "sentence_length_cv": 0.5083228153465341,
+   "sentences_per_paragraph": 4.5
+  },
+  "n_words": 316,
+  "n_sentences": 27,
+  "n_paragraphs": 6
+ },
+ {
+  "prompt_id": 12,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5083135391923991,
+   "word_length_sd": 2.290165647987693,
+   "long_word_ratio": 0.21140142517814728,
+   "sentence_length_cv": 0.6810788538530965,
+   "sentences_per_paragraph": 3.9411764705882355
+  },
+  "n_words": 842,
+  "n_sentences": 67,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 12,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.6059190031152648,
+   "word_length_sd": 2.534631685257811,
+   "long_word_ratio": 0.2585669781931464,
+   "sentence_length_cv": 0.46103287792226494,
+   "sentences_per_paragraph": 3.75
+  },
+  "n_words": 642,
+  "n_sentences": 45,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 12,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.47434292866082606,
+   "word_length_sd": 2.4849761049155985,
+   "long_word_ratio": 0.2065081351689612,
+   "sentence_length_cv": 0.6245055813734842,
+   "sentences_per_paragraph": 4.909090909090909
+  },
+  "n_words": 799,
+  "n_sentences": 54,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 12,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5566625155666252,
+   "word_length_sd": 2.3734807401747404,
+   "long_word_ratio": 0.23536737235367372,
+   "sentence_length_cv": 0.5785063926702929,
+   "sentences_per_paragraph": 1.2222222222222223
+  },
+  "n_words": 803,
+  "n_sentences": 99,
+  "n_paragraphs": 81
+ },
+ {
+  "prompt_id": 12,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.536036036036036,
+   "word_length_sd": 2.347763131461771,
+   "long_word_ratio": 0.2087087087087087,
+   "sentence_length_cv": 0.8246346856075418,
+   "sentences_per_paragraph": 2.588235294117647
+  },
+  "n_words": 666,
+  "n_sentences": 44,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 12,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.5110876451953538,
+   "word_length_sd": 2.305361185588326,
+   "long_word_ratio": 0.19535374868004224,
+   "sentence_length_cv": 0.7074248571969394,
+   "sentences_per_paragraph": 2.676470588235294
+  },
+  "n_words": 947,
+  "n_sentences": 91,
+  "n_paragraphs": 34
+ },
+ {
+  "prompt_id": 13,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.4583333333333333,
+   "word_length_sd": 2.0671127804049734,
+   "long_word_ratio": 0.09027777777777778,
+   "sentence_length_cv": 0.5184668459702804,
+   "sentences_per_paragraph": 7.5
+  },
+  "n_words": 144,
+  "n_sentences": 15,
+  "n_paragraphs": 2
+ },
+ {
+  "prompt_id": 13,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5533333333333333,
+   "word_length_sd": 2.570238976255268,
+   "long_word_ratio": 0.29333333333333333,
+   "sentence_length_cv": 0.5731351940138417,
+   "sentences_per_paragraph": 3.4444444444444446
+  },
+  "n_words": 450,
+  "n_sentences": 31,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 13,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.456198347107438,
+   "word_length_sd": 2.164843812613289,
+   "long_word_ratio": 0.1652892561983471,
+   "sentence_length_cv": 0.7736490723175953,
+   "sentences_per_paragraph": 2.5652173913043477
+  },
+  "n_words": 605,
+  "n_sentences": 59,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 13,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.44415584415584414,
+   "word_length_sd": 1.9385291052550813,
+   "long_word_ratio": 0.11948051948051948,
+   "sentence_length_cv": 0.6990391690202995,
+   "sentences_per_paragraph": 4.571428571428571
+  },
+  "n_words": 770,
+  "n_sentences": 96,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 13,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4581231079717457,
+   "word_length_sd": 2.0116468958600304,
+   "long_word_ratio": 0.14631685166498487,
+   "sentence_length_cv": 0.7788215472370648,
+   "sentences_per_paragraph": 3.1142857142857143
+  },
+  "n_words": 991,
+  "n_sentences": 109,
+  "n_paragraphs": 35
+ },
+ {
+  "prompt_id": 13,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.4988986784140969,
+   "word_length_sd": 2.2236029195688416,
+   "long_word_ratio": 0.1828193832599119,
+   "sentence_length_cv": 0.6692701465486903,
+   "sentences_per_paragraph": 2.6470588235294117
+  },
+  "n_words": 908,
+  "n_sentences": 90,
+  "n_paragraphs": 34
+ },
+ {
+  "prompt_id": 13,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4648876404494382,
+   "word_length_sd": 1.9989458582586632,
+   "long_word_ratio": 0.15730337078651685,
+   "sentence_length_cv": 0.7313789025557468,
+   "sentences_per_paragraph": 2.652173913043478
+  },
+  "n_words": 712,
+  "n_sentences": 61,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 13,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.47741147741147744,
+   "word_length_sd": 2.280747266923933,
+   "long_word_ratio": 0.17704517704517705,
+   "sentence_length_cv": 0.65213354017094,
+   "sentences_per_paragraph": 1.0254237288135593
+  },
+  "n_words": 819,
+  "n_sentences": 121,
+  "n_paragraphs": 118
+ },
+ {
+  "prompt_id": 13,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.48914616497829233,
+   "word_length_sd": 2.040909940246626,
+   "long_word_ratio": 0.15629522431259044,
+   "sentence_length_cv": 0.7511272082914883,
+   "sentences_per_paragraph": 2.9473684210526314
+  },
+  "n_words": 691,
+  "n_sentences": 56,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 13,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.44993498049414826,
+   "word_length_sd": 1.977383320191852,
+   "long_word_ratio": 0.13133940182054615,
+   "sentence_length_cv": 0.615458308308984,
+   "sentences_per_paragraph": 3.263157894736842
+  },
+  "n_words": 769,
+  "n_sentences": 62,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 14,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.444141689373297,
+   "word_length_sd": 1.7319329236086238,
+   "long_word_ratio": 0.10626702997275204,
+   "sentence_length_cv": 0.6316356055710415,
+   "sentences_per_paragraph": 4.166666666666667
+  },
+  "n_words": 367,
+  "n_sentences": 25,
+  "n_paragraphs": 6
+ },
+ {
+  "prompt_id": 14,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.522140221402214,
+   "word_length_sd": 2.452273150583095,
+   "long_word_ratio": 0.22878228782287824,
+   "sentence_length_cv": 0.5641534248322065,
+   "sentences_per_paragraph": 3.4
+  },
+  "n_words": 542,
+  "n_sentences": 34,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 14,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5086342229199372,
+   "word_length_sd": 2.2107601858871213,
+   "long_word_ratio": 0.1664050235478807,
+   "sentence_length_cv": 0.5104093295647519,
+   "sentences_per_paragraph": 5.1
+  },
+  "n_words": 637,
+  "n_sentences": 51,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 14,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4596100278551532,
+   "word_length_sd": 2.0912134522504378,
+   "long_word_ratio": 0.12395543175487465,
+   "sentence_length_cv": 0.7252831483532384,
+   "sentences_per_paragraph": 6.833333333333333
+  },
+  "n_words": 718,
+  "n_sentences": 82,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 14,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4873096446700508,
+   "word_length_sd": 2.179070739452117,
+   "long_word_ratio": 0.19035532994923857,
+   "sentence_length_cv": 0.44462629875386306,
+   "sentences_per_paragraph": 7.4
+  },
+  "n_words": 788,
+  "n_sentences": 37,
+  "n_paragraphs": 5
+ },
+ {
+  "prompt_id": 14,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5273264401772526,
+   "word_length_sd": 2.2791053310334384,
+   "long_word_ratio": 0.16986706056129985,
+   "sentence_length_cv": 0.5429661516717187,
+   "sentences_per_paragraph": 2.9411764705882355
+  },
+  "n_words": 677,
+  "n_sentences": 50,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 14,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4819672131147541,
+   "word_length_sd": 2.122978669353375,
+   "long_word_ratio": 0.1557377049180328,
+   "sentence_length_cv": 0.6330246728963775,
+   "sentences_per_paragraph": 3.6
+  },
+  "n_words": 610,
+  "n_sentences": 36,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 14,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5511811023622047,
+   "word_length_sd": 2.130761025941871,
+   "long_word_ratio": 0.16647919010123735,
+   "sentence_length_cv": 0.6902678376059924,
+   "sentences_per_paragraph": 1.4393939393939394
+  },
+  "n_words": 889,
+  "n_sentences": 95,
+  "n_paragraphs": 66
+ },
+ {
+  "prompt_id": 14,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.520863309352518,
+   "word_length_sd": 2.419143669649459,
+   "long_word_ratio": 0.22014388489208633,
+   "sentence_length_cv": 0.6716712591888,
+   "sentences_per_paragraph": 3.230769230769231
+  },
+  "n_words": 695,
+  "n_sentences": 42,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 14,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.45038167938931295,
+   "word_length_sd": 1.8610357212247939,
+   "long_word_ratio": 0.12086513994910941,
+   "sentence_length_cv": 0.6424520682896084,
+   "sentences_per_paragraph": 4.066666666666666
+  },
+  "n_words": 786,
+  "n_sentences": 61,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 15,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.425414364640884,
+   "word_length_sd": 2.0173606951005545,
+   "long_word_ratio": 0.1289134438305709,
+   "sentence_length_cv": 0.6398697548317088,
+   "sentences_per_paragraph": 58.0
+  },
+  "n_words": 543,
+  "n_sentences": 58,
+  "n_paragraphs": 1
+ },
+ {
+  "prompt_id": 15,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5216494845360825,
+   "word_length_sd": 2.3156117127923883,
+   "long_word_ratio": 0.21855670103092784,
+   "sentence_length_cv": 0.6713802262698585,
+   "sentences_per_paragraph": 3.6666666666666665
+  },
+  "n_words": 485,
+  "n_sentences": 33,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 15,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.48760330578512395,
+   "word_length_sd": 2.096218265629516,
+   "long_word_ratio": 0.14049586776859505,
+   "sentence_length_cv": 0.7080264967389215,
+   "sentences_per_paragraph": 5.555555555555555
+  },
+  "n_words": 726,
+  "n_sentences": 50,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 15,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.45894428152492667,
+   "word_length_sd": 1.9074578246024592,
+   "long_word_ratio": 0.09090909090909091,
+   "sentence_length_cv": 0.6678817225411082,
+   "sentences_per_paragraph": 4.615384615384615
+  },
+  "n_words": 682,
+  "n_sentences": 60,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 15,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.445,
+   "word_length_sd": 2.0862043134602133,
+   "long_word_ratio": 0.13875,
+   "sentence_length_cv": 0.58090984670601,
+   "sentences_per_paragraph": 3.6875
+  },
+  "n_words": 800,
+  "n_sentences": 59,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 15,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.49312714776632305,
+   "word_length_sd": 2.1262176738471785,
+   "long_word_ratio": 0.15463917525773196,
+   "sentence_length_cv": 0.5780248514964228,
+   "sentences_per_paragraph": 2.375
+  },
+  "n_words": 582,
+  "n_sentences": 38,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 15,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.45165562913907287,
+   "word_length_sd": 1.9152748385331304,
+   "long_word_ratio": 0.11788079470198676,
+   "sentence_length_cv": 0.8270725150926616,
+   "sentences_per_paragraph": 2.9411764705882355
+  },
+  "n_words": 755,
+  "n_sentences": 50,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 15,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.49776286353467564,
+   "word_length_sd": 2.1350736885107455,
+   "long_word_ratio": 0.1644295302013423,
+   "sentence_length_cv": 0.7718234282471566,
+   "sentences_per_paragraph": 1.1616161616161615
+  },
+  "n_words": 894,
+  "n_sentences": 115,
+  "n_paragraphs": 99
+ },
+ {
+  "prompt_id": 15,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4603174603174603,
+   "word_length_sd": 2.0475270148033604,
+   "long_word_ratio": 0.1544011544011544,
+   "sentence_length_cv": 0.6545391556993243,
+   "sentences_per_paragraph": 3.5384615384615383
+  },
+  "n_words": 693,
+  "n_sentences": 46,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 15,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4212076583210604,
+   "word_length_sd": 1.8817647699675544,
+   "long_word_ratio": 0.1251840942562592,
+   "sentence_length_cv": 0.9684508574960417,
+   "sentences_per_paragraph": 2.5
+  },
+  "n_words": 679,
+  "n_sentences": 50,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 16,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.4899497487437186,
+   "word_length_sd": 2.113495122370055,
+   "long_word_ratio": 0.16457286432160803,
+   "sentence_length_cv": 0.6462465904672248,
+   "sentences_per_paragraph": 4.153846153846154
+  },
+  "n_words": 796,
+  "n_sentences": 54,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 16,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5953307392996109,
+   "word_length_sd": 2.603974225403786,
+   "long_word_ratio": 0.31712062256809337,
+   "sentence_length_cv": 0.5211538993897651,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 514,
+  "n_sentences": 36,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 16,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.4563106796116505,
+   "word_length_sd": 2.032354992567695,
+   "long_word_ratio": 0.15950069348127602,
+   "sentence_length_cv": 0.6480559333979015,
+   "sentences_per_paragraph": 2.0
+  },
+  "n_words": 721,
+  "n_sentences": 46,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 16,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4658792650918635,
+   "word_length_sd": 1.8610094584633865,
+   "long_word_ratio": 0.09580052493438321,
+   "sentence_length_cv": 0.7300599361829583,
+   "sentences_per_paragraph": 2.5925925925925926
+  },
+  "n_words": 762,
+  "n_sentences": 70,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 16,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.47568710359408034,
+   "word_length_sd": 1.7720763257640364,
+   "long_word_ratio": 0.1109936575052854,
+   "sentence_length_cv": 0.6733440975372523,
+   "sentences_per_paragraph": 3.185185185185185
+  },
+  "n_words": 946,
+  "n_sentences": 86,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 16,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5411061285500748,
+   "word_length_sd": 2.101562382125211,
+   "long_word_ratio": 0.17638266068759342,
+   "sentence_length_cv": 0.5605700040755651,
+   "sentences_per_paragraph": 2.7058823529411766
+  },
+  "n_words": 669,
+  "n_sentences": 46,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 16,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4603174603174603,
+   "word_length_sd": 1.915262713418643,
+   "long_word_ratio": 0.1164021164021164,
+   "sentence_length_cv": 0.6722677468325279,
+   "sentences_per_paragraph": 4.0
+  },
+  "n_words": 567,
+  "n_sentences": 32,
+  "n_paragraphs": 8
+ },
+ {
+  "prompt_id": 16,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5111111111111111,
+   "word_length_sd": 1.8371599178391658,
+   "long_word_ratio": 0.12679738562091503,
+   "sentence_length_cv": 0.6716194341737451,
+   "sentences_per_paragraph": 1.1368421052631579
+  },
+  "n_words": 765,
+  "n_sentences": 108,
+  "n_paragraphs": 95
+ },
+ {
+  "prompt_id": 16,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.48599439775910364,
+   "word_length_sd": 2.0284599531371628,
+   "long_word_ratio": 0.17366946778711484,
+   "sentence_length_cv": 0.7441365081192496,
+   "sentences_per_paragraph": 2.1666666666666665
+  },
+  "n_words": 714,
+  "n_sentences": 39,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 16,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4691501746216531,
+   "word_length_sd": 1.8575498215093489,
+   "long_word_ratio": 0.12223515715948778,
+   "sentence_length_cv": 0.7418623500048809,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 859,
+  "n_sentences": 51,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 17,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5515409139213603,
+   "word_length_sd": 2.1013254121233897,
+   "long_word_ratio": 0.24229543039319873,
+   "sentence_length_cv": 0.6595399598426654,
+   "sentences_per_paragraph": 2.90625
+  },
+  "n_words": 941,
+  "n_sentences": 93,
+  "n_paragraphs": 32
+ },
+ {
+  "prompt_id": 17,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5641547861507128,
+   "word_length_sd": 2.6005219872737375,
+   "long_word_ratio": 0.3075356415478615,
+   "sentence_length_cv": 0.7085527713843515,
+   "sentences_per_paragraph": 3.5454545454545454
+  },
+  "n_words": 491,
+  "n_sentences": 39,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 17,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5057803468208093,
+   "word_length_sd": 2.022375481818776,
+   "long_word_ratio": 0.16184971098265896,
+   "sentence_length_cv": 0.8420033024252725,
+   "sentences_per_paragraph": 2.5405405405405403
+  },
+  "n_words": 692,
+  "n_sentences": 94,
+  "n_paragraphs": 37
+ },
+ {
+  "prompt_id": 17,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.48863636363636365,
+   "word_length_sd": 1.9549365196177417,
+   "long_word_ratio": 0.11616161616161616,
+   "sentence_length_cv": 0.7511002710570143,
+   "sentences_per_paragraph": 4.416666666666667
+  },
+  "n_words": 792,
+  "n_sentences": 106,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 17,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4906054279749478,
+   "word_length_sd": 1.9353674144936226,
+   "long_word_ratio": 0.10542797494780794,
+   "sentence_length_cv": 0.7682360209693497,
+   "sentences_per_paragraph": 3.2162162162162162
+  },
+  "n_words": 958,
+  "n_sentences": 119,
+  "n_paragraphs": 37
+ },
+ {
+  "prompt_id": 17,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5554106910039114,
+   "word_length_sd": 2.0540273617230205,
+   "long_word_ratio": 0.17340286831812254,
+   "sentence_length_cv": 0.7770545487947641,
+   "sentences_per_paragraph": 3.185185185185185
+  },
+  "n_words": 767,
+  "n_sentences": 86,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 17,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.49363057324840764,
+   "word_length_sd": 2.0494836868570117,
+   "long_word_ratio": 0.12101910828025478,
+   "sentence_length_cv": 0.8120956662679861,
+   "sentences_per_paragraph": 2.4545454545454546
+  },
+  "n_words": 628,
+  "n_sentences": 81,
+  "n_paragraphs": 33
+ },
+ {
+  "prompt_id": 17,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.490272373540856,
+   "word_length_sd": 2.228550509999367,
+   "long_word_ratio": 0.19455252918287938,
+   "sentence_length_cv": 0.6499866421289818,
+   "sentences_per_paragraph": 1.1401869158878504
+  },
+  "n_words": 771,
+  "n_sentences": 122,
+  "n_paragraphs": 107
+ },
+ {
+  "prompt_id": 17,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4845360824742268,
+   "word_length_sd": 2.0291942863142984,
+   "long_word_ratio": 0.15316642120765833,
+   "sentence_length_cv": 0.8962891239466844,
+   "sentences_per_paragraph": 2.8620689655172415
+  },
+  "n_words": 679,
+  "n_sentences": 83,
+  "n_paragraphs": 29
+ },
+ {
+  "prompt_id": 17,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4779874213836478,
+   "word_length_sd": 1.9807052550106417,
+   "long_word_ratio": 0.1320754716981132,
+   "sentence_length_cv": 0.8645540013767943,
+   "sentences_per_paragraph": 2.966666666666667
+  },
+  "n_words": 636,
+  "n_sentences": 89,
+  "n_paragraphs": 30
+ },
+ {
+  "prompt_id": 18,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.6028708133971292,
+   "word_length_sd": 1.9635654780754996,
+   "long_word_ratio": 0.20095693779904306,
+   "sentence_length_cv": 0.5806846487504076,
+   "sentences_per_paragraph": 3.142857142857143
+  },
+  "n_words": 209,
+  "n_sentences": 22,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 18,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5661914460285132,
+   "word_length_sd": 2.495614015503963,
+   "long_word_ratio": 0.2525458248472505,
+   "sentence_length_cv": 0.6600600688656855,
+   "sentences_per_paragraph": 3.1818181818181817
+  },
+  "n_words": 491,
+  "n_sentences": 35,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 18,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5038363171355499,
+   "word_length_sd": 2.1882575484700237,
+   "long_word_ratio": 0.17263427109974425,
+   "sentence_length_cv": 0.9104571965923924,
+   "sentences_per_paragraph": 2.176470588235294
+  },
+  "n_words": 782,
+  "n_sentences": 74,
+  "n_paragraphs": 34
+ },
+ {
+  "prompt_id": 18,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5298245614035088,
+   "word_length_sd": 2.232569017930125,
+   "long_word_ratio": 0.19473684210526315,
+   "sentence_length_cv": 0.7283343422683182,
+   "sentences_per_paragraph": 3.0952380952380953
+  },
+  "n_words": 570,
+  "n_sentences": 65,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 18,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5021645021645021,
+   "word_length_sd": 2.118766812112147,
+   "long_word_ratio": 0.1634199134199134,
+   "sentence_length_cv": 0.790396054789763,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 924,
+  "n_sentences": 72,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 18,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5807327001356852,
+   "word_length_sd": 2.3384282180571643,
+   "long_word_ratio": 0.208955223880597,
+   "sentence_length_cv": 0.6329580537850146,
+   "sentences_per_paragraph": 2.5384615384615383
+  },
+  "n_words": 737,
+  "n_sentences": 66,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 18,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.527007299270073,
+   "word_length_sd": 2.2527491625774303,
+   "long_word_ratio": 0.1635036496350365,
+   "sentence_length_cv": 1.0345339704379921,
+   "sentences_per_paragraph": 2.625
+  },
+  "n_words": 685,
+  "n_sentences": 42,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 18,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5679886685552408,
+   "word_length_sd": 2.219235322570412,
+   "long_word_ratio": 0.21813031161473087,
+   "sentence_length_cv": 0.6146101107205195,
+   "sentences_per_paragraph": 1.0125
+  },
+  "n_words": 706,
+  "n_sentences": 81,
+  "n_paragraphs": 80
+ },
+ {
+  "prompt_id": 18,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5581761006289309,
+   "word_length_sd": 2.4183284449927887,
+   "long_word_ratio": 0.19025157232704404,
+   "sentence_length_cv": 0.8534651446050123,
+   "sentences_per_paragraph": 2.230769230769231
+  },
+  "n_words": 636,
+  "n_sentences": 58,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 18,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.49311926605504586,
+   "word_length_sd": 2.108775017972411,
+   "long_word_ratio": 0.1628440366972477,
+   "sentence_length_cv": 0.7604032570776478,
+   "sentences_per_paragraph": 1.5593220338983051
+  },
+  "n_words": 872,
+  "n_sentences": 92,
+  "n_paragraphs": 59
+ },
+ {
+  "prompt_id": 19,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5550906555090656,
+   "word_length_sd": 2.496111948922005,
+   "long_word_ratio": 0.2914923291492329,
+   "sentence_length_cv": 0.6898579402427146,
+   "sentences_per_paragraph": 2.484848484848485
+  },
+  "n_words": 717,
+  "n_sentences": 82,
+  "n_paragraphs": 33
+ },
+ {
+  "prompt_id": 19,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5379876796714579,
+   "word_length_sd": 2.5490495428542586,
+   "long_word_ratio": 0.24845995893223818,
+   "sentence_length_cv": 0.4735542115966838,
+   "sentences_per_paragraph": 3.9
+  },
+  "n_words": 487,
+  "n_sentences": 39,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 19,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.4914134742404227,
+   "word_length_sd": 2.266310795362256,
+   "long_word_ratio": 0.1690885072655218,
+   "sentence_length_cv": 0.6242830488379792,
+   "sentences_per_paragraph": 4.846153846153846
+  },
+  "n_words": 757,
+  "n_sentences": 63,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 19,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.47384615384615386,
+   "word_length_sd": 1.8625146836322022,
+   "long_word_ratio": 0.09538461538461539,
+   "sentence_length_cv": 0.6129181340548299,
+   "sentences_per_paragraph": 4.5
+  },
+  "n_words": 650,
+  "n_sentences": 90,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 19,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.453125,
+   "word_length_sd": 1.7433075012531158,
+   "long_word_ratio": 0.11383928571428571,
+   "sentence_length_cv": 0.7277538852348986,
+   "sentences_per_paragraph": 3.619047619047619
+  },
+  "n_words": 896,
+  "n_sentences": 76,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 19,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.553133514986376,
+   "word_length_sd": 2.12532662609813,
+   "long_word_ratio": 0.1989100817438692,
+   "sentence_length_cv": 0.5138967467152832,
+   "sentences_per_paragraph": 2.4166666666666665
+  },
+  "n_words": 734,
+  "n_sentences": 58,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 19,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4986559139784946,
+   "word_length_sd": 2.2357476137042096,
+   "long_word_ratio": 0.1693548387096774,
+   "sentence_length_cv": 0.7650482850664143,
+   "sentences_per_paragraph": 2.9473684210526314
+  },
+  "n_words": 744,
+  "n_sentences": 56,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 19,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5080213903743316,
+   "word_length_sd": 2.019445985021486,
+   "long_word_ratio": 0.15641711229946523,
+   "sentence_length_cv": 0.5543503645613967,
+   "sentences_per_paragraph": 1.216867469879518
+  },
+  "n_words": 748,
+  "n_sentences": 101,
+  "n_paragraphs": 83
+ },
+ {
+  "prompt_id": 19,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.45385779122541603,
+   "word_length_sd": 2.04427545080921,
+   "long_word_ratio": 0.1437216338880484,
+   "sentence_length_cv": 0.8561554040535805,
+   "sentences_per_paragraph": 3.235294117647059
+  },
+  "n_words": 661,
+  "n_sentences": 55,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 19,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.44619105199516323,
+   "word_length_sd": 1.747360909882916,
+   "long_word_ratio": 0.08101571946795647,
+   "sentence_length_cv": 0.8332327076517905,
+   "sentences_per_paragraph": 3.1904761904761907
+  },
+  "n_words": 827,
+  "n_sentences": 67,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 20,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.47032374100719426,
+   "word_length_sd": 1.859501530930519,
+   "long_word_ratio": 0.1474820143884892,
+   "sentence_length_cv": 0.5071001622011427,
+   "sentences_per_paragraph": 4.619047619047619
+  },
+  "n_words": 1112,
+  "n_sentences": 97,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 20,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5623836126629422,
+   "word_length_sd": 2.596156967894165,
+   "long_word_ratio": 0.2718808193668529,
+   "sentence_length_cv": 0.49861704439518834,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 537,
+  "n_sentences": 33,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 20,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5644171779141104,
+   "word_length_sd": 2.4165456493009305,
+   "long_word_ratio": 0.2184049079754601,
+   "sentence_length_cv": 0.5713761448773031,
+   "sentences_per_paragraph": 6.5
+  },
+  "n_words": 815,
+  "n_sentences": 65,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 20,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5714285714285714,
+   "word_length_sd": 2.1084075360473036,
+   "long_word_ratio": 0.17198335644937587,
+   "sentence_length_cv": 0.6204375098544418,
+   "sentences_per_paragraph": 3.3333333333333335
+  },
+  "n_words": 721,
+  "n_sentences": 70,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 20,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5079051383399209,
+   "word_length_sd": 2.1592668229093386,
+   "long_word_ratio": 0.1541501976284585,
+   "sentence_length_cv": 0.7051155192251849,
+   "sentences_per_paragraph": 3.652173913043478
+  },
+  "n_words": 1012,
+  "n_sentences": 84,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 20,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5836972343522562,
+   "word_length_sd": 2.4075788217332823,
+   "long_word_ratio": 0.2445414847161572,
+   "sentence_length_cv": 0.4970669466515148,
+   "sentences_per_paragraph": 2.9375
+  },
+  "n_words": 687,
+  "n_sentences": 47,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 20,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5300546448087432,
+   "word_length_sd": 2.293472552408639,
+   "long_word_ratio": 0.20355191256830601,
+   "sentence_length_cv": 0.8734413306739812,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 732,
+  "n_sentences": 57,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 20,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5485122897800776,
+   "word_length_sd": 2.331927319440657,
+   "long_word_ratio": 0.21733505821474774,
+   "sentence_length_cv": 0.7008014031104108,
+   "sentences_per_paragraph": 1.1030927835051547
+  },
+  "n_words": 773,
+  "n_sentences": 107,
+  "n_paragraphs": 97
+ },
+ {
+  "prompt_id": 20,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5712050078247262,
+   "word_length_sd": 2.405131933655722,
+   "long_word_ratio": 0.2519561815336463,
+   "sentence_length_cv": 0.8473625669617636,
+   "sentences_per_paragraph": 2.3684210526315788
+  },
+  "n_words": 639,
+  "n_sentences": 45,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 20,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.497116493656286,
+   "word_length_sd": 2.283321062394295,
+   "long_word_ratio": 0.1914648212226067,
+   "sentence_length_cv": 0.8606578134338008,
+   "sentences_per_paragraph": 3.25
+  },
+  "n_words": 867,
+  "n_sentences": 91,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 21,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.424390243902439,
+   "word_length_sd": 1.8632358489126943,
+   "long_word_ratio": 0.11707317073170732,
+   "sentence_length_cv": 0.5474509640152164,
+   "sentences_per_paragraph": 3.3333333333333335
+  },
+  "n_words": 205,
+  "n_sentences": 20,
+  "n_paragraphs": 6
+ },
+ {
+  "prompt_id": 21,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5463137996219282,
+   "word_length_sd": 2.3887648372823245,
+   "long_word_ratio": 0.2438563327032136,
+   "sentence_length_cv": 0.46050328857724354,
+   "sentences_per_paragraph": 3.888888888888889
+  },
+  "n_words": 529,
+  "n_sentences": 35,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 21,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.44198174706649285,
+   "word_length_sd": 2.2681599817059093,
+   "long_word_ratio": 0.15645371577574968,
+   "sentence_length_cv": 0.7044966901178195,
+   "sentences_per_paragraph": 4.461538461538462
+  },
+  "n_words": 767,
+  "n_sentences": 58,
+  "n_paragraphs": 13
+ },
+ {
+  "prompt_id": 21,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4747368421052632,
+   "word_length_sd": 1.9170510594511916,
+   "long_word_ratio": 0.10105263157894737,
+   "sentence_length_cv": 0.5725425627406092,
+   "sentences_per_paragraph": 3.92
+  },
+  "n_words": 950,
+  "n_sentences": 98,
+  "n_paragraphs": 25
+ },
+ {
+  "prompt_id": 21,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4720982142857143,
+   "word_length_sd": 2.0923976057035514,
+   "long_word_ratio": 0.15290178571428573,
+   "sentence_length_cv": 0.6285117381104366,
+   "sentences_per_paragraph": 3.823529411764706
+  },
+  "n_words": 896,
+  "n_sentences": 65,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 21,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5303468208092486,
+   "word_length_sd": 2.194081383413949,
+   "long_word_ratio": 0.1893063583815029,
+   "sentence_length_cv": 0.6141533491421242,
+   "sentences_per_paragraph": 2.423076923076923
+  },
+  "n_words": 692,
+  "n_sentences": 63,
+  "n_paragraphs": 26
+ },
+ {
+  "prompt_id": 21,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5068078668683812,
+   "word_length_sd": 1.7810781496277857,
+   "long_word_ratio": 0.12708018154311648,
+   "sentence_length_cv": 0.6760399318110718,
+   "sentences_per_paragraph": 3.4166666666666665
+  },
+  "n_words": 661,
+  "n_sentences": 41,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 21,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5471956224350205,
+   "word_length_sd": 2.019668020580691,
+   "long_word_ratio": 0.16963064295485636,
+   "sentence_length_cv": 0.7707717007841832,
+   "sentences_per_paragraph": 1.328358208955224
+  },
+  "n_words": 731,
+  "n_sentences": 89,
+  "n_paragraphs": 67
+ },
+ {
+  "prompt_id": 21,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5065359477124183,
+   "word_length_sd": 2.024732667999309,
+   "long_word_ratio": 0.15359477124183007,
+   "sentence_length_cv": 0.7098239323603525,
+   "sentences_per_paragraph": 2.5625
+  },
+  "n_words": 612,
+  "n_sentences": 41,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 21,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4481955762514552,
+   "word_length_sd": 1.9507634708237966,
+   "long_word_ratio": 0.1140861466821886,
+   "sentence_length_cv": 0.8106374409999751,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 859,
+  "n_sentences": 63,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 22,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.496309963099631,
+   "word_length_sd": 2.1807524919974433,
+   "long_word_ratio": 0.17896678966789667,
+   "sentence_length_cv": 0.6677080731029349,
+   "sentences_per_paragraph": 3.2222222222222223
+  },
+  "n_words": 542,
+  "n_sentences": 29,
+  "n_paragraphs": 9
+ },
+ {
+  "prompt_id": 22,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5738539898132428,
+   "word_length_sd": 2.333755718706529,
+   "long_word_ratio": 0.2835314091680815,
+   "sentence_length_cv": 0.6352491167016789,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 589,
+  "n_sentences": 54,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 22,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.517555266579974,
+   "word_length_sd": 1.9497978471710475,
+   "long_word_ratio": 0.1222366710013004,
+   "sentence_length_cv": 0.8430430231953983,
+   "sentences_per_paragraph": 2.8181818181818183
+  },
+  "n_words": 769,
+  "n_sentences": 62,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 22,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5015243902439024,
+   "word_length_sd": 1.915444110756999,
+   "long_word_ratio": 0.11280487804878049,
+   "sentence_length_cv": 0.7183841663966757,
+   "sentences_per_paragraph": 5.363636363636363
+  },
+  "n_words": 656,
+  "n_sentences": 59,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 22,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4892703862660944,
+   "word_length_sd": 1.9871522722588126,
+   "long_word_ratio": 0.14484978540772533,
+   "sentence_length_cv": 0.5802429874760187,
+   "sentences_per_paragraph": 3.588235294117647
+  },
+  "n_words": 932,
+  "n_sentences": 61,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 22,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5957446808510638,
+   "word_length_sd": 2.2046422983328635,
+   "long_word_ratio": 0.22411347517730495,
+   "sentence_length_cv": 0.5079222487884788,
+   "sentences_per_paragraph": 2.5
+  },
+  "n_words": 705,
+  "n_sentences": 50,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 22,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5486443381180224,
+   "word_length_sd": 2.0290817466650872,
+   "long_word_ratio": 0.13237639553429026,
+   "sentence_length_cv": 0.7578711755073324,
+   "sentences_per_paragraph": 2.3
+  },
+  "n_words": 627,
+  "n_sentences": 46,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 22,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5369030390738061,
+   "word_length_sd": 2.1863033030728567,
+   "long_word_ratio": 0.21128798842257598,
+   "sentence_length_cv": 0.6493331432844964,
+   "sentences_per_paragraph": 1.1866666666666668
+  },
+  "n_words": 691,
+  "n_sentences": 89,
+  "n_paragraphs": 75
+ },
+ {
+  "prompt_id": 22,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.502906976744186,
+   "word_length_sd": 2.1835536720501363,
+   "long_word_ratio": 0.19912790697674418,
+   "sentence_length_cv": 0.8257630614078848,
+   "sentences_per_paragraph": 2.4285714285714284
+  },
+  "n_words": 688,
+  "n_sentences": 51,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 22,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.5123094958968347,
+   "word_length_sd": 1.9890624484132524,
+   "long_word_ratio": 0.1477139507620164,
+   "sentence_length_cv": 0.7333952229376693,
+   "sentences_per_paragraph": 2.2333333333333334
+  },
+  "n_words": 853,
+  "n_sentences": 67,
+  "n_paragraphs": 30
+ },
+ {
+  "prompt_id": 23,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.4818181818181818,
+   "word_length_sd": 2.22465523375891,
+   "long_word_ratio": 0.22727272727272727,
+   "sentence_length_cv": 0.5745281930663622,
+   "sentences_per_paragraph": 2.6
+  },
+  "n_words": 110,
+  "n_sentences": 13,
+  "n_paragraphs": 5
+ },
+ {
+  "prompt_id": 23,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5631067961165048,
+   "word_length_sd": 2.8838082926297015,
+   "long_word_ratio": 0.341747572815534,
+   "sentence_length_cv": 0.41946691546077824,
+   "sentences_per_paragraph": 3.5
+  },
+  "n_words": 515,
+  "n_sentences": 28,
+  "n_paragraphs": 8
+ },
+ {
+  "prompt_id": 23,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.47496947496947495,
+   "word_length_sd": 2.334600951813341,
+   "long_word_ratio": 0.18315018315018314,
+   "sentence_length_cv": 0.682381305330111,
+   "sentences_per_paragraph": 3.3125
+  },
+  "n_words": 819,
+  "n_sentences": 53,
+  "n_paragraphs": 16
+ },
+ {
+  "prompt_id": 23,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4813153961136024,
+   "word_length_sd": 2.2373850661617944,
+   "long_word_ratio": 0.17040358744394618,
+   "sentence_length_cv": 0.663646829995518,
+   "sentences_per_paragraph": 4.5
+  },
+  "n_words": 669,
+  "n_sentences": 63,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 23,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.47739801543550164,
+   "word_length_sd": 2.198450367632547,
+   "long_word_ratio": 0.1587651598676957,
+   "sentence_length_cv": 0.6006635047654767,
+   "sentences_per_paragraph": 4.833333333333333
+  },
+  "n_words": 907,
+  "n_sentences": 58,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 23,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5496987951807228,
+   "word_length_sd": 2.4016282520398096,
+   "long_word_ratio": 0.21686746987951808,
+   "sentence_length_cv": 0.5177482174979562,
+   "sentences_per_paragraph": 3.2857142857142856
+  },
+  "n_words": 664,
+  "n_sentences": 46,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 23,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5056657223796034,
+   "word_length_sd": 2.226378392730793,
+   "long_word_ratio": 0.17847025495750707,
+   "sentence_length_cv": 0.7238556269574928,
+   "sentences_per_paragraph": 4.545454545454546
+  },
+  "n_words": 706,
+  "n_sentences": 50,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 23,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5410852713178295,
+   "word_length_sd": 2.481905674657674,
+   "long_word_ratio": 0.27596899224806204,
+   "sentence_length_cv": 0.4378026651441895,
+   "sentences_per_paragraph": 4.090909090909091
+  },
+  "n_words": 645,
+  "n_sentences": 45,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 23,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5,
+   "word_length_sd": 2.383960998988364,
+   "long_word_ratio": 0.19811320754716982,
+   "sentence_length_cv": 0.5833312142903415,
+   "sentences_per_paragraph": 2.5454545454545454
+  },
+  "n_words": 636,
+  "n_sentences": 28,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 23,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4914772727272727,
+   "word_length_sd": 2.2225239082174437,
+   "long_word_ratio": 0.16761363636363635,
+   "sentence_length_cv": 0.777791933513612,
+   "sentences_per_paragraph": 3.9
+  },
+  "n_words": 704,
+  "n_sentences": 78,
+  "n_paragraphs": 20
+ },
+ {
+  "prompt_id": 24,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5353319057815846,
+   "word_length_sd": 2.12777294503328,
+   "long_word_ratio": 0.1777301927194861,
+   "sentence_length_cv": 0.9364312393423063,
+   "sentences_per_paragraph": 3.142857142857143
+  },
+  "n_words": 467,
+  "n_sentences": 44,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 24,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5708661417322834,
+   "word_length_sd": 2.2689695726134897,
+   "long_word_ratio": 0.234251968503937,
+   "sentence_length_cv": 0.6702633053552887,
+   "sentences_per_paragraph": 3.5714285714285716
+  },
+  "n_words": 508,
+  "n_sentences": 50,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 24,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5313609467455621,
+   "word_length_sd": 2.419618009361932,
+   "long_word_ratio": 0.1952662721893491,
+   "sentence_length_cv": 0.7179804705031667,
+   "sentences_per_paragraph": 3.8947368421052633
+  },
+  "n_words": 845,
+  "n_sentences": 74,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 24,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5014409221902018,
+   "word_length_sd": 1.9292226260943313,
+   "long_word_ratio": 0.1282420749279539,
+   "sentence_length_cv": 0.759709058553874,
+   "sentences_per_paragraph": 3.6666666666666665
+  },
+  "n_words": 694,
+  "n_sentences": 88,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 24,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4891443167305236,
+   "word_length_sd": 1.7782548060106096,
+   "long_word_ratio": 0.0983397190293742,
+   "sentence_length_cv": 0.745070360762099,
+   "sentences_per_paragraph": 3.9545454545454546
+  },
+  "n_words": 783,
+  "n_sentences": 87,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 24,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5697050938337802,
+   "word_length_sd": 2.386887602000643,
+   "long_word_ratio": 0.23190348525469168,
+   "sentence_length_cv": 0.6981533867995539,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 746,
+  "n_sentences": 66,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 24,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4976958525345622,
+   "word_length_sd": 2.0556714755112826,
+   "long_word_ratio": 0.13517665130568357,
+   "sentence_length_cv": 0.8669706747777622,
+   "sentences_per_paragraph": 4.555555555555555
+  },
+  "n_words": 651,
+  "n_sentences": 82,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 24,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.49263873159682897,
+   "word_length_sd": 2.3206190652427363,
+   "long_word_ratio": 0.1823329558323896,
+   "sentence_length_cv": 0.7040980587281739,
+   "sentences_per_paragraph": 1.0419580419580419
+  },
+  "n_words": 883,
+  "n_sentences": 149,
+  "n_paragraphs": 143
+ },
+ {
+  "prompt_id": 24,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4827586206896552,
+   "word_length_sd": 1.9123994911806943,
+   "long_word_ratio": 0.1184407796101949,
+   "sentence_length_cv": 0.9980425402084354,
+   "sentences_per_paragraph": 2.4166666666666665
+  },
+  "n_words": 667,
+  "n_sentences": 58,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 24,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4817073170731707,
+   "word_length_sd": 2.21781327366287,
+   "long_word_ratio": 0.16463414634146342,
+   "sentence_length_cv": 0.7673125765455209,
+   "sentences_per_paragraph": 3.4285714285714284
+  },
+  "n_words": 820,
+  "n_sentences": 96,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 25,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.4017094017094017,
+   "word_length_sd": 1.969269534578081,
+   "long_word_ratio": 0.20512820512820512,
+   "sentence_length_cv": 0.49550540309865787,
+   "sentences_per_paragraph": 1.631578947368421
+  },
+  "n_words": 234,
+  "n_sentences": 31,
+  "n_paragraphs": 19
+ },
+ {
+  "prompt_id": 25,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5663157894736842,
+   "word_length_sd": 2.4556484720502136,
+   "long_word_ratio": 0.2736842105263158,
+   "sentence_length_cv": 0.43850665746674733,
+   "sentences_per_paragraph": 5.25
+  },
+  "n_words": 475,
+  "n_sentences": 42,
+  "n_paragraphs": 8
+ },
+ {
+  "prompt_id": 25,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5164051355206848,
+   "word_length_sd": 2.056212368411972,
+   "long_word_ratio": 0.16405135520684735,
+   "sentence_length_cv": 0.5381870680507788,
+   "sentences_per_paragraph": 2.8181818181818183
+  },
+  "n_words": 701,
+  "n_sentences": 31,
+  "n_paragraphs": 11
+ },
+ {
+  "prompt_id": 25,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.4196185286103542,
+   "word_length_sd": 1.9151844058527687,
+   "long_word_ratio": 0.10490463215258855,
+   "sentence_length_cv": 0.37121778195705274,
+   "sentences_per_paragraph": 10.6
+  },
+  "n_words": 734,
+  "n_sentences": 53,
+  "n_paragraphs": 5
+ },
+ {
+  "prompt_id": 25,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4517766497461929,
+   "word_length_sd": 2.0297980371536646,
+   "long_word_ratio": 0.15609137055837563,
+   "sentence_length_cv": 0.3902402911819317,
+   "sentences_per_paragraph": 37.0
+  },
+  "n_words": 788,
+  "n_sentences": 37,
+  "n_paragraphs": 1
+ },
+ {
+  "prompt_id": 25,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5260196905766527,
+   "word_length_sd": 2.3646843540345235,
+   "long_word_ratio": 0.19690576652601968,
+   "sentence_length_cv": 0.25591566616976325,
+   "sentences_per_paragraph": 5.571428571428571
+  },
+  "n_words": 711,
+  "n_sentences": 39,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 25,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4474074074074074,
+   "word_length_sd": 1.7512214040593683,
+   "long_word_ratio": 0.1274074074074074,
+   "sentence_length_cv": 0.2609889391093971,
+   "sentences_per_paragraph": 8.571428571428571
+  },
+  "n_words": 675,
+  "n_sentences": 60,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 25,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.44782608695652176,
+   "word_length_sd": 1.9200929281032169,
+   "long_word_ratio": 0.1793478260869565,
+   "sentence_length_cv": 0.5621488612058282,
+   "sentences_per_paragraph": 0.9148936170212766
+  },
+  "n_words": 920,
+  "n_sentences": 86,
+  "n_paragraphs": 94
+ },
+ {
+  "prompt_id": 25,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.4519368723098996,
+   "word_length_sd": 2.0122082926909712,
+   "long_word_ratio": 0.14347202295552366,
+   "sentence_length_cv": 0.6279077302574361,
+   "sentences_per_paragraph": 0.7368421052631579
+  },
+  "n_words": 697,
+  "n_sentences": 28,
+  "n_paragraphs": 38
+ },
+ {
+  "prompt_id": 25,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.42213114754098363,
+   "word_length_sd": 1.9237393313595939,
+   "long_word_ratio": 0.12431693989071038,
+   "sentence_length_cv": 0.19482426229005473,
+   "sentences_per_paragraph": 4.142857142857143
+  },
+  "n_words": 732,
+  "n_sentences": 29,
+  "n_paragraphs": 7
+ },
+ {
+  "prompt_id": 26,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5478927203065134,
+   "word_length_sd": 2.7736235285567967,
+   "long_word_ratio": 0.19540229885057472,
+   "sentence_length_cv": 0.5687042242231256,
+   "sentences_per_paragraph": 1.5
+  },
+  "n_words": 261,
+  "n_sentences": 27,
+  "n_paragraphs": 18
+ },
+ {
+  "prompt_id": 26,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.587037037037037,
+   "word_length_sd": 2.2456259877409592,
+   "long_word_ratio": 0.22407407407407406,
+   "sentence_length_cv": 0.6081522082239172,
+   "sentences_per_paragraph": 3.5
+  },
+  "n_words": 540,
+  "n_sentences": 49,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 26,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5096774193548387,
+   "word_length_sd": 2.469882352369713,
+   "long_word_ratio": 0.18838709677419355,
+   "sentence_length_cv": 0.7556224219389872,
+   "sentences_per_paragraph": 3.0454545454545454
+  },
+  "n_words": 775,
+  "n_sentences": 67,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 26,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.46630727762803237,
+   "word_length_sd": 1.951491787144042,
+   "long_word_ratio": 0.11994609164420485,
+   "sentence_length_cv": 0.7320429195371626,
+   "sentences_per_paragraph": 3.9523809523809526
+  },
+  "n_words": 742,
+  "n_sentences": 83,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 26,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.49166666666666664,
+   "word_length_sd": 1.9173489123922782,
+   "long_word_ratio": 0.11388888888888889,
+   "sentence_length_cv": 0.6969731737579801,
+   "sentences_per_paragraph": 3.25
+  },
+  "n_words": 1080,
+  "n_sentences": 91,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 26,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5829725829725829,
+   "word_length_sd": 2.36176006942485,
+   "long_word_ratio": 0.2106782106782107,
+   "sentence_length_cv": 0.7277507075858155,
+   "sentences_per_paragraph": 2.5172413793103448
+  },
+  "n_words": 693,
+  "n_sentences": 73,
+  "n_paragraphs": 29
+ },
+ {
+  "prompt_id": 26,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5087281795511222,
+   "word_length_sd": 2.272503325953914,
+   "long_word_ratio": 0.18079800498753118,
+   "sentence_length_cv": 0.6501223446902347,
+   "sentences_per_paragraph": 1.3289473684210527
+  },
+  "n_words": 802,
+  "n_sentences": 101,
+  "n_paragraphs": 76
+ },
+ {
+  "prompt_id": 26,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5198821796759941,
+   "word_length_sd": 2.273717625528487,
+   "long_word_ratio": 0.18998527245949925,
+   "sentence_length_cv": 0.7141748695555847,
+   "sentences_per_paragraph": 2.772727272727273
+  },
+  "n_words": 679,
+  "n_sentences": 61,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 26,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.4973821989528796,
+   "word_length_sd": 2.1801218590742506,
+   "long_word_ratio": 0.14659685863874344,
+   "sentence_length_cv": 0.7905629138003607,
+   "sentences_per_paragraph": 3.3333333333333335
+  },
+  "n_words": 764,
+  "n_sentences": 70,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 27,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.6063348416289592,
+   "word_length_sd": 2.130683660740024,
+   "long_word_ratio": 0.33031674208144796,
+   "sentence_length_cv": 0.7727031024656903,
+   "sentences_per_paragraph": 1.0789473684210527
+  },
+  "n_words": 442,
+  "n_sentences": 41,
+  "n_paragraphs": 38
+ },
+ {
+  "prompt_id": 27,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5345454545454545,
+   "word_length_sd": 2.418906931612222,
+   "long_word_ratio": 0.2545454545454545,
+   "sentence_length_cv": 0.6340529477069464,
+   "sentences_per_paragraph": 3.7142857142857144
+  },
+  "n_words": 550,
+  "n_sentences": 52,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 27,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5110132158590308,
+   "word_length_sd": 2.344006665841628,
+   "long_word_ratio": 0.19162995594713655,
+   "sentence_length_cv": 0.6468668375674013,
+   "sentences_per_paragraph": 4.523809523809524
+  },
+  "n_words": 908,
+  "n_sentences": 95,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 27,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.5074257425742574,
+   "word_length_sd": 2.025539075945352,
+   "long_word_ratio": 0.1448019801980198,
+   "sentence_length_cv": 0.7347629585347787,
+   "sentences_per_paragraph": 3.4444444444444446
+  },
+  "n_words": 808,
+  "n_sentences": 93,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 27,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.4920774647887324,
+   "word_length_sd": 1.8764566516608874,
+   "long_word_ratio": 0.1267605633802817,
+   "sentence_length_cv": 0.7917760689641037,
+   "sentences_per_paragraph": 3.6363636363636362
+  },
+  "n_words": 1136,
+  "n_sentences": 120,
+  "n_paragraphs": 33
+ },
+ {
+  "prompt_id": 27,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5448275862068965,
+   "word_length_sd": 2.237428454273005,
+   "long_word_ratio": 0.1889655172413793,
+   "sentence_length_cv": 0.6968357222338798,
+   "sentences_per_paragraph": 3.25
+  },
+  "n_words": 725,
+  "n_sentences": 78,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 27,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.4915514592933948,
+   "word_length_sd": 1.864848654919814,
+   "long_word_ratio": 0.14592933947772657,
+   "sentence_length_cv": 0.9341372392505527,
+   "sentences_per_paragraph": 3.0454545454545454
+  },
+  "n_words": 651,
+  "n_sentences": 67,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 27,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.4829857299670692,
+   "word_length_sd": 2.0760546717958968,
+   "long_word_ratio": 0.15367727771679474,
+   "sentence_length_cv": 0.7144543162886035,
+   "sentences_per_paragraph": 0.9146341463414634
+  },
+  "n_words": 911,
+  "n_sentences": 150,
+  "n_paragraphs": 164
+ },
+ {
+  "prompt_id": 27,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5137195121951219,
+   "word_length_sd": 2.2510965501656646,
+   "long_word_ratio": 0.17073170731707318,
+   "sentence_length_cv": 0.9132509866755637,
+   "sentences_per_paragraph": 2.3703703703703702
+  },
+  "n_words": 656,
+  "n_sentences": 64,
+  "n_paragraphs": 27
+ },
+ {
+  "prompt_id": 27,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.49483204134366926,
+   "word_length_sd": 2.1245904819036676,
+   "long_word_ratio": 0.1330749354005168,
+   "sentence_length_cv": 0.849156705217648,
+   "sentences_per_paragraph": 3.5416666666666665
+  },
+  "n_words": 774,
+  "n_sentences": 85,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 28,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5564738292011019,
+   "word_length_sd": 2.502238902145115,
+   "long_word_ratio": 0.26170798898071623,
+   "sentence_length_cv": 0.5874231751376742,
+   "sentences_per_paragraph": 3.066666666666667
+  },
+  "n_words": 363,
+  "n_sentences": 46,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 28,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.5392857142857143,
+   "word_length_sd": 2.6724400061993334,
+   "long_word_ratio": 0.3375,
+   "sentence_length_cv": 0.6727191244554916,
+   "sentences_per_paragraph": 2.7857142857142856
+  },
+  "n_words": 560,
+  "n_sentences": 39,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 28,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5353675450762829,
+   "word_length_sd": 2.739278779332504,
+   "long_word_ratio": 0.27739251040221913,
+   "sentence_length_cv": 0.5966808973022535,
+   "sentences_per_paragraph": 4.75
+  },
+  "n_words": 721,
+  "n_sentences": 57,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 28,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.47930574098798395,
+   "word_length_sd": 2.321067818002101,
+   "long_word_ratio": 0.18958611481975968,
+   "sentence_length_cv": 0.7558664547680869,
+   "sentences_per_paragraph": 3.8095238095238093
+  },
+  "n_words": 749,
+  "n_sentences": 80,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 28,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5037974683544304,
+   "word_length_sd": 2.474691314047824,
+   "long_word_ratio": 0.22658227848101264,
+   "sentence_length_cv": 0.7193750069169979,
+   "sentences_per_paragraph": 2.6666666666666665
+  },
+  "n_words": 790,
+  "n_sentences": 64,
+  "n_paragraphs": 24
+ },
+ {
+  "prompt_id": 28,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5755102040816327,
+   "word_length_sd": 2.682492950563134,
+   "long_word_ratio": 0.2857142857142857,
+   "sentence_length_cv": 0.7655863432556722,
+   "sentences_per_paragraph": 3.0
+  },
+  "n_words": 735,
+  "n_sentences": 63,
+  "n_paragraphs": 21
+ },
+ {
+  "prompt_id": 28,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.5234159779614325,
+   "word_length_sd": 2.661694531324235,
+   "long_word_ratio": 0.2534435261707989,
+   "sentence_length_cv": 0.7186123478526869,
+   "sentences_per_paragraph": 2.75
+  },
+  "n_words": 726,
+  "n_sentences": 77,
+  "n_paragraphs": 28
+ },
+ {
+  "prompt_id": 28,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.58625,
+   "word_length_sd": 2.681249708624693,
+   "long_word_ratio": 0.3175,
+   "sentence_length_cv": 0.7008922884438094,
+   "sentences_per_paragraph": 0.9523809523809523
+  },
+  "n_words": 800,
+  "n_sentences": 100,
+  "n_paragraphs": 105
+ },
+ {
+  "prompt_id": 28,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5266362252663622,
+   "word_length_sd": 2.6384274813651287,
+   "long_word_ratio": 0.2572298325722983,
+   "sentence_length_cv": 0.9874715890766163,
+   "sentences_per_paragraph": 2.272727272727273
+  },
+  "n_words": 657,
+  "n_sentences": 50,
+  "n_paragraphs": 22
+ },
+ {
+  "prompt_id": 28,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.50066401062417,
+   "word_length_sd": 2.5520304826234743,
+   "long_word_ratio": 0.26162018592297476,
+   "sentence_length_cv": 0.6375110639380065,
+   "sentences_per_paragraph": 1.90625
+  },
+  "n_words": 753,
+  "n_sentences": 61,
+  "n_paragraphs": 32
+ },
+ {
+  "prompt_id": 29,
+  "condition": "human",
+  "metrics": {
+   "lexical_density": 0.5408450704225352,
+   "word_length_sd": 2.372014980652273,
+   "long_word_ratio": 0.2619718309859155,
+   "sentence_length_cv": 0.9233809691581969,
+   "sentences_per_paragraph": 2.4285714285714284
+  },
+  "n_words": 355,
+  "n_sentences": 34,
+  "n_paragraphs": 14
+ },
+ {
+  "prompt_id": 29,
+  "condition": "gpt35",
+  "metrics": {
+   "lexical_density": 0.554639175257732,
+   "word_length_sd": 2.6718785642641985,
+   "long_word_ratio": 0.31958762886597936,
+   "sentence_length_cv": 0.5425462811707805,
+   "sentences_per_paragraph": 3.5
+  },
+  "n_words": 485,
+  "n_sentences": 35,
+  "n_paragraphs": 10
+ },
+ {
+  "prompt_id": 29,
+  "condition": "MiMo-V2.5-Pro",
+  "metrics": {
+   "lexical_density": 0.5257452574525745,
+   "word_length_sd": 2.553690114547356,
+   "long_word_ratio": 0.2073170731707317,
+   "sentence_length_cv": 0.7378692663789705,
+   "sentences_per_paragraph": 5.6
+  },
+  "n_words": 738,
+  "n_sentences": 84,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 29,
+  "condition": "DeepSeek-V4-Flash",
+  "metrics": {
+   "lexical_density": 0.496790757381258,
+   "word_length_sd": 2.203136058779247,
+   "long_word_ratio": 0.15532734274711169,
+   "sentence_length_cv": 0.7694154995374074,
+   "sentences_per_paragraph": 5.266666666666667
+  },
+  "n_words": 779,
+  "n_sentences": 79,
+  "n_paragraphs": 15
+ },
+ {
+  "prompt_id": 29,
+  "condition": "Muse-Spark-1.2-Contributor",
+  "metrics": {
+   "lexical_density": 0.5013550135501355,
+   "word_length_sd": 2.0093352428561095,
+   "long_word_ratio": 0.16260162601626016,
+   "sentence_length_cv": 0.7642036168358267,
+   "sentences_per_paragraph": 5.333333333333333
+  },
+  "n_words": 738,
+  "n_sentences": 64,
+  "n_paragraphs": 12
+ },
+ {
+  "prompt_id": 29,
+  "condition": "Gemini-3.6-Flash",
+  "metrics": {
+   "lexical_density": 0.5716272600834492,
+   "word_length_sd": 2.4783213031387707,
+   "long_word_ratio": 0.23226703755215578,
+   "sentence_length_cv": 0.714876368476618,
+   "sentences_per_paragraph": 2.9130434782608696
+  },
+  "n_words": 719,
+  "n_sentences": 67,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 29,
+  "condition": "Kimi-K3",
+  "metrics": {
+   "lexical_density": 0.49865951742627346,
+   "word_length_sd": 2.316287560489176,
+   "long_word_ratio": 0.18498659517426275,
+   "sentence_length_cv": 0.7430579175898053,
+   "sentences_per_paragraph": 3.5652173913043477
+  },
+  "n_words": 746,
+  "n_sentences": 82,
+  "n_paragraphs": 23
+ },
+ {
+  "prompt_id": 29,
+  "condition": "GPT-5.6-Luna",
+  "metrics": {
+   "lexical_density": 0.5190217391304348,
+   "word_length_sd": 2.4382553450123097,
+   "long_word_ratio": 0.2269021739130435,
+   "sentence_length_cv": 0.8369829894177475,
+   "sentences_per_paragraph": 1.2417582417582418
+  },
+  "n_words": 736,
+  "n_sentences": 113,
+  "n_paragraphs": 91
+ },
+ {
+  "prompt_id": 29,
+  "condition": "Claude-Sonnet-5-High",
+  "metrics": {
+   "lexical_density": 0.5149606299212598,
+   "word_length_sd": 2.1930760906009343,
+   "long_word_ratio": 0.16850393700787403,
+   "sentence_length_cv": 0.8726214316279002,
+   "sentences_per_paragraph": 3.0588235294117645
+  },
+  "n_words": 635,
+  "n_sentences": 52,
+  "n_paragraphs": 17
+ },
+ {
+  "prompt_id": 29,
+  "condition": "MiniMax-M3",
+  "metrics": {
+   "lexical_density": 0.5283286118980169,
+   "word_length_sd": 1.844486341019903,
+   "long_word_ratio": 0.13314447592067988,
+   "sentence_length_cv": 0.84898916836307,
+   "sentences_per_paragraph": 4.090909090909091
+  },
+  "n_words": 706,
+  "n_sentences": 90,
+  "n_paragraphs": 22
+ }
+]

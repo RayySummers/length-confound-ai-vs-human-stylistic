@@ -1,0 +1,2532 @@
+{
+  "method": "lexical_diversity.lex_div.mattr / .mtld",
+  "mattr_window": 50,
+  "n_observations": 299,
+  "summary": {
+    "Human": {
+      "n": 30,
+      "n_tokens_mean": 448.3666666666667,
+      "mattr50_mean": 0.7714272440702321,
+      "mtld_mean": 72.3929436439936,
+      "ttr_mean": 0.5072381279492344
+    },
+    "GPT-3.5": {
+      "n": 30,
+      "n_tokens_mean": 529.8666666666667,
+      "mattr50_mean": 0.8188563230965326,
+      "mtld_mean": 101.122125163101,
+      "ttr_mean": 0.5136371988475776
+    },
+    "MiMo-V2.5-Pro": {
+      "n": 30,
+      "n_tokens_mean": 757.1666666666666,
+      "mattr50_mean": 0.8256314814296916,
+      "mtld_mean": 124.52142467485311,
+      "ttr_mean": 0.5079555829499334
+    },
+    "DeepSeek-V4-Flash": {
+      "n": 30,
+      "n_tokens_mean": 684.5,
+      "mattr50_mean": 0.8058328041264222,
+      "mtld_mean": 101.32217802580715,
+      "ttr_mean": 0.49425276093528225
+    },
+    "MiniMax-M3": {
+      "n": 30,
+      "n_tokens_mean": 777.7,
+      "mattr50_mean": 0.7977196360932826,
+      "mtld_mean": 96.42903357511308,
+      "ttr_mean": 0.46524614558810257
+    },
+    "Muse-Spark-1.2-Contributor": {
+      "n": 30,
+      "n_tokens_mean": 882.6,
+      "mattr50_mean": 0.8034432249624233,
+      "mtld_mean": 100.24874258453444,
+      "ttr_mean": 0.459897105353073
+    },
+    "GPT-5.6-Luna": {
+      "n": 30,
+      "n_tokens_mean": 790.3333333333334,
+      "mattr50_mean": 0.8368469945556366,
+      "mtld_mean": 132.97145712226904,
+      "ttr_mean": 0.4898469203546297
+    },
+    "Claude-Sonnet-5-High": {
+      "n": 30,
+      "n_tokens_mean": 659.4666666666667,
+      "mattr50_mean": 0.8527516631101042,
+      "mtld_mean": 159.26461451242182,
+      "ttr_mean": 0.5337082487775948
+    },
+    "Gemini-3.6-Flash": {
+      "n": 30,
+      "n_tokens_mean": 709.6,
+      "mattr50_mean": 0.8514302036140812,
+      "mtld_mean": 179.19036016892076,
+      "ttr_mean": 0.5733036455028155
+    },
+    "Kimi-K3": {
+      "n": 29,
+      "n_tokens_mean": 670.9310344827586,
+      "mattr50_mean": 0.8277330990443541,
+      "mtld_mean": 129.99449264669846,
+      "ttr_mean": 0.523036209230445
+    }
+  },
+  "length_correlation": {
+    "mattr50": {
+      "r": 0.1504636985031828,
+      "p": 0.009168316844034846
+    },
+    "mtld": {
+      "r": 0.12085512728413685,
+      "p": 0.03673574252136712
+    },
+    "ttr": {
+      "r": -0.4493926774609466,
+      "p": 2.8719204321066415e-16
+    }
+  },
+  "residualized_mannwhitney_p": {
+    "GPT-3.5": {
+      "mattr50": 0.0010575543184782395,
+      "mtld": 0.0017665641434145185,
+      "ttr": 0.020680749139978086
+    },
+    "MiMo-V2.5-Pro": {
+      "mattr50": 0.0023799639794362107,
+      "mtld": 9.211268793716519e-05,
+      "ttr": 0.0003367900904319431
+    },
+    "DeepSeek-V4-Flash": {
+      "mattr50": 0.20094889697592833,
+      "mtld": 0.07482700800490434,
+      "ttr": 0.07978164712498097
+    },
+    "MiniMax-M3": {
+      "mattr50": 0.9234421319782358,
+      "mtld": 0.6843225867624494,
+      "ttr": 0.5592305357919067
+    },
+    "Muse-Spark-1.2-Contributor": {
+      "mattr50": 0.9587314908134437,
+      "mtld": 0.46427291062161524,
+      "ttr": 0.40353753915408586
+    },
+    "GPT-5.6-Luna": {
+      "mattr50": 6.765008246371499e-05,
+      "mtld": 2.9589845546014045e-05,
+      "ttr": 0.013271804739910291
+    },
+    "Claude-Sonnet-5-High": {
+      "mattr50": 2.6015113749963406e-08,
+      "mtld": 9.26028739563309e-09,
+      "ttr": 1.9962775390084076e-05
+    },
+    "Gemini-3.6-Flash": {
+      "mattr50": 2.3897386921024213e-08,
+      "mtld": 6.72195435841357e-10,
+      "ttr": 9.75550113457629e-10
+    },
+    "Kimi-K3": {
+      "mattr50": 0.00039964537925844525,
+      "mtld": 3.1269040495708467e-06,
+      "ttr": 7.8252210330681e-05
+    }
+  },
+  "records": [
+    {
+      "prompt_id": 0,
+      "condition": "Human",
+      "n_tokens": 272,
+      "mattr50": 0.8151569506726469,
+      "mtld": 86.49340234745206,
+      "ttr": 0.6102941176470589
+    },
+    {
+      "prompt_id": 0,
+      "condition": "GPT-3.5",
+      "n_tokens": 597,
+      "mattr50": 0.8566058394160565,
+      "mtld": 126.60057136396841,
+      "ttr": 0.5226130653266332
+    },
+    {
+      "prompt_id": 0,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 819,
+      "mattr50": 0.8569350649350688,
+      "mtld": 152.06130099228227,
+      "ttr": 0.503052503052503
+    },
+    {
+      "prompt_id": 0,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 543,
+      "mattr50": 0.8269635627530345,
+      "mtld": 116.70623125921844,
+      "ttr": 0.5377532228360957
+    },
+    {
+      "prompt_id": 0,
+      "condition": "MiniMax-M3",
+      "n_tokens": 796,
+      "mattr50": 0.8377777777777777,
+      "mtld": 123.71117794405951,
+      "ttr": 0.4836683417085427
+    },
+    {
+      "prompt_id": 0,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 884,
+      "mattr50": 0.8266586826347304,
+      "mtld": 124.44588744588745,
+      "ttr": 0.45361990950226244
+    },
+    {
+      "prompt_id": 0,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 798,
+      "mattr50": 0.8495861148197588,
+      "mtld": 136.325,
+      "ttr": 0.4974937343358396
+    },
+    {
+      "prompt_id": 0,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 641,
+      "mattr50": 0.853108108108107,
+      "mtld": 161.32984525750567,
+      "ttr": 0.5397815912636506
+    },
+    {
+      "prompt_id": 0,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 697,
+      "mattr50": 0.8674382716049384,
+      "mtld": 211.93216253443526,
+      "ttr": 0.5824964131994261
+    },
+    {
+      "prompt_id": 0,
+      "condition": "Kimi-K3",
+      "n_tokens": 639,
+      "mattr50": 0.841152542372878,
+      "mtld": 148.50240160552465,
+      "ttr": 0.5320813771517997
+    },
+    {
+      "prompt_id": 1,
+      "condition": "Human",
+      "n_tokens": 763,
+      "mattr50": 0.7711204481792694,
+      "mtld": 65.17692421770725,
+      "ttr": 0.45478374836173
+    },
+    {
+      "prompt_id": 1,
+      "condition": "GPT-3.5",
+      "n_tokens": 480,
+      "mattr50": 0.8252900232018557,
+      "mtld": 103.64454437672288,
+      "ttr": 0.5208333333333334
+    },
+    {
+      "prompt_id": 1,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 801,
+      "mattr50": 0.8221542553191475,
+      "mtld": 110.8929621636049,
+      "ttr": 0.4731585518102372
+    },
+    {
+      "prompt_id": 1,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 800,
+      "mattr50": 0.8164314247669766,
+      "mtld": 108.2289415829885,
+      "ttr": 0.44625
+    },
+    {
+      "prompt_id": 1,
+      "condition": "MiniMax-M3",
+      "n_tokens": 718,
+      "mattr50": 0.770284005979072,
+      "mtld": 73.88696515630136,
+      "ttr": 0.4373259052924791
+    },
+    {
+      "prompt_id": 1,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 806,
+      "mattr50": 0.7815852047556117,
+      "mtld": 79.83128672906462,
+      "ttr": 0.4292803970223325
+    },
+    {
+      "prompt_id": 1,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 757,
+      "mattr50": 0.8322881355932183,
+      "mtld": 119.57224207409386,
+      "ttr": 0.47556142668428003
+    },
+    {
+      "prompt_id": 1,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 609,
+      "mattr50": 0.8522499999999993,
+      "mtld": 154.2205025847693,
+      "ttr": 0.5024630541871922
+    },
+    {
+      "prompt_id": 1,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 806,
+      "mattr50": 0.828639365918096,
+      "mtld": 130.97576179170386,
+      "ttr": 0.5223325062034739
+    },
+    {
+      "prompt_id": 1,
+      "condition": "Kimi-K3",
+      "n_tokens": 635,
+      "mattr50": 0.8323890784982924,
+      "mtld": 95.725071307483,
+      "ttr": 0.4818897637795276
+    },
+    {
+      "prompt_id": 2,
+      "condition": "Human",
+      "n_tokens": 741,
+      "mattr50": 0.8057514450867046,
+      "mtld": 84.0024863177484,
+      "ttr": 0.42375168690958165
+    },
+    {
+      "prompt_id": 2,
+      "condition": "GPT-3.5",
+      "n_tokens": 551,
+      "mattr50": 0.8209163346613523,
+      "mtld": 95.86655405405406,
+      "ttr": 0.5208711433756806
+    },
+    {
+      "prompt_id": 2,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 774,
+      "mattr50": 0.8251862068965523,
+      "mtld": 112.49009716809027,
+      "ttr": 0.4819121447028424
+    },
+    {
+      "prompt_id": 2,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 679,
+      "mattr50": 0.7717142857142856,
+      "mtld": 72.71244053325542,
+      "ttr": 0.43888070692194403
+    },
+    {
+      "prompt_id": 2,
+      "condition": "MiniMax-M3",
+      "n_tokens": 731,
+      "mattr50": 0.7556598240469203,
+      "mtld": 62.47014011058055,
+      "ttr": 0.4076607387140903
+    },
+    {
+      "prompt_id": 2,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 820,
+      "mattr50": 0.7590920881971434,
+      "mtld": 63.57177172879762,
+      "ttr": 0.4268292682926829
+    },
+    {
+      "prompt_id": 2,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 730,
+      "mattr50": 0.8004698972099829,
+      "mtld": 79.33547382759292,
+      "ttr": 0.45616438356164385
+    },
+    {
+      "prompt_id": 2,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 648,
+      "mattr50": 0.8067445742904832,
+      "mtld": 98.29373145810621,
+      "ttr": 0.49228395061728397
+    },
+    {
+      "prompt_id": 2,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 778,
+      "mattr50": 0.8242524005486965,
+      "mtld": 116.10941388092499,
+      "ttr": 0.506426735218509
+    },
+    {
+      "prompt_id": 2,
+      "condition": "Kimi-K3",
+      "n_tokens": 793,
+      "mattr50": 0.789650537634408,
+      "mtld": 87.50382148218917,
+      "ttr": 0.46153846153846156
+    },
+    {
+      "prompt_id": 3,
+      "condition": "Human",
+      "n_tokens": 365,
+      "mattr50": 0.7534177215189877,
+      "mtld": 50.59767152244571,
+      "ttr": 0.5205479452054794
+    },
+    {
+      "prompt_id": 3,
+      "condition": "GPT-3.5",
+      "n_tokens": 573,
+      "mattr50": 0.8190839694656474,
+      "mtld": 107.29546742209632,
+      "ttr": 0.5200698080279232
+    },
+    {
+      "prompt_id": 3,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 740,
+      "mattr50": 0.8263965267727925,
+      "mtld": 129.70236653902467,
+      "ttr": 0.5067567567567568
+    },
+    {
+      "prompt_id": 3,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 663,
+      "mattr50": 0.8232573289902255,
+      "mtld": 114.67416435993378,
+      "ttr": 0.5052790346907994
+    },
+    {
+      "prompt_id": 3,
+      "condition": "MiniMax-M3",
+      "n_tokens": 780,
+      "mattr50": 0.7434746922024622,
+      "mtld": 57.073215182890195,
+      "ttr": 0.3974358974358974
+    },
+    {
+      "prompt_id": 3,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 870,
+      "mattr50": 0.8183922046285023,
+      "mtld": 118.73327887266416,
+      "ttr": 0.4862068965517241
+    },
+    {
+      "prompt_id": 3,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 801,
+      "mattr50": 0.8125265957446763,
+      "mtld": 115.16764909021626,
+      "ttr": 0.4444444444444444
+    },
+    {
+      "prompt_id": 3,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 684,
+      "mattr50": 0.8019527559055105,
+      "mtld": 99.13112257825355,
+      "ttr": 0.4780701754385965
+    },
+    {
+      "prompt_id": 3,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 724,
+      "mattr50": 0.8485925925925898,
+      "mtld": 207.3662550578179,
+      "ttr": 0.606353591160221
+    },
+    {
+      "prompt_id": 3,
+      "condition": "Kimi-K3",
+      "n_tokens": 629,
+      "mattr50": 0.8274827586206884,
+      "mtld": 131.67413683446847,
+      "ttr": 0.5373608903020668
+    },
+    {
+      "prompt_id": 4,
+      "condition": "Human",
+      "n_tokens": 292,
+      "mattr50": 0.7669135802469141,
+      "mtld": 66.67703783269619,
+      "ttr": 0.5547945205479452
+    },
+    {
+      "prompt_id": 4,
+      "condition": "GPT-3.5",
+      "n_tokens": 565,
+      "mattr50": 0.8068217054263546,
+      "mtld": 89.53413834227788,
+      "ttr": 0.4761061946902655
+    },
+    {
+      "prompt_id": 4,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 866,
+      "mattr50": 0.788518971848224,
+      "mtld": 89.07390082548295,
+      "ttr": 0.4745958429561201
+    },
+    {
+      "prompt_id": 4,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 756,
+      "mattr50": 0.771824611032531,
+      "mtld": 76.77665472635094,
+      "ttr": 0.4470899470899471
+    },
+    {
+      "prompt_id": 4,
+      "condition": "MiniMax-M3",
+      "n_tokens": 756,
+      "mattr50": 0.760509193776518,
+      "mtld": 68.9025710973198,
+      "ttr": 0.4497354497354497
+    },
+    {
+      "prompt_id": 4,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 803,
+      "mattr50": 0.79206896551724,
+      "mtld": 92.95780404170154,
+      "ttr": 0.45454545454545453
+    },
+    {
+      "prompt_id": 4,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 663,
+      "mattr50": 0.8079153094462508,
+      "mtld": 116.66993006993007,
+      "ttr": 0.502262443438914
+    },
+    {
+      "prompt_id": 4,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 634,
+      "mattr50": 0.8212649572649543,
+      "mtld": 103.16981726528041,
+      "ttr": 0.501577287066246
+    },
+    {
+      "prompt_id": 4,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 732,
+      "mattr50": 0.8160175695461185,
+      "mtld": 120.39304531085352,
+      "ttr": 0.5368852459016393
+    },
+    {
+      "prompt_id": 4,
+      "condition": "Kimi-K3",
+      "n_tokens": 761,
+      "mattr50": 0.8123876404494387,
+      "mtld": 103.7187214322756,
+      "ttr": 0.5203679369250985
+    },
+    {
+      "prompt_id": 5,
+      "condition": "Human",
+      "n_tokens": 340,
+      "mattr50": 0.8025429553264599,
+      "mtld": 79.37830687830689,
+      "ttr": 0.5235294117647059
+    },
+    {
+      "prompt_id": 5,
+      "condition": "GPT-3.5",
+      "n_tokens": 537,
+      "mattr50": 0.7962295081967183,
+      "mtld": 77.58505516771045,
+      "ttr": 0.4860335195530726
+    },
+    {
+      "prompt_id": 5,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 759,
+      "mattr50": 0.8044225352112643,
+      "mtld": 104.04513953058584,
+      "ttr": 0.5151515151515151
+    },
+    {
+      "prompt_id": 5,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 673,
+      "mattr50": 0.7971474358974333,
+      "mtld": 116.41015619376665,
+      "ttr": 0.5542347696879644
+    },
+    {
+      "prompt_id": 5,
+      "condition": "MiniMax-M3",
+      "n_tokens": 757,
+      "mattr50": 0.7785310734463275,
+      "mtld": 76.81323529411765,
+      "ttr": 0.4610303830911493
+    },
+    {
+      "prompt_id": 5,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1023,
+      "mattr50": 0.7962012320328502,
+      "mtld": 108.47530710967709,
+      "ttr": 0.4809384164222874
+    },
+    {
+      "prompt_id": 5,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 785,
+      "mattr50": 0.8056793478260859,
+      "mtld": 88.31895134779751,
+      "ttr": 0.5095541401273885
+    },
+    {
+      "prompt_id": 5,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 636,
+      "mattr50": 0.8157751277683107,
+      "mtld": 118.69163879598662,
+      "ttr": 0.529874213836478
+    },
+    {
+      "prompt_id": 5,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 658,
+      "mattr50": 0.8708045977011487,
+      "mtld": 175.76346113815958,
+      "ttr": 0.6124620060790273
+    },
+    {
+      "prompt_id": 5,
+      "condition": "Kimi-K3",
+      "n_tokens": 505,
+      "mattr50": 0.8683333333333318,
+      "mtld": 177.6674733445567,
+      "ttr": 0.6059405940594059
+    },
+    {
+      "prompt_id": 6,
+      "condition": "Human",
+      "n_tokens": 518,
+      "mattr50": 0.8078464818763326,
+      "mtld": 98.54140625,
+      "ttr": 0.5386100386100386
+    },
+    {
+      "prompt_id": 6,
+      "condition": "GPT-3.5",
+      "n_tokens": 537,
+      "mattr50": 0.8097950819672121,
+      "mtld": 90.06912468875694,
+      "ttr": 0.4897579143389199
+    },
+    {
+      "prompt_id": 6,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 690,
+      "mattr50": 0.8459594383775332,
+      "mtld": 143.49536801384505,
+      "ttr": 0.5144927536231884
+    },
+    {
+      "prompt_id": 6,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 605,
+      "mattr50": 0.7735251798561151,
+      "mtld": 72.78199934392569,
+      "ttr": 0.47603305785123967
+    },
+    {
+      "prompt_id": 6,
+      "condition": "MiniMax-M3",
+      "n_tokens": 665,
+      "mattr50": 0.7736038961038956,
+      "mtld": 76.04771266372028,
+      "ttr": 0.43909774436090226
+    },
+    {
+      "prompt_id": 6,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 810,
+      "mattr50": 0.7632063074901425,
+      "mtld": 71.43462490652593,
+      "ttr": 0.445679012345679
+    },
+    {
+      "prompt_id": 6,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 918,
+      "mattr50": 0.840115074798619,
+      "mtld": 129.88387927861612,
+      "ttr": 0.4803921568627451
+    },
+    {
+      "prompt_id": 6,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 638,
+      "mattr50": 0.8736502546689288,
+      "mtld": 223.49519230769232,
+      "ttr": 0.5783699059561128
+    },
+    {
+      "prompt_id": 6,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 725,
+      "mattr50": 0.8487573964497028,
+      "mtld": 158.18585690170914,
+      "ttr": 0.56
+    },
+    {
+      "prompt_id": 6,
+      "condition": "Kimi-K3",
+      "n_tokens": 465,
+      "mattr50": 0.8658653846153849,
+      "mtld": 141.6936588700313,
+      "ttr": 0.5763440860215053
+    },
+    {
+      "prompt_id": 7,
+      "condition": "Human",
+      "n_tokens": 302,
+      "mattr50": 0.8385770750988156,
+      "mtld": 133.83050333535476,
+      "ttr": 0.6125827814569537
+    },
+    {
+      "prompt_id": 7,
+      "condition": "GPT-3.5",
+      "n_tokens": 519,
+      "mattr50": 0.8139574468085089,
+      "mtld": 109.24945781485532,
+      "ttr": 0.5472061657032755
+    },
+    {
+      "prompt_id": 7,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 706,
+      "mattr50": 0.8328462709284608,
+      "mtld": 117.62625171036834,
+      "ttr": 0.5113314447592068
+    },
+    {
+      "prompt_id": 7,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 622,
+      "mattr50": 0.8308551483420582,
+      "mtld": 114.30326301911668,
+      "ttr": 0.522508038585209
+    },
+    {
+      "prompt_id": 7,
+      "condition": "MiniMax-M3",
+      "n_tokens": 730,
+      "mattr50": 0.8187665198237869,
+      "mtld": 116.59858295464358,
+      "ttr": 0.5273972602739726
+    },
+    {
+      "prompt_id": 7,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 735,
+      "mattr50": 0.8087463556851294,
+      "mtld": 113.17779630632242,
+      "ttr": 0.5414965986394558
+    },
+    {
+      "prompt_id": 7,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 761,
+      "mattr50": 0.8425561797752765,
+      "mtld": 132.87329291269918,
+      "ttr": 0.49540078843626806
+    },
+    {
+      "prompt_id": 7,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 676,
+      "mattr50": 0.8628389154704917,
+      "mtld": 159.21430012553802,
+      "ttr": 0.5724852071005917
+    },
+    {
+      "prompt_id": 7,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 618,
+      "mattr50": 0.8571177504393651,
+      "mtld": 181.86875759755884,
+      "ttr": 0.6035598705501618
+    },
+    {
+      "prompt_id": 7,
+      "condition": "Kimi-K3",
+      "n_tokens": 646,
+      "mattr50": 0.8131323283082054,
+      "mtld": 136.11156423935444,
+      "ttr": 0.5572755417956656
+    },
+    {
+      "prompt_id": 8,
+      "condition": "Human",
+      "n_tokens": 551,
+      "mattr50": 0.7887250996015926,
+      "mtld": 73.33765670231423,
+      "ttr": 0.4573502722323049
+    },
+    {
+      "prompt_id": 8,
+      "condition": "GPT-3.5",
+      "n_tokens": 611,
+      "mattr50": 0.8086476868327378,
+      "mtld": 82.55836840802179,
+      "ttr": 0.49427168576104746
+    },
+    {
+      "prompt_id": 8,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 710,
+      "mattr50": 0.8628139183055984,
+      "mtld": 161.68863126457686,
+      "ttr": 0.5507042253521127
+    },
+    {
+      "prompt_id": 8,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 450,
+      "mattr50": 0.8289276807980039,
+      "mtld": 141.32085879734677,
+      "ttr": 0.62
+    },
+    {
+      "prompt_id": 8,
+      "condition": "MiniMax-M3",
+      "n_tokens": 782,
+      "mattr50": 0.8146793997271471,
+      "mtld": 111.75240407087257,
+      "ttr": 0.530690537084399
+    },
+    {
+      "prompt_id": 8,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 850,
+      "mattr50": 0.8423970037453169,
+      "mtld": 156.52170816815817,
+      "ttr": 0.528235294117647
+    },
+    {
+      "prompt_id": 8,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 816,
+      "mattr50": 0.8491786179921781,
+      "mtld": 184.0997727946261,
+      "ttr": 0.5490196078431373
+    },
+    {
+      "prompt_id": 8,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 675,
+      "mattr50": 0.9130351437699663,
+      "mtld": 351.65727270939317,
+      "ttr": 0.64
+    },
+    {
+      "prompt_id": 8,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 613,
+      "mattr50": 0.839078014184394,
+      "mtld": 216.58527387095103,
+      "ttr": 0.6199021207177814
+    },
+    {
+      "prompt_id": 8,
+      "condition": "Kimi-K3",
+      "n_tokens": 599,
+      "mattr50": 0.801890909090908,
+      "mtld": 111.67245590230664,
+      "ttr": 0.5559265442404007
+    },
+    {
+      "prompt_id": 9,
+      "condition": "Human",
+      "n_tokens": 179,
+      "mattr50": 0.7713846153846148,
+      "mtld": 59.666666666666664,
+      "ttr": 0.5977653631284916
+    },
+    {
+      "prompt_id": 9,
+      "condition": "GPT-3.5",
+      "n_tokens": 537,
+      "mattr50": 0.7753688524590145,
+      "mtld": 71.04030610296684,
+      "ttr": 0.5009310986964618
+    },
+    {
+      "prompt_id": 9,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 788,
+      "mattr50": 0.8192151556156947,
+      "mtld": 115.70817438311101,
+      "ttr": 0.5114213197969543
+    },
+    {
+      "prompt_id": 9,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 681,
+      "mattr50": 0.7947468354430337,
+      "mtld": 98.70296077284726,
+      "ttr": 0.5256975036710719
+    },
+    {
+      "prompt_id": 9,
+      "condition": "MiniMax-M3",
+      "n_tokens": 759,
+      "mattr50": 0.7666197183098588,
+      "mtld": 71.80254563774301,
+      "ttr": 0.45718050065876153
+    },
+    {
+      "prompt_id": 9,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 851,
+      "mattr50": 0.7947880299251864,
+      "mtld": 94.97705134555059,
+      "ttr": 0.4864864864864865
+    },
+    {
+      "prompt_id": 9,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 813,
+      "mattr50": 0.8026963350785323,
+      "mtld": 95.97916666666666,
+      "ttr": 0.46863468634686345
+    },
+    {
+      "prompt_id": 9,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 662,
+      "mattr50": 0.8508646003262624,
+      "mtld": 151.99788790114115,
+      "ttr": 0.5725075528700906
+    },
+    {
+      "prompt_id": 9,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 668,
+      "mattr50": 0.8521163166397397,
+      "mtld": 170.61818945865238,
+      "ttr": 0.5913173652694611
+    },
+    {
+      "prompt_id": 9,
+      "condition": "Kimi-K3",
+      "n_tokens": 671,
+      "mattr50": 0.8230868167202545,
+      "mtld": 121.44254042716346,
+      "ttr": 0.555886736214605
+    },
+    {
+      "prompt_id": 10,
+      "condition": "Human",
+      "n_tokens": 496,
+      "mattr50": 0.7720357941834447,
+      "mtld": 69.07477406965455,
+      "ttr": 0.4576612903225806
+    },
+    {
+      "prompt_id": 10,
+      "condition": "GPT-3.5",
+      "n_tokens": 567,
+      "mattr50": 0.7942471042471038,
+      "mtld": 76.41855203619909,
+      "ttr": 0.47619047619047616
+    },
+    {
+      "prompt_id": 10,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 748,
+      "mattr50": 0.8387982832618018,
+      "mtld": 138.9327769093612,
+      "ttr": 0.48128342245989303
+    },
+    {
+      "prompt_id": 10,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 680,
+      "mattr50": 0.7744532488114088,
+      "mtld": 74.37219109155868,
+      "ttr": 0.4323529411764706
+    },
+    {
+      "prompt_id": 10,
+      "condition": "MiniMax-M3",
+      "n_tokens": 787,
+      "mattr50": 0.7975609756097549,
+      "mtld": 97.59631512708602,
+      "ttr": 0.47395171537484115
+    },
+    {
+      "prompt_id": 10,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 728,
+      "mattr50": 0.7719587628865989,
+      "mtld": 71.88897365360033,
+      "ttr": 0.4258241758241758
+    },
+    {
+      "prompt_id": 10,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 815,
+      "mattr50": 0.841853785900785,
+      "mtld": 140.05703474781092,
+      "ttr": 0.48098159509202454
+    },
+    {
+      "prompt_id": 10,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 708,
+      "mattr50": 0.8583004552352029,
+      "mtld": 133.02353289257206,
+      "ttr": 0.5070621468926554
+    },
+    {
+      "prompt_id": 10,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 803,
+      "mattr50": 0.8442175066313002,
+      "mtld": 135.34251050149015,
+      "ttr": 0.5043586550435866
+    },
+    {
+      "prompt_id": 10,
+      "condition": "Kimi-K3",
+      "n_tokens": 689,
+      "mattr50": 0.8381249999999951,
+      "mtld": 141.88368184674835,
+      "ttr": 0.5152394775036284
+    },
+    {
+      "prompt_id": 11,
+      "condition": "Human",
+      "n_tokens": 239,
+      "mattr50": 0.7557894736842108,
+      "mtld": 62.00643715430097,
+      "ttr": 0.5481171548117155
+    },
+    {
+      "prompt_id": 11,
+      "condition": "GPT-3.5",
+      "n_tokens": 577,
+      "mattr50": 0.8057954545454523,
+      "mtld": 96.37572463768117,
+      "ttr": 0.5337954939341422
+    },
+    {
+      "prompt_id": 11,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 724,
+      "mattr50": 0.8678222222222215,
+      "mtld": 191.72412051843125,
+      "ttr": 0.5621546961325967
+    },
+    {
+      "prompt_id": 11,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 691,
+      "mattr50": 0.8238006230529572,
+      "mtld": 109.13421090271974,
+      "ttr": 0.5195369030390738
+    },
+    {
+      "prompt_id": 11,
+      "condition": "MiniMax-M3",
+      "n_tokens": 873,
+      "mattr50": 0.8283737864077673,
+      "mtld": 123.41799468998906,
+      "ttr": 0.48109965635738833
+    },
+    {
+      "prompt_id": 11,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1018,
+      "mattr50": 0.825985552115585,
+      "mtld": 128.85131973717398,
+      "ttr": 0.45972495088408644
+    },
+    {
+      "prompt_id": 11,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 733,
+      "mattr50": 0.8622514619883046,
+      "mtld": 167.50411372377198,
+      "ttr": 0.5375170532060027
+    },
+    {
+      "prompt_id": 11,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 653,
+      "mattr50": 0.886854304635761,
+      "mtld": 248.9062940327422,
+      "ttr": 0.6186830015313936
+    },
+    {
+      "prompt_id": 11,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 771,
+      "mattr50": 0.8813573407202198,
+      "mtld": 273.8964607264825,
+      "ttr": 0.6199740596627756
+    },
+    {
+      "prompt_id": 11,
+      "condition": "Kimi-K3",
+      "n_tokens": 793,
+      "mattr50": 0.8341666666666673,
+      "mtld": 148.84764890282133,
+      "ttr": 0.5283732660781841
+    },
+    {
+      "prompt_id": 12,
+      "condition": "Human",
+      "n_tokens": 443,
+      "mattr50": 0.8406598984771548,
+      "mtld": 121.74652509825921,
+      "ttr": 0.5553047404063205
+    },
+    {
+      "prompt_id": 12,
+      "condition": "GPT-3.5",
+      "n_tokens": 498,
+      "mattr50": 0.840311804008907,
+      "mtld": 119.51201923076923,
+      "ttr": 0.5401606425702812
+    },
+    {
+      "prompt_id": 12,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 742,
+      "mattr50": 0.8264935064935048,
+      "mtld": 117.09823159638889,
+      "ttr": 0.4973045822102426
+    },
+    {
+      "prompt_id": 12,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 314,
+      "mattr50": 0.8299622641509434,
+      "mtld": 112.82874617737005,
+      "ttr": 0.6369426751592356
+    },
+    {
+      "prompt_id": 12,
+      "condition": "MiniMax-M3",
+      "n_tokens": 938,
+      "mattr50": 0.827491563554557,
+      "mtld": 117.56953350432832,
+      "ttr": 0.48294243070362475
+    },
+    {
+      "prompt_id": 12,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 837,
+      "mattr50": 0.8281472081218242,
+      "mtld": 108.71800577965274,
+      "ttr": 0.46236559139784944
+    },
+    {
+      "prompt_id": 12,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 801,
+      "mattr50": 0.8494148936170204,
+      "mtld": 122.19622991347342,
+      "ttr": 0.5106117353308365
+    },
+    {
+      "prompt_id": 12,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 661,
+      "mattr50": 0.8615032679738557,
+      "mtld": 146.2119815668203,
+      "ttr": 0.5279878971255674
+    },
+    {
+      "prompt_id": 12,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 631,
+      "mattr50": 0.8686941580756009,
+      "mtld": 176.9169542868275,
+      "ttr": 0.6101426307448494
+    },
+    {
+      "prompt_id": 12,
+      "condition": "Kimi-K3",
+      "n_tokens": 799,
+      "mattr50": 0.8268533333333329,
+      "mtld": 130.30282801828915,
+      "ttr": 0.4793491864831039
+    },
+    {
+      "prompt_id": 13,
+      "condition": "Human",
+      "n_tokens": 146,
+      "mattr50": 0.7851546391752579,
+      "mtld": 78.23270440251572,
+      "ttr": 0.5958904109589042
+    },
+    {
+      "prompt_id": 13,
+      "condition": "GPT-3.5",
+      "n_tokens": 453,
+      "mattr50": 0.8575742574257417,
+      "mtld": 124.39284002791447,
+      "ttr": 0.5275938189845475
+    },
+    {
+      "prompt_id": 13,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 626,
+      "mattr50": 0.8246793760831869,
+      "mtld": 111.22927814938684,
+      "ttr": 0.5095846645367412
+    },
+    {
+      "prompt_id": 13,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 775,
+      "mattr50": 0.7647933884297522,
+      "mtld": 59.61538461538461,
+      "ttr": 0.42451612903225805
+    },
+    {
+      "prompt_id": 13,
+      "condition": "MiniMax-M3",
+      "n_tokens": 776,
+      "mattr50": 0.790426409903714,
+      "mtld": 69.87188854644316,
+      "ttr": 0.4175257731958763
+    },
+    {
+      "prompt_id": 13,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1020,
+      "mattr50": 0.7977548918640571,
+      "mtld": 95.7437100695426,
+      "ttr": 0.4147058823529412
+    },
+    {
+      "prompt_id": 13,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 841,
+      "mattr50": 0.8100252525252504,
+      "mtld": 87.70475444745229,
+      "ttr": 0.4328180737217598
+    },
+    {
+      "prompt_id": 13,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 692,
+      "mattr50": 0.8550855365474336,
+      "mtld": 156.59984390139158,
+      "ttr": 0.5014450867052023
+    },
+    {
+      "prompt_id": 13,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 904,
+      "mattr50": 0.8509707602339207,
+      "mtld": 134.7309044704906,
+      "ttr": 0.5188053097345132
+    },
+    {
+      "prompt_id": 13,
+      "condition": "Kimi-K3",
+      "n_tokens": 707,
+      "mattr50": 0.8170212765957426,
+      "mtld": 111.46208546336348,
+      "ttr": 0.49222065063649223
+    },
+    {
+      "prompt_id": 14,
+      "condition": "Human",
+      "n_tokens": 380,
+      "mattr50": 0.7001812688821746,
+      "mtld": 37.61392675717461,
+      "ttr": 0.45526315789473687
+    },
+    {
+      "prompt_id": 14,
+      "condition": "GPT-3.5",
+      "n_tokens": 541,
+      "mattr50": 0.7998373983739835,
+      "mtld": 80.50761240299128,
+      "ttr": 0.4658040665434381
+    },
+    {
+      "prompt_id": 14,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 632,
+      "mattr50": 0.7883018867924493,
+      "mtld": 83.7955772769783,
+      "ttr": 0.5158227848101266
+    },
+    {
+      "prompt_id": 14,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 713,
+      "mattr50": 0.7779819277108441,
+      "mtld": 74.42576919721114,
+      "ttr": 0.45582047685834504
+    },
+    {
+      "prompt_id": 14,
+      "condition": "MiniMax-M3",
+      "n_tokens": 792,
+      "mattr50": 0.7787079407806186,
+      "mtld": 67.04913294797689,
+      "ttr": 0.4090909090909091
+    },
+    {
+      "prompt_id": 14,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 786,
+      "mattr50": 0.7967164179104453,
+      "mtld": 91.54789669943958,
+      "ttr": 0.48854961832061067
+    },
+    {
+      "prompt_id": 14,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 888,
+      "mattr50": 0.8452443384982131,
+      "mtld": 121.9582477876736,
+      "ttr": 0.4560810810810811
+    },
+    {
+      "prompt_id": 14,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 684,
+      "mattr50": 0.8267401574803132,
+      "mtld": 125.74324341976357,
+      "ttr": 0.52046783625731
+    },
+    {
+      "prompt_id": 14,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 672,
+      "mattr50": 0.8103691813804164,
+      "mtld": 97.56548209913308,
+      "ttr": 0.5327380952380952
+    },
+    {
+      "prompt_id": 14,
+      "condition": "Kimi-K3",
+      "n_tokens": 608,
+      "mattr50": 0.8243649373881917,
+      "mtld": 120.86257701144751,
+      "ttr": 0.5164473684210527
+    },
+    {
+      "prompt_id": 15,
+      "condition": "Human",
+      "n_tokens": 562,
+      "mattr50": 0.7642495126705644,
+      "mtld": 63.89034090257579,
+      "ttr": 0.4395017793594306
+    },
+    {
+      "prompt_id": 15,
+      "condition": "GPT-3.5",
+      "n_tokens": 484,
+      "mattr50": 0.8182528735632169,
+      "mtld": 103.84874434271083,
+      "ttr": 0.5144628099173554
+    },
+    {
+      "prompt_id": 15,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 724,
+      "mattr50": 0.813955555555553,
+      "mtld": 99.95096780252669,
+      "ttr": 0.4972375690607735
+    },
+    {
+      "prompt_id": 15,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 678,
+      "mattr50": 0.7623211446740875,
+      "mtld": 65.89550561797753,
+      "ttr": 0.4277286135693215
+    },
+    {
+      "prompt_id": 15,
+      "condition": "MiniMax-M3",
+      "n_tokens": 678,
+      "mattr50": 0.7733227344992037,
+      "mtld": 68.67751974075728,
+      "ttr": 0.43952802359882004
+    },
+    {
+      "prompt_id": 15,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 799,
+      "mattr50": 0.7880533333333313,
+      "mtld": 73.54400962016051,
+      "ttr": 0.4330413016270338
+    },
+    {
+      "prompt_id": 15,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 894,
+      "mattr50": 0.8202130177514816,
+      "mtld": 106.83261250565356,
+      "ttr": 0.4519015659955257
+    },
+    {
+      "prompt_id": 15,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 684,
+      "mattr50": 0.8316850393700767,
+      "mtld": 121.02312120968273,
+      "ttr": 0.4853801169590643
+    },
+    {
+      "prompt_id": 15,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 576,
+      "mattr50": 0.8332827324478161,
+      "mtld": 137.54221422447034,
+      "ttr": 0.5520833333333334
+    },
+    {
+      "prompt_id": 15,
+      "condition": "Kimi-K3",
+      "n_tokens": 753,
+      "mattr50": 0.7682954545454547,
+      "mtld": 69.65851262862489,
+      "ttr": 0.45683930942895085
+    },
+    {
+      "prompt_id": 16,
+      "condition": "Human",
+      "n_tokens": 801,
+      "mattr50": 0.7952925531914888,
+      "mtld": 78.3028284313975,
+      "ttr": 0.4556803995006242
+    },
+    {
+      "prompt_id": 16,
+      "condition": "GPT-3.5",
+      "n_tokens": 512,
+      "mattr50": 0.8320518358531303,
+      "mtld": 110.49154108230223,
+      "ttr": 0.5234375
+    },
+    {
+      "prompt_id": 16,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 729,
+      "mattr50": 0.8001470588235261,
+      "mtld": 95.3879363389932,
+      "ttr": 0.46364883401920437
+    },
+    {
+      "prompt_id": 16,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 748,
+      "mattr50": 0.8073533619456326,
+      "mtld": 93.77838853007192,
+      "ttr": 0.46390374331550804
+    },
+    {
+      "prompt_id": 16,
+      "condition": "MiniMax-M3",
+      "n_tokens": 859,
+      "mattr50": 0.7893333333333328,
+      "mtld": 80.24510398016803,
+      "ttr": 0.420256111757858
+    },
+    {
+      "prompt_id": 16,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 947,
+      "mattr50": 0.7763697104677064,
+      "mtld": 73.10064038678374,
+      "ttr": 0.4371700105596621
+    },
+    {
+      "prompt_id": 16,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 761,
+      "mattr50": 0.8505337078651691,
+      "mtld": 132.56728918802116,
+      "ttr": 0.46386333771353483
+    },
+    {
+      "prompt_id": 16,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 705,
+      "mattr50": 0.8710365853658535,
+      "mtld": 149.55257196162046,
+      "ttr": 0.49929078014184397
+    },
+    {
+      "prompt_id": 16,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 661,
+      "mattr50": 0.8363398692810435,
+      "mtld": 134.4966174049545,
+      "ttr": 0.5325264750378215
+    },
+    {
+      "prompt_id": 16,
+      "condition": "Kimi-K3",
+      "n_tokens": 562,
+      "mattr50": 0.7904483430799206,
+      "mtld": 78.22141610196536,
+      "ttr": 0.4786476868327402
+    },
+    {
+      "prompt_id": 17,
+      "condition": "Human",
+      "n_tokens": 970,
+      "mattr50": 0.778675352877306,
+      "mtld": 68.32799687622023,
+      "ttr": 0.41237113402061853
+    },
+    {
+      "prompt_id": 17,
+      "condition": "GPT-3.5",
+      "n_tokens": 489,
+      "mattr50": 0.8342272727272734,
+      "mtld": 113.16002974223397,
+      "ttr": 0.5623721881390593
+    },
+    {
+      "prompt_id": 17,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 717,
+      "mattr50": 0.8115269461077841,
+      "mtld": 97.5846972448618,
+      "ttr": 0.5076708507670851
+    },
+    {
+      "prompt_id": 17,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 798,
+      "mattr50": 0.823711615487315,
+      "mtld": 115.19383900820245,
+      "ttr": 0.4724310776942356
+    },
+    {
+      "prompt_id": 17,
+      "condition": "MiniMax-M3",
+      "n_tokens": 644,
+      "mattr50": 0.8512605042016792,
+      "mtld": 139.08447451137505,
+      "ttr": 0.5341614906832298
+    },
+    {
+      "prompt_id": 17,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 989,
+      "mattr50": 0.8128085106382995,
+      "mtld": 99.82525987525989,
+      "ttr": 0.4398382204246714
+    },
+    {
+      "prompt_id": 17,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 779,
+      "mattr50": 0.8573150684931511,
+      "mtld": 133.17752525252524,
+      "ttr": 0.5083440308087291
+    },
+    {
+      "prompt_id": 17,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 685,
+      "mattr50": 0.8534905660377332,
+      "mtld": 137.0,
+      "ttr": 0.5197080291970803
+    },
+    {
+      "prompt_id": 17,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 782,
+      "mattr50": 0.8565075034106403,
+      "mtld": 174.3589758803464,
+      "ttr": 0.5447570332480819
+    },
+    {
+      "prompt_id": 17,
+      "condition": "Kimi-K3",
+      "n_tokens": 633,
+      "mattr50": 0.8696575342465742,
+      "mtld": 170.42088911586143,
+      "ttr": 0.5545023696682464
+    },
+    {
+      "prompt_id": 18,
+      "condition": "Human",
+      "n_tokens": 216,
+      "mattr50": 0.8028742514970065,
+      "mtld": 83.05815412936155,
+      "ttr": 0.6018518518518519
+    },
+    {
+      "prompt_id": 18,
+      "condition": "GPT-3.5",
+      "n_tokens": 493,
+      "mattr50": 0.823603603603601,
+      "mtld": 101.23125217516625,
+      "ttr": 0.5273833671399595
+    },
+    {
+      "prompt_id": 18,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 799,
+      "mattr50": 0.8389600000000023,
+      "mtld": 141.8139983493276,
+      "ttr": 0.5294117647058824
+    },
+    {
+      "prompt_id": 18,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 571,
+      "mattr50": 0.8418773946360155,
+      "mtld": 144.51426051159154,
+      "ttr": 0.5586690017513135
+    },
+    {
+      "prompt_id": 18,
+      "condition": "MiniMax-M3",
+      "n_tokens": 865,
+      "mattr50": 0.801936274509799,
+      "mtld": 105.27519178929097,
+      "ttr": 0.4936416184971098
+    },
+    {
+      "prompt_id": 18,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 925,
+      "mattr50": 0.8437214611872184,
+      "mtld": 141.40235790307972,
+      "ttr": 0.5081081081081081
+    },
+    {
+      "prompt_id": 18,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 725,
+      "mattr50": 0.8735798816568053,
+      "mtld": 183.10987594445578,
+      "ttr": 0.5379310344827586
+    },
+    {
+      "prompt_id": 18,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 630,
+      "mattr50": 0.8873666092943183,
+      "mtld": 219.34928185470835,
+      "ttr": 0.5793650793650794
+    },
+    {
+      "prompt_id": 18,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 728,
+      "mattr50": 0.8804712812960226,
+      "mtld": 244.08854166666669,
+      "ttr": 0.614010989010989
+    },
+    {
+      "prompt_id": 18,
+      "condition": "Kimi-K3",
+      "n_tokens": 669,
+      "mattr50": 0.8473870967741922,
+      "mtld": 158.11031277704552,
+      "ttr": 0.547085201793722
+    },
+    {
+      "prompt_id": 19,
+      "condition": "Human",
+      "n_tokens": 730,
+      "mattr50": 0.7905433186490433,
+      "mtld": 81.3513354039731,
+      "ttr": 0.4547945205479452
+    },
+    {
+      "prompt_id": 19,
+      "condition": "GPT-3.5",
+      "n_tokens": 486,
+      "mattr50": 0.8357437070938212,
+      "mtld": 115.41812906397247,
+      "ttr": 0.5308641975308642
+    },
+    {
+      "prompt_id": 19,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 754,
+      "mattr50": 0.7968226950354602,
+      "mtld": 94.80884452497467,
+      "ttr": 0.4986737400530504
+    },
+    {
+      "prompt_id": 19,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 647,
+      "mattr50": 0.8352842809364533,
+      "mtld": 117.70378514111073,
+      "ttr": 0.5038639876352395
+    },
+    {
+      "prompt_id": 19,
+      "condition": "MiniMax-M3",
+      "n_tokens": 830,
+      "mattr50": 0.7609731113956475,
+      "mtld": 60.96541317593103,
+      "ttr": 0.38674698795180723
+    },
+    {
+      "prompt_id": 19,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 898,
+      "mattr50": 0.780282685512367,
+      "mtld": 75.76487670756782,
+      "ttr": 0.42538975501113585
+    },
+    {
+      "prompt_id": 19,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 743,
+      "mattr50": 0.8302593659942376,
+      "mtld": 111.05021921084098,
+      "ttr": 0.5181695827725438
+    },
+    {
+      "prompt_id": 19,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 655,
+      "mattr50": 0.8682838283828371,
+      "mtld": 158.1535693272196,
+      "ttr": 0.5190839694656488
+    },
+    {
+      "prompt_id": 19,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 728,
+      "mattr50": 0.8572606774668646,
+      "mtld": 186.00760604460538,
+      "ttr": 0.5714285714285714
+    },
+    {
+      "prompt_id": 19,
+      "condition": "Kimi-K3",
+      "n_tokens": 739,
+      "mattr50": 0.8577971014492749,
+      "mtld": 141.88760532874437,
+      "ttr": 0.5331529093369418
+    },
+    {
+      "prompt_id": 20,
+      "condition": "Human",
+      "n_tokens": 1105,
+      "mattr50": 0.7507196969696965,
+      "mtld": 61.388888888888886,
+      "ttr": 0.36561085972850677
+    },
+    {
+      "prompt_id": 20,
+      "condition": "GPT-3.5",
+      "n_tokens": 537,
+      "mattr50": 0.7932786885245886,
+      "mtld": 87.88479361027987,
+      "ttr": 0.5046554934823091
+    },
+    {
+      "prompt_id": 20,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 812,
+      "mattr50": 0.8341284403669709,
+      "mtld": 164.40693409008838,
+      "ttr": 0.5554187192118226
+    },
+    {
+      "prompt_id": 20,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 717,
+      "mattr50": 0.8381437125748468,
+      "mtld": 157.9186365440254,
+      "ttr": 0.5216178521617852
+    },
+    {
+      "prompt_id": 20,
+      "condition": "MiniMax-M3",
+      "n_tokens": 867,
+      "mattr50": 0.8070660146699262,
+      "mtld": 103.21394100309763,
+      "ttr": 0.42675893886966554
+    },
+    {
+      "prompt_id": 20,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1003,
+      "mattr50": 0.8002306079664563,
+      "mtld": 103.1923589430391,
+      "ttr": 0.4576271186440678
+    },
+    {
+      "prompt_id": 20,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 770,
+      "mattr50": 0.8899306518724001,
+      "mtld": 202.12449337153254,
+      "ttr": 0.5402597402597402
+    },
+    {
+      "prompt_id": 20,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 629,
+      "mattr50": 0.8750689655172402,
+      "mtld": 235.07446707528146,
+      "ttr": 0.6248012718600954
+    },
+    {
+      "prompt_id": 20,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 680,
+      "mattr50": 0.8585103011093478,
+      "mtld": 236.8366607545169,
+      "ttr": 0.6132352941176471
+    },
+    {
+      "prompt_id": 20,
+      "condition": "Kimi-K3",
+      "n_tokens": 734,
+      "mattr50": 0.819153284671531,
+      "mtld": 120.02851760926077,
+      "ttr": 0.5095367847411444
+    },
+    {
+      "prompt_id": 21,
+      "condition": "Human",
+      "n_tokens": 211,
+      "mattr50": 0.7140740740740744,
+      "mtld": 47.34111675126904,
+      "ttr": 0.4834123222748815
+    },
+    {
+      "prompt_id": 21,
+      "condition": "GPT-3.5",
+      "n_tokens": 529,
+      "mattr50": 0.8031666666666649,
+      "mtld": 93.12950754537344,
+      "ttr": 0.4952741020793951
+    },
+    {
+      "prompt_id": 21,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 773,
+      "mattr50": 0.7804696132596686,
+      "mtld": 75.83575031376972,
+      "ttr": 0.4385510996119017
+    },
+    {
+      "prompt_id": 21,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 943,
+      "mattr50": 0.7868680089485448,
+      "mtld": 66.62363006146848,
+      "ttr": 0.43584305408271473
+    },
+    {
+      "prompt_id": 21,
+      "condition": "MiniMax-M3",
+      "n_tokens": 852,
+      "mattr50": 0.7856537982565345,
+      "mtld": 82.15318595578674,
+      "ttr": 0.426056338028169
+    },
+    {
+      "prompt_id": 21,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 898,
+      "mattr50": 0.797102473498233,
+      "mtld": 88.43482171603348,
+      "ttr": 0.4287305122494432
+    },
+    {
+      "prompt_id": 21,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 731,
+      "mattr50": 0.8409970674486794,
+      "mtld": 129.94401500592878,
+      "ttr": 0.5075239398084815
+    },
+    {
+      "prompt_id": 21,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 606,
+      "mattr50": 0.8332136445242367,
+      "mtld": 115.39249162604052,
+      "ttr": 0.5
+    },
+    {
+      "prompt_id": 21,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 684,
+      "mattr50": 0.8510866141732261,
+      "mtld": 152.69929842516297,
+      "ttr": 0.5482456140350878
+    },
+    {
+      "prompt_id": 21,
+      "condition": "Kimi-K3",
+      "n_tokens": 653,
+      "mattr50": 0.8150331125827779,
+      "mtld": 127.63181818181818,
+      "ttr": 0.5007656967840735
+    },
+    {
+      "prompt_id": 22,
+      "condition": "Human",
+      "n_tokens": 543,
+      "mattr50": 0.8065587044534378,
+      "mtld": 100.52383938184812,
+      "ttr": 0.5009208103130756
+    },
+    {
+      "prompt_id": 22,
+      "condition": "GPT-3.5",
+      "n_tokens": 589,
+      "mattr50": 0.8017777777777764,
+      "mtld": 92.66996655318641,
+      "ttr": 0.5042444821731749
+    },
+    {
+      "prompt_id": 22,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 775,
+      "mattr50": 0.8552892561983483,
+      "mtld": 164.93100578089332,
+      "ttr": 0.5187096774193548
+    },
+    {
+      "prompt_id": 22,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 641,
+      "mattr50": 0.8034121621621605,
+      "mtld": 108.07630916285524,
+      "ttr": 0.5241809672386896
+    },
+    {
+      "prompt_id": 22,
+      "condition": "MiniMax-M3",
+      "n_tokens": 851,
+      "mattr50": 0.812892768079796,
+      "mtld": 114.63368725868726,
+      "ttr": 0.4982373678025852
+    },
+    {
+      "prompt_id": 22,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 936,
+      "mattr50": 0.8267192784667426,
+      "mtld": 114.44617685800276,
+      "ttr": 0.46260683760683763
+    },
+    {
+      "prompt_id": 22,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 691,
+      "mattr50": 0.8366666666666649,
+      "mtld": 151.08314179779686,
+      "ttr": 0.5180897250361794
+    },
+    {
+      "prompt_id": 22,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 679,
+      "mattr50": 0.8545079365079344,
+      "mtld": 151.37573298216347,
+      "ttr": 0.5095729013254786
+    },
+    {
+      "prompt_id": 22,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 704,
+      "mattr50": 0.8647938931297702,
+      "mtld": 261.3984029774694,
+      "ttr": 0.6079545454545454
+    },
+    {
+      "prompt_id": 22,
+      "condition": "Kimi-K3",
+      "n_tokens": 622,
+      "mattr50": 0.8537870855148332,
+      "mtld": 161.30982033483053,
+      "ttr": 0.5610932475884244
+    },
+    {
+      "prompt_id": 23,
+      "condition": "Human",
+      "n_tokens": 114,
+      "mattr50": 0.7723076923076929,
+      "mtld": 73.16039671682628,
+      "ttr": 0.6842105263157895
+    },
+    {
+      "prompt_id": 23,
+      "condition": "GPT-3.5",
+      "n_tokens": 515,
+      "mattr50": 0.8136051502145922,
+      "mtld": 107.65045763665184,
+      "ttr": 0.512621359223301
+    },
+    {
+      "prompt_id": 23,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 816,
+      "mattr50": 0.8026597131681861,
+      "mtld": 110.82710718978788,
+      "ttr": 0.47058823529411764
+    },
+    {
+      "prompt_id": 23,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 674,
+      "mattr50": 0.8221439999999981,
+      "mtld": 124.92278997958064,
+      "ttr": 0.5059347181008902
+    },
+    {
+      "prompt_id": 23,
+      "condition": "MiniMax-M3",
+      "n_tokens": 705,
+      "mattr50": 0.8442682926829266,
+      "mtld": 155.96610718045991,
+      "ttr": 0.5177304964539007
+    },
+    {
+      "prompt_id": 23,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 921,
+      "mattr50": 0.8199311926605529,
+      "mtld": 109.69457547169813,
+      "ttr": 0.4571118349619978
+    },
+    {
+      "prompt_id": 23,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 648,
+      "mattr50": 0.8573956594323844,
+      "mtld": 162.0,
+      "ttr": 0.4799382716049383
+    },
+    {
+      "prompt_id": 23,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 633,
+      "mattr50": 0.8308219178082169,
+      "mtld": 114.97651617250673,
+      "ttr": 0.5276461295418642
+    },
+    {
+      "prompt_id": 23,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 664,
+      "mattr50": 0.8402276422764211,
+      "mtld": 174.6634302089849,
+      "ttr": 0.5692771084337349
+    },
+    {
+      "prompt_id": 23,
+      "condition": "Kimi-K3",
+      "n_tokens": 712,
+      "mattr50": 0.8373453996983381,
+      "mtld": 147.24624015278107,
+      "ttr": 0.5294943820224719
+    },
+    {
+      "prompt_id": 24,
+      "condition": "Human",
+      "n_tokens": 483,
+      "mattr50": 0.8130875576036865,
+      "mtld": 80.86978798586571,
+      "ttr": 0.505175983436853
+    },
+    {
+      "prompt_id": 24,
+      "condition": "GPT-3.5",
+      "n_tokens": 508,
+      "mattr50": 0.8364705882352935,
+      "mtld": 127.0,
+      "ttr": 0.5433070866141733
+    },
+    {
+      "prompt_id": 24,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 839,
+      "mattr50": 0.8412405063291105,
+      "mtld": 164.92646530526605,
+      "ttr": 0.5494636471990465
+    },
+    {
+      "prompt_id": 24,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 681,
+      "mattr50": 0.819082278481011,
+      "mtld": 117.18429755401385,
+      "ttr": 0.5110132158590308
+    },
+    {
+      "prompt_id": 24,
+      "condition": "MiniMax-M3",
+      "n_tokens": 823,
+      "mattr50": 0.8199483204134359,
+      "mtld": 122.30858440937351,
+      "ttr": 0.4896719319562576
+    },
+    {
+      "prompt_id": 24,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 793,
+      "mattr50": 0.8093279569892469,
+      "mtld": 115.80486083175533,
+      "ttr": 0.4817150063051702
+    },
+    {
+      "prompt_id": 24,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 879,
+      "mattr50": 0.8534457831325272,
+      "mtld": 163.6292307692308,
+      "ttr": 0.4880546075085324
+    },
+    {
+      "prompt_id": 24,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 664,
+      "mattr50": 0.8459837398373979,
+      "mtld": 142.7229878373166,
+      "ttr": 0.49849397590361444
+    },
+    {
+      "prompt_id": 24,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 739,
+      "mattr50": 0.869652173913041,
+      "mtld": 231.76601616400552,
+      "ttr": 0.6143437077131259
+    },
+    {
+      "prompt_id": 24,
+      "condition": "Kimi-K3",
+      "n_tokens": 645,
+      "mattr50": 0.8242953020134193,
+      "mtld": 130.2642979202097,
+      "ttr": 0.5426356589147286
+    },
+    {
+      "prompt_id": 25,
+      "condition": "Human",
+      "n_tokens": 240,
+      "mattr50": 0.6145549738219893,
+      "mtld": 23.13544668587896,
+      "ttr": 0.38333333333333336
+    },
+    {
+      "prompt_id": 25,
+      "condition": "GPT-3.5",
+      "n_tokens": 478,
+      "mattr50": 0.8441491841491837,
+      "mtld": 116.5184630738523,
+      "ttr": 0.5167364016736402
+    },
+    {
+      "prompt_id": 25,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 711,
+      "mattr50": 0.8572205438066445,
+      "mtld": 135.61666666666667,
+      "ttr": 0.5133614627285513
+    },
+    {
+      "prompt_id": 25,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 734,
+      "mattr50": 0.8013722627737205,
+      "mtld": 84.9858814643971,
+      "ttr": 0.4209809264305177
+    },
+    {
+      "prompt_id": 25,
+      "condition": "MiniMax-M3",
+      "n_tokens": 732,
+      "mattr50": 0.8075256222547552,
+      "mtld": 98.90085349428567,
+      "ttr": 0.4371584699453552
+    },
+    {
+      "prompt_id": 25,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 790,
+      "mattr50": 0.8002429149797559,
+      "mtld": 84.85963356973994,
+      "ttr": 0.4
+    },
+    {
+      "prompt_id": 25,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 921,
+      "mattr50": 0.7848853211009158,
+      "mtld": 74.79131431053435,
+      "ttr": 0.36156351791530944
+    },
+    {
+      "prompt_id": 25,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 698,
+      "mattr50": 0.8537134052388261,
+      "mtld": 122.08526762056175,
+      "ttr": 0.45702005730659023
+    },
+    {
+      "prompt_id": 25,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 709,
+      "mattr50": 0.8615454545454556,
+      "mtld": 150.74916629985,
+      "ttr": 0.5543018335684062
+    },
+    {
+      "prompt_id": 25,
+      "condition": "Kimi-K3",
+      "n_tokens": 675,
+      "mattr50": 0.7866773162939275,
+      "mtld": 81.671877427373,
+      "ttr": 0.43555555555555553
+    },
+    {
+      "prompt_id": 26,
+      "condition": "Human",
+      "n_tokens": 267,
+      "mattr50": 0.6900917431192664,
+      "mtld": 43.57023136700812,
+      "ttr": 0.45318352059925093
+    },
+    {
+      "prompt_id": 26,
+      "condition": "GPT-3.5",
+      "n_tokens": 538,
+      "mattr50": 0.8665030674846615,
+      "mtld": 137.28138375574545,
+      "ttr": 0.5185873605947955
+    },
+    {
+      "prompt_id": 26,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 782,
+      "mattr50": 0.8639836289222346,
+      "mtld": 192.84663409337674,
+      "ttr": 0.5524296675191815
+    },
+    {
+      "prompt_id": 26,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 737,
+      "mattr50": 0.8061046511627911,
+      "mtld": 86.62877322140059,
+      "ttr": 0.4993215739484396
+    },
+    {
+      "prompt_id": 26,
+      "condition": "MiniMax-M3",
+      "n_tokens": 758,
+      "mattr50": 0.8126375176304625,
+      "mtld": 96.14629684047009,
+      "ttr": 0.48021108179419525
+    },
+    {
+      "prompt_id": 26,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1077,
+      "mattr50": 0.8032684824902734,
+      "mtld": 95.00652792176334,
+      "ttr": 0.45775301764159704
+    },
+    {
+      "prompt_id": 26,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 802,
+      "mattr50": 0.8535723771580334,
+      "mtld": 165.16120630792062,
+      "ttr": 0.49501246882793015
+    },
+    {
+      "prompt_id": 26,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 673,
+      "mattr50": 0.8745192307692278,
+      "mtld": 206.94276626832772,
+      "ttr": 0.5586924219910847
+    },
+    {
+      "prompt_id": 26,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 685,
+      "mattr50": 0.8429245283018858,
+      "mtld": 160.61722857443192,
+      "ttr": 0.5883211678832116
+    },
+    {
+      "prompt_id": 27,
+      "condition": "Human",
+      "n_tokens": 447,
+      "mattr50": 0.6682412060301506,
+      "mtld": 25.71411330874958,
+      "ttr": 0.436241610738255
+    },
+    {
+      "prompt_id": 27,
+      "condition": "GPT-3.5",
+      "n_tokens": 551,
+      "mattr50": 0.8146613545816727,
+      "mtld": 93.83596970230755,
+      "ttr": 0.5063520871143375
+    },
+    {
+      "prompt_id": 27,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 908,
+      "mattr50": 0.8159022118742713,
+      "mtld": 96.89019699914559,
+      "ttr": 0.4878854625550661
+    },
+    {
+      "prompt_id": 27,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 803,
+      "mattr50": 0.8102917771883278,
+      "mtld": 104.69158614850222,
+      "ttr": 0.48941469489414696
+    },
+    {
+      "prompt_id": 27,
+      "condition": "MiniMax-M3",
+      "n_tokens": 780,
+      "mattr50": 0.8116279069767431,
+      "mtld": 119.23791406820236,
+      "ttr": 0.5153846153846153
+    },
+    {
+      "prompt_id": 27,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 1136,
+      "mattr50": 0.8105795768169272,
+      "mtld": 104.34086713936998,
+      "ttr": 0.42869718309859156
+    },
+    {
+      "prompt_id": 27,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 914,
+      "mattr50": 0.8056878612716775,
+      "mtld": 93.15979019772882,
+      "ttr": 0.4759299781181619
+    },
+    {
+      "prompt_id": 27,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 650,
+      "mattr50": 0.8640599001663865,
+      "mtld": 138.41942776165735,
+      "ttr": 0.5276923076923077
+    },
+    {
+      "prompt_id": 27,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 722,
+      "mattr50": 0.8549182763744397,
+      "mtld": 185.34391802199764,
+      "ttr": 0.574792243767313
+    },
+    {
+      "prompt_id": 27,
+      "condition": "Kimi-K3",
+      "n_tokens": 643,
+      "mattr50": 0.8393939393939385,
+      "mtld": 148.8778399256979,
+      "ttr": 0.5396578538102644
+    },
+    {
+      "prompt_id": 28,
+      "condition": "Human",
+      "n_tokens": 376,
+      "mattr50": 0.7959021406727841,
+      "mtld": 72.20619150467962,
+      "ttr": 0.5691489361702128
+    },
+    {
+      "prompt_id": 28,
+      "condition": "GPT-3.5",
+      "n_tokens": 560,
+      "mattr50": 0.7864970645792575,
+      "mtld": 83.05459198213187,
+      "ttr": 0.5017857142857143
+    },
+    {
+      "prompt_id": 28,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 713,
+      "mattr50": 0.827168674698793,
+      "mtld": 125.13752362415728,
+      "ttr": 0.544179523141655
+    },
+    {
+      "prompt_id": 28,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 746,
+      "mattr50": 0.7995121951219504,
+      "mtld": 89.8102677149863,
+      "ttr": 0.47050938337801607
+    },
+    {
+      "prompt_id": 28,
+      "condition": "MiniMax-M3",
+      "n_tokens": 750,
+      "mattr50": 0.8479600570613393,
+      "mtld": 160.75543120473995,
+      "ttr": 0.5453333333333333
+    },
+    {
+      "prompt_id": 28,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 788,
+      "mattr50": 0.8329364005412716,
+      "mtld": 117.87762370637199,
+      "ttr": 0.5088832487309645
+    },
+    {
+      "prompt_id": 28,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 797,
+      "mattr50": 0.8764438502673805,
+      "mtld": 227.3107389538589,
+      "ttr": 0.5784190715181933
+    },
+    {
+      "prompt_id": 28,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 658,
+      "mattr50": 0.852676518883416,
+      "mtld": 194.81829624778686,
+      "ttr": 0.5835866261398176
+    },
+    {
+      "prompt_id": 28,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 719,
+      "mattr50": 0.883253731343284,
+      "mtld": 257.9650873351021,
+      "ttr": 0.6203059805285118
+    },
+    {
+      "prompt_id": 28,
+      "condition": "Kimi-K3",
+      "n_tokens": 732,
+      "mattr50": 0.8587994143484614,
+      "mtld": 198.44512326351526,
+      "ttr": 0.5628415300546448
+    },
+    {
+      "prompt_id": 29,
+      "condition": "Human",
+      "n_tokens": 359,
+      "mattr50": 0.8103870967741942,
+      "mtld": 102.57121143266824,
+      "ttr": 0.5654596100278552
+    },
+    {
+      "prompt_id": 29,
+      "condition": "GPT-3.5",
+      "n_tokens": 484,
+      "mattr50": 0.8312183908045969,
+      "mtld": 99.8385885501296,
+      "ttr": 0.5247933884297521
+    },
+    {
+      "prompt_id": 29,
+      "condition": "MiMo-V2.5-Pro",
+      "n_tokens": 738,
+      "mattr50": 0.7989259796806936,
+      "mtld": 95.11383488023915,
+      "ttr": 0.502710027100271
+    },
+    {
+      "prompt_id": 29,
+      "condition": "DeepSeek-V4-Flash",
+      "n_tokens": 772,
+      "mattr50": 0.8111203319502078,
+      "mtld": 98.74341754103614,
+      "ttr": 0.4792746113989637
+    },
+    {
+      "prompt_id": 29,
+      "condition": "MiniMax-M3",
+      "n_tokens": 697,
+      "mattr50": 0.7627160493827163,
+      "mtld": 70.74388771269506,
+      "ttr": 0.49067431850789095
+    },
+    {
+      "prompt_id": 29,
+      "condition": "Muse-Spark-1.2-Contributor",
+      "n_tokens": 737,
+      "mattr50": 0.7980232558139505,
+      "mtld": 89.29126429164876,
+      "ttr": 0.48575305291723203
+    },
+    {
+      "prompt_id": 29,
+      "condition": "GPT-5.6-Luna",
+      "n_tokens": 735,
+      "mattr50": 0.8226822157434368,
+      "mtld": 115.55652216962247,
+      "ttr": 0.47346938775510206
+    },
+    {
+      "prompt_id": 29,
+      "condition": "Claude-Sonnet-5-High",
+      "n_tokens": 634,
+      "mattr50": 0.846153846153844,
+      "mtld": 139.3657306308246,
+      "ttr": 0.5378548895899053
+    },
+    {
+      "prompt_id": 29,
+      "condition": "Gemini-3.6-Flash",
+      "n_tokens": 707,
+      "mattr50": 0.8437082066869278,
+      "mtld": 178.92715145786815,
+      "ttr": 0.5657708628005658
+    },
+    {
+      "prompt_id": 29,
+      "condition": "Kimi-K3",
+      "n_tokens": 746,
+      "mattr50": 0.820286944045907,
+      "mtld": 126.99534929850392,
+      "ttr": 0.5
+    }
+  ]
+}

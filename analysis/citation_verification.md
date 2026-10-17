@@ -216,3 +216,7 @@ Evidence:
 - Google Scholar was not directly accessible via API
 - ACM Digital Library returned Cloudflare challenge pages
 - The Huang 2024 venue (EMNLP Workshop) could not be confirmed or denied via ACL Anthology — the EMNLP 2024 workshop proceedings page returned 404, which may indicate the page structure changed or the paper was not published in the proceedings
+
+## Added 2026-10-17
+
+- **Covington, M. A., & McFall, J. D. (2010).** Cutting the Gordian knot: The moving-average type–token ratio (MATTR). *Journal of Quantitative Linguistics*, 17(2), 94-100. DOI 10.1080/09296171003643098. Verified against the publisher landing page (Taylor & Francis) and the journal issue listing (Vol. 17, No. 2, pages 94-100).

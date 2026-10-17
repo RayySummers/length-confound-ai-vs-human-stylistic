@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# 第三方参考文献（版权文件，不进入公开仓库）
+docs/literature/

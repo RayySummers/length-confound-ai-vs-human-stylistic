@@ -4,6 +4,8 @@ A **conservative preliminary report** documenting a length confound in cross-con
 
 ## What this paper says
 
+- A **supplementary set of five exploratory indicators** (lexical density, word-length SD, long-word ratio, sentence-length CV, sentences per paragraph) is reported in §4.5, bringing the analysed indicators to 13 (14 with MATTR); the locked eight-metric set is unchanged.
+
 - AI-generated creative text is **1.6× longer** than human-written text (mean 719 vs 439 words across 30 prompts).
 - After **length-residualization** (TTR and conjunction frequency regressed on word count), **0 of 9 conditions survive** per-family Holm-Bonferroni correction, suggesting these apparent differences are length-attributable rather than independent stylistic markers.
 - The 8-metric Random Forest classifier achieves 91.6% raw accuracy but only 68.7% balanced accuracy (MCC=0.449, AUC=0.867, human recall 12/30=40%), **essentially tied with a length-only baseline** at 69.4% balanced accuracy.

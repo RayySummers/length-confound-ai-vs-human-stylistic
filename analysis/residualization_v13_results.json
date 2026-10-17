@@ -1,0 +1,278 @@
+{
+  "ttr": {
+    "fit": {
+      "slope": -0.00018485945022832698,
+      "intercept": 0.6100578580840927,
+      "r": -0.5442124005600204
+    },
+    "n_raw_sig": "5/9",
+    "n_resid_sig": "4/9",
+    "rows": [
+      {
+        "condition": "GPT-3.5",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.8545046003654185,
+        "resid_sig": false,
+        "resid_p": 0.22020946063214955,
+        "resid_d": 0.32231397535544165
+      },
+      {
+        "condition": "MiMo-V2.5-Pro",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.11525985586136045,
+        "resid_sig": true,
+        "resid_p": 0.008654081771595006,
+        "resid_d": 0.7110542255250191
+      },
+      {
+        "condition": "DeepSeek-V4-Flash",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.01175251990679574,
+        "resid_sig": false,
+        "resid_p": 0.9761185533721856,
+        "resid_d": -0.007766088519746141
+      },
+      {
+        "condition": "MiniMax-M3",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.00011752597297144771,
+        "resid_sig": false,
+        "resid_p": 0.6623095744218066,
+        "resid_d": -0.11345485596725603
+      },
+      {
+        "condition": "Muse-Spark-1.2-Contributor",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.00029200418815194737,
+        "resid_sig": false,
+        "resid_p": 0.16454091999633944,
+        "resid_d": 0.36451600811797047
+      },
+      {
+        "condition": "GPT-5.6-Luna",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.0011079745220850187,
+        "resid_sig": false,
+        "resid_p": 0.500586818580406,
+        "resid_d": 0.17531840243172006
+      },
+      {
+        "condition": "Claude-Sonnet-5-High",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.6821157741533295,
+        "resid_sig": true,
+        "resid_p": 0.011595804475094083,
+        "resid_d": 0.6753766201455036
+      },
+      {
+        "condition": "Gemini-3.6-Flash",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.015127750881785588,
+        "resid_sig": true,
+        "resid_p": 2.1640587183491573e-09,
+        "resid_d": 1.9306533837057158
+      },
+      {
+        "condition": "Kimi-K3",
+        "n_ai": 29,
+        "raw_sig": false,
+        "raw_p": 0.3609824847766988,
+        "resid_sig": true,
+        "resid_p": 0.02340964545259586,
+        "resid_d": 0.6055173848578227
+      }
+    ]
+  },
+  "conj_freq": {
+    "fit": {
+      "slope": 7.725627211838457e-06,
+      "intercept": 0.08348539281426329,
+      "r": 0.07935764761579324
+    },
+    "n_raw_sig": "7/9",
+    "n_resid_sig": "5/9",
+    "rows": [
+      {
+        "condition": "GPT-3.5",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.01294263461311725,
+        "resid_sig": true,
+        "resid_p": 0.017581920067115515,
+        "resid_d": 0.6310712714478004
+      },
+      {
+        "condition": "MiMo-V2.5-Pro",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.005996480754401023,
+        "resid_sig": true,
+        "resid_p": 0.024158634904793707,
+        "resid_d": 0.5993864651533886
+      },
+      {
+        "condition": "DeepSeek-V4-Flash",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.030270323349255588,
+        "resid_sig": false,
+        "resid_p": 0.07651752225531615,
+        "resid_d": 0.46588069369648766
+      },
+      {
+        "condition": "MiniMax-M3",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.0006501253682010008,
+        "resid_sig": true,
+        "resid_p": 0.0039302327644162,
+        "resid_d": 0.7867709049372996
+      },
+      {
+        "condition": "Muse-Spark-1.2-Contributor",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.027140241674620588,
+        "resid_sig": false,
+        "resid_p": 0.14917571675214517,
+        "resid_d": 0.37800027791753266
+      },
+      {
+        "condition": "GPT-5.6-Luna",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.24895784125889736,
+        "resid_sig": false,
+        "resid_p": 0.5659617945852154,
+        "resid_d": 0.14907001693014768
+      },
+      {
+        "condition": "Claude-Sonnet-5-High",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.00038242406614096426,
+        "resid_sig": true,
+        "resid_p": 0.001173151368557069,
+        "resid_d": 0.8855712307977627
+      },
+      {
+        "condition": "Gemini-3.6-Flash",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.8930367707254154,
+        "resid_sig": false,
+        "resid_p": 0.7110172389820333,
+        "resid_d": -0.09616176461135381
+      },
+      {
+        "condition": "Kimi-K3",
+        "n_ai": 29,
+        "raw_sig": true,
+        "raw_p": 0.006643633768928282,
+        "resid_sig": true,
+        "resid_p": 0.018070397980823494,
+        "resid_d": 0.6325081213629071
+      }
+    ]
+  },
+  "word_length": {
+    "fit": {
+      "slope": -0.0003590662279342845,
+      "intercept": 4.644076550870888,
+      "r": -0.16980866657839724
+    },
+    "n_raw_sig": "3/9",
+    "n_resid_sig": "5/9",
+    "rows": [
+      {
+        "condition": "GPT-3.5",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 3.981713517839839e-12,
+        "resid_sig": true,
+        "resid_p": 7.520660587366692e-12,
+        "resid_d": 2.291065984246345
+      },
+      {
+        "condition": "MiMo-V2.5-Pro",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.1346615487962091,
+        "resid_sig": true,
+        "resid_p": 0.005213752634835504,
+        "resid_d": 0.7541513700254903
+      },
+      {
+        "condition": "DeepSeek-V4-Flash",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.16154240726291558,
+        "resid_sig": false,
+        "resid_p": 0.8234784742934675,
+        "resid_d": -0.057891622802429675
+      },
+      {
+        "condition": "MiniMax-M3",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.15743459704743976,
+        "resid_sig": false,
+        "resid_p": 0.8482590450664592,
+        "resid_d": 0.04964248676266634
+      },
+      {
+        "condition": "Muse-Spark-1.2-Contributor",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.923700577025192,
+        "resid_sig": false,
+        "resid_p": 0.05421247730270974,
+        "resid_d": 0.5087608747426553
+      },
+      {
+        "condition": "GPT-5.6-Luna",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 0.0023301431508490275,
+        "resid_sig": true,
+        "resid_p": 2.6386810413906387e-05,
+        "resid_d": 1.182221451849534
+      },
+      {
+        "condition": "Claude-Sonnet-5-High",
+        "n_ai": 30,
+        "raw_sig": false,
+        "raw_p": 0.10650112963663208,
+        "resid_sig": true,
+        "resid_p": 0.015741472671203204,
+        "resid_d": 0.6424106399413647
+      },
+      {
+        "condition": "Gemini-3.6-Flash",
+        "n_ai": 30,
+        "raw_sig": true,
+        "raw_p": 3.198162907578615e-05,
+        "resid_sig": true,
+        "resid_p": 7.37180600173554e-07,
+        "resid_d": 1.466277407890987
+      },
+      {
+        "condition": "Kimi-K3",
+        "n_ai": 29,
+        "raw_sig": false,
+        "raw_p": 0.8457293014603199,
+        "resid_sig": false,
+        "resid_p": 0.19703684719375686,
+        "resid_d": 0.33803664345923484
+      }
+    ]
+  }
+}
