@@ -1,0 +1,2 @@
+prompt_id,model,group,missing_fields,note
+26,Kimi-K3,国内,"text,word_count,MATTR,mean_sentence_length,sentence_length_CV,mean_paragraph_length",语料中无该篇文本（sample_v1.json 无该字段或为空）
