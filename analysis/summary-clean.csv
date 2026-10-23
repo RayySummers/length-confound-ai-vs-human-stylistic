@@ -1,0 +1,6 @@
+group,n,MATTR,MATTR_sd,mean_sentence_length,mean_sentence_length_sd,sentence_cv,sentence_cv_sd,mean_paragraph_length,mean_paragraph_length_sd,paragraph_reliable
+Human,30,0.6972,0.0574,12.0611,3.9332,0.5968,0.1559,453.1333,246.8565,0.03
+Claude,30,0.7875,0.0298,13.6335,2.9348,0.7759,0.1614,37.464,11.7134,0.97
+GPT,30,0.7792,0.0274,7.1306,1.7729,0.709,0.1028,10.1302,9.3138,0.27
+DeepSeek,30,0.7439,0.026,9.4653,1.4746,0.6773,0.0969,46.1531,22.536,1.0
+Kimi,30,0.7733,0.024,12.5742,3.1021,0.7525,0.1525,45.7849,17.3087,1.0

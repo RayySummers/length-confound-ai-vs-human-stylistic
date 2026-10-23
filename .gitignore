@@ -5,3 +5,7 @@ __pycache__/
 
 # 第三方参考文献（版权文件，不进入公开仓库）
 docs/literature/
+*.bak
+*.bak.*
+*.bak-*
+.multica-issues/
