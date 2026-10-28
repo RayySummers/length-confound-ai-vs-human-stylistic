@@ -154,7 +154,7 @@
   {
    "group": "Kimi",
    "model": "Kimi-K3",
-   "n": 29,
+   "n": 30,
    "prompt_ids": [
     0,
     1,
@@ -182,6 +182,7 @@
     23,
     24,
     25,
+    26,
     27,
     28,
     29
@@ -247,12 +248,79 @@
      "metric_label": "MATTR",
      "group": "Kimi",
      "model": "Kimi-K3",
-     "n": 29,
-     "mean": 0.7567753103448275,
-     "sd": 0.029148774176753794,
-     "var_ratio_vs_human": 0.26224725047564806,
-     "mean_diff_pct_vs_human": 11.621252321498485,
+     "n": 30,
+     "mean": 0.7574220333333331,
+     "sd": 0.02886001114235373,
+     "var_ratio_vs_human": 0.25707706979270983,
+     "mean_diff_pct_vs_human": 11.716641308025027,
      "decimals": 3
+    }
+   ]
+  },
+  {
+   "metric": "mtld",
+   "label": "MTLD",
+   "figure": "analysis/figures/mtld-distribution.png",
+   "groups": [
+    {
+     "metric": "mtld",
+     "metric_label": "MTLD",
+     "group": "Human",
+     "model": "Human",
+     "n": 30,
+     "mean": 68.66305656666668,
+     "sd": 25.131763870563038,
+     "var_ratio_vs_human": 1.0,
+     "mean_diff_pct_vs_human": 0.0,
+     "decimals": 1
+    },
+    {
+     "metric": "mtld",
+     "metric_label": "MTLD",
+     "group": "Claude",
+     "model": "Claude-Sonnet-5-High",
+     "n": 30,
+     "mean": 127.78754356666668,
+     "sd": 38.618133463739426,
+     "var_ratio_vs_human": 2.361220891483372,
+     "mean_diff_pct_vs_human": 86.10814891788942,
+     "decimals": 1
+    },
+    {
+     "metric": "mtld",
+     "metric_label": "MTLD",
+     "group": "GPT",
+     "model": "GPT-5.6-Luna",
+     "n": 30,
+     "mean": 106.78512886666667,
+     "sd": 26.71739597656723,
+     "var_ratio_vs_human": 1.130166196038232,
+     "mean_diff_pct_vs_human": 55.52049996927578,
+     "decimals": 1
+    },
+    {
+     "metric": "mtld",
+     "metric_label": "MTLD",
+     "group": "DeepSeek",
+     "model": "DeepSeek-V4-Flash",
+     "n": 30,
+     "mean": 87.17586873333335,
+     "sd": 21.151888364660024,
+     "var_ratio_vs_human": 0.7083572613875604,
+     "mean_diff_pct_vs_human": 26.96182356620275,
+     "decimals": 1
+    },
+    {
+     "metric": "mtld",
+     "metric_label": "MTLD",
+     "group": "Kimi",
+     "model": "Kimi-K3",
+     "n": 30,
+     "mean": 108.61212683333333,
+     "sd": 23.70488206479987,
+     "var_ratio_vs_human": 0.8896714556087856,
+     "mean_diff_pct_vs_human": 58.18131651025337,
+     "decimals": 1
     }
    ]
   },
@@ -267,8 +335,8 @@
      "group": "Human",
      "model": "Human",
      "n": 30,
-     "mean": 0.6743432333333332,
-     "sd": 0.1320836696454662,
+     "mean": 0.6746025999999998,
+     "sd": 0.13186617745447532,
      "var_ratio_vs_human": 1.0,
      "mean_diff_pct_vs_human": 0.0,
      "decimals": 3
@@ -279,10 +347,10 @@
      "group": "Claude",
      "model": "Claude-Sonnet-5-High",
      "n": 30,
-     "mean": 0.7663612333333333,
-     "sd": 0.1241771287058665,
-     "var_ratio_vs_human": 0.8838630420172505,
-     "mean_diff_pct_vs_human": 13.645573270624755,
+     "mean": 0.7662654999999998,
+     "sd": 0.12431759751005654,
+     "var_ratio_vs_human": 0.8887884110833332,
+     "mean_diff_pct_vs_human": 13.587688514689985,
      "decimals": 3
     },
     {
@@ -291,10 +359,10 @@
      "group": "GPT",
      "model": "GPT-5.6-Luna",
      "n": 30,
-     "mean": 0.6731836666666667,
-     "sd": 0.08702806096622072,
-     "var_ratio_vs_human": 0.4341305635372264,
-     "mean_diff_pct_vs_human": -0.17195496437840246,
+     "mean": 0.6727146,
+     "sd": 0.08734729453899966,
+     "var_ratio_vs_human": 0.43876510587668394,
+     "mean_diff_pct_vs_human": -0.27986847367617307,
      "decimals": 3
     },
     {
@@ -303,10 +371,10 @@
      "group": "DeepSeek",
      "model": "DeepSeek-V4-Flash",
      "n": 30,
-     "mean": 0.6744786999999999,
-     "sd": 0.09013573323151457,
-     "var_ratio_vs_human": 0.46568874230478696,
-     "mean_diff_pct_vs_human": 0.020088681841888827,
+     "mean": 0.6742740333333332,
+     "sd": 0.08999068173082234,
+     "var_ratio_vs_human": 0.4657236041085521,
+     "mean_diff_pct_vs_human": -0.048705217955961846,
      "decimals": 3
     },
     {
@@ -314,11 +382,11 @@
      "metric_label": "句长 CV",
      "group": "Kimi",
      "model": "Kimi-K3",
-     "n": 29,
-     "mean": 0.7389617586206897,
-     "sd": 0.14110128385708695,
-     "var_ratio_vs_human": 1.1412050322995169,
-     "mean_diff_pct_vs_human": 9.582438451697936,
+     "n": 30,
+     "mean": 0.7370245000000001,
+     "sd": 0.13898363031387592,
+     "var_ratio_vs_human": 1.1108629158741665,
+     "mean_diff_pct_vs_human": 9.253136587377558,
      "decimals": 3
     }
    ]
@@ -381,11 +449,11 @@
      "metric_label": "平均段长",
      "group": "Kimi",
      "model": "Kimi-K3",
-     "n": 29,
-     "mean": 45.33707765517241,
-     "sd": 17.4814065641907,
-     "var_ratio_vs_human": 0.02808531407467235,
-     "mean_diff_pct_vs_human": -26.302495212597883,
+     "n": 30,
+     "mean": 45.68481609999999,
+     "sd": 17.282630582396976,
+     "var_ratio_vs_human": 0.02745024545918838,
+     "mean_diff_pct_vs_human": -25.73723037798804,
      "decimals": 1
     }
    ]
