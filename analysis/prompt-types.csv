@@ -1,0 +1,31 @@
+prompt_id,prompt,type,reason
+0,"Ever sense you were a child , you have been able to see people 's `` stats '' when you look at them , such as intelligence and dexterity . One day , you meet a man with perfect stats .",奇幻/超自然,以「看见他人属性数值」的超自然能力为核心设定。
+1,The Fog,极简提示/形式约束,只给一个标题，世界观与情节全部由作者自建。
+2,You discover a gold ring on the sidewalk and find that it 's got some supernatural properties .,奇幻/超自然,「戒指有超自然属性」直接给出魔法物件设定。
+3,Grisly murders occur every full moon . A villager tries to convince everyone that he is a werewolf .,奇幻/超自然,狼人杀人与满月绑定，属超自然恐怖设定。
+4,"You wake up from a daze , everything is as it should be , there 's only one thing missing . There 's no sound , anywhere , not even the sound of an engine in the distance",科幻/推想,以全球性失声灾难为核心，属末世推想设定。
+5,"After a day long session playing a historical grand strategy game , you 've awaken the next morning to find your playthru is now history . Only you know the timeline has changed .",科幻/推想,以游戏改写现实历史时间线为核心，属推想设定。
+6,Write a story with the biggest possible plot twist,极简提示/形式约束,只给「要有最大反转」的写法要求，不给任何设定。
+7,Scientists discover that our known universe is just the elaborate dream of an alien being . And that alien is going to wake up in one week .,科幻/推想,「宇宙是外星人的梦」属宇宙本质的推想设定。
+8,After the occurrence of Brexit and the threat of seceding nations in the United Kingdom the crown takes control and decides to ahem ... '' re-acquire '' them .,现实/社会,以真实政治事件（脱欧与王室）为起点。
+9,"You wake up one morning not as yourself , but as your player character in Skyrim .",奇幻/超自然,穿越进奇幻游戏世界，属超自然穿越设定。
+10,"A devil offers you a choice . You can stay here and everyone you know will be happy , or you can die and everyone will be sad . The twist : You are suicidal , and the devil promises a place of eternal happiness if you die .",奇幻/超自然,以魔鬼交易与死后世界为核心设定。
+11,"You are a driver for a taxi service in Hell . Your job is to pick up newcomers , and sometimes it can get quite interesting .",奇幻/超自然,地狱出租车司机，属超自然职场设定。
+12,An honorable politician has just accepted his/her first bribe . Write what was the chain of events that led to this moment .,现实/社会,现实政治伦理情境：政客第一次受贿。
+13,You are able to see numbers over everyone 's head indicating how many times you have met the person .,奇幻/超自然,「头顶数字显示相遇次数」属超自然能力设定。
+14,"For what shall it profit a man , if he shall gain his soul , but lose his whole world ?",极简提示/形式约束,只给一句反问式引语，主题与文体均需自定。
+15,When did you know ?,极简提示/形式约束,一句问句，无人物、无场景、无设定。
+16,Write a novella or tale with the title : `` The One-Armed Bride '',极简提示/形式约束,只给标题与「novella or tale」的篇幅要求。
+17,"You wake up in a hospital with police officers questioning you . You have no memory of what happened , and are forced to use your text messages to put everything together .",现实/社会,现实刑侦情境：医院失忆、靠短信拼回经过。
+18,Super Villain visits his/her mother for mother 's day .,奇幻/超自然,超级英雄设定下的反派日常。
+19,"`` do n't be a fool , the Queen ca n't die . ''",极简提示/形式约束,只给一句台词，人物与场景需自建。
+20,"The Earth freezes over , covering every landmass in several feet of snow . The Moon base is the last hope for humanity .",科幻/推想,全球冰封、月球基地成最后希望，属末世设定。
+21,`` No one loves the light like a blind man '',极简提示/形式约束,只给一句格言式引语，无具体情境。
+22,`` Time to bring this baby down boys ! '',极简提示/形式约束,只给一句动作台词，无背景与人物。
+23,Hiroshima . Why should this book remain on the reading list ?,现实/社会,就真实历史书目的存废提问，接近议论。
+24,"You 're a deity who lost all of his power a long time ago . You now work at a McDonalds just to make a living . One day , an old friend of yours walks in with the offer of a lifetime ...",奇幻/超自然,失去神力的神明在快餐店打工，属超自然设定。
+25,A story in which every sentence is a question,极简提示/形式约束,只给「每句都是问句」的句法层面形式约束。
+26,"Your best friend has a mental condition that forces him/her to speak in rhyme , and you are attempting to cure him/her .",现实/社会,现实友情情境，以「必须押韵」的障碍为梗。
+27,"After a freak accident you find yourself at the pearly gates , but rather than a list of your deeds , you 're presented with all the fucks you 've ever given . Branded a hoarder , you 're given a second chance to relive your last 24hrs and earn entry to heaven , by giving all the fucks you have",奇幻/超自然,天堂审判与重活 24 小时，属超自然设定。
+28,"Upon being introduced to the Galactic Alliance , we find out a perverse truth : Humanity is actually the sanest species in the galaxy .",科幻/推想,银河联盟与「人类最理智」的推想设定。
+29,"You 're an astronomer looking at the stars one night . All of a sudden you notice one blink out . Then another , and another . One after the other the stars go out until the sky is only black .",科幻/推想,星辰逐一熄灭，属宇宙尺度的推想/恐怖设定。
