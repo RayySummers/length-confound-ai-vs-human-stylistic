@@ -3,14 +3,19 @@ MATTR,MATTR,Human,Human,30,0.677985,0.056920,1.0000,0.00,1
 MATTR,MATTR,Claude,Claude-Sonnet-5-High,30,0.777310,0.030461,0.2864,14.65,1
 MATTR,MATTR,GPT,GPT-5.6-Luna,30,0.762779,0.029863,0.2753,12.51,1
 MATTR,MATTR,DeepSeek,DeepSeek-V4-Flash,30,0.728971,0.026754,0.2209,7.52,1
-MATTR,MATTR,Kimi,Kimi-K3,29,0.756775,0.029149,0.2622,11.62,1
-sentence_length_CV,句长 CV,Human,Human,30,0.674343,0.132084,1.0000,0.00,1
-sentence_length_CV,句长 CV,Claude,Claude-Sonnet-5-High,30,0.766361,0.124177,0.8839,13.65,1
-sentence_length_CV,句长 CV,GPT,GPT-5.6-Luna,30,0.673184,0.087028,0.4341,-0.17,1
-sentence_length_CV,句长 CV,DeepSeek,DeepSeek-V4-Flash,30,0.674479,0.090136,0.4657,0.02,1
-sentence_length_CV,句长 CV,Kimi,Kimi-K3,29,0.738962,0.141101,1.1412,9.58,1
+MATTR,MATTR,Kimi,Kimi-K3,30,0.757422,0.028860,0.2571,11.72,1
+mtld,MTLD,Human,Human,30,68.663057,25.131764,1.0000,0.00,1
+mtld,MTLD,Claude,Claude-Sonnet-5-High,30,127.787544,38.618133,2.3612,86.11,1
+mtld,MTLD,GPT,GPT-5.6-Luna,30,106.785129,26.717396,1.1302,55.52,1
+mtld,MTLD,DeepSeek,DeepSeek-V4-Flash,30,87.175869,21.151888,0.7084,26.96,1
+mtld,MTLD,Kimi,Kimi-K3,30,108.612127,23.704882,0.8897,58.18,1
+sentence_length_CV,句长 CV,Human,Human,30,0.674603,0.131866,1.0000,0.00,1
+sentence_length_CV,句长 CV,Claude,Claude-Sonnet-5-High,30,0.766265,0.124318,0.8888,13.59,1
+sentence_length_CV,句长 CV,GPT,GPT-5.6-Luna,30,0.672715,0.087347,0.4388,-0.28,1
+sentence_length_CV,句长 CV,DeepSeek,DeepSeek-V4-Flash,30,0.674274,0.089991,0.4657,-0.05,1
+sentence_length_CV,句长 CV,Kimi,Kimi-K3,30,0.737025,0.138984,1.1109,9.25,1
 mean_paragraph_length,平均段长,Human,Human,30,61.517792,104.312591,1.0000,0.00,1
 mean_paragraph_length,平均段长,Claude,Claude-Sonnet-5-High,30,37.416352,11.727626,0.0126,-39.18,1
 mean_paragraph_length,平均段长,GPT,GPT-5.6-Luna,30,10.112496,9.331056,0.0080,-83.56,1
 mean_paragraph_length,平均段长,DeepSeek,DeepSeek-V4-Flash,30,45.369925,22.631561,0.0471,-26.25,1
-mean_paragraph_length,平均段长,Kimi,Kimi-K3,29,45.337078,17.481407,0.0281,-26.30,1
+mean_paragraph_length,平均段长,Kimi,Kimi-K3,30,45.684816,17.282631,0.0275,-25.74,1
