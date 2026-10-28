@@ -1,0 +1,17 @@
+metric,model,n_pairs,mean_diff,t,df,p_raw,p_holm,cohens_d,levene_stat,levene_p,note
+MATTR,Claude,30,0.099325,8.844316,29,9.910080e-10,1.585613e-08,1.614744,4.107932,4.728807e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .047；均值版 p = .016）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+MATTR,GPT,30,0.084794,8.506957,29,2.258959e-09,3.388438e-08,1.553151,3.772815,5.695268e-02,Levene 仅均值版不齐（中位数版 p = .057 未达显著；均值版 p = .020）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+MATTR,DeepSeek,30,0.050986,5.038336,29,2.280216e-05,2.280216e-04,0.919870,4.553119,3.709914e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .037；均值版 p = .011）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+MATTR,Kimi,30,0.079437,7.698356,29,1.728755e-08,2.420257e-07,1.405521,4.266578,4.334699e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .043；均值版 p = .014）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+mtld,Claude,30,59.124487,7.512390,29,2.793045e-08,3.630958e-07,1.371568,1.860598,1.778259e-01,方差齐性成立
+mtld,GPT,30,38.122072,6.519130,29,3.874916e-07,4.649899e-06,1.190225,0.589403,4.457644e-01,方差齐性成立
+mtld,DeepSeek,30,18.512812,3.640799,29,1.050719e-03,6.347584e-03,0.664716,0.084152,7.727820e-01,方差齐性成立
+mtld,Kimi,30,39.949070,6.436908,29,4.839732e-07,5.323705e-06,1.175213,0.000811,9.773733e-01,方差齐性成立
+mean_sentence_length,Claude,30,3.996988,4.603647,29,7.622318e-05,6.860086e-04,0.840507,0.421215,5.188930e-01,方差齐性成立
+mean_sentence_length,GPT,30,-2.670832,-4.008134,29,3.913222e-04,3.130577e-03,-0.731782,4.699314,3.429166e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .034；均值版 p = .020）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+mean_sentence_length,DeepSeek,30,-0.832912,-1.369578,29,1.813316e-01,7.253262e-01,-0.250050,4.427446,3.971075e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .040；均值版 p = .021）；补充 Wilcoxon signed-rank p = .198；Mann–Whitney U p = .473（原始 p，未校正）
+mean_sentence_length,Kimi,30,2.605079,3.696126,29,9.067978e-04,6.347584e-03,0.674817,0.160488,6.901797e-01,方差齐性成立
+mean_paragraph_length,Claude,30,-24.101440,-1.310940,29,2.001646e-01,7.253262e-01,-0.239344,3.262080,7.608857e-02,Levene 仅均值版不齐（中位数版 p = .076 未达显著；均值版 p = .011）；补充 Wilcoxon signed-rank p = 1.000；Mann–Whitney U p = .404（原始 p，未校正）
+mean_paragraph_length,GPT,30,-51.405296,-2.669640,29,1.230992e-02,6.154958e-02,-0.487407,4.406387,4.016744e-02,Levene 不齐（Brown–Forsythe 中位数版 p = .040；均值版 p = .005）；补充 Wilcoxon signed-rank p < .001；Mann–Whitney U p < .001（原始 p，未校正）
+mean_paragraph_length,DeepSeek,30,-16.147867,-0.841343,29,4.070400e-01,8.140800e-01,-0.153608,2.344389,1.311714e-01,Levene 仅均值版不齐（中位数版 p = .131 未达显著；均值版 p = .028）；补充 Wilcoxon signed-rank p = .339；Mann–Whitney U p = .066（原始 p，未校正）
+mean_paragraph_length,Kimi,30,-15.832976,-0.824262,29,4.165187e-01,8.140800e-01,-0.150489,2.364102,1.295933e-01,Levene 仅均值版不齐（中位数版 p = .130 未达显著；均值版 p = .023）；补充 Wilcoxon signed-rank p = .339；Mann–Whitney U p = .080（原始 p，未校正）
