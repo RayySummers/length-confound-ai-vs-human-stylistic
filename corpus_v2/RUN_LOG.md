@@ -151,3 +151,51 @@ token 的故事需要 250 s 以上，与 300 s 的客户端超时几乎重合；
 
 额度侧：5 小时窗口 05:33:52 +0800 重置；在拿到上面两条决定之前不自动重试，避免再次把窗口烧在
 注定超时的请求上。
+# corpus_v2 生成日志 — gpt6（GPT-6-Luna）
+
+模型：`commandcode/gpt-6-luna`（`model_key = gpt6`，CCG1 渠道）
+参数：`temperature=1.0`、`max_tokens=8000`、单条 user message、`PROMPT_TEMPLATE` 原样未改
+网关：`http://127.0.0.1:3425/v1/chat/completions`（Magpie 本机回环，占位 key）
+执行：`cd corpus_v2 && python3 generate.py --models gpt6 --limit N --workers 4`（脚本未作任何修改；`--prompts`/`--outdir` 默认值相对于 `corpus_v2/`，因此在 `corpus_v2/` 内执行）
+
+## 进度（2026-11-04 18:05Z / 2026-11-05 02:06 +0800 → 02:20 +0800）
+
+| 项目 | 数值 |
+| --- | --- |
+| 目标条数 | 150 |
+| 已写入 `raw/corpus_v2_gpt6.jsonl` | **150** |
+| `finish_reason == "stop"` | **150** |
+| 重试后仍失败（未写入） | 0 |
+| 待生成 | 0 |
+
+- 跑前 `magpie quota`：`commandcode` 余额 $70.00（5h 0%、Weekly 0%）；`commandcode-2` 已 100%、余额 $0.00，不再使用。
+- 冒烟：`--limit 2 --workers 2` → `ok=2`（34 s），两行均为 `stop`、645/932 词。
+- 第 1 批：`--limit 25` → `ok=23`（2 min 14 s）；`--limit 50` → `ok=25`（2 min 09 s）。累计 50，全部 `stop` → commit `c150455`
+- 第 2 批：`--limit 75` → `ok=25`（2 min 16 s）；`--limit 100` → `ok=25`（2 min 01 s）。累计 100 → commit `15bb642`
+- 第 3 批：`--limit 125` → `ok=25`（2 min 14 s）；`--limit 150` → `ok=25`（2 min 18 s）。累计 150 → 本文件所在 commit
+- 150 行累计墙钟约 14 min（02:06:01 → 02:19:57 +0800），单条 `ms` 中位 16.8 s、最长 52.6 s；4 并发。
+- `usage.completion_tokens` 合计 234,368；推理 token 每条都存在（中位 385、最大 3,948），是模型默认行为，脚本未传任何 reasoning 参数。
+
+## CCG2 时代的 72 条已归档
+
+`commandcode-2` 渠道在 2026-11-04 17:15Z 前后打满（`Command Code 2: You have insufficient credits…`，另有 429 配额报错），当时已产出 72 条。该批用的是旧 `max_tokens=4096`、旧渠道，含 3 条 `finish_reason=length`（82394 / 23766 / 53107）和 3 条 `finish_reason=content-filter`（81633 / 59002 / 60101，`completion_tokens=0`），另有 1 条仅 171 词（85858）。
+按 `raw/archive/corpus_v2_sonnet55.ccg2-46rows.jsonl` 的同一处理方式，整批移到 `raw/archive/corpus_v2_gpt6.ccg2-72rows.jsonl`，用 CCG1 + `max_tokens=8000` 重新生成整套 150 条，保证同一文件内渠道与参数一致。归档文件原样保留、未改一行。
+
+## 两条未达 `content_words >= 200`（原样保留，待 Hari 判断）
+
+| src_p | content_words | completion_tokens | 情况 |
+| --- | --- | --- | --- |
+| 12195 | 190 | 772 | 开头有一句「I can’t retell all seven films… But I can offer an original…」的免责句，随后是一首完整的 Seuss 风格韵文故事 |
+| 62541 | 90 | 210 | 完整短篇（跳水的瞬间），有起承转合，但只有 90 词 |
+
+按硬规则 1/3 未改写、未重跑，行原样留在 JSONL 里。
+
+## 其余验收项自查（150 行）
+
+- 行数 150、`src_p` 无重复：150/150 唯一
+- `finish_reason == "stop"`：150/150
+- `content` 非空、无报错文本、无以「I cannot / As an AI」开头的元评论：是（12195 见上表）
+- `template` 全部等于 `Write a story based on the following prompt.\n\n{prompt}`：是
+- `usage.completion_tokens` 全部存在且 > 0：是
+- `content_words`：中位 661，范围 90–1528
+- `model_id` 全部为 `commandcode/gpt-6-luna`，`max_tokens` 全部为 8000
