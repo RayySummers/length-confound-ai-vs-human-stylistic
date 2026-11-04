@@ -58,3 +58,96 @@ HTTP 429
 - `usage.completion_tokens` 全部存在且 > 0：是
 - `content_words` 范围 759–1682，远高于 200
 - 抽样回读：完整故事（有情节、有结尾），无「我无法」/解释题意/元评论
+
+---
+
+# corpus_v2 生成日志 — kimi31（Kimi-K3.1-Pro）
+
+模型：`opencode-go-2/kimi-k3.1-pro`（`model_key = kimi31`，渠道 `opencode-go-2`，README 2026-11-05 起的规定）
+参数：`temperature=1.0`、`max_tokens=8000`、单条 user message、`PROMPT_TEMPLATE` 原样未改
+网关：`http://127.0.0.1:3425/v1/chat/completions`（Magpie 本机回环，占位 key）
+执行：`cd corpus_v2 && python3 generate.py --models kimi31 --limit 2 --workers 2`（脚本未作任何修改）
+起止：2026-11-05 02:04 → 02:17 +0800（UTC 2026-11-04 18:04 → 18:17），墙钟约 13 min
+
+## 结果：冒烟未通过，0 条写入（`raw/corpus_v2_kimi31.jsonl` 未生成）
+
+脚本输出（逐字）：
+
+```
+[kimi31] opencode-go-2/kimi-k3.1-pro — pending 2
+{
+  "ok": 0,
+  "failures": 2,
+  "by_model": {
+    "kimi31": {
+      "ok": 0,
+      "skip": 0
+    }
+  },
+  "failure_samples": [
+    "pool:9191:kimi31 -> HTTPError: HTTP Error 429: Too Many Requests",
+    "pool:48384:kimi31 -> HTTPError: HTTP Error 429: Too Many Requests"
+  ]
+}
+```
+
+## 阻塞 1：`opencode-go-2` 的 5 小时 Go 额度已 100% 耗尽
+
+02:18:22 +0800 用与脚本完全相同的 payload（`max_tokens=8000`、`temperature=1.0`、同一 `PROMPT_TEMPLATE`）
+单发复现，网关原文（逐字，含响应头）：
+
+```
+HTTP/1.1 429 Too Many Requests
+Retry-After: 3527
+X-Magpie-Model: opencode-go-2/kimi-k3.1-pro
+X-Magpie-Provider: opencode-go-2
+
+{"error":{"code":null,"message":"OpenCode Go 2: Go usage limit exceeded (out of its allowance: not asked again before 03:17 UTC+8)","param":null,"type":"rate_limit_error"}}
+```
+
+`magpie quota --json`（02:18:34 +0800 读数）：
+
+| 窗口 | 已用 | 重置 |
+| --- | --- | --- |
+| 5 hours | **100%** | `2026-11-04T21:33:52Z` = 2026-11-05 **05:33:52 +0800** |
+| 7 days | 48% | `2026-11-09T00:00:00Z` |
+| Month | 40% | `2026-11-25T08:03:07Z` |
+
+同一时段读数变化：02:05 为 60% → 02:10 为 65% → 02:18 为 **100%**。也就是说，下面这 4 次
+**客户端已超时、返回 0 token** 的请求仍然把窗口打满了（上游在 300 s 内一直在生成，额度按上游实际
+生成的 token 扣）。
+
+## 阻塞 2：单条故事在脚本的 300 s 客户端超时内没有跑完
+
+`magpie usage` 里对应本次运行的 4 条记录（时间 +0800，模型 `opencode-go-2/kimi-k3.1-pro`）：
+
+| 时间 | 状态 | 耗时 | 输出 token | 错误原文 |
+| --- | --- | --- | --- | --- |
+| 02:05:21 | 499 | 300100 ms | 0 | `the agent canceled the request`（= 脚本 `urlopen(timeout=300)` 到点） |
+| 02:05:21 | 499 | 300101 ms | 0 | 同上 |
+| 02:10:23 | 499 | 300093 ms | 0 | 同上 |
+| 02:10:23 | 502 | 285542 ms | 0 | `Post "https://opencode.ai/zen/go/v1/chat/completions": EOF` |
+
+对照组：同一时刻 `max_tokens=16` 的小请求 02:05:13 返回 `200`、16 token，说明**模型 id 与渠道正常**，
+卡住的是「一条 8000 token 上限的完整故事」这一量级的请求。
+
+历史参照：今日 00:47 +0800 有两条同模型请求成功（输出 531 / 1162 token，耗时 19 s / 99 s，含
+489 / 1013 reasoning token），吞吐约 12 token/s。按此估算，一条 2000 token 正文 + 1000+ reasoning
+token 的故事需要 250 s 以上，与 300 s 的客户端超时几乎重合；8000 token 上限一旦被用满必然超时。
+
+## 未做的动作（硬规则）
+
+- 没有换模型顶替（没有试 `kimi-k3`、`commandcode/kimi-*` 等其他 id 出数据）。
+- 没有改 `max_tokens` / `temperature` / `PROMPT_TEMPLATE` / 题目。
+- 没有改脚本里的 `timeout=300`、没有改 `RETRIES`。
+- 因此 `raw/` 下没有留下任何 kimi31 行 —— 本次 0 条，不是「跑了一部分」。
+
+## 需要 Hari 决定（两条都需要动脚本，属硬规则 3 的禁区）
+
+1. `max_tokens=8000` 对 kimi 这个推理模型是否维持？推理 token 与正文共享 8000，且推理开销让单条
+   请求逼近/超过 300 s。
+2. 是否授权把 `call()` 里的 `urllib` 超时从 300 s 提高到 600–900 s（`RETRIES` 不变）？不改这一项，
+   kimi31 很可能永远跑不出 `finish_reason == "stop"` 的行。
+
+额度侧：5 小时窗口 05:33:52 +0800 重置；在拿到上面两条决定之前不自动重试，避免再次把窗口烧在
+注定超时的请求上。
