@@ -27,7 +27,7 @@ USER_AGENT = "ray-length-confound/2.0 (corpus-v2)"
 # 「题目 + 写故事」这个语境，这里用一个最小指令复现，不引入任何长度或风格要求。
 PROMPT_TEMPLATE = "Write a story based on the following prompt.\n\n{prompt}"
 TEMPERATURE = 1.0
-MAX_TOKENS = 4096
+MAX_TOKENS = 8000   # 2026-11-05 4096 会截断长故事（6/46 命中 finish_reason=length）
 RETRIES = 3
 
 # 2026-11-05：commandcode-2 的额度打满，改走刚续费的 commandcode（CCG1）；
