@@ -1,0 +1,908 @@
+{
+ "generated_at": "2026-11-05",
+ "seed": 20261105,
+ "n": 150,
+ "note": "题目文本与人类词数；人类故事原文不入库（见 data/，由 Hari 另行保管）",
+ "items": [
+  {
+   "src_p": 48384,
+   "src_s": 1,
+   "prompt": "Some friends are having a conversation about how boring things have gotten ... in the middle of a comically dramatic / dangerous / or otherwise intense scene .",
+   "human_words": 606
+  },
+  {
+   "src_p": 9191,
+   "src_s": 2,
+   "prompt": "The time of Armageddon is soon . All the gods of various pantheons congregate to debate on why their end of the world should happen . While squabbling among each other , a god that was never worshiped speaks its mind .",
+   "human_words": 454
+  },
+  {
+   "src_p": 79951,
+   "src_s": 0,
+   "prompt": "For as long as you can remember , you can hear background music appropriate to the situation you 're in . While going to the grocery store one day , you hear what sounds like the most generic JRPG battle theme you 've ever heard .",
+   "human_words": 580
+  },
+  {
+   "src_p": 1218,
+   "src_s": 7,
+   "prompt": "Death comes to collect someone and ends up falling in love with them .",
+   "human_words": 564
+  },
+  {
+   "src_p": 67862,
+   "src_s": 0,
+   "prompt": "Special Division Infantry , Necromancer Class .",
+   "human_words": 473
+  },
+  {
+   "src_p": 81633,
+   "src_s": 0,
+   "prompt": "Write a good fight scene .",
+   "human_words": 587
+  },
+  {
+   "src_p": 8782,
+   "src_s": 10,
+   "prompt": "The most beautiful woman in the world",
+   "human_words": 611
+  },
+  {
+   "src_p": 41777,
+   "src_s": 1,
+   "prompt": "You have been kidnapped by a cult that holds a famous novel as its sacred text . The cult 's leader explains what lies in store for you .",
+   "human_words": 584
+  },
+  {
+   "src_p": 16354,
+   "src_s": 0,
+   "prompt": "Terrestrial humans , as depicted by beings on other planets .",
+   "human_words": 559
+  },
+  {
+   "src_p": 82394,
+   "src_s": 0,
+   "prompt": "You caused the home team to lose the big game due to an absurd chain reaction that started from your seat in the crowd . No one knows exactly what happened except for you .",
+   "human_words": 606
+  },
+  {
+   "src_p": 46756,
+   "src_s": 0,
+   "prompt": "In a world where simulations have become the norm , it gets increasingly difficult to tell the difference between simulation and reality . You 've just met the girl of your dreams , literally . Only thing is you ca n't tell if she 's real or a figment if the simulation .",
+   "human_words": 608
+  },
+  {
+   "src_p": 10050,
+   "src_s": 2,
+   "prompt": "You meet the man you could have been , and found that you do n't like him .",
+   "human_words": 563
+  },
+  {
+   "src_p": 40000,
+   "src_s": 0,
+   "prompt": "`` Some men just want to watch the world burn , and darling , you 're the match . ''",
+   "human_words": 453
+  },
+  {
+   "src_p": 41451,
+   "src_s": 0,
+   "prompt": "Universal real-time language translation seamlessly unites countries , cultures , and families together . It 's breakfast time , and for the first time ever - the translator is down . Your spouse and your children are unintelligble .",
+   "human_words": 470
+  },
+  {
+   "src_p": 90878,
+   "src_s": 0,
+   "prompt": "Your body morphs every night , you alternate every day as a man and a woman . You try to slip out of your one-night stand 's apartment before he wakes up to see the transformation .",
+   "human_words": 505
+  },
+  {
+   "src_p": 69095,
+   "src_s": 0,
+   "prompt": "Instead of being born as a citizen , you must choose which country you wish to be a citizen of when you reach adulthood .",
+   "human_words": 586
+  },
+  {
+   "src_p": 86579,
+   "src_s": 0,
+   "prompt": "Challenging the Behemoth Peak Spider",
+   "human_words": 587
+  },
+  {
+   "src_p": 23090,
+   "src_s": 0,
+   "prompt": "Description of your favourite meal",
+   "human_words": 463
+  },
+  {
+   "src_p": 23766,
+   "src_s": 1,
+   "prompt": "Since the beginning heroes only die when they choose someone else to take their place . You 're one of the oldest living heroes . When deciding if you should pick a successor at random you receive a letter from an old friend that says : `` We are the only ones left '' It 's written in blood .",
+   "human_words": 587
+  },
+  {
+   "src_p": 44933,
+   "src_s": 1,
+   "prompt": "Tell me the story of how the first king became the first king",
+   "human_words": 477
+  },
+  {
+   "src_p": 28537,
+   "src_s": 0,
+   "prompt": "A woman you casually know spots you as you walk through a store , approaches you , smiles and says , `` I saw your gravestone today , just lovely ! '' and nonchalantly strolls away .",
+   "human_words": 609
+  },
+  {
+   "src_p": 33028,
+   "src_s": 14,
+   "prompt": "An assassin describing their weapon of choice in vivid detail .",
+   "human_words": 515
+  },
+  {
+   "src_p": 12205,
+   "src_s": 4,
+   "prompt": "Timeline of Events",
+   "human_words": 580
+  },
+  {
+   "src_p": 1059,
+   "src_s": 12,
+   "prompt": "Write anything you think of . Right now . Do n't stop , do n't backspace . Just write whatever comes to mind .",
+   "human_words": 526
+  },
+  {
+   "src_p": 74301,
+   "src_s": 0,
+   "prompt": "Reddit , as a collective entity , runs for president .",
+   "human_words": 476
+  },
+  {
+   "src_p": 13291,
+   "src_s": 0,
+   "prompt": "A case hinges on something witnessed only by a dead person . To illustrate how ludicrous this is , one side subpoenas the dead person . The dead person shows up and testifies .",
+   "human_words": 798
+  },
+  {
+   "src_p": 59614,
+   "src_s": 0,
+   "prompt": "Hawksbill Mountain",
+   "human_words": 780
+  },
+  {
+   "src_p": 90921,
+   "src_s": 1,
+   "prompt": "A group of fantasy creatures are playing a table top game together where they pretend to be modern-day humans",
+   "human_words": 674
+  },
+  {
+   "src_p": 9634,
+   "src_s": 0,
+   "prompt": "[ NSFW ] The number of times someone has had sex is listed above their heads at all times for everyone to see . Describe a day in the life of a 50 year old virgin .",
+   "human_words": 771
+  },
+  {
+   "src_p": 11218,
+   "src_s": 1,
+   "prompt": "A person 's final thoughts .",
+   "human_words": 670
+  },
+  {
+   "src_p": 50445,
+   "src_s": 0,
+   "prompt": "You 're a teenage boy who has to break the news to your parents that your girlfriend got you pregnant .",
+   "human_words": 696
+  },
+  {
+   "src_p": 22365,
+   "src_s": 0,
+   "prompt": "Professor Paradox manipulates time so that his defeat would cause a paradox",
+   "human_words": 788
+  },
+  {
+   "src_p": 86342,
+   "src_s": 0,
+   "prompt": "You wait tables in a Southern bar with a cartoonishly sassy , gay , black cook and are best friends with his sister . A vampire walks in to have a drink of the new fake blood your bar sells . You can also hear people 's thoughts and you 're half human , half fairy . Who killed your grandmother ?",
+   "human_words": 771
+  },
+  {
+   "src_p": 42119,
+   "src_s": 0,
+   "prompt": "You are a child who experienced a nightmare about a werewolf . Now , in every sleep , you experience the same nightmare . You have the choice to claim victory or defeat to end your recurring dream .",
+   "human_words": 718
+  },
+  {
+   "src_p": 14798,
+   "src_s": 5,
+   "prompt": "- A successful movie actor decides to go through and watch his older films . But , while watching , discovers odd things . Scenes he does n't remember , lines that were n't in the script , and interviews he never did . It 's in all his movies , and gets steadily more sinister .",
+   "human_words": 779
+  },
+  {
+   "src_p": 73738,
+   "src_s": 1,
+   "prompt": "Fear and The Emotions of Social Interaction ( Come Together )",
+   "human_words": 660
+  },
+  {
+   "src_p": 88147,
+   "src_s": 0,
+   "prompt": "As you tend your large garden , you notice a naked couple walk unnervingly close to a tree bearing golden fruit ...",
+   "human_words": 759
+  },
+  {
+   "src_p": 12416,
+   "src_s": 4,
+   "prompt": "You arrive in the year 1000 , and all you have are the clothes on your back , a laptop with the entire Wikipedia library , and a solar charger .",
+   "human_words": 792
+  },
+  {
+   "src_p": 5987,
+   "src_s": 3,
+   "prompt": "You find a maintenance hatch to Earth .",
+   "human_words": 653
+  },
+  {
+   "src_p": 74067,
+   "src_s": 1,
+   "prompt": "A society where people are executed for their crimes , but the execution is always done in an 'ironic ' way . ( being shot with your own gun for murder , being lit on fire for arson , etc . ) This case , however , is highly unusual .",
+   "human_words": 793
+  },
+  {
+   "src_p": 34788,
+   "src_s": 0,
+   "prompt": "You wake up in a pile of hay , you are the infamous Wizard of the Beer .",
+   "human_words": 650
+  },
+  {
+   "src_p": 68397,
+   "src_s": 0,
+   "prompt": "The Earth is made of memory foam and humans have developed a nomadic lifestyle to keep from sinking too far in .",
+   "human_words": 780
+  },
+  {
+   "src_p": 85858,
+   "src_s": 0,
+   "prompt": "Hmm , kitten ...",
+   "human_words": 646
+  },
+  {
+   "src_p": 25426,
+   "src_s": 0,
+   "prompt": "Mission Compromised ! ABORT ! ABORT !",
+   "human_words": 782
+  },
+  {
+   "src_p": 82672,
+   "src_s": 0,
+   "prompt": "'Satan ' is not the name of an individual , but of a democratically elected office . The electoral race for leader of the free underworld is currently underway .",
+   "human_words": 709
+  },
+  {
+   "src_p": 28164,
+   "src_s": 1,
+   "prompt": "As a joke , you decide to run for president under two tickets simultaneously : one as a Republican and one as a Democrat . 3 months before nomination , you are the frontrunner for both parties .",
+   "human_words": 757
+  },
+  {
+   "src_p": 53107,
+   "src_s": 1,
+   "prompt": "A billionaire builds an extensive underground bunker anticipating nuclear war . Before that can happen , judgement day occurs , and his bunker becomes a haven for fleeing sinners . Due to his interference in the proceedings , he becomes the de facto Satan .",
+   "human_words": 698
+  },
+  {
+   "src_p": 44243,
+   "src_s": 1,
+   "prompt": "A duel to the death between a slave earning his freedom and a gladiator champion ends in an unexpected way",
+   "human_words": 751
+  },
+  {
+   "src_p": 58411,
+   "src_s": 1,
+   "prompt": "Aliens start abducting human , and do some strange body modification to thier victims .",
+   "human_words": 662
+  },
+  {
+   "src_p": 7148,
+   "src_s": 6,
+   "prompt": "Bruce Wayne discovers he was actually adopted and his biological parents are still alive .",
+   "human_words": 660
+  },
+  {
+   "src_p": 49006,
+   "src_s": 0,
+   "prompt": "Your friend has gotten lost inside the pages of a good book . It 's your job to mount an expedition to find and rescue them .",
+   "human_words": 953
+  },
+  {
+   "src_p": 59002,
+   "src_s": 3,
+   "prompt": "You 're immortal and unkillable , yet everyone believes if they manage to kill you , they 'll become immortal and unkillable as well . But , man , you just want to live an everyday life , and this whole 'everyone trying to kill you ' thing sucks .",
+   "human_words": 873
+  },
+  {
+   "src_p": 2050,
+   "src_s": 0,
+   "prompt": "A woman falls in love with Death and commits murder countless times just to catch a glimpse of him .",
+   "human_words": 838
+  },
+  {
+   "src_p": 40730,
+   "src_s": 1,
+   "prompt": "The character is about to commit suicide , but is offered three wishes .",
+   "human_words": 927
+  },
+  {
+   "src_p": 78818,
+   "src_s": 0,
+   "prompt": "The robot apocalypse created a machine superstate . Humans are continually monitored . You are a secret rebel fighter who avoids detection by communicating with compatriots through metaphor , double entendre and shitty puns .",
+   "human_words": 877
+  },
+  {
+   "src_p": 76061,
+   "src_s": 1,
+   "prompt": "The passenger door of a nearby car opens . A man in the driver 's seat stares and says `` You are not safe on Earth . We must leave immediately . ''",
+   "human_words": 806
+  },
+  {
+   "src_p": 5453,
+   "src_s": 0,
+   "prompt": "`` You murdered me for five bucks ? ! ''",
+   "human_words": 961
+  },
+  {
+   "src_p": 50799,
+   "src_s": 0,
+   "prompt": "At a rather dull and boring wedding , you , a single male , are tasked with telling entertaining stories to young children to prevent them from getting anxious and running amok .",
+   "human_words": 911
+  },
+  {
+   "src_p": 95982,
+   "src_s": 1,
+   "prompt": "Dragon Fire",
+   "human_words": 851
+  },
+  {
+   "src_p": 38235,
+   "src_s": 0,
+   "prompt": "A man staying in a hotel wakes up during the night to find blood dripping from the ceiling",
+   "human_words": 866
+  },
+  {
+   "src_p": 10531,
+   "src_s": 5,
+   "prompt": "Humanity is at war with an alien race that cleverly uses statistical analysis to predict and anticipate our military actions with incredible accuracy . The only way to defeat them is to be unpredictable .",
+   "human_words": 873
+  },
+  {
+   "src_p": 55711,
+   "src_s": 0,
+   "prompt": "A homeless guy is sitting under a train station bridge . Everyday a woman is passing by his spot on her way to work and gives him coffee and a note . Until one day ...",
+   "human_words": 873
+  },
+  {
+   "src_p": 78782,
+   "src_s": 0,
+   "prompt": "For years , you have taken care of the trash . Today , your trash decides to return the favor .",
+   "human_words": 853
+  },
+  {
+   "src_p": 85602,
+   "src_s": 0,
+   "prompt": "You are the Sadist who designed Internet Explorer . Write about your thought process .",
+   "human_words": 865
+  },
+  {
+   "src_p": 69801,
+   "src_s": 1,
+   "prompt": "If every country was represented by kids on a playground what would they be doing . ( x-post r/askreddit )",
+   "human_words": 905
+  },
+  {
+   "src_p": 9070,
+   "src_s": 10,
+   "prompt": "All doctors must carry a staff . The staff must be hand carved by the doctor , and for every patient a doctor ca n't treat they lose an inch off their staff . When a staff is gone , so is their license .",
+   "human_words": 881
+  },
+  {
+   "src_p": 74956,
+   "src_s": 0,
+   "prompt": "You know you 're being followed . When you turn around , to catch your stalker you see a familiar face : You .",
+   "human_words": 966
+  },
+  {
+   "src_p": 6300,
+   "src_s": 2,
+   "prompt": "After traveling the world for 15 years to become a master swordsman so he can avenge his family , the protagonist learns his target has already peacefully died in his sleep",
+   "human_words": 848
+  },
+  {
+   "src_p": 24847,
+   "src_s": 3,
+   "prompt": "You are an imaginary friend of a serial killer . The person is contemplating another murder , and much to your disbelief , the next victim is you .",
+   "human_words": 825
+  },
+  {
+   "src_p": 64316,
+   "src_s": 0,
+   "prompt": "Build up to something big , but disappoint me in the end",
+   "human_words": 836
+  },
+  {
+   "src_p": 60101,
+   "src_s": 1,
+   "prompt": "You and your best friend discover a magical portal . They decide to go first just in case . After a few minutes you step through and arrive at the aftermath of an enormous battle . One of the wounded sees you and says , `` About time . ''",
+   "human_words": 880
+  },
+  {
+   "src_p": 14335,
+   "src_s": 11,
+   "prompt": "The Four Horsemen of the Apocalypse hold auditions for a 5th member , Americas Got Talent style .",
+   "human_words": 843
+  },
+  {
+   "src_p": 23734,
+   "src_s": 0,
+   "prompt": "Write the script and dialogue for two separate first date scenarios . One that goes well , and one that goes poorly . HOWEVER , they must both have the same exact dialogue in both stories .",
+   "human_words": 875
+  },
+  {
+   "src_p": 69854,
+   "src_s": 1,
+   "prompt": "A story that follows one character before `` jumping '' to follow a new character during an interaction between the two . Follow this new character before eventually jumping to a new that he/she interacts with . Continue like this until eventually ending on the same character you started with .",
+   "human_words": 903
+  },
+  {
+   "src_p": 10031,
+   "src_s": 0,
+   "prompt": "Moon Landing was not a hoax , man did land on the moon , but NASA created a top secret department to make the public believe it was staged . All the videos , theories emerge from that one tiny group employed by NASA . The reason was to distract public attention from something much sinister",
+   "human_words": 832
+  },
+  {
+   "src_p": 29489,
+   "src_s": 6,
+   "prompt": "He leaned in close , tears running down his face . `` Sanity , '' he said as he tenderly inched the knife into her chest , `` is a luxury I can not afford . ''",
+   "human_words": 1148
+  },
+  {
+   "src_p": 14764,
+   "src_s": 3,
+   "prompt": "Write a generic fantasy tale ... But instead of knights in shining armor the era is trench warfare .",
+   "human_words": 1035
+  },
+  {
+   "src_p": 26642,
+   "src_s": 2,
+   "prompt": "God takes `` Thou shalt not kill '' very seriously and banishes any and all soldiers down to Hell , regardless of intention , reason or sins . The soldiers fed up with this and with nothing to lose , decide to storm Hell and take over .",
+   "human_words": 1085
+  },
+  {
+   "src_p": 6455,
+   "src_s": 4,
+   "prompt": "You are the first human test subject for the newly developed 'Teleporter ' however everything goes horribly wrong ...",
+   "human_words": 1062
+  },
+  {
+   "src_p": 87000,
+   "src_s": 0,
+   "prompt": "You are the dragonborn- a half-dragon half human warrior of legend . You 're going to visit your parents for Christmas and to introduce your new partner to them . Your partner thought that 'half dragon ' was a metaphor .",
+   "human_words": 1137
+  },
+  {
+   "src_p": 4927,
+   "src_s": 11,
+   "prompt": "Before you died , you agreed to donate your body for medical research . This morning , you woke up in an unfamiliar room and the last thing you remember is dying .",
+   "human_words": 1083
+  },
+  {
+   "src_p": 39899,
+   "src_s": 0,
+   "prompt": "a new animal is discovered . It 's eventually becomes the worlds top apex predator .",
+   "human_words": 1045
+  },
+  {
+   "src_p": 15115,
+   "src_s": 7,
+   "prompt": "TIL that Earth used to have a moon .",
+   "human_words": 1010
+  },
+  {
+   "src_p": 1426,
+   "src_s": 11,
+   "prompt": "There is no prompt . Just write a story you 've always been thinking about or one you 've been thinking about sharing . Anything goes .",
+   "human_words": 1093
+  },
+  {
+   "src_p": 3103,
+   "src_s": 22,
+   "prompt": "- You are an angel of heaven . Angels are tasked with creating animals to populate the earth . You are called into God 's office to discuss your finished project - the platypus .",
+   "human_words": 1076
+  },
+  {
+   "src_p": 37255,
+   "src_s": 2,
+   "prompt": "The warrior , the dragon",
+   "human_words": 979
+  },
+  {
+   "src_p": 65380,
+   "src_s": 0,
+   "prompt": "Detail your most memorable dream .",
+   "human_words": 1091
+  },
+  {
+   "src_p": 45561,
+   "src_s": 2,
+   "prompt": "Kingdom Hearts built a rich mythology around mundane objects : locks and keys . Do the same for other everyday items .",
+   "human_words": 1005
+  },
+  {
+   "src_p": 39758,
+   "src_s": 2,
+   "prompt": "You are walking through the woods when you see a body laying on the ground . You go over to see if they are alright , and see that it is your body looking back at you . The other you is badly injured , and only lives long enough to see that he/she is looking at him/herself . ( More Inside )",
+   "human_words": 985
+  },
+  {
+   "src_p": 12195,
+   "src_s": 4,
+   "prompt": "The entire Star Wars series , all 7 movies , are released as one book , written by Dr. Seuss .",
+   "human_words": 1074
+  },
+  {
+   "src_p": 54134,
+   "src_s": 0,
+   "prompt": "You sell your soul to God . Instead of having bliss in life and then damnation , you life a life of utter misery and then go to Heaven when you die .",
+   "human_words": 1066
+  },
+  {
+   "src_p": 44119,
+   "src_s": 0,
+   "prompt": "The world is governed by DnD rules and people occasionally find loopholes to their advantage , which is then patched and then begins a viscous cycle of finding and patching . You are one of the people who finds these loopholes , and uses them .",
+   "human_words": 1035
+  },
+  {
+   "src_p": 76629,
+   "src_s": 1,
+   "prompt": "Create a brand new origin story for your favorite character .",
+   "human_words": 1081
+  },
+  {
+   "src_p": 68683,
+   "src_s": 1,
+   "prompt": "Invasion Earth",
+   "human_words": 1094
+  },
+  {
+   "src_p": 82728,
+   "src_s": 0,
+   "prompt": "A murderous , forced and gorey game of Musical Chairs .",
+   "human_words": 1126
+  },
+  {
+   "src_p": 14847,
+   "src_s": 1,
+   "prompt": "Humanity is dead . Except for you , and you 're immortal . You spend eternity collecting any human knowledge and literature you can find . You are the Librarian .",
+   "human_words": 998
+  },
+  {
+   "src_p": 78245,
+   "src_s": 1,
+   "prompt": "The exchange",
+   "human_words": 1066
+  },
+  {
+   "src_p": 15089,
+   "src_s": 0,
+   "prompt": "I watched the clock tick over from 11:59 to 12:00 . Another day , gone , just like that .",
+   "human_words": 1147
+  },
+  {
+   "src_p": 24149,
+   "src_s": 1,
+   "prompt": "Your completely satirical mockery of modern teen fiction has now become a bestseller . You 've been invited to a book talk with your teenage fans .",
+   "human_words": 1099
+  },
+  {
+   "src_p": 2408,
+   "src_s": 0,
+   "prompt": "I have no face .",
+   "human_words": 1137
+  },
+  {
+   "src_p": 10002,
+   "src_s": 3,
+   "prompt": "Earth gets a message from an alien race that challenged earth for war and they set the time 100 years from now . But the aliens motive is not what we think it is .",
+   "human_words": 1271
+  },
+  {
+   "src_p": 18728,
+   "src_s": 2,
+   "prompt": "A man and a woman go on a date . One speaks completely in metaphors and the other takes everything literally .",
+   "human_words": 1312
+  },
+  {
+   "src_p": 16108,
+   "src_s": 1,
+   "prompt": "It 's another average day on Earth when , suddenly , the sun just ... '' turns off ''",
+   "human_words": 1290
+  },
+  {
+   "src_p": 6557,
+   "src_s": 0,
+   "prompt": "I thought it was a weapon . But it was actually a shield .",
+   "human_words": 1162
+  },
+  {
+   "src_p": 9457,
+   "src_s": 1,
+   "prompt": "You realize your imaginary friend has outgrown you .",
+   "human_words": 1244
+  },
+  {
+   "src_p": 40028,
+   "src_s": 0,
+   "prompt": "You 've seen the same person , at least once every day . Their face has become familiar , on the streets , on the news , somewhere in the background of your daily life . But they 've never spoken a word .",
+   "human_words": 1199
+  },
+  {
+   "src_p": 3688,
+   "src_s": 1,
+   "prompt": "Humanity has invented a teleportation portal . A man is sent through the machine , but comes out the other side screaming and writhing in agony ...",
+   "human_words": 1217
+  },
+  {
+   "src_p": 45183,
+   "src_s": 1,
+   "prompt": "You are a time traveler . You end up falling in love with an alternate continuity version of yourself .",
+   "human_words": 1166
+  },
+  {
+   "src_p": 62541,
+   "src_s": 0,
+   "prompt": "( GIF ) Diving .",
+   "human_words": 1294
+  },
+  {
+   "src_p": 24974,
+   "src_s": 1,
+   "prompt": "A serial killer goes door to door to find his victims , until he knocks on the wrong door . Another killer .",
+   "human_words": 1228
+  },
+  {
+   "src_p": 39520,
+   "src_s": 3,
+   "prompt": "A shapeshifting alien was sent to Earth at the dawn of humanity and has been a bystander for every major event . He is now returning home and is asked to judge the human race .",
+   "human_words": 1164
+  },
+  {
+   "src_p": 75878,
+   "src_s": 1,
+   "prompt": "You find a Narnia style wardrobe in a new house you move into . Inside is a small town dedicated to running everything in life , programming the trees the birds the air .",
+   "human_words": 1187
+  },
+  {
+   "src_p": 29260,
+   "src_s": 4,
+   "prompt": "A children 's cartoon villain goes to jail , and has to deal with `` adult '' villains .",
+   "human_words": 1261
+  },
+  {
+   "src_p": 45120,
+   "src_s": 3,
+   "prompt": "A car pulls up beside a prostitute , soliciting sex . The door opens and to the surprise of both parties , they realise they are ex 's from several years ago . Write from either perspective ( NSFW ? )",
+   "human_words": 1258
+  },
+  {
+   "src_p": 18231,
+   "src_s": 0,
+   "prompt": "On your 100th birthday , you realize there is nothing more to do in life that interests you . You decide to be euthanized peacefully . As your life comes to an end , you drift off only to wake up in a hospital bed again . Doctors tell you that you 're 20 years old and have been in a Coma for a year .",
+   "human_words": 1309
+  },
+  {
+   "src_p": 51475,
+   "src_s": 2,
+   "prompt": "Nightmares are triggered by the death or serious injury of our alternate and parallel world counterparts . You 've been having a lot of nightmares lately .",
+   "human_words": 1190
+  },
+  {
+   "src_p": 2975,
+   "src_s": 9,
+   "prompt": "Mankind invents FTL travel and finally discovers intelligent extraterrestrial life . But when they arrive , they find out that the race is not yet advanced enough to understand space travel . Humans are accepted as gods .",
+   "human_words": 1238
+  },
+  {
+   "src_p": 78012,
+   "src_s": 0,
+   "prompt": "Tradition dictates that if you fall in love because of the actions of a stranger they be invited to your wedding . Thousands of hobos begin matchmaking in the hopes of a free meal .",
+   "human_words": 1150
+  },
+  {
+   "src_p": 8430,
+   "src_s": 2,
+   "prompt": "Earth is declared uninhabitable . Citizens are evacuated to a successfully terraformed Mars . For the first time in 9787 years , probes detect human-like life forms on Earth .",
+   "human_words": 1201
+  },
+  {
+   "src_p": 13374,
+   "src_s": 1,
+   "prompt": "make a story about someone that has never felt pain or suffering",
+   "human_words": 1222
+  },
+  {
+   "src_p": 51060,
+   "src_s": 2,
+   "prompt": "You 're God , but you must live through every life that 's ever happened before you can be `` all knowing '' . You 've just died for the last time .",
+   "human_words": 1255
+  },
+  {
+   "src_p": 35356,
+   "src_s": 1,
+   "prompt": "`` Because dear , mother knows best , now put the flamethrower in the trunk . ''",
+   "human_words": 1313
+  },
+  {
+   "src_p": 1073,
+   "src_s": 6,
+   "prompt": "Dave is the first human convict to arrive in the intergalactic prison .",
+   "human_words": 1244
+  },
+  {
+   "src_p": 75096,
+   "src_s": 0,
+   "prompt": "Iroh is running his tea shop one afternoon when he overhears a retired Earth kingdom officer boasting about that Fire Nation Prince he killed during the siege .",
+   "human_words": 1274
+  },
+  {
+   "src_p": 13136,
+   "src_s": 3,
+   "prompt": "`` No , precious human , you are not the last , '' he said in a soft , compassionate tone . `` You are the first . ''",
+   "human_words": 1307
+  },
+  {
+   "src_p": 35104,
+   "src_s": 3,
+   "prompt": "A villain who wants to rule the world gets into an arguement with a villain that wants to destroy it .",
+   "human_words": 1348
+  },
+  {
+   "src_p": 25897,
+   "src_s": 2,
+   "prompt": "Even a roaring inferno must start from a spark .",
+   "human_words": 1459
+  },
+  {
+   "src_p": 22103,
+   "src_s": 4,
+   "prompt": "After death you are destined to remain in purgatory ( it 's a train station ) until nobody on earth remembers you , at which time you are allowed to board the train to Paradise . Since the advent of the global communication , however , the train station has gotten uncomfortably crowded .",
+   "human_words": 1367
+  },
+  {
+   "src_p": 73333,
+   "src_s": 0,
+   "prompt": "Technology invents a way for humans to produce dreams for others to see , and pretty soon *Dream Movies* are being rented out overnight . Only this time , the movie freezes while you 're in the middle of it .",
+   "human_words": 1403
+  },
+  {
+   "src_p": 90663,
+   "src_s": 0,
+   "prompt": "You are 'Intoxico'- a superhero who has the power of anything they believe they can do when intoxicated .",
+   "human_words": 1342
+  },
+  {
+   "src_p": 47360,
+   "src_s": 1,
+   "prompt": "After doom . What 's next ?",
+   "human_words": 1359
+  },
+  {
+   "src_p": 9707,
+   "src_s": 0,
+   "prompt": "The Mad cow disease outbreak of 1986 never happens . Instead , Rational cow disease spreads rapidly , significantly increasing bovine intelligence .",
+   "human_words": 1443
+  },
+  {
+   "src_p": 5680,
+   "src_s": 0,
+   "prompt": "In the future , countries do not have conventional wars , but solve disputes every two years through the winter and summer Olympic games . America decides to conquer the world .",
+   "human_words": 1431
+  },
+  {
+   "src_p": 81980,
+   "src_s": 0,
+   "prompt": "A story with a Gainax Ending .",
+   "human_words": 1338
+  },
+  {
+   "src_p": 29449,
+   "src_s": 2,
+   "prompt": "Batman discovers that The Joker has know his secret identity for years and has never exploited it .",
+   "human_words": 1423
+  },
+  {
+   "src_p": 64963,
+   "src_s": 0,
+   "prompt": "A serial killer wakes up in a world where his or her victims are still alive",
+   "human_words": 1400
+  },
+  {
+   "src_p": 35117,
+   "src_s": 0,
+   "prompt": "One of history 's most heinous serial killers , captured and sentenced to 12 consecutive life sentences , has inexplicably lived for 240 years and is now eligible for parole .",
+   "human_words": 1377
+  },
+  {
+   "src_p": 95890,
+   "src_s": 0,
+   "prompt": "You live in a very small otherwise non-descript town . The only notable feature ? A huge billboard that reads `` Taste Our Water '' .",
+   "human_words": 1412
+  },
+  {
+   "src_p": 7051,
+   "src_s": 9,
+   "prompt": "You stop by a convenience store to grab a few things when two masked men walk in with guns . How does it go down ?",
+   "human_words": 1475
+  },
+  {
+   "src_p": 30228,
+   "src_s": 3,
+   "prompt": "Every week , a council meets to decide whether or not to kill you . You have 20 minutes before each session to convince them to spare you .",
+   "human_words": 1332
+  },
+  {
+   "src_p": 35272,
+   "src_s": 1,
+   "prompt": "Your friend tells you he ca n't get past the captcha screen that prevents robots from proceeding . As you watch him , you realize that the reason he ca n't is because he actually is a robot .",
+   "human_words": 1394
+  },
+  {
+   "src_p": 12938,
+   "src_s": 2,
+   "prompt": "Write a seemingly feel-good holiday story with a dark twist ending .",
+   "human_words": 1325
+  },
+  {
+   "src_p": 13232,
+   "src_s": 5,
+   "prompt": "A man stands over a body on an old dirt road .",
+   "human_words": 1436
+  },
+  {
+   "src_p": 35440,
+   "src_s": 2,
+   "prompt": "Write a story about a man who can create things from nothing but he can only do that from his mind and anything he thinks will be created . ( Food , cars , etc . ) .",
+   "human_words": 1367
+  },
+  {
+   "src_p": 76217,
+   "src_s": 1,
+   "prompt": "Tell the tale of a villain who did one good deed and was punished for it .",
+   "human_words": 1344
+  },
+  {
+   "src_p": 34385,
+   "src_s": 2,
+   "prompt": "Kidnapped whilst on holiday you find that a lifetime of pointless jobs has miraculously prepared you with all the necessary skills to save the day .",
+   "human_words": 1443
+  },
+  {
+   "src_p": 45530,
+   "src_s": 0,
+   "prompt": "A horrified non-gamer overhears a conversation between gamers , misunderstands their references to violent killings , and mistakes them as violent psychopaths",
+   "human_words": 1359
+  },
+  {
+   "src_p": 8585,
+   "src_s": 2,
+   "prompt": "You are a therapist . You are about to speak with a patient who has convinced several other therapists to commit suicide .",
+   "human_words": 1365
+  },
+  {
+   "src_p": 26936,
+   "src_s": 0,
+   "prompt": "`` They said I pleaded guilty to murder . I prefer to look at it as taking pride in one 's work . ''",
+   "human_words": 1360
+  },
+  {
+   "src_p": 24142,
+   "src_s": 3,
+   "prompt": "You live in a world without a regular day/night or season cycle . Every day is a different length , and nights have lasted what we know as years before . The world has always been like this . You are your peoples Time Keeper .",
+   "human_words": 1396
+  }
+ ]
+}
