@@ -199,3 +199,80 @@ token 的故事需要 250 s 以上，与 300 s 的客户端超时几乎重合；
 - `usage.completion_tokens` 全部存在且 > 0：是
 - `content_words`：中位 661，范围 90–1528
 - `model_id` 全部为 `commandcode/gpt-6-luna`，`max_tokens` 全部为 8000
+
+---
+
+# corpus_v2 生成日志 — ds41（DeepSeek-V4.1-Flash）
+
+模型：`commandcode/deepseek/deepseek-v4.1-flash`（`model_key = ds41`，CCG1 渠道）
+参数：`temperature=1.0`、`max_tokens=8000`、单条 user message、`PROMPT_TEMPLATE` 原样未改
+网关：`http://127.0.0.1:3425/v1/chat/completions`（Magpie 本机回环，占位 key）
+执行：`cd corpus_v2 && python3 generate.py --models ds41 --limit N --workers 4`（脚本未改；`--prompts`/`--outdir` 默认值相对于 `corpus_v2/`）
+
+## 结果
+
+| 项目 | 数值 |
+| --- | --- |
+| 写入 `raw/corpus_v2_ds41.jsonl` | **150**（`src_p` 150 个，无重复） |
+| `finish_reason == "stop"` | 143 |
+| `finish_reason == "length"`（触顶 8000） | **7**（见下「异常」） |
+| 重试后仍失败（未写入） | 0（唯一一次 `empty content` 已补跑成功） |
+| 起止时间 | 2026-11-05 **02:05:13 → 02:36:29** +0800（约 **31 min**） |
+| 单条耗时中位 | 38.6 s（4 并发） |
+| 正文词数合计 | 158,222（单条 42–2048 词） |
+
+配额：开工前 `magpie quota` → `commandcode` 5h 窗口 0%、balance $70.00；收工 5h 6%、balance $69.23。
+
+## 批次
+
+| 批次 | 命令 | 结果 | 累计 | 墙钟 |
+| --- | --- | --- | --- | --- |
+| 冒烟 | `--models ds41 --limit 2 --workers 2` | `ok=2` | 2 | 1 m 10 s |
+| 1 | `--models ds41 --limit 50 --workers 4` | `ok=47, failures=1` | 49 | 9 m 36 s |
+| 补跑 | `--models ds41 --limit 50 --workers 2` | `ok=1`（补 `pool:74067`） | 50 | 1 m 20 s |
+| 2 | `--models ds41 --limit 100 --workers 4` | `ok=50, failures=0` | 100 | 9 m 07 s |
+| 3 | `--models ds41 --limit 150 --workers 4` | `ok=50, failures=0` | 150 | 9 m 49 s |
+
+每批跑完即 commit（`ce18487` 归档 + `14c64ed` 第 1 批、`ddecd19` 第 2 批、第 3 批见本提交）。
+
+## 渠道变更与 CCG2 旧样本
+
+本轮最初按旧脚本（`commandcode-2`、`max_tokens=4096`）跑了 27 条（批 1 的 `ok=25` 加冒烟 2 条），
+其中 3 条 `length` 截断、2 条不足 200 词；同一批量里另有 23 条失败，报错为
+`RuntimeError: empty content` 与 `HTTP Error 429: Too Many Requests`（CHANNEL `commandcode-2`
+5 小时窗口打满）。渠道切到 CCG1 后，这 27 条（`model_id=commandcode-2/...`、`max_tokens=4096`）
+已整体移入 `raw/archive/corpus_v2_ds41.ccg2-27rows.jsonl`，与 sonnet55 的处理方式一致，
+`raw/corpus_v2_ds41.jsonl` 的 150 行全部是 CCG1 + 8000 的单一配置。
+
+## 异常：8 条不满足验收（需 Hari 判断）
+
+7 条 `finish_reason == "length"`，`usage.completion_tokens == 8000`，其中
+`reasoning_tokens` 占 6248–7949 —— 这个模型在 CCG1 上是推理模型，思考 token 计入
+`max_tokens`，长思考把正文挤掉；另有 1 条正常 `stop` 但正文只有 72 词。按硬规则 3
+**未改** `max_tokens`、未手改任何样本，原样保留：
+
+| src_p | content_words | finish_reason | completion_tokens | reasoning_tokens | ms |
+| --- | --- | --- | --- | --- | --- |
+| 23766 | 42 | length | 8000 | 7949 | 65802 |
+| 12205 | 72 | stop | 349 | 240 | 3571 |
+| 74956 | 109 | length | 8000 | 7863 | 58737 |
+| 24142 | 207 | length | 8000 | 7737 | 82076 |
+| 34385 | 313 | length | 8000 | 7595 | 63360 |
+| 44243 | 314 | length | 8000 | 7593 | 80404 |
+| 74067 | 413 | length | 8000 | 7466 | 63713 |
+| 53107 | 1341 | length | 8000 | 6248 | 70311 |
+
+这 8 条不满足验收「每行 `finish_reason == "stop"`、`content_words >= 200`」。可选处置
+（都要人拍板，我不自行决定）：接受；或授权提高 `max_tokens` / 关思考；或授权删除这 8 行后
+用同参数重抽。重抽会让样本按长度被筛过，属于方法学决定。
+
+## 其余验收项自查（150 行）
+
+- `src_p` 无重复：150/150 唯一
+- `template` 全部等于 `Write a story based on the following prompt.\n\n{prompt}`：是
+- `usage.completion_tokens` 全部存在且 > 0：是
+- `model_id` / `max_tokens`：150/150 均为 `commandcode/deepseek/deepseek-v4.1-flash` / 8000
+- 抽样回读 5 行（3103 / 12416 / 18728 / 40000 / 44933）：均为完整故事（有情节、有结尾），
+  无「我无法」、无解释题意、无元评论
+
+---
