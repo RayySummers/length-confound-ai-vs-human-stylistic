@@ -18,6 +18,7 @@
 
 - 仓库：`RayySummers/length-confound-ai-vs-human-stylistic`，分支 **`corpus-v2`**（不是 main）。
 - 运行位置：本机 WSL。网关是 Magpie，地址 `http://127.0.0.1:3425/v1/chat/completions`，**本机回环，不需要 key**（脚本里用占位 key）。
+- 渠道（2026-11-05 起）：GPT-6 / DeepSeek-V4.1 / Claude-Sonnet-5.5 走 `commandcode`（CCG1），Kimi-K3.1-Pro 走 `opencode-go-2`。**不要把 `commandcode-2` 写回去——那份额度已经打满。**
 - 依赖：Python 3 标准库即可，不需要 pip 安装。
 - 输出目录：`corpus_v2/raw/`。
 

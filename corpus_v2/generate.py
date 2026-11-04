@@ -30,10 +30,12 @@ TEMPERATURE = 1.0
 MAX_TOKENS = 4096
 RETRIES = 3
 
+# 2026-11-05：commandcode-2 的额度打满，改走刚续费的 commandcode（CCG1）；
+# Kimi 只有 OpenCode Go 供，仍在 opencode-go-2。渠道变了，metadata 里 model_id 会记录。
 MODELS = {
-    "gpt6":     "commandcode-2/gpt-6-luna",
-    "ds41":     "commandcode-2/deepseek/deepseek-v4.1-flash",
-    "sonnet55": "commandcode-2/claude-sonnet-5-5",
+    "gpt6":     "commandcode/gpt-6-luna",
+    "ds41":     "commandcode/deepseek/deepseek-v4.1-flash",
+    "sonnet55": "commandcode/claude-sonnet-5-5",
     "kimi31":   "opencode-go-2/kimi-k3.1-pro",
 }
 
