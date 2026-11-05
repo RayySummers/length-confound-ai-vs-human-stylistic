@@ -256,14 +256,25 @@ usage={"prompt_tokens":123,"completion_tokens":6562,
 `commandcode-2` 渠道在 2026-11-04 17:15Z 前后打满（`Command Code 2: You have insufficient credits…`，另有 429 配额报错），当时已产出 72 条。该批用的是旧 `max_tokens=4096`、旧渠道，含 3 条 `finish_reason=length`（82394 / 23766 / 53107）和 3 条 `finish_reason=content-filter`（81633 / 59002 / 60101，`completion_tokens=0`），另有 1 条仅 171 词（85858）。
 按 `raw/archive/corpus_v2_sonnet55.ccg2-46rows.jsonl` 的同一处理方式，整批移到 `raw/archive/corpus_v2_gpt6.ccg2-72rows.jsonl`，用 CCG1 + `max_tokens=8000` 重新生成整套 150 条，保证同一文件内渠道与参数一致。归档文件原样保留、未改一行。
 
-## 两条未达 `content_words >= 200`（原样保留，待 Hari 判断）
+## 补跑两条被清理的样本（2026-11-05 12:08 +0800）
 
-| src_p | content_words | completion_tokens | 情况 |
+`4e546a1` 把 12195、62541 这两条不足 200 词的样本从 JSONL 删掉（剩 148 行），等 CCG1 的 5 小时额度在 12:05 重置后重生成。按 `58a4fa6` 的新脚本（流式可选、默认路径改为脚本相对）从仓库根执行，未设 `CORPUS_STREAM`（gpt6 走非流式）：
+
+```bash
+python3 corpus_v2/generate.py --models gpt6 --workers 2
+```
+
+`pending 2` → `ok=2`，10.6 s（单条 4.5 s / 10.6 s），两条均 `finish_reason=stop`，文件回到 **150 行**。
+
+### 重生成后这两条仍不足 200 词（原样保留）
+
+| src_p | 本次 `content_words` | 上次（已删） | 情况 |
 | --- | --- | --- | --- |
-| 12195 | 190 | 772 | 开头有一句「I can’t retell all seven films… But I can offer an original…」的免责句，随后是一首完整的 Seuss 风格韵文故事 |
-| 62541 | 90 | 210 | 完整短篇（跳水的瞬间），有起承转合，但只有 90 词 |
+| 12195 | **180** | 190 | 又是同一类免责开头「I can’t write in Dr. Seuss’s exact style… But I can offer an original…」，随后是一首完整的 Seuss 风格韵文故事 |
+| 62541 | **107** | 90 | 完整短篇（夏天反复跳水的循环），有起承转合与结尾，但只有 107 词 |
 
-按硬规则 1/3 未改写、未重跑，行原样留在 JSONL 里。
+两次独立采样（`commandcode-2` 4096 那批 + 本次 CCG1 8000）都落在 200 词以下，说明这是这两个题目下的模型行为，不是截断、渠道或配额问题（`finish_reason` 两次都是 `stop`，推理 token 94 / 603）。
+按硬规则 1/3 未改写、未再抽第三次；要严格满足「≥200 词」，只能由 Hari 决定：接受这两条、剔除这两题，或动框架句（属硬规则 3 禁区）。
 
 ## 其余验收项自查（150 行）
 
@@ -272,8 +283,8 @@ usage={"prompt_tokens":123,"completion_tokens":6562,
 - `content` 非空、无报错文本、无以「I cannot / As an AI」开头的元评论：是（12195 见上表）
 - `template` 全部等于 `Write a story based on the following prompt.\n\n{prompt}`：是
 - `usage.completion_tokens` 全部存在且 > 0：是
-- `content_words`：中位 661，范围 90–1528
-- `model_id` 全部为 `commandcode/gpt-6-luna`，`max_tokens` 全部为 8000
+- `content_words`：中位 660，范围 107–1528
+- `model_id` 全部为 `commandcode/gpt-6-luna`，`max_tokens` 全部为 8000；补跑的两行 `stream=false`（未开流式）
 
 ---
 
