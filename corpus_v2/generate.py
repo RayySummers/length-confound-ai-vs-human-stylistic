@@ -59,7 +59,7 @@ def call(model_id, prompt):
         method="POST",
     )
     t0 = time.time()
-    with urllib.request.urlopen(req, timeout=300) as r:
+    with urllib.request.urlopen(req, timeout=900) as r:   # 2026-11-05 300s 对 Kimi 这类慢模型不够
         raw = json.load(r)
     return raw, int((time.time() - t0) * 1000)
 
