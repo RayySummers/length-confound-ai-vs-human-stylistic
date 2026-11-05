@@ -1,63 +1,81 @@
-# corpus_v2 生成日志 — sonnet55（Claude-Sonnet-5.5）
+# corpus_v2 生成日志 — sonnet55（Claude-Sonnet-5.5）· 完成
 
 模型：`commandcode/claude-sonnet-5-5`（渠道 CCG1；`model_key = sonnet55`）
-参数：`temperature=1.0`、`max_tokens=8000`（2026-11-05 由 4096 上调，原因见下「CCG2 时代已归档」）、单条 user message、`PROMPT_TEMPLATE` 原样未改
+参数：`temperature=1.0`、`max_tokens=8000`（2026-11-05 由 4096 上调，原因见「CCG2 时代已归档」）、单条 user message、`PROMPT_TEMPLATE` 原样未改
 网关：`http://127.0.0.1:3425/v1/chat/completions`（Magpie 本机回环，占位 key）
-执行：`cd corpus_v2 && python3 generate.py --models sonnet55 --limit N --workers 4`（脚本未作任何修改；`--prompts`/`--outdir` 默认值相对 `corpus_v2/`，故在 `corpus_v2/` 内执行）
-起止：2026-11-05 04:42 → 07:16 +0800（UTC 2026-11-04 20:42 → 23:16），跨两个额度窗口，实际生成墙钟约 26 min
+执行：`cd <仓库根> && python3 corpus_v2/generate.py --models sonnet55 --workers 4`（58a4fa6 起默认路径改为脚本相对，不再依赖 cwd；脚本未作任何修改）
+起止：2026-11-05 04:42 → 12:13 +0800（UTC 2026-11-04 20:42 → 2026-11-05 04:13），跨三个额度窗口，实际生成墙钟约 31 min
 
-## 进度（截至 2026-11-05 07:16 +0800 / 2026-11-04 23:16 UTC）
+## 结果：150/150，全部 `finish_reason == "stop"`
 
 | 项目 | 数值 |
 | --- | --- |
 | 目标条数 | 150 |
-| 已写入 `raw/corpus_v2_sonnet55.jsonl` | **122** |
-| 其中 `finish_reason == "stop"` | 122 |
-| 其中 `finish_reason == "length"` | 0 |
-| 重试后仍失败（未写入） | 28（全部因上游 5 小时额度 429，见「异常」） |
-| 待生成 | 28 |
+| 已写入 `raw/corpus_v2_sonnet55.jsonl` | **150** |
+| `finish_reason == "stop"` | 150 |
+| `finish_reason == "length"` | 0 |
+| `src_p` 唯一 | 150/150（覆盖 `prompts_v2.json` 全部 150 题） |
+| `content_words` 范围 | 602 – 2221，全部 ≥ 200 |
+| `template` 校验 | 全部等于 `Write a story based on the following prompt.\n\n{prompt}` |
+| `usage.completion_tokens` | 全部存在且 > 0 |
+| 抽样回读 | 5 行均为完整故事（有情节、有结尾） |
 
-- 冒烟：`--limit 2 --workers 2` → `ok=2`（2 min 55 s，含冷启动与 2 次重试）
-- 第 1 批：`--limit 16 --workers 4` → `ok=14`（2 min 19 s），累计 16 行
-- 第 2 批：`--limit 56 --workers 4` → `ok=40`（5 min 57 s），累计 56 行
-- 第 3 批：`--limit 96 --workers 4` → `ok=0, failures=40`（61 s，全部 429），文件仍 56 行
-- 第 4 批（额度重置后）：`--limit 100 --workers 4` → `ok=44`（6 min 36 s），累计 100 行
-- 第 5 批：`--limit 150 --workers 4` → `ok=22, failures=28`（3 min 53 s，后半段 429），累计 122 行
+### 分批次记录
 
-## 异常：CCG1 的 5 小时额度把 150 条切成三个窗口（阻塞，按 reset 时间续跑）
+- 冒烟：`--limit 2 --workers 2` → `ok=2`（2 min 55 s）
+- 第 1 批：`--limit 16` → `ok=14`（2 min 19 s），累计 16
+- 第 2 批：`--limit 56` → `ok=40`（5 min 57 s），累计 56
+- 第 3 批：`--limit 96` → `ok=0 / failures=40`（61 s，全部 429），文件仍 56
+- 第 4 批（首个 5h 窗口重置后）：`--limit 100` → `ok=44`（6 min 36 s），累计 100
+- 第 5 批：`--limit 150` → `ok=22 / failures=28`（3 min 53 s，后半段 429），累计 122
+- 第 6 批（第二个 5h 窗口重置后，`--workers 4` 不带 `--limit`）：`ok=28`（4 min 27 s），累计 **150**
 
-**第一次打满**（第 3 批，2026-11-05 05:00 +0800）。逐字原文：
+### 单条历史遗留：`src_p = 60101`（原样保留，需 Hari 判断）
+
+该行 `content` 以 `<thinking>` 开头，模型把推理过程写进了正文：
+
+```
+<thinking>I'll write a story, second-person or first-person? Prompt says "you"; I can use first person narrator. Let me craft a good one with ...
+```
+
+正文接在标签之后，仍是完整故事（1675 词）。按 README「内容明显不像故事…原样保留并在 issue 里贴出 `src_p` 与 `model_key`」处理：**未手改**，已在该行恢复原样；同一条的原始输出另存 `raw/archive/corpus_v2_sonnet55.dropped-60101-thinking-leak.jsonl`。
+
+曾尝试删掉该行让脚本重生成一条（不改参数、不手写），但 CCG1 的**周额度**已耗尽（见下），重生成需等 `2026-11-11T17:58:43Z` 之后或升级套餐。若 Hari 决定剔除，分析阶段跳过该 `src_p` 即可。
+
+## 额度阻塞记录（三处，均未换模型顶替）
+
+1. **第一个 5 小时窗口**（2026-11-05 05:00 +0800）：
+
+```
+{"error":{"code":null,"message":"Command Code: You've reached your 5-hour usage limit for your plan. Your limit resets at 2026-11-04T22:58:43.926Z. ...","type":"rate_limit_error"}}
+```
+
+2. **第二个 5 小时窗口**（2026-11-05 07:16 +0800）：
+
+```
+{"error":{"code":null,"message":"Command Code: You've reached your 5-hour usage limit for your plan. Your limit resets at 2026-11-05T04:05:58.197Z. ...","type":"rate_limit_error"}}
+```
+
+3. **周额度**（2026-11-05 12:13 +0800，为重生成 `60101` 单发时命中）：
 
 ```
 HTTP 429
-{"error":{"code":null,"message":"Command Code: You've reached your 5-hour usage limit for your plan. Your limit resets at 2026-11-04T22:58:43.926Z. Please wait for the window to reset or upgrade your plan to continue. (out of its allowance: not asked again before 06:58 UTC+8)","param":null,"type":"rate_limit_error"}}
+{"error":{"code":null,"message":"Command Code: You've reached your weekly usage limit for your plan. Your limit resets at 2026-11-11T17:58:43.926Z. Please wait for the window to reset or upgrade your plan to continue. (out of its allowance: not asked again before Nov 12 01:58 UTC+8)","param":null,"type":"rate_limit_error"}}
 ```
 
-**第二次打满**（第 5 批，2026-11-05 07:16 +0800）。逐字原文：
-
-```
-HTTP 429
-{"error":{"code":null,"message":"Command Code: You've reached your 5-hour usage limit for your plan. Your limit resets at 2026-11-05T04:05:58.197Z. Please wait for the window to reset or upgrade your plan to continue. (out of its allowance: not asked again before 12:05 UTC+8)","param":null,"type":"rate_limit_error"}}
-```
-
-- 一个窗口大约只够 60 余条（每条约 3.3k completion tokens）。
-- 影响：剩余 **28 条**需等 `2026-11-05T04:05:58Z`（= 12:05 +0800）窗口重置后继续。
-- 处理：未换模型顶替、未改参数、未改题目；已排定重置后的自动续跑，同一命令重跑即可补齐（脚本幂等，已有 122 行不会重复写）。
+一个 5 小时窗口约够 60 余条（每条约 3.3k completion tokens），150 条因而跨三个窗口跑完。
 
 ## CCG2 时代已归档（历史记录）
 
 2026-11-05 01:00–01:15 +0800 曾在 `commandcode-2`（CCG2）渠道上跑过 46 条（`max_tokens=4096`，其中 6 条触顶被截断：`src_p` 23766 / 13291 / 22365 / 86342 / 14798 / 74067）。随后 CCG2 先报 5 小时额度 429，重置后又报 `Command Code 2: You have insufficient credits to make this request.`（HTTP 400，逐字），账户额度耗尽。
 
-渠道切到 CCG1、`max_tokens` 上调到 8000 后，这 46 条整体归档到 `raw/archive/corpus_v2_sonnet55.ccg2-46rows.jsonl`，本文件从头重新生成，故不再计入 150 条。
+渠道切到 CCG1、`max_tokens` 上调到 8000 后，这 46 条整体归档到 `raw/archive/corpus_v2_sonnet55.ccg2-46rows.jsonl`，本文件从头重新生成，故不计入 150 条。
 
-## 验收自查（122 行）
+## 交付
 
-- `src_p` 无重复：122/122 唯一
-- `finish_reason == "stop"`：122/122
-- `content_words` 范围 602–2221，全部 ≥ 200
-- `template` 全部等于 `Write a story based on the following prompt.\n\n{prompt}`
-- `usage.completion_tokens` 全部存在且 > 0
-- `content` 非空、无报错文本；抽样回读为完整故事
+- `corpus_v2/raw/corpus_v2_sonnet55.jsonl`：150 行
+- 分支 `corpus-v2` 上按批 commit（冒烟 / 16 / 56 / 100 / 122 / 150），已 push
+- 未开 PR、未 merge 到 main
 
 # corpus_v2 生成日志 — kimi31（Kimi-K3.1-Pro）
 
