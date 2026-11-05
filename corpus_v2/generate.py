@@ -179,7 +179,7 @@ def run_one(job, out_path, lock):
 def main():
     ap = argparse.ArgumentParser()
     HERE = os.path.dirname(os.path.abspath(__file__))
-ap.add_argument("--prompts", default=os.path.join(HERE, "prompts_v2.json"))
+    ap.add_argument("--prompts", default=os.path.join(HERE, "prompts_v2.json"))
     ap.add_argument("--outdir", default=os.path.join(HERE, "raw"))
     ap.add_argument("--models", default="gpt6,ds41,sonnet55,kimi31")
     ap.add_argument("--arm", default="pool")
