@@ -300,14 +300,16 @@ python3 corpus_v2/generate.py --models gpt6 --workers 2
 | 项目 | 数值 |
 | --- | --- |
 | 写入 `raw/corpus_v2_ds41.jsonl` | **150**（`src_p` 150 个，无重复） |
-| `finish_reason == "stop"` | 143 |
-| `finish_reason == "length"`（触顶 8000） | **7**（见下「异常」） |
+| `finish_reason == "stop"` | **149** |
+| `finish_reason == "length"`（触顶 8000） | **1**（`74067`，见下「补齐 8 条」） |
+| `content_words < 200` | **1**（`12205`，题目本身无正文，见下） |
 | 重试后仍失败（未写入） | 0（唯一一次 `empty content` 已补跑成功） |
-| 起止时间 | 2026-11-05 **02:05:13 → 02:36:29** +0800（约 **31 min**） |
+| 起止时间 | 首轮 2026-11-05 **02:05:13 → 02:36:29**（31 min）；续跑补齐 **12:08:31 → 12:12:40**（约 4 min） |
 | 单条耗时中位 | 38.6 s（4 并发） |
-| 正文词数合计 | 158,222（单条 42–2048 词） |
+| 正文词数 | 单条 47–2300 词 |
 
-配额：开工前 `magpie quota` → `commandcode` 5h 窗口 0%、balance $70.00；收工 5h 6%、balance $69.23。
+配额：首轮开工前 `commandcode` 5h 0%、balance $70.00，收工 5h 6%、$69.23；
+续跑开工前（12:08）5h 0%、$40.86。
 
 ## 批次
 
@@ -318,6 +320,8 @@ python3 corpus_v2/generate.py --models gpt6 --workers 2
 | 补跑 | `--models ds41 --limit 50 --workers 2` | `ok=1`（补 `pool:74067`） | 50 | 1 m 20 s |
 | 2 | `--models ds41 --limit 100 --workers 4` | `ok=50, failures=0` | 100 | 9 m 07 s |
 | 3 | `--models ds41 --limit 150 --workers 4` | `ok=50, failures=0` | 150 | 9 m 49 s |
+| 4（12:08 续跑） | `python3 corpus_v2/generate.py --models ds41 --workers 4`（脚本 `58a4fa6`，仓库根执行） | `ok=8, failures=0` | 150 | 4 m 09 s |
+| 5（重抽 `74067`） | 同上命令，先删该行 | `ok=1` | 150 | 1 m 10 s |
 
 每批跑完即 commit（`ce18487` 归档 + `14c64ed` 第 1 批、`ddecd19` 第 2 批、第 3 批见本提交）。
 
@@ -330,35 +334,35 @@ python3 corpus_v2/generate.py --models gpt6 --workers 2
 已整体移入 `raw/archive/corpus_v2_ds41.ccg2-27rows.jsonl`，与 sonnet55 的处理方式一致，
 `raw/corpus_v2_ds41.jsonl` 的 150 行全部是 CCG1 + 8000 的单一配置。
 
-## 异常：8 条不满足验收（需 Hari 判断）
+## 补齐 8 条（2026-11-05 12:08 → 12:12 +0800）
 
-7 条 `finish_reason == "length"`，`usage.completion_tokens == 8000`，其中
-`reasoning_tokens` 占 6248–7949 —— 这个模型在 CCG1 上是推理模型，思考 token 计入
-`max_tokens`，长思考把正文挤掉；另有 1 条正常 `stop` 但正文只有 72 词。按硬规则 3
-**未改** `max_tokens`、未手改任何样本，原样保留：
+上一轮留下的 8 条不合格样本已由 He Rui 在 `4e546a1` 删除，本轮在 CCG1 5h 额度 12:05 重置后补齐：
+`python3 corpus_v2/generate.py --models ds41 --workers 4` → `pending 8 / ok=8 / failures=0`。
+其中 6 条正常（678–2300 词，全 `stop`，无截断）；**2 条重抽 1 次后仍不达标，已停止**（不做无限重抽）：
 
-| src_p | content_words | finish_reason | completion_tokens | reasoning_tokens | ms |
+| src_p | 题目 | content_words | finish_reason | completion / reasoning | 说明 |
 | --- | --- | --- | --- | --- | --- |
-| 23766 | 42 | length | 8000 | 7949 | 65802 |
-| 12205 | 72 | stop | 349 | 240 | 3571 |
-| 74956 | 109 | length | 8000 | 7863 | 58737 |
-| 24142 | 207 | length | 8000 | 7737 | 82076 |
-| 34385 | 313 | length | 8000 | 7595 | 63360 |
-| 44243 | 314 | length | 8000 | 7593 | 80404 |
-| 74067 | 413 | length | 8000 | 7466 | 63713 |
-| 53107 | 1341 | length | 8000 | 6248 | 70311 |
+| 12205 | `Timeline of Events`（`human_words=580`，题目只有这一行标题） | 47 | stop | 676 / 607 | 模型回的是「你只给了标题，没给事件列表，贴过来我再写故事」——**元评论**，不是故事。原题缺正文，属 `prompts_v2.json` 源头问题，同参数重抽不会变 |
+| 74067 | 完整句子（一个以「讽刺处决」治罪的社会） | 127 | length | 8000 / 7843 | `reasoning_tokens` 吃掉 7843，正文只剩 127 词；首轮 413 词、重抽 127 词，两次都触顶 8000 |
 
-这 8 条不满足验收「每行 `finish_reason == "stop"`、`content_words >= 200`」。可选处置
-（都要人拍板，我不自行决定）：接受；或授权提高 `max_tokens` / 关思考；或授权删除这 8 行后
-用同参数重抽。重抽会让样本按长度被筛过，属于方法学决定。
+对照证据：同样这两题，`gpt6` 给的是 430 / 633 词的完整故事，`sonnet55` 是 1341 / 1503 词，
+所以不是题目写不出故事，而是 ds41 在这两题上的行为差异（12205 选择反问，74067 思考失控）。
+
+按硬规则 3，**未改** `PROMPT_TEMPLATE`、`max_tokens`、模型 id，也未手写任何样本；`12205` 的 47 词元评论
+原样保留在 JSONL 里。需要 Hari 拍板：
+
+1. `12205` 的题目是否要补正文（改 `prompts_v2.json` 属硬规则 3 禁区，必须由你来改）；
+2. `74067` 接受这条 127 词截断行，还是授权提高 `max_tokens` / 关思考重跑，或把这一对从语料里剔除。
 
 ## 其余验收项自查（150 行）
 
-- `src_p` 无重复：150/150 唯一
+- 行数 150、`src_p` 无重复：150/150 唯一，与 `prompts_v2.json` 的 150 题一一对应
+- `finish_reason == "stop"`：149/150（1 条 `length`，即 `74067`）
 - `template` 全部等于 `Write a story based on the following prompt.\n\n{prompt}`：是
 - `usage.completion_tokens` 全部存在且 > 0：是
+- `content` 非空、无报错文本：是；`12205` 的 47 词元评论已在上表单列，不作隐藏
+- `content_words`：中位 1076，范围 47–2300
 - `model_id` / `max_tokens`：150/150 均为 `commandcode/deepseek/deepseek-v4.1-flash` / 8000
-- 抽样回读 5 行（3103 / 12416 / 18728 / 40000 / 44933）：均为完整故事（有情节、有结尾），
-  无「我无法」、无解释题意、无元评论
+- 抽样回读（3103 / 12416 / 18728 / 40000 / 44933）：完整故事，有情节有结尾，无「我无法」/解释题意
 
 ---
