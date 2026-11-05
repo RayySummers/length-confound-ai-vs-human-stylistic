@@ -117,6 +117,9 @@ X-Magpie-Provider: opencode-go-2
 
 ## 阻塞 2：单条故事在脚本的 300 s 客户端超时内没有跑完
 
+> ⚠️ 本节判断已被下文「第二次尝试：客户端超时提到 900 s 之后」推翻：超时提到 900 s 后请求仍然在
+> 上游 247–338 s 被 EOF 断开，真正的病因是非流式长请求被上游断连。原文保留作为时间线记录。
+
 `magpie usage` 里对应本次运行的 4 条记录（时间 +0800，模型 `opencode-go-2/kimi-k3.1-pro`）：
 
 | 时间 | 状态 | 耗时 | 输出 token | 错误原文 |
@@ -149,6 +152,80 @@ token 的故事需要 250 s 以上，与 300 s 的客户端超时几乎重合；
 
 额度侧：5 小时窗口 05:33:52 +0800 重置；在拿到上面两条决定之前不自动重试，避免再次把窗口烧在
 注定超时的请求上。
+## 第二次尝试：客户端超时提到 900 s 之后（2026-11-05 08:14 → 08:40 +0800）
+
+脚本已更新到 `414b328`（`urlopen(timeout=900)`，`max_tokens=8000` 不变），
+`opencode-go-2` 的 5 小时窗口开局读数 **1%**（08:14，额度确实已重置）。
+执行：`cd corpus_v2 && python3 generate.py --models kimi31 --limit 2 --workers 2`。
+
+结果仍然是 **0 条**，但失败原因和上一节不同 —— **上一节「阻塞 2：300 s 客户端超时」的判断已被推翻**，
+问题在上游，不在客户端：
+
+```
+[kimi31] opencode-go-2/kimi-k3.1-pro — pending 2
+{
+  "ok": 0,
+  "failures": 2,
+  "failure_samples": [
+    "pool:48384:kimi31 -> HTTPError: HTTP Error 502: Bad Gateway",
+    "pool:9191:kimi31 -> HTTPError: HTTP Error 502: Bad Gateway"
+  ]
+}
+```
+
+`magpie usage` 里本次 6 条记录（时间 +0800）：
+
+| 时间 | 状态 | 耗时 | 输出 token | 错误原文 |
+| --- | --- | --- | --- | --- |
+| 08:14:51 | 502 | 247353 ms | 0 | `Post "https://opencode.ai/zen/go/v1/chat/completions": EOF` |
+| 08:14:51 | 502 | 305515 ms | 0 | 同上 |
+| 08:19:00 | 502 | 334675 ms | 0 | 同上 |
+| 08:19:58 | 502 | 247357 ms | 0 | 同上 |
+| 08:24:10 | 502 | 337893 ms | 0 | 同上（`max_tokens=3000` 的诊断请求） |
+| 08:24:39 | 502 | 283809 ms | 0 | 同上（重试） |
+
+两个请求各重试 3 次，全部在 **247–338 s** 被上游断开，`0` 输出 token。
+
+### 诊断 1：不是 token 上限，也不是客户端超时
+
+用同一题目（`src_p=48384`）、同一 `PROMPT_TEMPLATE`、同参数，只把 `max_tokens` 降到 **3000** 单发：
+
+```
+HTTPError 502 after 302s: {"error":{"message":"OpenCode Go 2: Post \"https://opencode.ai/zen/go/v1/chat/completions\": EOF","type":"api_error"}}
+```
+
+`max_tokens` 降到 3000 依然在 302 s 被断开 → 上限不是 token 数；客户端超时已经是 900 s，也不是客户端。
+
+### 诊断 2：加 `stream: true` 同一条请求 290 s 正常跑完（决定性证据）
+
+同一题目、同一模型、同参数，仅额外带 `"stream": true`：
+
+```
+STREAM OK 290s chunks=6550 finish=stop words=1170
+usage={"prompt_tokens":123,"completion_tokens":6562,
+       "completion_tokens_details":{"reasoning_tokens":4872},
+       "opencode":{"list_cost":0.065866,...}}
+```
+
+`finish_reason == "stop"`、1170 词、6562 completion token（其中 4872 是 reasoning）。
+
+**结论**：OpenCode Go 的上游对**非流式**长请求在约 250–340 s 断连（EOF）；改流式后同样的请求可以
+正常完成。这不是脚本参数的问题，是 `call()` 用非流式请求这一实现方式的问题。
+
+### 需要的改动（一行级，但属硬规则 3 的禁区，未动）
+
+`corpus_v2/generate.py` 的 `call()` 里：payload 加 `"stream": True`，按 SSE 逐块拼
+`choices[0].delta.content`，`finish_reason` 取最后一块，`usage` 取带 usage 的那一块（实测网关会返回）。
+`PROMPT_TEMPLATE`、`model`、`temperature`、`max_tokens`、题目、`user_agent` 全部不变，写出的行结构与现在一致。
+
+### 额度侧备注
+
+- 08:14 → 08:40，`opencode-go-2` 的 5 小时窗口从 1% 涨到 86%、7 天从 49% 涨到 83%。
+- 但同一时段 `magpie usage` 里 `opencode-go-2` 的 99 条请求中，只有 **8 条**是本任务（`ray-length-confound`），
+  其余 91 条是 `dsh` / `hermes` 走 `group/main` 路由组打进来的 —— **这个 Go 额度是和本机 agent 自己的
+  流量共享的**，所以 kimi 跑到一半被 429 掐断是常态，不是异常。
+- 5 小时窗口重置：`2026-11-05T04:05:24Z` = **12:05:24 +0800**。
+
 # corpus_v2 生成日志 — gpt6（GPT-6-Luna）
 
 模型：`commandcode/gpt-6-luna`（`model_key = gpt6`，CCG1 渠道）
