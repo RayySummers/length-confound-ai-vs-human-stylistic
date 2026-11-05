@@ -29,6 +29,7 @@ PROMPT_TEMPLATE = "Write a story based on the following prompt.\n\n{prompt}"
 TEMPERATURE = 1.0
 MAX_TOKENS = 8000   # 2026-11-05 4096 会截断长故事（6/46 命中 finish_reason=length）
 RETRIES = 3
+STREAM = os.environ.get("CORPUS_STREAM", "") == "1"   # Kimi 走 OCG 必须开：非流式长请求会被上游掐断
 
 # 2026-11-05：commandcode-2 的额度打满，改走刚续费的 commandcode（CCG1）；
 # Kimi 只有 OpenCode Go 供，仍在 opencode-go-2。渠道变了，metadata 里 model_id 会记录。
@@ -40,7 +41,54 @@ MODELS = {
 }
 
 
+def _stream_call(model_id, prompt):
+    """SSE 流式：OCG 会在 250–340 s 掐断非流式长请求（502/EOF），流式则能跑完。"""
+    payload = {
+        "model": model_id,
+        "messages": [{"role": "user", "content": PROMPT_TEMPLATE.format(prompt=prompt)}],
+        "temperature": TEMPERATURE,
+        "max_tokens": MAX_TOKENS,
+        "stream": True,
+        "stream_options": {"include_usage": True},
+    }
+    body = json.dumps(payload, ensure_ascii=False).encode()
+    req = urllib.request.Request(
+        ENDPOINT, data=body,
+        headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json",
+                 "Accept": "text/event-stream", "User-Agent": USER_AGENT},
+        method="POST")
+    t0 = time.time()
+    parts, meta = [], {}
+    with urllib.request.urlopen(req, timeout=900) as r:
+        for raw in r:
+            line = raw.decode("utf-8", "replace").strip()
+            if not line.startswith("data:"):
+                continue
+            data = line[5:].strip()
+            if data == "[DONE]":
+                break
+            try:
+                chunk = json.loads(data)
+            except Exception:
+                continue
+            if chunk.get("usage"):
+                meta["usage"] = chunk["usage"]
+            if chunk.get("id"):
+                meta["id"] = chunk["id"]
+            for ch in chunk.get("choices") or []:
+                piece = (ch.get("delta") or {}).get("content")
+                if piece:
+                    parts.append(piece)
+                if ch.get("finish_reason"):
+                    meta["finish_reason"] = ch["finish_reason"]
+    text = "".join(parts)
+    return {"id": meta.get("id"), "usage": meta.get("usage"),
+            "choices": [{"message": {"content": text}, "finish_reason": meta.get("finish_reason")}]}, int((time.time() - t0) * 1000)
+
+
 def call(model_id, prompt):
+    if STREAM:
+        return _stream_call(model_id, prompt)
     payload = {
         "model": model_id,
         "messages": [{"role": "user", "content": PROMPT_TEMPLATE.format(prompt=prompt)}],
@@ -111,6 +159,7 @@ def run_one(job, out_path, lock):
                 "temperature": TEMPERATURE,
                 "max_tokens": MAX_TOKENS,
                 "user_agent": USER_AGENT,
+                "stream": STREAM,
                 "attempt": attempt,
             }
             if not text.strip():
@@ -129,8 +178,9 @@ def run_one(job, out_path, lock):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--prompts", default="prompts_v2.json")
-    ap.add_argument("--outdir", default="raw")
+    HERE = os.path.dirname(os.path.abspath(__file__))
+ap.add_argument("--prompts", default=os.path.join(HERE, "prompts_v2.json"))
+    ap.add_argument("--outdir", default=os.path.join(HERE, "raw"))
     ap.add_argument("--models", default="gpt6,ds41,sonnet55,kimi31")
     ap.add_argument("--arm", default="pool")
     ap.add_argument("--limit", type=int, default=0, help="max prompts per arm (pilot)")
