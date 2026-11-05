@@ -37,7 +37,7 @@ MODELS = {
     "gpt6":     "commandcode/gpt-6-luna",
     "ds41":     "commandcode/deepseek/deepseek-v4.1-flash",
     "sonnet55": "commandcode/claude-sonnet-5-5",
-    "kimi31":   "opencode-go-2/kimi-k3.1-pro",
+    "kimi31":   "opencode-go/kimi-k3.1-pro",   # 2026-11-05 换到他新充的 OpenCode Go（opencode-go-2 周额度已满）
 }
 
 
