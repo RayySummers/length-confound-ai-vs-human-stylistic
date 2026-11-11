@@ -1,0 +1,14 @@
+genre_code,genre_name,genre_group,n_human,n_gpt-4o__0,n_gpt-4o__100,n_gpt-45__0,n_gpt-45__100,n_claude-35-sonnet__0,n_claude-35-sonnet__100,n_gemini-20-pro-exp__0,n_gemini-20-pro-exp__100,n_llama_31_405b__0,n_llama_31_405b__100,n_deep-seek-v3__0,n_deep-seek-v3__100
+A,Press: Reportage,informative,44,44,44,44,44,44,44,44,44,44,44,44,44
+B,Press: Editorial,informative,27,27,27,27,27,27,27,27,27,27,27,27,27
+C,Press: Reviews,informative,17,17,17,17,17,17,17,16,16,17,17,17,17
+E,Skills and Hobbies,informative,38,38,38,38,38,38,38,38,38,38,38,38,38
+F,Popular Lore,informative,44,44,44,44,44,44,44,44,44,44,44,44,44
+J,Learned,informative,80,80,80,80,80,80,80,80,80,80,80,80,80
+K,General Fiction,imaginative,29,29,29,29,29,29,29,29,29,29,29,29,29
+L,Mystery and Detective Fiction,imaginative,24,24,24,24,24,24,24,24,24,24,24,24,24
+M,Science Fiction,imaginative,6,6,6,6,6,6,6,6,6,6,6,6,6
+N,Adventure and Western Fiction,imaginative,29,29,29,29,29,29,29,29,29,29,29,29,29
+P,Romance and Love Story,imaginative,29,29,29,29,29,29,29,29,29,29,29,29,29
+R,Humor,imaginative,9,9,9,9,9,9,9,9,9,9,9,9,9
+ALL,合计,,376,376,376,376,376,376,376,375,375,376,376,376,376

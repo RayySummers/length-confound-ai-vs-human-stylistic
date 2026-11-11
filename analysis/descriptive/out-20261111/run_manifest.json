@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-11-11T12:21:07+00:00",
+  "python": "3.12.3",
+  "data_root": "/home/hunde/length-confound-archive/data",
+  "human_texts": 376,
+  "model_subcorpora": [
+    "gpt-4o",
+    "gpt-45",
+    "claude-35-sonnet",
+    "gemini-20-pro-exp",
+    "llama_31_405b",
+    "deep-seek-v3"
+  ],
+  "temperatures": [
+    0,
+    100
+  ],
+  "groups": [
+    "human",
+    "gpt-4o__0",
+    "gpt-4o__100",
+    "gpt-45__0",
+    "gpt-45__100",
+    "claude-35-sonnet__0",
+    "claude-35-sonnet__100",
+    "gemini-20-pro-exp__0",
+    "gemini-20-pro-exp__100",
+    "llama_31_405b__0",
+    "llama_31_405b__100",
+    "deep-seek-v3__0",
+    "deep-seek-v3__100"
+  ],
+  "per_text_rows": 9772,
+  "missing_ai": [
+    {
+      "group": "gemini-20-pro-exp__0",
+      "n": 76,
+      "be21": "BE21-C04",
+      "genre_code": "C"
+    },
+    {
+      "group": "gemini-20-pro-exp__100",
+      "n": 76,
+      "be21": "BE21-C04",
+      "genre_code": "C"
+    }
+  ],
+  "ai_word_counts": {
+    "gpt-4o__0": {
+      "min": 420,
+      "median": 908.0,
+      "lt1000": 224,
+      "lt100": 0
+    },
+    "gpt-4o__100": {
+      "min": 508,
+      "median": 1086.0,
+      "lt1000": 148,
+      "lt100": 0
+    },
+    "gpt-45__0": {
+      "min": 801,
+      "median": 1093.0,
+      "lt1000": 50,
+      "lt100": 0
+    },
+    "gpt-45__100": {
+      "min": 868,
+      "median": 1138.5,
+      "lt1000": 19,
+      "lt100": 0
+    },
+    "claude-35-sonnet__0": {
+      "min": 35,
+      "median": 2228.0,
+      "lt1000": 5,
+      "lt100": 3
+    },
+    "claude-35-sonnet__100": {
+      "min": 39,
+      "median": 2145.0,
+      "lt1000": 5,
+      "lt100": 3
+    },
+    "gemini-20-pro-exp__0": {
+      "min": 504,
+      "median": 2399,
+      "lt1000": 1,
+      "lt100": 0
+    },
+    "gemini-20-pro-exp__100": {
+      "min": 1566,
+      "median": 2453,
+      "lt1000": 0,
+      "lt100": 0
+    },
+    "llama_31_405b__0": {
+      "min": 418,
+      "median": 1252.5,
+      "lt1000": 93,
+      "lt100": 0
+    },
+    "llama_31_405b__100": {
+      "min": 374,
+      "median": 1264.0,
+      "lt1000": 122,
+      "lt100": 0
+    },
+    "deep-seek-v3__0": {
+      "min": 866,
+      "median": 1601.0,
+      "lt1000": 17,
+      "lt100": 0
+    },
+    "deep-seek-v3__100": {
+      "min": 812,
+      "median": 1600.0,
+      "lt1000": 14,
+      "lt100": 0
+    }
+  },
+  "human_total_words": {
+    "min": 1918,
+    "median": 2356.5,
+    "max": 2678
+  },
+  "config": {
+    "mattr_window": 100,
+    "mtld_threshold": 0.72,
+    "human_prompt_words": 500,
+    "window_words": 1000,
+    "token_definition": "whitespace split, punctuation retained"
+  },
+  "inputs": {
+    "brown2021_manifest": "1fc5799dc6288241ff7d422c40aaa4a35d87b8da19733bd39dff08e93433688b",
+    "ai_file_mapping": "6addd5f742e7ea35dffe0187e6cea7a4f27ba1e1f8a4017efbddb9e4156d8dc2",
+    "ai_zip": "fe70b71bafbaf4da19ff0281fef60da6fbd2bc8ad6c4ea6644927a6fd59a0767",
+    "script": "2e95fcd031b270fc2e2817e6fa7c12446569ae6b7e091075af1aa955993b3721"
+  },
+  "warnings": [],
+  "checks": {
+    "lexical_diversity": {
+      "available": true,
+      "sample": "brown2021/A_press_reportage__A01.txt 第 501–1500 词（小写）",
+      "mattr_ours": 0.7068146503884554,
+      "mattr_lexical_diversity": 0.7068146503884554,
+      "mtld_ours": 91.23513617184503,
+      "mtld_lexical_diversity": 91.23513617184503,
+      "match": true
+    }
+  }
+}
