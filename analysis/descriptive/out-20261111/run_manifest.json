@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-11-11T12:21:07+00:00",
+  "generated_at": "2026-11-11T12:42:26+00:00",
+  "version": "v2",
   "python": "3.12.3",
   "data_root": "/home/hunde/length-confound-archive/data",
   "human_texts": 376,
@@ -36,88 +37,30 @@
       "group": "gemini-20-pro-exp__0",
       "n": 76,
       "be21": "BE21-C04",
-      "genre_code": "C"
+      "genre_code": "C",
+      "genre_name": "Press: Reviews"
     },
     {
       "group": "gemini-20-pro-exp__100",
       "n": 76,
       "be21": "BE21-C04",
-      "genre_code": "C"
+      "genre_code": "C",
+      "genre_name": "Press: Reviews"
     }
   ],
-  "ai_word_counts": {
-    "gpt-4o__0": {
-      "min": 420,
-      "median": 908.0,
-      "lt1000": 224,
-      "lt100": 0
-    },
-    "gpt-4o__100": {
-      "min": 508,
-      "median": 1086.0,
-      "lt1000": 148,
-      "lt100": 0
-    },
-    "gpt-45__0": {
-      "min": 801,
-      "median": 1093.0,
-      "lt1000": 50,
-      "lt100": 0
-    },
-    "gpt-45__100": {
-      "min": 868,
-      "median": 1138.5,
-      "lt1000": 19,
-      "lt100": 0
-    },
-    "claude-35-sonnet__0": {
-      "min": 35,
-      "median": 2228.0,
-      "lt1000": 5,
-      "lt100": 3
-    },
-    "claude-35-sonnet__100": {
-      "min": 39,
-      "median": 2145.0,
-      "lt1000": 5,
-      "lt100": 3
-    },
-    "gemini-20-pro-exp__0": {
-      "min": 504,
-      "median": 2399,
-      "lt1000": 1,
-      "lt100": 0
-    },
-    "gemini-20-pro-exp__100": {
-      "min": 1566,
-      "median": 2453,
-      "lt1000": 0,
-      "lt100": 0
-    },
-    "llama_31_405b__0": {
-      "min": 418,
-      "median": 1252.5,
-      "lt1000": 93,
-      "lt100": 0
-    },
-    "llama_31_405b__100": {
-      "min": 374,
-      "median": 1264.0,
-      "lt1000": 122,
-      "lt100": 0
-    },
-    "deep-seek-v3__0": {
-      "min": 866,
-      "median": 1601.0,
-      "lt1000": 17,
-      "lt100": 0
-    },
-    "deep-seek-v3__100": {
-      "min": 812,
-      "median": 1600.0,
-      "lt1000": 14,
-      "lt100": 0
-    }
+  "ai_texts": {
+    "gpt-4o__0": 376,
+    "gpt-4o__100": 376,
+    "gpt-45__0": 376,
+    "gpt-45__100": 376,
+    "claude-35-sonnet__0": 376,
+    "claude-35-sonnet__100": 376,
+    "gemini-20-pro-exp__0": 375,
+    "gemini-20-pro-exp__100": 375,
+    "llama_31_405b__0": 376,
+    "llama_31_405b__100": 376,
+    "deep-seek-v3__0": 376,
+    "deep-seek-v3__100": 376
   },
   "human_total_words": {
     "min": 1918,
@@ -125,27 +68,105 @@
     "max": 2678
   },
   "config": {
+    "main_token_mode": "alpha (drop punctuation-only tokens, then window)",
+    "sensitivity_token_mode": "whitespace (v1 protocol)",
     "mattr_window": 100,
     "mtld_threshold": 0.72,
+    "min_tokens_for_lexical_metrics": 100,
     "human_prompt_words": 500,
     "window_words": 1000,
-    "token_definition": "whitespace split, punctuation retained"
+    "sentence_length_unit": "alpha tokens per sentence",
+    "degenerate_rule": "main MATTR>0.9 or MTLD>1000.0"
   },
+  "ai_word_counts": {
+    "gpt-4o__0": {
+      "n_texts": 376,
+      "lt1000": 228,
+      "lt100": 0,
+      "min": 420
+    },
+    "gpt-4o__100": {
+      "n_texts": 376,
+      "lt1000": 151,
+      "lt100": 0,
+      "min": 508
+    },
+    "gpt-45__0": {
+      "n_texts": 376,
+      "lt1000": 52,
+      "lt100": 0,
+      "min": 780
+    },
+    "gpt-45__100": {
+      "n_texts": 376,
+      "lt1000": 20,
+      "lt100": 0,
+      "min": 860
+    },
+    "claude-35-sonnet__0": {
+      "n_texts": 376,
+      "lt1000": 5,
+      "lt100": 3,
+      "min": 35
+    },
+    "claude-35-sonnet__100": {
+      "n_texts": 376,
+      "lt1000": 5,
+      "lt100": 3,
+      "min": 39
+    },
+    "gemini-20-pro-exp__0": {
+      "n_texts": 375,
+      "lt1000": 1,
+      "lt100": 0,
+      "min": 375
+    },
+    "gemini-20-pro-exp__100": {
+      "n_texts": 375,
+      "lt1000": 0,
+      "lt100": 0,
+      "min": 1562
+    },
+    "llama_31_405b__0": {
+      "n_texts": 376,
+      "lt1000": 97,
+      "lt100": 0,
+      "min": 418
+    },
+    "llama_31_405b__100": {
+      "n_texts": 376,
+      "lt1000": 124,
+      "lt100": 0,
+      "min": 373
+    },
+    "deep-seek-v3__0": {
+      "n_texts": 376,
+      "lt1000": 17,
+      "lt100": 0,
+      "min": 866
+    },
+    "deep-seek-v3__100": {
+      "n_texts": 376,
+      "lt1000": 15,
+      "lt100": 0,
+      "min": 812
+    }
+  },
+  "degenerate_texts": 99,
   "inputs": {
     "brown2021_manifest": "1fc5799dc6288241ff7d422c40aaa4a35d87b8da19733bd39dff08e93433688b",
     "ai_file_mapping": "6addd5f742e7ea35dffe0187e6cea7a4f27ba1e1f8a4017efbddb9e4156d8dc2",
     "ai_zip": "fe70b71bafbaf4da19ff0281fef60da6fbd2bc8ad6c4ea6644927a6fd59a0767",
-    "script": "2e95fcd031b270fc2e2817e6fa7c12446569ae6b7e091075af1aa955993b3721"
+    "script": "aa0c669e48eeb96eb859c6601f3f4d4ee63377c56b05e44c1fdc1b8ba5dc208a"
   },
-  "warnings": [],
   "checks": {
     "lexical_diversity": {
       "available": true,
-      "sample": "brown2021/A_press_reportage__A01.txt 第 501–1500 词（小写）",
-      "mattr_ours": 0.7068146503884554,
-      "mattr_lexical_diversity": 0.7068146503884554,
-      "mtld_ours": 91.23513617184503,
-      "mtld_lexical_diversity": 91.23513617184503,
+      "sample": "brown2021/A_press_reportage__A01.txt 第 501–1500 空白 token 中的 alpha token（小写）",
+      "mattr_ours": 0.7352948717948732,
+      "mattr_lexical_diversity": 0.7352948717948732,
+      "mtld_ours": 101.45788390280212,
+      "mtld_lexical_diversity": 101.45788390280212,
       "match": true
     }
   }
