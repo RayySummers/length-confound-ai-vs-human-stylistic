@@ -184,8 +184,8 @@ claude-35-sonnet 两组各有 3 篇不足 100 个 alpha 词，MATTR 与 MTLD 记
 ## 参考
 
 - Covington, M. A., & McFall, J. D. (2010). Cutting the Gordian knot: The moving-average type–token ratio (MATTR). *Journal of Quantitative Linguistics*, 17(2), 94–100.
-- Fan, A., Lewis, M., & Dauphin, Y. (2018). Hierarchical neural story generation. *ACL 2018*.
-- Huang, K., et al. (2024). The GPT-WritingPrompts Dataset: A Comparative Analysis of Character Portrayal in Short Stories. *EMNLP Workshop 2024*. arXiv:2406.16767.
+- Fan, A., Lewis, M., & Dauphin, Y. (2018). Hierarchical neural story generation. In *Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)* (pp. 889–898). Association for Computational Linguistics. https://doi.org/10.18653/v1/P18-1082
+- Huang, X. Y., Vishnubhotla, K., & Rudzicz, F. (2024). The GPT-WritingPrompts dataset: A comparative analysis of character portrayal in short stories. In *Proceedings of the 6th Workshop on Narrative Understanding*. Association for Computational Linguistics. https://arxiv.org/abs/2406.16767
 - McCarthy, P. M., & Jarvis, S. (2010). MTLD, vocd-D, and HD-D: A validation study of sophisticated approaches to lexical diversity assessment. *Behavior Research Methods*, 42(2), 381–392.
 - O'Sullivan, J. (2025). Stylometric comparisons of human versus AI-generated creative writing. *Humanities and Social Sciences Communications*, 12, 1708. DOI: 10.1057/s41599-025-05986-3.
 
