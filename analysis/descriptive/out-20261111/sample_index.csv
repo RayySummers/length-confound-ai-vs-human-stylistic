@@ -1,0 +1,377 @@
+doc_id,n,be21,filename,genre_code,genre_name,genre_group
+339,1,BE21-J46,J46.txt,J,Learned,informative
+381,2,BE21-K08,K08.txt,K,General Fiction,imaginative
+360,3,BE21-J67,J67.txt,J,Learned,informative
+331,5,BE21-J38,J38.txt,J,Learned,informative
+305,6,BE21-J12,J12.txt,J,Learned,informative
+420,7,BE21-L18,L18.txt,L,Mystery and Detective Fiction,imaginative
+75,8,BE21-C05,C05.txt,C,Press: Reviews,informative
+317,9,BE21-J24,J24.txt,J,Learned,informative
+140,11,BE21-E36,E36.txt,E,Skills and Hobbies,informative
+468,12,BE21-P07,P07.txt,P,Romance and Love Story,imaginative
+392,13,BE21-K19,K19.txt,K,General Fiction,imaginative
+306,14,BE21-J13,J13.txt,J,Learned,informative
+416,15,BE21-L14,L14.txt,L,Mystery and Detective Fiction,imaginative
+11,16,BE21-A12,A12.txt,A,Press: Reportage,informative
+132,17,BE21-E28,E28.txt,E,Skills and Hobbies,informative
+145,18,BE21-F03,F03.txt,F,Popular Lore,informative
+343,19,BE21-J50,J50.txt,J,Learned,informative
+179,21,BE21-F37,F37.txt,F,Popular Lore,informative
+406,22,BE21-L04,L04.txt,L,Mystery and Detective Fiction,imaginative
+382,24,BE21-K09,K09.txt,K,General Fiction,imaginative
+350,26,BE21-J57,J57.txt,J,Learned,informative
+335,27,BE21-J42,J42.txt,J,Learned,informative
+355,28,BE21-J62,J62.txt,J,Learned,informative
+391,29,BE21-K18,K18.txt,K,General Fiction,imaginative
+8,30,BE21-A09,A09.txt,A,Press: Reportage,informative
+2,32,BE21-A03,A03.txt,A,Press: Reportage,informative
+57,34,BE21-B14,B14.txt,B,Press: Editorial,informative
+424,35,BE21-L22,L22.txt,L,Mystery and Detective Fiction,imaginative
+39,36,BE21-A40,A40.txt,A,Press: Reportage,informative
+126,37,BE21-E22,E22.txt,E,Skills and Hobbies,informative
+0,38,BE21-A01,A01.txt,A,Press: Reportage,informative
+4,39,BE21-A05,A05.txt,A,Press: Reportage,informative
+55,40,BE21-B12,B12.txt,B,Press: Editorial,informative
+294,41,BE21-J01,J01.txt,J,Learned,informative
+14,42,BE21-A15,A15.txt,A,Press: Reportage,informative
+349,43,BE21-J56,J56.txt,J,Learned,informative
+82,45,BE21-C12,C12.txt,C,Press: Reviews,informative
+467,46,BE21-P06,P06.txt,P,Romance and Love Story,imaginative
+107,47,BE21-E03,E03.txt,E,Skills and Hobbies,informative
+134,48,BE21-E30,E30.txt,E,Skills and Hobbies,informative
+166,49,BE21-F24,F24.txt,F,Popular Lore,informative
+1,50,BE21-A02,A02.txt,A,Press: Reportage,informative
+438,51,BE21-N06,N06.txt,N,Adventure and Western Fiction,imaginative
+70,52,BE21-B27,B27.txt,B,Press: Editorial,informative
+396,54,BE21-K23,K23.txt,K,General Fiction,imaginative
+138,55,BE21-E34,E34.txt,E,Skills and Hobbies,informative
+426,56,BE21-L24,L24.txt,L,Mystery and Detective Fiction,imaginative
+341,59,BE21-J48,J48.txt,J,Learned,informative
+10,61,BE21-A11,A11.txt,A,Press: Reportage,informative
+340,63,BE21-J47,J47.txt,J,Learned,informative
+425,65,BE21-L23,L23.txt,L,Mystery and Detective Fiction,imaginative
+429,66,BE21-M03,M03.txt,M,Science Fiction,imaginative
+315,69,BE21-J22,J22.txt,J,Learned,informative
+73,70,BE21-C03,C03.txt,C,Press: Reviews,informative
+81,71,BE21-C11,C11.txt,C,Press: Reviews,informative
+332,72,BE21-J39,J39.txt,J,Learned,informative
+312,73,BE21-J19,J19.txt,J,Learned,informative
+76,74,BE21-C06,C06.txt,C,Press: Reviews,informative
+74,76,BE21-C04,C04.txt,C,Press: Reviews,informative
+494,77,BE21-R04,R04.txt,R,Humor,imaginative
+302,78,BE21-J09,J09.txt,J,Learned,informative
+431,79,BE21-M05,M05.txt,M,Science Fiction,imaginative
+319,81,BE21-J26,J26.txt,J,Learned,informative
+32,82,BE21-A33,A33.txt,A,Press: Reportage,informative
+439,83,BE21-N07,N07.txt,N,Adventure and Western Fiction,imaginative
+347,84,BE21-J54,J54.txt,J,Learned,informative
+405,85,BE21-L03,L03.txt,L,Mystery and Detective Fiction,imaginative
+415,87,BE21-L13,L13.txt,L,Mystery and Detective Fiction,imaginative
+135,88,BE21-E31,E31.txt,E,Skills and Hobbies,informative
+469,89,BE21-P08,P08.txt,P,Romance and Love Story,imaginative
+386,90,BE21-K13,K13.txt,K,General Fiction,imaginative
+116,91,BE21-E12,E12.txt,E,Skills and Hobbies,informative
+334,92,BE21-J41,J41.txt,J,Learned,informative
+44,93,BE21-B01,B01.txt,B,Press: Editorial,informative
+395,94,BE21-K22,K22.txt,K,General Fiction,imaginative
+393,95,BE21-K20,K20.txt,K,General Fiction,imaginative
+423,96,BE21-L21,L21.txt,L,Mystery and Detective Fiction,imaginative
+58,98,BE21-B15,B15.txt,B,Press: Editorial,informative
+171,99,BE21-F29,F29.txt,F,Popular Lore,informative
+497,100,BE21-R07,R07.txt,R,Humor,imaginative
+421,101,BE21-L19,L19.txt,L,Mystery and Detective Fiction,imaginative
+462,102,BE21-P01,P01.txt,P,Romance and Love Story,imaginative
+478,105,BE21-P17,P17.txt,P,Romance and Love Story,imaginative
+474,106,BE21-P13,P13.txt,P,Romance and Love Story,imaginative
+186,108,BE21-F44,F44.txt,F,Popular Lore,informative
+163,109,BE21-F21,F21.txt,F,Popular Lore,informative
+122,110,BE21-E18,E18.txt,E,Skills and Hobbies,informative
+160,112,BE21-F18,F18.txt,F,Popular Lore,informative
+457,113,BE21-N25,N25.txt,N,Adventure and Western Fiction,imaginative
+158,114,BE21-F16,F16.txt,F,Popular Lore,informative
+322,115,BE21-J29,J29.txt,J,Learned,informative
+151,116,BE21-F09,F09.txt,F,Popular Lore,informative
+86,117,BE21-C16,C16.txt,C,Press: Reviews,informative
+370,118,BE21-J77,J77.txt,J,Learned,informative
+454,119,BE21-N22,N22.txt,N,Adventure and Western Fiction,imaginative
+30,120,BE21-A31,A31.txt,A,Press: Reportage,informative
+111,121,BE21-E07,E07.txt,E,Skills and Hobbies,informative
+3,122,BE21-A04,A04.txt,A,Press: Reportage,informative
+466,123,BE21-P05,P05.txt,P,Romance and Love Story,imaginative
+324,124,BE21-J31,J31.txt,J,Learned,informative
+303,129,BE21-J10,J10.txt,J,Learned,informative
+164,131,BE21-F22,F22.txt,F,Popular Lore,informative
+399,132,BE21-K26,K26.txt,K,General Fiction,imaginative
+69,133,BE21-B26,B26.txt,B,Press: Editorial,informative
+185,134,BE21-F43,F43.txt,F,Popular Lore,informative
+56,135,BE21-B13,B13.txt,B,Press: Editorial,informative
+452,136,BE21-N20,N20.txt,N,Adventure and Western Fiction,imaginative
+498,137,BE21-R08,R08.txt,R,Humor,imaginative
+35,138,BE21-A36,A36.txt,A,Press: Reportage,informative
+488,140,BE21-P27,P27.txt,P,Romance and Love Story,imaginative
+28,141,BE21-A29,A29.txt,A,Press: Reportage,informative
+167,142,BE21-F25,F25.txt,F,Popular Lore,informative
+336,143,BE21-J43,J43.txt,J,Learned,informative
+321,144,BE21-J28,J28.txt,J,Learned,informative
+419,146,BE21-L17,L17.txt,L,Mystery and Detective Fiction,imaginative
+64,147,BE21-B21,B21.txt,B,Press: Editorial,informative
+417,148,BE21-L15,L15.txt,L,Mystery and Detective Fiction,imaginative
+87,149,BE21-C17,C17.txt,C,Press: Reviews,informative
+27,150,BE21-A28,A28.txt,A,Press: Reportage,informative
+38,151,BE21-A39,A39.txt,A,Press: Reportage,informative
+34,152,BE21-A35,A35.txt,A,Press: Reportage,informative
+401,153,BE21-K28,K28.txt,K,General Fiction,imaginative
+471,155,BE21-P10,P10.txt,P,Romance and Love Story,imaginative
+37,156,BE21-A38,A38.txt,A,Press: Reportage,informative
+344,157,BE21-J51,J51.txt,J,Learned,informative
+66,158,BE21-B23,B23.txt,B,Press: Editorial,informative
+434,160,BE21-N02,N02.txt,N,Adventure and Western Fiction,imaginative
+437,161,BE21-N05,N05.txt,N,Adventure and Western Fiction,imaginative
+16,162,BE21-A17,A17.txt,A,Press: Reportage,informative
+79,163,BE21-C09,C09.txt,C,Press: Reviews,informative
+450,166,BE21-N18,N18.txt,N,Adventure and Western Fiction,imaginative
+53,167,BE21-B10,B10.txt,B,Press: Editorial,informative
+479,169,BE21-P18,P18.txt,P,Romance and Love Story,imaginative
+376,170,BE21-K03,K03.txt,K,General Fiction,imaginative
+41,171,BE21-A42,A42.txt,A,Press: Reportage,informative
+354,172,BE21-J61,J61.txt,J,Learned,informative
+373,173,BE21-J80,J80.txt,J,Learned,informative
+388,174,BE21-K15,K15.txt,K,General Fiction,imaginative
+127,175,BE21-E23,E23.txt,E,Skills and Hobbies,informative
+390,176,BE21-K17,K17.txt,K,General Fiction,imaginative
+432,177,BE21-M06,M06.txt,M,Science Fiction,imaginative
+108,178,BE21-E04,E04.txt,E,Skills and Hobbies,informative
+300,179,BE21-J07,J07.txt,J,Learned,informative
+489,180,BE21-P28,P28.txt,P,Romance and Love Story,imaginative
+12,181,BE21-A13,A13.txt,A,Press: Reportage,informative
+316,182,BE21-J23,J23.txt,J,Learned,informative
+460,183,BE21-N28,N28.txt,N,Adventure and Western Fiction,imaginative
+113,184,BE21-E09,E09.txt,E,Skills and Hobbies,informative
+136,186,BE21-E32,E32.txt,E,Skills and Hobbies,informative
+156,187,BE21-F14,F14.txt,F,Popular Lore,informative
+63,188,BE21-B20,B20.txt,B,Press: Editorial,informative
+413,189,BE21-L11,L11.txt,L,Mystery and Detective Fiction,imaginative
+414,190,BE21-L12,L12.txt,L,Mystery and Detective Fiction,imaginative
+475,191,BE21-P14,P14.txt,P,Romance and Love Story,imaginative
+144,197,BE21-F02,F02.txt,F,Popular Lore,informative
+29,198,BE21-A30,A30.txt,A,Press: Reportage,informative
+458,199,BE21-N26,N26.txt,N,Adventure and Western Fiction,imaginative
+133,200,BE21-E29,E29.txt,E,Skills and Hobbies,informative
+403,202,BE21-L01,L01.txt,L,Mystery and Detective Fiction,imaginative
+106,204,BE21-E02,E02.txt,E,Skills and Hobbies,informative
+120,205,BE21-E16,E16.txt,E,Skills and Hobbies,informative
+36,206,BE21-A37,A37.txt,A,Press: Reportage,informative
+162,208,BE21-F20,F20.txt,F,Popular Lore,informative
+492,209,BE21-R02,R02.txt,R,Humor,imaginative
+430,210,BE21-M04,M04.txt,M,Science Fiction,imaginative
+15,211,BE21-A16,A16.txt,A,Press: Reportage,informative
+139,212,BE21-E35,E35.txt,E,Skills and Hobbies,informative
+77,213,BE21-C07,C07.txt,C,Press: Reviews,informative
+123,214,BE21-E19,E19.txt,E,Skills and Hobbies,informative
+18,215,BE21-A19,A19.txt,A,Press: Reportage,informative
+351,216,BE21-J58,J58.txt,J,Learned,informative
+129,217,BE21-E25,E25.txt,E,Skills and Hobbies,informative
+361,218,BE21-J68,J68.txt,J,Learned,informative
+182,219,BE21-F40,F40.txt,F,Popular Lore,informative
+372,220,BE21-J79,J79.txt,J,Learned,informative
+459,221,BE21-N27,N27.txt,N,Adventure and Western Fiction,imaginative
+385,222,BE21-K12,K12.txt,K,General Fiction,imaginative
+175,223,BE21-F33,F33.txt,F,Popular Lore,informative
+173,225,BE21-F31,F31.txt,F,Popular Lore,informative
+483,226,BE21-P22,P22.txt,P,Romance and Love Story,imaginative
+85,227,BE21-C15,C15.txt,C,Press: Reviews,informative
+328,228,BE21-J35,J35.txt,J,Learned,informative
+142,229,BE21-E38,E38.txt,E,Skills and Hobbies,informative
+131,230,BE21-E27,E27.txt,E,Skills and Hobbies,informative
+47,231,BE21-B04,B04.txt,B,Press: Editorial,informative
+62,232,BE21-B19,B19.txt,B,Press: Editorial,informative
+456,233,BE21-N24,N24.txt,N,Adventure and Western Fiction,imaginative
+105,235,BE21-E01,E01.txt,E,Skills and Hobbies,informative
+65,236,BE21-B22,B22.txt,B,Press: Editorial,informative
+448,237,BE21-N16,N16.txt,N,Adventure and Western Fiction,imaginative
+169,238,BE21-F27,F27.txt,F,Popular Lore,informative
+45,240,BE21-B02,B02.txt,B,Press: Editorial,informative
+365,241,BE21-J72,J72.txt,J,Learned,informative
+327,242,BE21-J34,J34.txt,J,Learned,informative
+445,244,BE21-N13,N13.txt,N,Adventure and Western Fiction,imaginative
+481,245,BE21-P20,P20.txt,P,Romance and Love Story,imaginative
+61,246,BE21-B18,B18.txt,B,Press: Editorial,informative
+52,247,BE21-B09,B09.txt,B,Press: Editorial,informative
+495,250,BE21-R05,R05.txt,R,Humor,imaginative
+496,251,BE21-R06,R06.txt,R,Humor,imaginative
+383,253,BE21-K10,K10.txt,K,General Fiction,imaginative
+449,254,BE21-N17,N17.txt,N,Adventure and Western Fiction,imaginative
+180,255,BE21-F38,F38.txt,F,Popular Lore,informative
+440,256,BE21-N08,N08.txt,N,Adventure and Western Fiction,imaginative
+411,257,BE21-L09,L09.txt,L,Mystery and Detective Fiction,imaginative
+446,258,BE21-N14,N14.txt,N,Adventure and Western Fiction,imaginative
+377,259,BE21-K04,K04.txt,K,General Fiction,imaginative
+110,260,BE21-E06,E06.txt,E,Skills and Hobbies,informative
+177,261,BE21-F35,F35.txt,F,Popular Lore,informative
+184,262,BE21-F42,F42.txt,F,Popular Lore,informative
+183,264,BE21-F41,F41.txt,F,Popular Lore,informative
+402,265,BE21-K29,K29.txt,K,General Fiction,imaginative
+353,266,BE21-J60,J60.txt,J,Learned,informative
+404,267,BE21-L02,L02.txt,L,Mystery and Detective Fiction,imaginative
+398,268,BE21-K25,K25.txt,K,General Fiction,imaginative
+9,269,BE21-A10,A10.txt,A,Press: Reportage,informative
+174,270,BE21-F32,F32.txt,F,Popular Lore,informative
+48,271,BE21-B05,B05.txt,B,Press: Editorial,informative
+46,272,BE21-B03,B03.txt,B,Press: Editorial,informative
+125,273,BE21-E21,E21.txt,E,Skills and Hobbies,informative
+436,275,BE21-N04,N04.txt,N,Adventure and Western Fiction,imaginative
+17,277,BE21-A18,A18.txt,A,Press: Reportage,informative
+356,278,BE21-J63,J63.txt,J,Learned,informative
+455,281,BE21-N23,N23.txt,N,Adventure and Western Fiction,imaginative
+363,282,BE21-J70,J70.txt,J,Learned,informative
+369,283,BE21-J76,J76.txt,J,Learned,informative
+22,288,BE21-A23,A23.txt,A,Press: Reportage,informative
+51,291,BE21-B08,B08.txt,B,Press: Editorial,informative
+313,292,BE21-J20,J20.txt,J,Learned,informative
+114,294,BE21-E10,E10.txt,E,Skills and Hobbies,informative
+320,295,BE21-J27,J27.txt,J,Learned,informative
+357,296,BE21-J64,J64.txt,J,Learned,informative
+121,297,BE21-E17,E17.txt,E,Skills and Hobbies,informative
+427,298,BE21-M01,M01.txt,M,Science Fiction,imaginative
+178,299,BE21-F36,F36.txt,F,Popular Lore,informative
+154,300,BE21-F12,F12.txt,F,Popular Lore,informative
+296,301,BE21-J03,J03.txt,J,Learned,informative
+23,302,BE21-A24,A24.txt,A,Press: Reportage,informative
+407,303,BE21-L05,L05.txt,L,Mystery and Detective Fiction,imaginative
+485,304,BE21-P24,P24.txt,P,Romance and Love Story,imaginative
+342,305,BE21-J49,J49.txt,J,Learned,informative
+435,306,BE21-N03,N03.txt,N,Adventure and Western Fiction,imaginative
+325,307,BE21-J32,J32.txt,J,Learned,informative
+128,308,BE21-E24,E24.txt,E,Skills and Hobbies,informative
+42,309,BE21-A43,A43.txt,A,Press: Reportage,informative
+5,310,BE21-A06,A06.txt,A,Press: Reportage,informative
+362,312,BE21-J69,J69.txt,J,Learned,informative
+364,313,BE21-J71,J71.txt,J,Learned,informative
+352,314,BE21-J59,J59.txt,J,Learned,informative
+172,315,BE21-F30,F30.txt,F,Popular Lore,informative
+394,316,BE21-K21,K21.txt,K,General Fiction,imaginative
+49,318,BE21-B06,B06.txt,B,Press: Editorial,informative
+379,319,BE21-K06,K06.txt,K,General Fiction,imaginative
+442,320,BE21-N10,N10.txt,N,Adventure and Western Fiction,imaginative
+412,321,BE21-L10,L10.txt,L,Mystery and Detective Fiction,imaginative
+295,322,BE21-J02,J02.txt,J,Learned,informative
+297,323,BE21-J04,J04.txt,J,Learned,informative
+150,324,BE21-F08,F08.txt,F,Popular Lore,informative
+491,325,BE21-R01,R01.txt,R,Humor,imaginative
+26,326,BE21-A27,A27.txt,A,Press: Reportage,informative
+472,327,BE21-P11,P11.txt,P,Romance and Love Story,imaginative
+374,329,BE21-K01,K01.txt,K,General Fiction,imaginative
+83,330,BE21-C13,C13.txt,C,Press: Reviews,informative
+358,332,BE21-J65,J65.txt,J,Learned,informative
+443,333,BE21-N11,N11.txt,N,Adventure and Western Fiction,imaginative
+6,334,BE21-A07,A07.txt,A,Press: Reportage,informative
+118,339,BE21-E14,E14.txt,E,Skills and Hobbies,informative
+318,340,BE21-J25,J25.txt,J,Learned,informative
+428,341,BE21-M02,M02.txt,M,Science Fiction,imaginative
+465,342,BE21-P04,P04.txt,P,Romance and Love Story,imaginative
+119,345,BE21-E15,E15.txt,E,Skills and Hobbies,informative
+308,346,BE21-J15,J15.txt,J,Learned,informative
+170,347,BE21-F28,F28.txt,F,Popular Lore,informative
+451,348,BE21-N19,N19.txt,N,Adventure and Western Fiction,imaginative
+25,350,BE21-A26,A26.txt,A,Press: Reportage,informative
+307,351,BE21-J14,J14.txt,J,Learned,informative
+157,352,BE21-F15,F15.txt,F,Popular Lore,informative
+367,354,BE21-J74,J74.txt,J,Learned,informative
+476,356,BE21-P15,P15.txt,P,Romance and Love Story,imaginative
+371,357,BE21-J78,J78.txt,J,Learned,informative
+109,358,BE21-E05,E05.txt,E,Skills and Hobbies,informative
+71,359,BE21-C01,C01.txt,C,Press: Reviews,informative
+24,360,BE21-A25,A25.txt,A,Press: Reportage,informative
+54,361,BE21-B11,B11.txt,B,Press: Editorial,informative
+130,363,BE21-E26,E26.txt,E,Skills and Hobbies,informative
+314,364,BE21-J21,J21.txt,J,Learned,informative
+389,365,BE21-K16,K16.txt,K,General Fiction,imaginative
+453,366,BE21-N21,N21.txt,N,Adventure and Western Fiction,imaginative
+486,367,BE21-P25,P25.txt,P,Romance and Love Story,imaginative
+311,369,BE21-J18,J18.txt,J,Learned,informative
+422,374,BE21-L20,L20.txt,L,Mystery and Detective Fiction,imaginative
+408,375,BE21-L06,L06.txt,L,Mystery and Detective Fiction,imaginative
+159,376,BE21-F17,F17.txt,F,Popular Lore,informative
+152,377,BE21-F10,F10.txt,F,Popular Lore,informative
+464,378,BE21-P03,P03.txt,P,Romance and Love Story,imaginative
+387,379,BE21-K14,K14.txt,K,General Fiction,imaginative
+59,380,BE21-B16,B16.txt,B,Press: Editorial,informative
+470,381,BE21-P09,P09.txt,P,Romance and Love Story,imaginative
+309,382,BE21-J16,J16.txt,J,Learned,informative
+418,383,BE21-L16,L16.txt,L,Mystery and Detective Fiction,imaginative
+33,384,BE21-A34,A34.txt,A,Press: Reportage,informative
+493,385,BE21-R03,R03.txt,R,Humor,imaginative
+409,386,BE21-L07,L07.txt,L,Mystery and Detective Fiction,imaginative
+68,387,BE21-B25,B25.txt,B,Press: Editorial,informative
+337,388,BE21-J44,J44.txt,J,Learned,informative
+84,389,BE21-C14,C14.txt,C,Press: Reviews,informative
+19,391,BE21-A20,A20.txt,A,Press: Reportage,informative
+397,394,BE21-K24,K24.txt,K,General Fiction,imaginative
+323,396,BE21-J30,J30.txt,J,Learned,informative
+168,397,BE21-F26,F26.txt,F,Popular Lore,informative
+461,398,BE21-N29,N29.txt,N,Adventure and Western Fiction,imaginative
+153,399,BE21-F11,F11.txt,F,Popular Lore,informative
+60,401,BE21-B17,B17.txt,B,Press: Editorial,informative
+50,402,BE21-B07,B07.txt,B,Press: Editorial,informative
+304,407,BE21-J11,J11.txt,J,Learned,informative
+298,408,BE21-J05,J05.txt,J,Learned,informative
+447,410,BE21-N15,N15.txt,N,Adventure and Western Fiction,imaginative
+375,411,BE21-K02,K02.txt,K,General Fiction,imaginative
+78,414,BE21-C08,C08.txt,C,Press: Reviews,informative
+433,415,BE21-N01,N01.txt,N,Adventure and Western Fiction,imaginative
+165,416,BE21-F23,F23.txt,F,Popular Lore,informative
+143,417,BE21-F01,F01.txt,F,Popular Lore,informative
+115,418,BE21-E11,E11.txt,E,Skills and Hobbies,informative
+410,420,BE21-L08,L08.txt,L,Mystery and Detective Fiction,imaginative
+338,421,BE21-J45,J45.txt,J,Learned,informative
+299,422,BE21-J06,J06.txt,J,Learned,informative
+378,423,BE21-K05,K05.txt,K,General Fiction,imaginative
+176,424,BE21-F34,F34.txt,F,Popular Lore,informative
+490,426,BE21-P29,P29.txt,P,Romance and Love Story,imaginative
+359,428,BE21-J66,J66.txt,J,Learned,informative
+67,429,BE21-B24,B24.txt,B,Press: Editorial,informative
+482,430,BE21-P21,P21.txt,P,Romance and Love Story,imaginative
+149,433,BE21-F07,F07.txt,F,Popular Lore,informative
+43,434,BE21-A44,A44.txt,A,Press: Reportage,informative
+487,435,BE21-P26,P26.txt,P,Romance and Love Story,imaginative
+13,436,BE21-A14,A14.txt,A,Press: Reportage,informative
+441,438,BE21-N09,N09.txt,N,Adventure and Western Fiction,imaginative
+40,441,BE21-A41,A41.txt,A,Press: Reportage,informative
+141,443,BE21-E37,E37.txt,E,Skills and Hobbies,informative
+329,444,BE21-J36,J36.txt,J,Learned,informative
+137,445,BE21-E33,E33.txt,E,Skills and Hobbies,informative
+333,446,BE21-J40,J40.txt,J,Learned,informative
+155,447,BE21-F13,F13.txt,F,Popular Lore,informative
+345,451,BE21-J52,J52.txt,J,Learned,informative
+124,452,BE21-E20,E20.txt,E,Skills and Hobbies,informative
+20,454,BE21-A21,A21.txt,A,Press: Reportage,informative
+72,455,BE21-C02,C02.txt,C,Press: Reviews,informative
+181,456,BE21-F39,F39.txt,F,Popular Lore,informative
+147,459,BE21-F05,F05.txt,F,Popular Lore,informative
+146,461,BE21-F04,F04.txt,F,Popular Lore,informative
+473,463,BE21-P12,P12.txt,P,Romance and Love Story,imaginative
+148,466,BE21-F06,F06.txt,F,Popular Lore,informative
+330,467,BE21-J37,J37.txt,J,Learned,informative
+80,468,BE21-C10,C10.txt,C,Press: Reviews,informative
+477,469,BE21-P16,P16.txt,P,Romance and Love Story,imaginative
+310,470,BE21-J17,J17.txt,J,Learned,informative
+112,472,BE21-E08,E08.txt,E,Skills and Hobbies,informative
+463,473,BE21-P02,P02.txt,P,Romance and Love Story,imaginative
+7,474,BE21-A08,A08.txt,A,Press: Reportage,informative
+117,475,BE21-E13,E13.txt,E,Skills and Hobbies,informative
+484,477,BE21-P23,P23.txt,P,Romance and Love Story,imaginative
+326,478,BE21-J33,J33.txt,J,Learned,informative
+499,479,BE21-R09,R09.txt,R,Humor,imaginative
+161,481,BE21-F19,F19.txt,F,Popular Lore,informative
+21,482,BE21-A22,A22.txt,A,Press: Reportage,informative
+346,484,BE21-J53,J53.txt,J,Learned,informative
+301,488,BE21-J08,J08.txt,J,Learned,informative
+380,490,BE21-K07,K07.txt,K,General Fiction,imaginative
+368,491,BE21-J75,J75.txt,J,Learned,informative
+366,492,BE21-J73,J73.txt,J,Learned,informative
+384,493,BE21-K11,K11.txt,K,General Fiction,imaginative
+480,494,BE21-P19,P19.txt,P,Romance and Love Story,imaginative
+348,495,BE21-J55,J55.txt,J,Learned,informative
+444,496,BE21-N12,N12.txt,N,Adventure and Western Fiction,imaginative
+31,497,BE21-A32,A32.txt,A,Press: Reportage,informative
+400,500,BE21-K27,K27.txt,K,General Fiction,imaginative
